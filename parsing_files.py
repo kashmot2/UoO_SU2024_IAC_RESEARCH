@@ -5,8 +5,9 @@ import subprocess
 import shutil
 import stat
 from tqdm import tqdm
-import json\
-
+import json
+import yaml
+import configparser
 
 
 #lets define the file extensions
@@ -98,29 +99,59 @@ def process_single_row(row):
                 file_path = os.path.join(target_dir, file_url.replace(repo_url, '').lstrip('/'))
                 relevant_files.append(file_path)
             
-
-
+    return target_dir,relevant_files
     
-    #shutil.rmtree(target_dir ,onerror=onerror)
-    return relevant_files
                 
 def read_files(file_paths):
+    keys_found={}
     for single_path in file_paths:
+        keys = set()
         try:
             with open(single_path,"r") as file:
-                content = file.read()
-                print(content)
+                if single_path.endswith(".json"):
+                    content = json.load(file)
+                    if isinstance(content, dict):
+                        print(f"{single_path} {content.keys()}")
+                       
+                elif single_path.endswith((".yaml", ".yml")):
+                    content = yaml.safe_load(file)
+                    if isinstance(content, dict):
+                        print(f"{single_path} {content.keys()}")
+                
+                elif single_path.endswith(".conf"):
+                    config = configparser.ConfigParser()
+                    config.read(single_path)
+                    keys = set(config.sections())
+                    
+                else:
+                    continue
+
+                keys_found[single_path] = keys
+                
         except Exception as e:
-            print(e)
-    
-    
+            print(f"Error reading {single_path}: {e}")
+    return keys_found
+
+def get_keys(content, prefix=''):
+    keys = set()
+    if isinstance(content, dict):
+        for key, value in content.items():
+            if prefix:
+                full_key = f"{prefix}.{key}"
+            else:
+                full_key = key
+            keys.add(full_key)
+            nested_keys = get_keys(value, full_key)
+            keys.update(nested_keys)
+    return keys
 
 def main():
     csv = "first_screening.csv"
     df = read_csv(csv)
-    relevant_files = process_single_row(df)
-    #print(relevant_files)
-    read_files(relevant_files)
+    target_dir,relevant_files = process_single_row(df)
+    keys_found = read_files(relevant_files)
+    print(keys_found)
+    shutil.rmtree(target_dir, onerror=onerror)
     
 
 
