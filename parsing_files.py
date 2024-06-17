@@ -47,16 +47,15 @@ UNIQUE_KEYS = {
     'Packer': ['source','variable','locals','build','data','builders']
 }
 
+with open('iac_dataset.json') as f:
+    json_data = json.load(f)
 
 def read_csv(csv):
     df = pd.read_csv(csv)
-    first_row = df.iloc[14]
-    return first_row
+    return df
 
 def get_home_directory(): #C:\Users\camyi 
-
     return os.path.expanduser("~")
-
 
 def clone_repo(url, target_dir): #clones directory to target directory 
     if not os.path.exists(target_dir):
@@ -85,65 +84,74 @@ def onerror(func, path, exc_info):
         raise
 
 def process_single_row(row):
+    repo_id = row["ID"]
     repo_url = row["URL"]
-    raw_json_data = json.loads(row["RAW_JSON_DATA"])
+    raw_json_data = row["RAW_JSON_DATA"]
+
+    if pd.isna(raw_json_data) or raw_json_data.strip() == '':
+        raw_json_data = json_data.get(repo_id)
+        #print(raw_json_data)
+        if not raw_json_data:
+            return None, None
+    
+    raw_json_data = json.loads(raw_json_data)
+
     files= raw_json_data["files"]
     found_extensions = raw_json_data["found_extensions"]
-    #print(found_extensions)
-    target_dir = os.path.join(get_home_directory(),raw_json_data["id"].replace("/", "\\"))
+    target_dir = os.path.join(get_home_directory(),raw_json_data["id"].replace("\\", "/"))
     
     clone_repo(repo_url,target_dir)
     relevant_files = []
     for ext in found_extensions:
         if ext in files:
             for file_url in files[ext]:
-                file_path = os.path.join(target_dir, file_url.replace(repo_url, '').lstrip('/'))
+                file_path = os.path.join(target_dir, file_url.replace(repo_url, '').lstrip('/').replace('/','\\'))
                 relevant_files.append(file_path)
             
     return target_dir,relevant_files
 
+def validate_repo(row):
+    target_dir,relevant_files = process_single_row(row)
+    tool_parsers = []
+
+    """if init_validate_terraform_files(relevant_files):
+        tool_parsers.append("TF")"""
+    """if AWS_validation(relevant_files):
+        tool_parsers.append("AWS")"""
+    """if AZ_validation(relevant_files):
+        tool_parsers.append("AZ")"""
+    if PP_validation(relevant_files):
+        tool_parsers.append("PP")
+
+    #shutil.rmtree(target_dir,onerror=onerror)
+    return tool_parsers
 
 def init_validate_terraform_files(file_paths):
-    valid = False
     for file_path in file_paths:
-        if file_path.endswith(('.tf','.tf.json')):
+        print(f"Validating Terraform file: {file_path}")
+        if file_path.endswith(('.tf', '.tf.json')):
             try:
-                # Create a temporary directory
                 temp_dir = os.path.join(os.path.dirname(file_path), 'temp_terraform_validate')
                 os.makedirs(temp_dir, exist_ok=True)
-                
                 shutil.copy(file_path, temp_dir)
-                
-                # Run terraform init in the temporary directory
                 init_result = subprocess.run(['terraform', 'init'], cwd=temp_dir, capture_output=True, text=True)
-                print(f"Terraform init output for {file_path}:\n{init_result.stdout}")
-                if "Terraform initialized in an empty directory!" in init_result.stdout:
-                    print(f"Terraform init detected an empty directory for {file_path}. It is not a valid Terraform file.")
-                    shutil.rmtree(temp_dir, onerror=onerror)
-                    continue
-
+                """print(init_result.stdout)
+                print(init_result.stderr)"""
                 if init_result.returncode != 0:
-                    print(f"Terraform init failed for {file_path}:\n{init_result.stderr}")
                     shutil.rmtree(temp_dir, onerror=onerror)
                     continue
-                
-                # Run terraform validate in the temporary directory
                 validate_result = subprocess.run(['terraform', 'validate'], cwd=temp_dir, capture_output=True, text=True)
-                print(f"Terraform validate output for {file_path}:\n{validate_result.stdout}")
-                if validate_result.returncode == 0:
-                    valid = True
-                    print(f"{file_path} is a valid Terraform file.")
-                else:
-                    print(f"{file_path} is not a valid Terraform file")
-                    print(f"Error for {file_path}:\n{validate_result.stderr}")
-    
+                """print(validate_result.stdout)
+                print(validate_result.stderr)"""
                 shutil.rmtree(temp_dir, onerror=onerror)
+                if validate_result.returncode == 0:
+                    return True
             except Exception as e:
                 print(e)
-    return valid
+    return False
 
 def pulumi_validation(file_path):
-    # not sure if has a validation command
+    # no validation command will have to look into that
     pass
 
 def crossplane_validation(file_path):
@@ -151,73 +159,69 @@ def crossplane_validation(file_path):
     pass
 
 def AWS_validation(file_paths):
-    all_valid = True
     for file_path in file_paths:
+        #print(f"Validating AWS CloudFormation file: {file_path}")
         if file_path.endswith(('.yaml', 'yml', '.json')):
             try:
                 result = subprocess.run(['cfn-lint', file_path], capture_output=True, text=True)
-                output = result.stdout
-
-                # Check for error return codes (2, 6, 10, 14)
-                if result.returncode in {2, 6, 10, 14}:
-                    print(f"{file_path} is not a valid AWS template due to errors.")
-                    print(f"Errors:\n{output}")
-                    all_valid = False
-                else:
-                    print(f"{file_path} is a valid AWS template (warnings or informational messages may be present).")
-                    if result.returncode != 0:
-                        print(f"Warnings/Informational:\n{output}")
-            except Exception as e:
-                print(f"An error occurred: {e}")
-                all_valid = False
-    return all_valid
-
-def ARM_validation(file_paths):
-    all_valid = True
-    for file_path in file_paths:
-        if file_path.endswith(".json"):
-            try:
-                result = subprocess.run(['TemplateAnalyzer.exe', 'analyze-template', file_path],capture_output=True, text=True)
-                output = result.stdout
-
-                if result.returncode in {10,20,21,22}:
-                    #print(f"{file_path} is not a valid ARM template due to errors")
-                    print(output)
-                    all_valid = False
-                else:
-                    print(f"{file_path} is a valid ARM template(no template errors)")
-                    if result.returncode != 0:
-                        print(f"non-template error:\n {output}")
+                #print(result.stdout)
+                #print(result.stderr)
+            
+                if result.returncode not in {2, 6, 10, 14}:
+                    return True
             except Exception as e:
                 print(e)
-                all_valid = False
-    return all_valid
+    return False
+
+def AZ_validation(file_paths):
+    for file_path in file_paths:
+        if file_path.endswith(".json"):
+            print(f"Validating Azure Resource Manager file: {file_path}")
+            try:
+                result = subprocess.run(['TemplateAnalyzer.exe', 'analyze-template', file_path], capture_output=True, text=True)
+                #print(result.stdout)
+                #print(result.stderr)
+                if result.returncode not in {10, 20, 21, 22}:
+                    return True
+            except Exception as e:
+                print(e)
+    return False
+
+def GOOG_validation(file_paths):
+    pass
+
+def PP_validation(file_paths):
+    for file_path in file_paths:
+        if file_path.endswith(".pp"):
+            print(f"Validating Puppet manifest file: {file_path}")
+            try:
+                puppet_cmd = "puppet"
+                puppet_path = shutil.which(puppet_cmd)
+                
+                result = subprocess.run([puppet_path,'parser', 'validate', file_path], capture_output=True, text = True)
+                #print(f"Puppet parser validate output for {file_path}:\n{result.stdout}")
+                #print(f"Puppet parser validate error for {file_path}:\n{result.stderr}")
+                if result.returncode == 0:
+                    return True
+            except Exception as e:
+                print(e)
+    return False
 
 
 def main():
-    csv = "first_screening.csv"
+    csv = "sample.csv"
+    output_csv = "output.csv"
+
     df = read_csv(csv)
-    target_dir,relevant_files = process_single_row(df)
-    #print(relevant_files)
+    results = []
 
-    """if init_validate_terraform_files(relevant_files):
-        print("The repo uses Terraform")"""
 
-    #test_file = r"C:\Users\camyi\OneDrive\Documents\PARSING_FILES\AWS.yaml"
-      # Validate AWS templates
-    """is_aws_valid = AWS_validation(relevant_files)
-    if is_aws_valid:
-        print("The repo uses valid AWS CloudFormation templates")
-    else:
-        print("The repo has invalid AWS CloudFormation templates")"""
-
-    # Validate ARM templates
-    is_arm_valid = ARM_validation(relevant_files)
-    if is_arm_valid:
-        print("The repo uses valid ARM templates")
-    else:
-        print("The repo has invalid ARM templates")
+    for _,row in tqdm(df.head(2).iterrows(), total = 2):
+        repo_url = row["URL"]
+        tool_parsers = validate_repo(row)
+        results.append({"URL": repo_url, "Tool_Parsers": tool_parsers})
     
-    shutil.rmtree(target_dir, onerror=onerror)
+    results_df = pd.DataFrame(results)
+    results_df.to_csv(output_csv, index=False)
     
 main() 
