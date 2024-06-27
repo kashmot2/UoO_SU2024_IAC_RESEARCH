@@ -110,36 +110,7 @@ def check_for_kubernetes_syntax(tokens):
         return 1
     return 0
 
-"""
-def check_specific_tokens(resources_properties):
-    if resources_properties and resources_properties[0] == 'resources:':
-        resources_properties.pop(0)
-        if resources_properties and resources_properties[0] == '-':
-            resources_properties.pop(0)
-            if resources_properties and resources_properties[0] == 'name:':
-                resources_properties.pop(0)
-                if resources_properties:  # Skip the actual name value
-                    resources_properties.pop(0)
-                    if resources_properties and resources_properties[0] == 'type:':
-                        return 1  # Return 1 as soon as 'type:' is confirmed
-    return 0
 
-"""
-
-"""
-def check_specific_tokens(resources_properties):
-    if resources_properties and resources_properties[0] == 'resources:':
-        resources_properties.pop(0)
-        if resources_properties and resources_properties[0] == '-':
-            resources_properties.pop(0)
-            if resources_properties and resources_properties[0] == 'name:':
-                resources_properties.pop(0)
-                if resources_properties:  # Skip the actual name value
-                    resources_properties.pop(0)
-                    if resources_properties and resources_properties[0] == 'type:':
-                        return 1  # Return 1 as soon as 'type:' is confirmed
-    return 0
-"""
 def write_csv_header():
         with open(output_results, mode='w', newline='') as file:
             writer = csv.writer(file)
