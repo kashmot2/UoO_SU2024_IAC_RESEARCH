@@ -6,8 +6,8 @@ import shutil
 import stat
 from tqdm import tqdm
 import json
-import yaml
-import configparser
+
+
 
 
 #lets define the file extensions
@@ -52,6 +52,7 @@ with open('iac_dataset.json') as f:
 
 def read_csv(csv):
     df = pd.read_csv(csv)
+    df = df[df["IS IAC FOUND?"] == True]
     return df
 
 def get_home_directory(): #C:\Users\camyi 
@@ -64,6 +65,7 @@ def clone_repo(url, target_dir): #clones directory to target directory
         return 
     repo = Repo.clone_from(url, target_dir)
     return repo
+
 
 def onerror(func, path, exc_info):
     """
@@ -83,6 +85,29 @@ def onerror(func, path, exc_info):
     else:
         raise
 
+def is_meaningful_file(file_path):
+    """
+    Check if the file contains meaningful content (not empty, not just comments, or YAML separators).
+    """
+    if os.path.getsize(file_path) == 0:
+        return False
+    try:
+        with open(file_path, 'r',encoding='utf-8') as file:
+            lines = file.readlines()
+            content = ''.join(lines).strip()
+            content_no_whitespace = ''.join(content.split())
+            if content_no_whitespace =="{}":
+                return False
+            for line in lines:
+                stripped_line = line.strip()
+                if stripped_line and not stripped_line.startswith('#') and stripped_line != "---":
+                    return True
+    except Exception as e:
+        print(f"Error reading file {file_path}: {e}")
+    return False
+
+
+
 def process_single_row(row):
     repo_id = row["ID"]
     repo_url = row["URL"]
@@ -90,46 +115,70 @@ def process_single_row(row):
 
     if pd.isna(raw_json_data) or raw_json_data.strip() == '':
         raw_json_data = json_data.get(repo_id)
-        #print(raw_json_data)
         if not raw_json_data:
-            return None, None
-    
-    raw_json_data = json.loads(raw_json_data)
+            return None, None, None
+    else:
+        raw_json_data = json.loads(raw_json_data)
 
-    files= raw_json_data["files"]
+    files = raw_json_data["files"]
     found_extensions = raw_json_data["found_extensions"]
-    target_dir = os.path.join(get_home_directory(),raw_json_data["id"].replace("\\", "/"))
+    target_dir = os.path.join(get_home_directory(), raw_json_data["id"].replace("\\", "/"))
+
+    clone_repo(repo_url, target_dir)
     
-    clone_repo(repo_url,target_dir)
     relevant_files = []
     for ext in found_extensions:
         if ext in files:
             for file_url in files[ext]:
-                file_path = os.path.join(target_dir, file_url.replace(repo_url, '').lstrip('/').replace('/','\\'))
-                relevant_files.append(file_path)
-            
-    return target_dir,relevant_files
+                file_path = os.path.normpath(os.path.join(target_dir, file_url.replace(repo_url, '').lstrip('/')))
+                print(f"Checking file path: {file_path}")
+                if os.path.exists(file_path):
+                    relevant_files.append(file_path)
+                else:
+                    print(f"File does not exist: {file_path}")
+
+    return target_dir, relevant_files, row["IAC Tools"]
 
 def validate_repo(row):
-    target_dir,relevant_files = process_single_row(row)
+    target_dir, relevant_files, tools_found = process_single_row(row)
     tool_parsers = []
+    validated_files = []
 
-    """if init_validate_terraform_files(relevant_files):
-        tool_parsers.append("TF")"""
-    """if AWS_validation(relevant_files):
-        tool_parsers.append("AWS")"""
-    """if AZ_validation(relevant_files):
-        tool_parsers.append("AZ")"""
-    if PP_validation(relevant_files):
-        tool_parsers.append("PP")
 
-    #shutil.rmtree(target_dir,onerror=onerror)
-    return tool_parsers
+    tf_files = [f for f in relevant_files if f.endswith(('.tf', '.tf.json'))]
+    aws_files = [f for f in relevant_files if f.endswith(('.yaml', '.yml', '.json'))]
+    az_files = [f for f in relevant_files if f.endswith('.json')]
+    pup_files = [f for f in relevant_files if f.endswith('.pp')]
+
+    if 'AWS' in tools_found:
+        appear, files = AWS_validation(aws_files)
+        if appear:
+            tool_parsers.append("AWS")
+            validated_files.extend(files)
+    if 'AZ' in tools_found:
+        appear, files = AZ_validation(az_files)
+        if appear:
+            tool_parsers.append("AZ")
+            validated_files.extend(files)
+    if 'PUP' in tools_found:
+        appear, files = PP_validation(pup_files)
+        if appear:
+            tool_parsers.append("PUP")
+            validated_files.extend(files)
+    if 'TF' in tools_found:
+        appear, files = init_validate_terraform_files(tf_files)
+        if appear:
+            tool_parsers.append("TF")
+            validated_files.extend(files)
+
+    shutil.rmtree(target_dir, onerror=onerror)
+    return tool_parsers, validated_files
 
 def init_validate_terraform_files(file_paths):
+    validated_files=[]
     for file_path in file_paths:
-        print(f"Validating Terraform file: {file_path}")
-        if file_path.endswith(('.tf', '.tf.json')):
+        if is_meaningful_file(file_path):
+            print(f"Validating Terraform file: {file_path}")
             try:
                 temp_dir = os.path.join(os.path.dirname(file_path), 'temp_terraform_validate')
                 os.makedirs(temp_dir, exist_ok=True)
@@ -145,83 +194,79 @@ def init_validate_terraform_files(file_paths):
                 print(validate_result.stderr)"""
                 shutil.rmtree(temp_dir, onerror=onerror)
                 if validate_result.returncode == 0:
-                    return True
+                    validated_files.append(file_path)
+                    return True,validated_files
+            except FileNotFoundError or FileNotFoundError:
+                print(f"file not found or not there")
             except Exception as e:
                 print(e)
-    return False
-
-def pulumi_validation(file_path):
-    # no validation command will have to look into that
-    pass
-
-def crossplane_validation(file_path):
-    # dont see a parser
-    pass
+    return False,validated_files
+        
 
 def AWS_validation(file_paths):
+    validated_files = []
     for file_path in file_paths:
-        #print(f"Validating AWS CloudFormation file: {file_path}")
-        if file_path.endswith(('.yaml', 'yml', '.json')):
+        if is_meaningful_file(file_path):
+            print(f"Validating AWS CloudFormation file: {file_path}")
             try:
                 result = subprocess.run(['cfn-lint', file_path], capture_output=True, text=True)
-                #print(result.stdout)
-                #print(result.stderr)
-            
-                if result.returncode not in {2, 6, 10, 14}:
-                    return True
+                if result.returncode == 0 or result.returncode not in {2, 6, 10, 14}:
+                    validated_files.append(file_path)
+                    return True,validated_files
+            except FileNotFoundError or FileNotFoundError:
+                print(f"file not found or not there")
             except Exception as e:
                 print(e)
-    return False
+    return False,validated_files
 
 def AZ_validation(file_paths):
+    validated_files = []
     for file_path in file_paths:
-        if file_path.endswith(".json"):
+        if is_meaningful_file(file_path):
             print(f"Validating Azure Resource Manager file: {file_path}")
             try:
                 result = subprocess.run(['TemplateAnalyzer.exe', 'analyze-template', file_path], capture_output=True, text=True)
-                #print(result.stdout)
-                #print(result.stderr)
-                if result.returncode not in {10, 20, 21, 22}:
-                    return True
+                if result.returncode == 0 or result.returncode not in {10, 20, 21, 22}:
+                    validated_files.append(file_path)
+                    return True,validated_files
+            except FileNotFoundError or FileNotFoundError:
+                print(f"file not found or not there")
             except Exception as e:
                 print(e)
-    return False
-
-def GOOG_validation(file_paths):
-    pass
+    return False,validated_files
 
 def PP_validation(file_paths):
+    validated_files = []
     for file_path in file_paths:
-        if file_path.endswith(".pp"):
+        if is_meaningful_file(file_path):
             print(f"Validating Puppet manifest file: {file_path}")
             try:
                 puppet_cmd = "puppet"
                 puppet_path = shutil.which(puppet_cmd)
                 
                 result = subprocess.run([puppet_path,'parser', 'validate', file_path], capture_output=True, text = True)
-                #print(f"Puppet parser validate output for {file_path}:\n{result.stdout}")
-                #print(f"Puppet parser validate error for {file_path}:\n{result.stderr}")
                 if result.returncode == 0:
-                    return True
+                    validated_files.append(file_path)
+                    return True,validated_files
+            except FileNotFoundError or FileNotFoundError:
+                print(f"file not found or not there")
             except Exception as e:
                 print(e)
-    return False
+    return False,validated_files
 
 
 def main():
-    csv = "sample.csv"
-    output_csv = "output.csv"
+    csv = "first_screening.csv"
+    output_csv = "new_output.csv"
 
     df = read_csv(csv)
-    results = []
-
-
-    for _,row in tqdm(df.head(2).iterrows(), total = 2):
-        repo_url = row["URL"]
-        tool_parsers = validate_repo(row)
-        results.append({"URL": repo_url, "Tool_Parsers": tool_parsers})
-    
-    results_df = pd.DataFrame(results)
-    results_df.to_csv(output_csv, index=False)
+   
+    for i in tqdm(range(0,len(df))):
+        row = df.iloc[i]
+        repo_id = row["ID"]
+        tool_parsers,validated_files= validate_repo(row)
+        with open(output_csv,'a') as f:
+            validated_files_join = ';'.join(validated_files)
+            f.write(f'{repo_id},{";".join(tool_parsers)},{validated_files_join}\n')
     
 main() 
