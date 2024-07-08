@@ -1,0 +1,66 @@
+{
+    "id": "idugalic/micro-company",
+    "repo_link": "https://github.com/idugalic/micro-company",
+    "file_extensions": [
+        ".yml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/idugalic/micro-company/blob/master/_config.yml",
+            "https://github.com/idugalic/micro-company/blob/master/command-side-blog-service/manifest.yml",
+            "https://github.com/idugalic/micro-company/blob/master/command-side-blog-service/src/main/resources/bootstrap.yml",
+            "https://github.com/idugalic/micro-company/blob/master/command-side-blog-service/src/main/resources/application.yml",
+            "https://github.com/idugalic/micro-company/blob/master/monolithic/src/main/resources/bootstrap.yml",
+            "https://github.com/idugalic/micro-company/blob/master/monolithic/src/main/resources/application.yml",
+            "https://github.com/idugalic/micro-company/blob/master/docker/docker-compose-v3.yml",
+            "https://github.com/idugalic/micro-company/blob/master/docker/docker-compose.yml",
+            "https://github.com/idugalic/micro-company/blob/master/docker/docker-compose-monolithic.yml",
+            "https://github.com/idugalic/micro-company/blob/master/api-gateway/manifest.yml",
+            "https://github.com/idugalic/micro-company/blob/master/api-gateway/src/main/resources/bootstrap.yml",
+            "https://github.com/idugalic/micro-company/blob/master/api-gateway/src/main/resources/application.yml",
+            "https://github.com/idugalic/micro-company/blob/master/circuit-breaker/src/main/resources/bootstrap.yml",
+            "https://github.com/idugalic/micro-company/blob/master/circuit-breaker/src/main/resources/application.yml",
+            "https://github.com/idugalic/micro-company/blob/master/authserver/manifest.yml",
+            "https://github.com/idugalic/micro-company/blob/master/authserver/src/main/resources/bootstrap.yml",
+            "https://github.com/idugalic/micro-company/blob/master/authserver/src/main/resources/application.yml",
+            "https://github.com/idugalic/micro-company/blob/master/query-side-blog-service/manifest.yml",
+            "https://github.com/idugalic/micro-company/blob/master/query-side-blog-service/src/main/resources/bootstrap.yml",
+            "https://github.com/idugalic/micro-company/blob/master/query-side-blog-service/src/main/resources/application.yml",
+            "https://github.com/idugalic/micro-company/blob/master/configserver/manifest.yml",
+            "https://github.com/idugalic/micro-company/blob/master/configserver/src/main/resources/bootstrap.yml",
+            "https://github.com/idugalic/micro-company/blob/master/configserver/src/main/resources/application.yml",
+            "https://github.com/idugalic/micro-company/blob/master/adminserver/manifest.yml",
+            "https://github.com/idugalic/micro-company/blob/master/adminserver/src/main/resources/bootstrap.yml",
+            "https://github.com/idugalic/micro-company/blob/master/adminserver/src/main/resources/application.yml",
+            "https://github.com/idugalic/micro-company/blob/master/.github/workflows/maven.yml",
+            "https://github.com/idugalic/micro-company/blob/master/registry/manifest.yml",
+            "https://github.com/idugalic/micro-company/blob/master/registry/src/main/resources/bootstrap.yml",
+            "https://github.com/idugalic/micro-company/blob/master/registry/src/main/resources/application.yml",
+            "https://github.com/idugalic/micro-company/blob/master/query-side-project-service/manifest.yml",
+            "https://github.com/idugalic/micro-company/blob/master/query-side-project-service/src/main/resources/bootstrap.yml",
+            "https://github.com/idugalic/micro-company/blob/master/query-side-project-service/src/main/resources/application.yml",
+            "https://github.com/idugalic/micro-company/blob/master/command-side-project-service/manifest.yml",
+            "https://github.com/idugalic/micro-company/blob/master/command-side-project-service/src/main/resources/bootstrap.yml",
+            "https://github.com/idugalic/micro-company/blob/master/command-side-project-service/src/main/resources/application.yml"
+        ],
+        "json": [
+            "https://github.com/idugalic/micro-company/blob/master/monolithic/src/main/frontend/angular-cli.json",
+            "https://github.com/idugalic/micro-company/blob/master/monolithic/src/main/frontend/package.json",
+            "https://github.com/idugalic/micro-company/blob/master/monolithic/src/main/frontend/tslint.json",
+            "https://github.com/idugalic/micro-company/blob/master/monolithic/src/main/frontend/proxy.conf.json",
+            "https://github.com/idugalic/micro-company/blob/master/monolithic/src/main/frontend/e2e/tsconfig.json",
+            "https://github.com/idugalic/micro-company/blob/master/monolithic/src/main/frontend/src/tsconfig.json"
+        ]
+    }
+}

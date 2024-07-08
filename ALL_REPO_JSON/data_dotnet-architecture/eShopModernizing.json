@@ -1,0 +1,92 @@
+{
+    "id": "dotnet-architecture/eShopModernizing",
+    "repo_link": "https://github.com/dotnet-architecture/eShopModernizing",
+    "file_extensions": [
+        ".yml",
+        ".json",
+        ".rb",
+        ".yaml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "CH",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/docker-compose.override.yml",
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/docker-compose.yml",
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/eShopModernizedNTier/docker-compose.override.yml",
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/eShopModernizedNTier/docker-compose.yml",
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/eShopModernizedNTier/temp/docker-compose.override.yml",
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/eShopModernizedNTier/temp/docker-compose.ci.build.yml",
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/eShopModernizedNTier/temp/docker-compose.yml",
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/eShopModernizedMVCSolution/docker-compose.override.yml",
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/eShopModernizedMVCSolution/docker-compose.override.nosql.yml",
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/eShopModernizedMVCSolution/docker-compose.yml",
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/eShopModernizedMVCSolution/docker-compose.nobuild.nosql.yml",
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/eShopModernizedMVCSolution/docker-compose.nobuild.yml",
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/VM/eShopModernizedWebForms/docker-compose.override.yml",
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/VM/eShopModernizedWebForms/docker-compose.nobuild.yml",
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/VM/eShopModernizedMVC/docker-compose.override.yml",
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/VM/eShopModernizedMVC/docker-compose.override.nosql.yml",
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/VM/eShopModernizedMVC/docker-compose.nobuild.nosql.yml",
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/VM/eShopModernizedMVC/docker-compose.nobuild.yml",
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/eShopModernizedWebFormsSolution/docker-compose.override.yml",
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/eShopModernizedWebFormsSolution/docker-compose.yml",
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/eShopModernizedWebFormsSolution/docker-compose.nobuild.yml",
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/Kubernetes-DockerForWindows/eShopModernizedSQL-K8s/eshop-modernized-sql-k8s-services-deployment.yml",
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/Kubernetes-DockerForWindows/eShopModernizedMVC-K8s/eshop-modernized-mvc-k8s-services-deployment.yml",
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/Kubernetes-DockerForWindows/eShopModernizedMVC-K8s/eshop-modernized-mvc-k8s-compose.yml",
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/Kubernetes/eShopModernizedSQL-K8s/eshop-modernized-sql-k8s-services-deployment.yml",
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/Kubernetes/eShopModernizedNTier-WCF-K8s/eshop-wcf-container-deployment.yml",
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/Kubernetes/eShopModernizedNTier-WCF-K8s/eshop-sql-container-deployment.yml",
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/Kubernetes/eShopModernizedWebForms-K8s/eshop-modernized-webforms-k8s-services-deployment.yml",
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/Kubernetes/eShopModernizedWebForms-K8s/eshop-modernized-webforms-k8s-services-CD-deployment.yml",
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/Kubernetes/eShopModernizedMVC-K8s/ServiceDeployments/eshop-modernized-mvc-k8s-services-deployment.yml",
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/Kubernetes/eShopModernizedMVC-K8s/ServiceDeployments/eshop-modernized-mvc-k8s-services-CD-deployment.yml"
+        ],
+        "yaml": [
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/Kubernetes-DockerForWindows/RabbitMQ-Linux-K8s/rabbitmq.yaml"
+        ],
+        "json": [
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/eShopLegacyMVCSolution/eShopPorted/appsettings.json",
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/eShopLegacyMVCSolution/eShopPorted/appsettings.Development.json",
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/eShopLegacyMVCSolution/eShopPorted/Properties/launchSettings.json",
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/eShopModernizedNTier/src/eShopWinForms/Connected Services/eShopServiceReference/ConnectedService.json",
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/ACI/wcf.parameters.json",
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/ACI/webforms.parameters.json",
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/ACI/mvc.parameters.json",
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/ACI/aci.json",
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/ServiceFabric/ServiceFabric-ARM-Templates-Scripts/Sample-ServiceFabric-ARM/azuredeploy.json",
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/ServiceFabric/ServiceFabric-ARM-Templates-Scripts/Sample-ServiceFabric-ARM/metadata.json",
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/ServiceFabric/ServiceFabric-ARM-Templates-Scripts/Sample-ServiceFabric-ARM/azuredeploy.parameters.json",
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/ServiceFabric/ServiceFabric-ARM-Templates-Scripts/pro-eshop-sfwin-cluster-ARM-template-SECURED-NOFUNCI/parameters.json",
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/ServiceFabric/ServiceFabric-ARM-Templates-Scripts/pro-eshop-sfwin-cluster-ARM-template-SECURED-NOFUNCI/template.json",
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/ServiceFabric/ServiceFabric-ARM-Templates-Scripts/pro-eshop-sfwin-cluster-ARM-SECURED-tests/parameters.json",
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/ServiceFabric/ServiceFabric-ARM-Templates-Scripts/pro-eshop-sfwin-cluster-ARM-SECURED-tests/template.json",
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/Kubernetes-DockerForWindows/eShopModernizedSQL-K8s/.kube/schema/v1.6.6/apis/extensions/v1beta1/schema.json",
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/Kubernetes-DockerForWindows/eShopModernizedSQL-K8s/.kube/schema/v1.6.6/api/v1/schema.json",
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/Kubernetes/eShopModernizedSQL-K8s/.kube/schema/v1.6.6/apis/extensions/v1beta1/schema.json",
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/Kubernetes/eShopModernizedSQL-K8s/.kube/schema/v1.6.6/api/v1/schema.json",
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/Kubernetes/eShopModernizedWebForms-K8s/.kube/schema/v1.6.6/apis/apps/v1beta1/schema.json",
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/Kubernetes/eShopModernizedWebForms-K8s/.kube/schema/v1.6.6/api/v1/schema.json",
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/Kubernetes/eShopModernizedMVC-K8s/ServiceDeployments/.kube/schema/v1.6.6/apis/extensions/v1beta1/schema.json",
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/Kubernetes/eShopModernizedMVC-K8s/ServiceDeployments/.kube/schema/v1.6.6/apis/apps/v1beta1/schema.json",
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/Kubernetes/eShopModernizedMVC-K8s/ServiceDeployments/.kube/schema/v1.6.6/api/v1/schema.json",
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/Kubernetes/eShopModernizedMVC-K8s/SimplePodDeployment/eshopmodernizedmvc.json",
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/Kubernetes/eShopModernizedMVC-K8s/SimplePodDeployment/.kube/schema/v1.6.6/api/v1/schema.json"
+        ],
+        "ruby": [
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/ServiceFabric/ServiceFabric-ARM-Templates-Scripts/pro-eshop-sfwin-cluster-ARM-template-SECURED-NOFUNCI/deployer.rb",
+            "https://github.com/dotnet-architecture/eShopModernizing/blob/master/ServiceFabric/ServiceFabric-ARM-Templates-Scripts/pro-eshop-sfwin-cluster-ARM-SECURED-tests/deployer.rb"
+        ]
+    }
+}

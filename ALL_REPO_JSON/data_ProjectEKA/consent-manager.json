@@ -1,0 +1,65 @@
+{
+    "id": "ProjectEKA/consent-manager",
+    "repo_link": "https://github.com/ProjectEKA/consent-manager",
+    "file_extensions": [
+        ".yml",
+        ".json",
+        ".yaml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/ProjectEKA/consent-manager/blob/master/docker-compose-redis.yml",
+            "https://github.com/ProjectEKA/consent-manager/blob/master/docker-compose-backend.yml",
+            "https://github.com/ProjectEKA/consent-manager/blob/master/filebeat.yml",
+            "https://github.com/ProjectEKA/consent-manager/blob/master/docker-compose-infra-lite.yml",
+            "https://github.com/ProjectEKA/consent-manager/blob/master/dataflow/src/test/resources/application.yml",
+            "https://github.com/ProjectEKA/consent-manager/blob/master/dataflow/src/main/resources/application.yml",
+            "https://github.com/ProjectEKA/consent-manager/blob/master/dataflow/src/main/resources/application-local.yml",
+            "https://github.com/ProjectEKA/consent-manager/blob/master/user/src/test/resources/application.yml",
+            "https://github.com/ProjectEKA/consent-manager/blob/master/user/src/main/resources/application.yml",
+            "https://github.com/ProjectEKA/consent-manager/blob/master/user/src/main/resources/application-local.yml",
+            "https://github.com/ProjectEKA/consent-manager/blob/master/consent/docker-compose.yml",
+            "https://github.com/ProjectEKA/consent-manager/blob/master/consent/src/test/resources/application.yml",
+            "https://github.com/ProjectEKA/consent-manager/blob/master/consent/src/main/resources/application-docker.yml",
+            "https://github.com/ProjectEKA/consent-manager/blob/master/consent/src/main/resources/application-dev.yml",
+            "https://github.com/ProjectEKA/consent-manager/blob/master/consent/src/main/resources/application.yml",
+            "https://github.com/ProjectEKA/consent-manager/blob/master/consent/src/main/resources/application-local.yml",
+            "https://github.com/ProjectEKA/consent-manager/blob/master/.github/workflows/data_flow-release.yml",
+            "https://github.com/ProjectEKA/consent-manager/blob/master/.github/workflows/consent-release.yml",
+            "https://github.com/ProjectEKA/consent-manager/blob/master/.github/workflows/data_flow-pr.yml",
+            "https://github.com/ProjectEKA/consent-manager/blob/master/.github/workflows/user-release.yml",
+            "https://github.com/ProjectEKA/consent-manager/blob/master/.github/workflows/other-pr.yml",
+            "https://github.com/ProjectEKA/consent-manager/blob/master/.github/workflows/user-pr.yml",
+            "https://github.com/ProjectEKA/consent-manager/blob/master/.github/workflows/consent-pr.yml",
+            "https://github.com/ProjectEKA/consent-manager/blob/master/.github/workflows/user-ci.yml",
+            "https://github.com/ProjectEKA/consent-manager/blob/master/.github/workflows/consent-ci.yml",
+            "https://github.com/ProjectEKA/consent-manager/blob/master/.github/workflows/data_flow-ci.yml",
+            "https://github.com/ProjectEKA/consent-manager/blob/master/haproxy/docker-compose.yml"
+        ],
+        "yaml": [
+            "https://github.com/ProjectEKA/consent-manager/blob/master/consent/src/main/resources/static/api.yaml"
+        ],
+        "json": [
+            "https://github.com/ProjectEKA/consent-manager/blob/master/postman/Keycloak.postman_collection.json",
+            "https://github.com/ProjectEKA/consent-manager/blob/master/postman/DEV.postman_environment.json",
+            "https://github.com/ProjectEKA/consent-manager/blob/master/postman/NCG.postman_collection.json",
+            "https://github.com/ProjectEKA/consent-manager/blob/master/rabbitmq/cm_rabbitmq.json",
+            "https://github.com/ProjectEKA/consent-manager/blob/master/consent/src/test/resources/provider.json",
+            "https://github.com/ProjectEKA/consent-manager/blob/master/consent/src/test/resources/providerById.json",
+            "https://github.com/ProjectEKA/consent-manager/blob/master/consent/src/main/resources/static/users.json",
+            "https://github.com/ProjectEKA/consent-manager/blob/master/consent/src/main/resources/static/ValueSet/health-info-type.json",
+            "https://github.com/ProjectEKA/consent-manager/blob/master/consent/src/main/resources/static/ValueSet/purpose-of-use.json"
+        ]
+    }
+}

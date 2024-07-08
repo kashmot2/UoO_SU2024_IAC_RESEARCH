@@ -1,0 +1,44 @@
+{
+    "id": "vmudigal/microservices-sample",
+    "repo_link": "https://github.com/vmudigal/microservices-sample",
+    "file_extensions": [
+        ".yml",
+        ".conf",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/vmudigal/microservices-sample/blob/master/.travis.yml",
+            "https://github.com/vmudigal/microservices-sample/blob/master/api-gateway/src/main/resources/application.yml",
+            "https://github.com/vmudigal/microservices-sample/blob/master/service-one/src/main/resources/application.yml",
+            "https://github.com/vmudigal/microservices-sample/blob/master/service-two/src/main/resources/application.yml",
+            "https://github.com/vmudigal/microservices-sample/blob/master/build/docker/docker-compose.yml"
+        ],
+        "json": [
+            "https://github.com/vmudigal/microservices-sample/blob/master/web-application/tsconfig.app.json",
+            "https://github.com/vmudigal/microservices-sample/blob/master/web-application/angular.json",
+            "https://github.com/vmudigal/microservices-sample/blob/master/web-application/package-lock.json",
+            "https://github.com/vmudigal/microservices-sample/blob/master/web-application/package.json",
+            "https://github.com/vmudigal/microservices-sample/blob/master/web-application/tslint.json",
+            "https://github.com/vmudigal/microservices-sample/blob/master/web-application/tsconfig.json",
+            "https://github.com/vmudigal/microservices-sample/blob/master/web-application/tsconfig.spec.json",
+            "https://github.com/vmudigal/microservices-sample/blob/master/web-application/e2e/tsconfig.json"
+        ],
+        "conf": [
+            "https://github.com/vmudigal/microservices-sample/blob/master/api-gateway/src/main/resources/logstash/logstash.conf",
+            "https://github.com/vmudigal/microservices-sample/blob/master/service-one/src/main/resources/logstash/logstash.conf",
+            "https://github.com/vmudigal/microservices-sample/blob/master/service-two/src/main/resources/logstash/logstash.conf"
+        ]
+    }
+}

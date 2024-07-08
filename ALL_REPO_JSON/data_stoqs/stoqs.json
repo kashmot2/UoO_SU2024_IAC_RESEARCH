@@ -1,0 +1,48 @@
+{
+    "id": "stoqs/stoqs",
+    "repo_link": "https://github.com/stoqs/stoqs",
+    "file_extensions": [
+        ".yml",
+        ".conf",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/stoqs/stoqs/blob/master/.travis.yml",
+            "https://github.com/stoqs/stoqs/blob/master/docker/docker-compose-stoqs_mbari_org.yml",
+            "https://github.com/stoqs/stoqs/blob/master/docker/docker-compose-actions.yml",
+            "https://github.com/stoqs/stoqs/blob/master/docker/docker-compose-arm-ci.yml",
+            "https://github.com/stoqs/stoqs/blob/master/docker/docker-compose-ci.yml",
+            "https://github.com/stoqs/stoqs/blob/master/docker/docker-compose-arm.yml",
+            "https://github.com/stoqs/stoqs/blob/master/docker/docker-compose.yml",
+            "https://github.com/stoqs/stoqs/blob/master/docker/docker-compose.test.yml",
+            "https://github.com/stoqs/stoqs/blob/master/docker/docker-compose.test.mbarimike.yml",
+            "https://github.com/stoqs/stoqs/blob/master/.github/workflows/ci.yml"
+        ],
+        "json": [
+            "https://github.com/stoqs/stoqs/blob/master/stoqs/static/OpenLayers-2.11/tests/Layer/ArcGISCache.json",
+            "https://github.com/stoqs/stoqs/blob/master/stoqs/static/OpenLayers-2.11/examples/data/line.json",
+            "https://github.com/stoqs/stoqs/blob/master/stoqs/static/OpenLayers-2.11/examples/data/point.json",
+            "https://github.com/stoqs/stoqs/blob/master/stoqs/static/OpenLayers-2.11/examples/data/roads.json",
+            "https://github.com/stoqs/stoqs/blob/master/stoqs/static/OpenLayers-2.11/examples/data/poly.json"
+        ],
+        "conf": [
+            "https://github.com/stoqs/stoqs/blob/master/docker/postgres15-orig.conf",
+            "https://github.com/stoqs/stoqs/blob/master/docker/postgres15-stoqs.conf",
+            "https://github.com/stoqs/stoqs/blob/master/docker/mapserver.conf",
+            "https://github.com/stoqs/stoqs/blob/master/docker/postgres-stoqs.conf",
+            "https://github.com/stoqs/stoqs/blob/master/stoqs/stoqs_nginx.conf"
+        ]
+    }
+}

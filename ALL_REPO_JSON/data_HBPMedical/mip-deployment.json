@@ -1,0 +1,50 @@
+{
+    "id": "HBPMedical/mip-deployment",
+    "repo_link": "https://github.com/HBPMedical/mip-deployment",
+    "file_extensions": [
+        ".json",
+        ".yml",
+        ".yaml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/HBPMedical/mip-deployment/blob/master/.github/workflows/ebrains.yml",
+            "https://github.com/HBPMedical/mip-deployment/blob/master/.github/workflows/portalbackend-integration-tests.yml",
+            "https://github.com/HBPMedical/mip-deployment/blob/master/dev/docker-compose.yml"
+        ],
+        "yaml": [
+            "https://github.com/HBPMedical/mip-deployment/blob/master/kubernetes/Chart.yaml",
+            "https://github.com/HBPMedical/mip-deployment/blob/master/kubernetes/values.yaml",
+            "https://github.com/HBPMedical/mip-deployment/blob/master/kubernetes/templates/keycloak.yaml",
+            "https://github.com/HBPMedical/mip-deployment/blob/master/kubernetes/templates/mip-secret.yaml",
+            "https://github.com/HBPMedical/mip-deployment/blob/master/kubernetes/templates/frontend.yaml",
+            "https://github.com/HBPMedical/mip-deployment/blob/master/kubernetes/templates/create-dbs.yaml",
+            "https://github.com/HBPMedical/mip-deployment/blob/master/kubernetes/templates/gateway.yaml",
+            "https://github.com/HBPMedical/mip-deployment/blob/master/kubernetes/templates/mip-config.yaml",
+            "https://github.com/HBPMedical/mip-deployment/blob/master/kubernetes/templates/portalbackend.yaml",
+            "https://github.com/HBPMedical/mip-deployment/blob/master/kubernetes/templates/microk8s-local-storageclass.yaml"
+        ],
+        "json": [
+            "https://github.com/HBPMedical/mip-deployment/blob/master/config/disabledAlgorithms.json",
+            "https://github.com/HBPMedical/mip-deployment/blob/master/config/keycloak/keycloak.json",
+            "https://github.com/HBPMedical/mip-deployment/blob/master/config/keycloak/HBPTheme/common/resources/lib/angular/version.json",
+            "https://github.com/HBPMedical/mip-deployment/blob/master/config/keycloak/HBPTheme/common/resources/lib/angular/errors.json",
+            "https://github.com/HBPMedical/mip-deployment/blob/master/dev/config/localworkers_config.json",
+            "https://github.com/HBPMedical/mip-deployment/blob/master/data/mentalhealth/CDEsMetadata.json",
+            "https://github.com/HBPMedical/mip-deployment/blob/master/data/dementia/CDEsMetadata.json",
+            "https://github.com/HBPMedical/mip-deployment/blob/master/data/longitudinal_dementia/CDEsMetadata.json",
+            "https://github.com/HBPMedical/mip-deployment/blob/master/data/tbi/CDEsMetadata.json"
+        ]
+    }
+}

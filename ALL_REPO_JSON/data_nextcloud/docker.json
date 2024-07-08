@@ -1,0 +1,56 @@
+{
+    "id": "nextcloud/docker",
+    "repo_link": "https://github.com/nextcloud/docker",
+    "file_extensions": [
+        ".json",
+        ".yml",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/nextcloud/docker/blob/master/stack.yml",
+            "https://github.com/nextcloud/docker/blob/master/.examples/docker-compose/insecure/mariadb/fpm/docker-compose.yml",
+            "https://github.com/nextcloud/docker/blob/master/.examples/docker-compose/insecure/mariadb/apache/docker-compose.yml",
+            "https://github.com/nextcloud/docker/blob/master/.examples/docker-compose/insecure/postgres/fpm/docker-compose.yml",
+            "https://github.com/nextcloud/docker/blob/master/.examples/docker-compose/insecure/postgres/apache/docker-compose.yml",
+            "https://github.com/nextcloud/docker/blob/master/.examples/docker-compose/with-nginx-proxy/mariadb/fpm/docker-compose.yml",
+            "https://github.com/nextcloud/docker/blob/master/.examples/docker-compose/with-nginx-proxy/mariadb/apache/docker-compose.yml",
+            "https://github.com/nextcloud/docker/blob/master/.examples/docker-compose/with-nginx-proxy/postgres/fpm/docker-compose.yml",
+            "https://github.com/nextcloud/docker/blob/master/.examples/docker-compose/with-nginx-proxy/postgres/apache/docker-compose.yml",
+            "https://github.com/nextcloud/docker/blob/master/.github/workflows/images.yml",
+            "https://github.com/nextcloud/docker/blob/master/.github/workflows/update-sh.yml",
+            "https://github.com/nextcloud/docker/blob/master/.github/workflows/command-rebase.yml",
+            "https://github.com/nextcloud/docker/blob/master/.github/ISSUE_TEMPLATE/config.yml"
+        ],
+        "json": [
+            "https://github.com/nextcloud/docker/blob/master/versions.json"
+        ],
+        "conf": [
+            "https://github.com/nextcloud/docker/blob/master/.examples/docker-compose/insecure/mariadb/fpm/web/nginx.conf",
+            "https://github.com/nextcloud/docker/blob/master/.examples/docker-compose/insecure/postgres/fpm/web/nginx.conf",
+            "https://github.com/nextcloud/docker/blob/master/.examples/docker-compose/with-nginx-proxy/mariadb/fpm/proxy/uploadsize.conf",
+            "https://github.com/nextcloud/docker/blob/master/.examples/docker-compose/with-nginx-proxy/mariadb/fpm/web/nginx.conf",
+            "https://github.com/nextcloud/docker/blob/master/.examples/docker-compose/with-nginx-proxy/mariadb/apache/proxy/uploadsize.conf",
+            "https://github.com/nextcloud/docker/blob/master/.examples/docker-compose/with-nginx-proxy/postgres/fpm/proxy/uploadsize.conf",
+            "https://github.com/nextcloud/docker/blob/master/.examples/docker-compose/with-nginx-proxy/postgres/fpm/web/nginx.conf",
+            "https://github.com/nextcloud/docker/blob/master/.examples/docker-compose/with-nginx-proxy/postgres/apache/proxy/uploadsize.conf",
+            "https://github.com/nextcloud/docker/blob/master/.examples/dockerfiles/full/fpm/supervisord.conf",
+            "https://github.com/nextcloud/docker/blob/master/.examples/dockerfiles/full/fpm-alpine/supervisord.conf",
+            "https://github.com/nextcloud/docker/blob/master/.examples/dockerfiles/full/apache/supervisord.conf",
+            "https://github.com/nextcloud/docker/blob/master/.examples/dockerfiles/cron/fpm/supervisord.conf",
+            "https://github.com/nextcloud/docker/blob/master/.examples/dockerfiles/cron/fpm-alpine/supervisord.conf",
+            "https://github.com/nextcloud/docker/blob/master/.examples/dockerfiles/cron/apache/supervisord.conf"
+        ]
+    }
+}

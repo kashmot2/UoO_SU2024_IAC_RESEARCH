@@ -1,0 +1,41 @@
+{
+    "id": "zeeguu-ecosystem/Zeeguu-API",
+    "repo_link": "https://github.com/zeeguu-ecosystem/Zeeguu-API",
+    "file_extensions": [
+        ".json",
+        ".yml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/zeeguu-ecosystem/Zeeguu-API/blob/master/docker-compose.yml",
+            "https://github.com/zeeguu-ecosystem/Zeeguu-API/blob/master/.github/workflows/publish_docker_image.yml",
+            "https://github.com/zeeguu-ecosystem/Zeeguu-API/blob/master/.github/workflows/test.yml",
+            "https://github.com/zeeguu-ecosystem/Zeeguu-API/blob/master/.github/workflows/render-architectural-diff.yml"
+        ],
+        "json": [
+            "https://github.com/zeeguu-ecosystem/Zeeguu-API/blob/master/truckconfig.json",
+            "https://github.com/zeeguu-ecosystem/Zeeguu-API/blob/master/archlens.json",
+            "https://github.com/zeeguu-ecosystem/Zeeguu-API/blob/master/zeeguu/core/test/test_data/lemonde_formation.json",
+            "https://github.com/zeeguu-ecosystem/Zeeguu-API/blob/master/zeeguu/core/test/test_data/der_kleine_prinz.json",
+            "https://github.com/zeeguu-ecosystem/Zeeguu-API/blob/master/zeeguu/core/test/test_data/verdensbedste_indonesien.json",
+            "https://github.com/zeeguu-ecosystem/Zeeguu-API/blob/master/zeeguu/core/test/test_data/spiegel_nancy.json",
+            "https://github.com/zeeguu-ecosystem/Zeeguu-API/blob/master/zeeguu/core/test/test_data/spiegel_venezuela.json",
+            "https://github.com/zeeguu-ecosystem/Zeeguu-API/blob/master/zeeguu/core/test/test_data/verdensbedste_jorde.json",
+            "https://github.com/zeeguu-ecosystem/Zeeguu-API/blob/master/zeeguu/core/test/test_data/faz_leichtathletik.json",
+            "https://github.com/zeeguu-ecosystem/Zeeguu-API/blob/master/zeeguu/core/test/test_data/jp_article_example.json",
+            "https://github.com/zeeguu-ecosystem/Zeeguu-API/blob/master/zeeguu/core/test/test_data/cnn_kathmandu.json",
+            "https://github.com/zeeguu-ecosystem/Zeeguu-API/blob/master/zeeguu/core/ml_models/binary/tfidf_multi_paywall_detect_metadata.json",
+            "https://github.com/zeeguu-ecosystem/Zeeguu-API/blob/master/.vscode/settings.json"
+        ]
+    }
+}

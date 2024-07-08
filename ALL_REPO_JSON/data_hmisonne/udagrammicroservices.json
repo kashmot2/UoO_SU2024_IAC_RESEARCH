@@ -1,0 +1,67 @@
+{
+    "id": "hmisonne/udagrammicroservices",
+    "repo_link": "https://github.com/hmisonne/udagrammicroservices",
+    "file_extensions": [
+        ".json",
+        ".yml",
+        ".conf",
+        ".yaml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/hmisonne/udagrammicroservices/blob/master/.travis.yml",
+            "https://github.com/hmisonne/udagrammicroservices/blob/master/deployment/docker/docker-compose-build.yml",
+            "https://github.com/hmisonne/udagrammicroservices/blob/master/deployment/docker/docker-compose.yml"
+        ],
+        "yaml": [
+            "https://github.com/hmisonne/udagrammicroservices/blob/master/deployment/k8s/backend-feed-deployment.yaml",
+            "https://github.com/hmisonne/udagrammicroservices/blob/master/deployment/k8s/reverseproxy_service.yaml",
+            "https://github.com/hmisonne/udagrammicroservices/blob/master/deployment/k8s/env-configmap.yaml",
+            "https://github.com/hmisonne/udagrammicroservices/blob/master/deployment/k8s/backend-user-service.yaml",
+            "https://github.com/hmisonne/udagrammicroservices/blob/master/deployment/k8s/backend-user-deployment.yaml",
+            "https://github.com/hmisonne/udagrammicroservices/blob/master/deployment/k8s/reverseproxy_deployment.yaml",
+            "https://github.com/hmisonne/udagrammicroservices/blob/master/deployment/k8s/frontend-deployment.yaml",
+            "https://github.com/hmisonne/udagrammicroservices/blob/master/deployment/k8s/backend-feed-service.yaml",
+            "https://github.com/hmisonne/udagrammicroservices/blob/master/deployment/k8s/frontend-service.yaml"
+        ],
+        "json": [
+            "https://github.com/hmisonne/udagrammicroservices/blob/master/udagram-api.postman_collection.json",
+            "https://github.com/hmisonne/udagrammicroservices/blob/master/package-lock.json",
+            "https://github.com/hmisonne/udagrammicroservices/blob/master/udagram-frontend/ionic.config.json",
+            "https://github.com/hmisonne/udagrammicroservices/blob/master/udagram-frontend/angular.json",
+            "https://github.com/hmisonne/udagrammicroservices/blob/master/udagram-frontend/package-lock.json",
+            "https://github.com/hmisonne/udagrammicroservices/blob/master/udagram-frontend/package.json",
+            "https://github.com/hmisonne/udagrammicroservices/blob/master/udagram-frontend/tslint.json",
+            "https://github.com/hmisonne/udagrammicroservices/blob/master/udagram-frontend/tsconfig.json",
+            "https://github.com/hmisonne/udagrammicroservices/blob/master/udagram-frontend/.eslintrc.json",
+            "https://github.com/hmisonne/udagrammicroservices/blob/master/udagram-frontend/e2e/tsconfig.e2e.json",
+            "https://github.com/hmisonne/udagrammicroservices/blob/master/udagram-frontend/src/tsconfig.app.json",
+            "https://github.com/hmisonne/udagrammicroservices/blob/master/udagram-frontend/src/tsconfig.spec.json",
+            "https://github.com/hmisonne/udagrammicroservices/blob/master/udagram-api-feed/package-lock.json",
+            "https://github.com/hmisonne/udagrammicroservices/blob/master/udagram-api-feed/package.json",
+            "https://github.com/hmisonne/udagrammicroservices/blob/master/udagram-api-feed/tslint.json",
+            "https://github.com/hmisonne/udagrammicroservices/blob/master/udagram-api-feed/tsconfig.json",
+            "https://github.com/hmisonne/udagrammicroservices/blob/master/udagram-api-feed/.eslintrc.json",
+            "https://github.com/hmisonne/udagrammicroservices/blob/master/udagram-api-user/package-lock.json",
+            "https://github.com/hmisonne/udagrammicroservices/blob/master/udagram-api-user/package.json",
+            "https://github.com/hmisonne/udagrammicroservices/blob/master/udagram-api-user/tslint.json",
+            "https://github.com/hmisonne/udagrammicroservices/blob/master/udagram-api-user/tsconfig.json",
+            "https://github.com/hmisonne/udagrammicroservices/blob/master/udagram-api-user/.eslintrc.json"
+        ],
+        "conf": [
+            "https://github.com/hmisonne/udagrammicroservices/blob/master/deployment/docker/nginx.conf"
+        ]
+    }
+}

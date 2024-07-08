@@ -1,0 +1,28 @@
+{
+    "id": "pyaiot/pyaiot",
+    "repo_link": "https://github.com/pyaiot/pyaiot",
+    "file_extensions": [
+        ".yml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/pyaiot/pyaiot/blob/master/docker/docker-compose.yml",
+            "https://github.com/pyaiot/pyaiot/blob/master/.github/workflows/docker.yml",
+            "https://github.com/pyaiot/pyaiot/blob/master/.github/workflows/python.yml"
+        ],
+        "json": [
+            "https://github.com/pyaiot/pyaiot/blob/master/pyaiot/dashboard/static/package.json"
+        ]
+    }
+}

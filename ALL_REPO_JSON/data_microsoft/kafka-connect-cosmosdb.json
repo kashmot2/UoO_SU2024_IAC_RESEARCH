@@ -1,0 +1,50 @@
+{
+    "id": "microsoft/kafka-connect-cosmosdb",
+    "repo_link": "https://github.com/microsoft/kafka-connect-cosmosdb",
+    "file_extensions": [
+        ".json",
+        ".yml",
+        ".yaml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/microsoft/kafka-connect-cosmosdb/blob/master/.github/workflows/release.yml",
+            "https://github.com/microsoft/kafka-connect-cosmosdb/blob/master/.github/workflows/codeql.yml",
+            "https://github.com/microsoft/kafka-connect-cosmosdb/blob/master/.github/workflows/mavenCI.yml",
+            "https://github.com/microsoft/kafka-connect-cosmosdb/blob/master/src/docker/docker-compose.yml"
+        ],
+        "yaml": [
+            "https://github.com/microsoft/kafka-connect-cosmosdb/blob/master/src/perf/cluster/charts/sink-perf/Chart.yaml",
+            "https://github.com/microsoft/kafka-connect-cosmosdb/blob/master/src/perf/cluster/charts/sink-perf/values.yaml",
+            "https://github.com/microsoft/kafka-connect-cosmosdb/blob/master/src/perf/cluster/charts/sink-perf/templates/deployment.yaml",
+            "https://github.com/microsoft/kafka-connect-cosmosdb/blob/master/src/perf/cluster/charts/connect/Chart.yaml",
+            "https://github.com/microsoft/kafka-connect-cosmosdb/blob/master/src/perf/cluster/charts/connect/helm-config.yaml",
+            "https://github.com/microsoft/kafka-connect-cosmosdb/blob/master/src/perf/cluster/charts/connect/values.yaml",
+            "https://github.com/microsoft/kafka-connect-cosmosdb/blob/master/src/perf/cluster/charts/connect/templates/deployment.yaml",
+            "https://github.com/microsoft/kafka-connect-cosmosdb/blob/master/src/perf/cluster/charts/connect/templates/secrets.yaml",
+            "https://github.com/microsoft/kafka-connect-cosmosdb/blob/master/src/perf/cluster/charts/connect/templates/service.yaml",
+            "https://github.com/microsoft/kafka-connect-cosmosdb/blob/master/src/perf/cluster/charts/connect/templates/jmx-configmap.yaml",
+            "https://github.com/microsoft/kafka-connect-cosmosdb/blob/master/src/perf/cluster/manifests/kafka-client.yaml",
+            "https://github.com/microsoft/kafka-connect-cosmosdb/blob/master/src/perf/cluster/manifests/kafka-helm-config.yaml",
+            "https://github.com/microsoft/kafka-connect-cosmosdb/blob/master/src/perf/cluster/manifests/single-sink-perf-client.yaml"
+        ],
+        "json": [
+            "https://github.com/microsoft/kafka-connect-cosmosdb/blob/master/.devcontainer/devcontainer.json",
+            "https://github.com/microsoft/kafka-connect-cosmosdb/blob/master/src/docker/resources/source.example.json",
+            "https://github.com/microsoft/kafka-connect-cosmosdb/blob/master/src/docker/resources/sink-uuid-smt.example.json",
+            "https://github.com/microsoft/kafka-connect-cosmosdb/blob/master/src/docker/resources/sink.example.json",
+            "https://github.com/microsoft/kafka-connect-cosmosdb/blob/master/src/perf/cluster/manifests/cosmos-dashboard.json"
+        ]
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "id": "Autoscaler/autoscaler",
+    "repo_link": "https://github.com/Autoscaler/autoscaler",
+    "file_extensions": [
+        ".json",
+        ".yml",
+        ".yaml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/Autoscaler/autoscaler/blob/master/deploy/src/main/resources/quick-start/docker-compose.debug.yml",
+            "https://github.com/Autoscaler/autoscaler/blob/master/deploy/src/main/resources-filtered/quick-start/docker-compose-with-httpproxy.yml",
+            "https://github.com/Autoscaler/autoscaler/blob/master/deploy/src/main/resources-filtered/quick-start/docker-compose.yml",
+            "https://github.com/Autoscaler/autoscaler/blob/master/docs/_config.yml",
+            "https://github.com/Autoscaler/autoscaler/blob/master/autoscale-dockerswarm-container/src/main/deployment/docker-compose.yml"
+        ],
+        "yaml": [
+            "https://github.com/Autoscaler/autoscaler/blob/master/autoscale-dockerswarm-container/scaler.yaml",
+            "https://github.com/Autoscaler/autoscaler/blob/master/autoscale-marathon-container/scaler.yaml",
+            "https://github.com/Autoscaler/autoscaler/blob/master/autoscale-kubernetes-container/scaler.yaml",
+            "https://github.com/Autoscaler/autoscaler/blob/master/autoscale-kubernetes-container/example-dev-setup/consumers.yaml",
+            "https://github.com/Autoscaler/autoscaler/blob/master/autoscale-kubernetes-container/example-dev-setup/publisher.yaml",
+            "https://github.com/Autoscaler/autoscaler/blob/master/autoscale-kubernetes-container/example-dev-setup/autoscaler.yaml"
+        ],
+        "json": [
+            "https://github.com/Autoscaler/autoscaler/blob/master/marathon-files/marathon-autoscaler.json",
+            "https://github.com/Autoscaler/autoscaler/blob/master/autoscale-dockerswarm-shared/src/test/resources/jsonServicesResponse.json",
+            "https://github.com/Autoscaler/autoscaler/blob/master/docs/bower.json",
+            "https://github.com/Autoscaler/autoscaler/blob/master/docs/package.json",
+            "https://github.com/Autoscaler/autoscaler/blob/master/docs/_data/footer_links.json",
+            "https://github.com/Autoscaler/autoscaler/blob/master/docs/_data/top_navigation.json",
+            "https://github.com/Autoscaler/autoscaler/blob/master/docs/_data/side_navigation.json",
+            "https://github.com/Autoscaler/autoscaler/blob/master/docs/_data/localizations/languages.json",
+            "https://github.com/Autoscaler/autoscaler/blob/master/docs/_data/localizations/documentation_localization_static.json",
+            "https://github.com/Autoscaler/autoscaler/blob/master/autoscale-marathon-container/example-template/marathon-autoscaler.json"
+        ]
+    }
+}

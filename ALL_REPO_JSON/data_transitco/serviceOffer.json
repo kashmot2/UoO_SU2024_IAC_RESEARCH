@@ -1,0 +1,34 @@
+{
+    "id": "transitco/serviceOffer",
+    "repo_link": "https://github.com/transitco/serviceOffer",
+    "file_extensions": [
+        ".yml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/transitco/serviceOffer/blob/master/.eslintrc.yml",
+            "https://github.com/transitco/serviceOffer/blob/master/docker-compose.yml",
+            "https://github.com/transitco/serviceOffer/blob/master/.dependabot/config.yml",
+            "https://github.com/transitco/serviceOffer/blob/master/.github/workflows/dockerimage.yml"
+        ],
+        "json": [
+            "https://github.com/transitco/serviceOffer/blob/master/package-lock.json",
+            "https://github.com/transitco/serviceOffer/blob/master/package.json",
+            "https://github.com/transitco/serviceOffer/blob/master/src/gtfs/exo_config.json",
+            "https://github.com/transitco/serviceOffer/blob/master/src/gtfs/stl_config.json",
+            "https://github.com/transitco/serviceOffer/blob/master/src/gtfs/rtl_config.json",
+            "https://github.com/transitco/serviceOffer/blob/master/src/gtfs/stm_config.json"
+        ]
+    }
+}

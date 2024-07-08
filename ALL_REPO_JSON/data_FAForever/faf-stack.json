@@ -1,0 +1,55 @@
+{
+    "id": "FAForever/faf-stack",
+    "repo_link": "https://github.com/FAForever/faf-stack",
+    "file_extensions": [
+        ".yml",
+        ".json",
+        ".yaml",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/FAForever/faf-stack/blob/master/faf-extra.yml",
+            "https://github.com/FAForever/faf-stack/blob/master/monitoring.yml",
+            "https://github.com/FAForever/faf-stack/blob/master/docker-compose.yml",
+            "https://github.com/FAForever/faf-stack/blob/master/.github/workflows/release.yml",
+            "https://github.com/FAForever/faf-stack/blob/master/k8s-archive/faf-extra.yml",
+            "https://github.com/FAForever/faf-stack/blob/master/k8s-archive/docker-compose.yml",
+            "https://github.com/FAForever/faf-stack/blob/master/config.template/faf-traefik/traefik.yml",
+            "https://github.com/FAForever/faf-stack/blob/master/config.template/faf-traefik/config.yml",
+            "https://github.com/FAForever/faf-stack/blob/master/config.template/faf-rust-replayserver/faf-rust-replayserver.yml",
+            "https://github.com/FAForever/faf-stack/blob/master/config.template/faf-python-server/dynamic/config.yml",
+            "https://github.com/FAForever/faf-stack/blob/master/config.template/monitoring/loki/config.yml",
+            "https://github.com/FAForever/faf-stack/blob/master/config.template/monitoring/promtail/config.yml",
+            "https://github.com/FAForever/faf-stack/blob/master/config.template/monitoring/prometheus/prometheus.yml"
+        ],
+        "yaml": [
+            "https://github.com/FAForever/faf-stack/blob/master/.github/workflows/test.yaml",
+            "https://github.com/FAForever/faf-stack/blob/master/config.template/ergochat/ircd.yaml",
+            "https://github.com/FAForever/faf-stack/blob/master/config.template/faf-ory-hydra/hydra.yaml"
+        ],
+        "json": [
+            "https://github.com/FAForever/faf-stack/blob/master/tests/postman-collection.json",
+            "https://github.com/FAForever/faf-stack/blob/master/config.template/faf-traefik/acme.json",
+            "https://github.com/FAForever/faf-stack/blob/master/config.template/extra/nodebb/config.json",
+            "https://github.com/FAForever/faf-stack/blob/master/config.template/extra/unitdb/datafiles.json",
+            "https://github.com/FAForever/faf-stack/blob/master/config.template/extra/unitdb/locfiles.json"
+        ],
+        "conf": [
+            "https://github.com/FAForever/faf-stack/blob/master/config.template/faf-content/default.conf",
+            "https://github.com/FAForever/faf-stack/blob/master/config.template/extra/phpbb3-archive/default.conf"
+        ]
+    }
+}

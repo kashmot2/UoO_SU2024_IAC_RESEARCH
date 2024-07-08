@@ -1,0 +1,49 @@
+{
+    "id": "eHealthAfrica/aether",
+    "repo_link": "https://github.com/eHealthAfrica/aether",
+    "file_extensions": [
+        ".yml",
+        ".json",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/eHealthAfrica/aether/blob/master/docker-compose-locust.yml",
+            "https://github.com/eHealthAfrica/aether/blob/master/docker-compose-connect.yml",
+            "https://github.com/eHealthAfrica/aether/blob/master/docker-compose-test.yml",
+            "https://github.com/eHealthAfrica/aether/blob/master/docker-compose-base.yml",
+            "https://github.com/eHealthAfrica/aether/blob/master/docker-compose.yml",
+            "https://github.com/eHealthAfrica/aether/blob/master/.travis.yml",
+            "https://github.com/eHealthAfrica/aether/blob/master/aether-client-library/docker-compose.yml",
+            "https://github.com/eHealthAfrica/aether/blob/master/.github/workflows/tests.yml"
+        ],
+        "json": [
+            "https://github.com/eHealthAfrica/aether/blob/master/aether-odk-module/aether/odk/api/tests/files/demo-data.json",
+            "https://github.com/eHealthAfrica/aether/blob/master/aether-client-library/aether/client/test/fixtures/mappings/mapping.json",
+            "https://github.com/eHealthAfrica/aether/blob/master/aether-client-library/aether/client/test/fixtures/submission/submissions_1000.json",
+            "https://github.com/eHealthAfrica/aether/blob/master/aether-client-library/aether/client/test/fixtures/submission/single.json",
+            "https://github.com/eHealthAfrica/aether/blob/master/aether-ui/aether/ui/assets/package.json",
+            "https://github.com/eHealthAfrica/aether/blob/master/aether-ui/aether/ui/assets/tests/mock/pipeline.mock.json",
+            "https://github.com/eHealthAfrica/aether/blob/master/aether-ui/aether/ui/assets/tests/mock/schema_input.mock.json",
+            "https://github.com/eHealthAfrica/aether/blob/master/aether-ui/aether/ui/assets/tests/ui-tests-environment/package.json",
+            "https://github.com/eHealthAfrica/aether/blob/master/aether-kernel/aether/kernel/api/tests/files/export.json",
+            "https://github.com/eHealthAfrica/aether/blob/master/aether-producer/tests/conf/producer.json",
+            "https://github.com/eHealthAfrica/aether/blob/master/aether-producer/aether/producer/settings.json"
+        ],
+        "conf": [
+            "https://github.com/eHealthAfrica/aether/blob/master/local-setup/nginx/nginx.conf",
+            "https://github.com/eHealthAfrica/aether/blob/master/local-setup/nginx/sites-enabled/aether.conf"
+        ]
+    }
+}

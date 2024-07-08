@@ -1,0 +1,31 @@
+{
+    "id": "TheRestartProject/RepairDirectory",
+    "repo_link": "https://github.com/TheRestartProject/RepairDirectory",
+    "file_extensions": [
+        ".json",
+        ".yml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/TheRestartProject/RepairDirectory/blob/master/.gitlab-ci.yml",
+            "https://github.com/TheRestartProject/RepairDirectory/blob/master/docker/docker-compose.yml",
+            "https://github.com/TheRestartProject/RepairDirectory/blob/master/docker/docker-compose.testing.yml",
+            "https://github.com/TheRestartProject/RepairDirectory/blob/master/.circleci/config.yml"
+        ],
+        "json": [
+            "https://github.com/TheRestartProject/RepairDirectory/blob/master/package-lock.json",
+            "https://github.com/TheRestartProject/RepairDirectory/blob/master/package.json",
+            "https://github.com/TheRestartProject/RepairDirectory/blob/master/composer.json"
+        ]
+    }
+}

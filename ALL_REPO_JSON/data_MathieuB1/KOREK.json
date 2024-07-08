@@ -1,0 +1,42 @@
+{
+    "id": "MathieuB1/KOREK",
+    "repo_link": "https://github.com/MathieuB1/KOREK",
+    "file_extensions": [
+        ".yml",
+        ".conf",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/MathieuB1/KOREK/blob/master/docker-compose.yml",
+            "https://github.com/MathieuB1/KOREK/blob/master/.travis.yml",
+            "https://github.com/MathieuB1/KOREK/blob/master/monitoring/prometheus/prometheus.yml"
+        ],
+        "json": [
+            "https://github.com/MathieuB1/KOREK/blob/master/monitoring/grafana/Dashboard.json",
+            "https://github.com/MathieuB1/KOREK/blob/master/.vscode/settings.json",
+            "https://github.com/MathieuB1/KOREK/blob/master/django-rest-swagger/myapp/korek/fixtures/categories.json",
+            "https://github.com/MathieuB1/KOREK/blob/master/django-rest-swagger/myapp/korek/fixtures/users.json",
+            "https://github.com/MathieuB1/KOREK/blob/master/django-rest-swagger/myapp/korek/fixtures/tags.json"
+        ],
+        "conf": [
+            "https://github.com/MathieuB1/KOREK/blob/master/database/postgresql.conf",
+            "https://github.com/MathieuB1/KOREK/blob/master/nginx/app.conf",
+            "https://github.com/MathieuB1/KOREK/blob/master/nginx/default.conf",
+            "https://github.com/MathieuB1/KOREK/blob/master/nginx/nginx.conf",
+            "https://github.com/MathieuB1/KOREK/blob/master/nginx/ssl_conf/options-ssl-nginx.conf",
+            "https://github.com/MathieuB1/KOREK/blob/master/monitoring/influxdb/influxdb.conf"
+        ]
+    }
+}

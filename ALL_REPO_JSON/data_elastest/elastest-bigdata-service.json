@@ -1,0 +1,41 @@
+{
+    "id": "elastest/elastest-bigdata-service",
+    "repo_link": "https://github.com/elastest/elastest-bigdata-service",
+    "file_extensions": [
+        ".yaml",
+        ".json",
+        ".yml",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/elastest/elastest-bigdata-service/blob/master/docker-compose.yml"
+        ],
+        "yaml": [
+            "https://github.com/elastest/elastest-bigdata-service/blob/master/api.yaml"
+        ],
+        "json": [
+            "https://github.com/elastest/elastest-bigdata-service/blob/master/elastestservice.json",
+            "https://github.com/elastest/elastest-bigdata-service/blob/master/rest-api/api.json",
+            "https://github.com/elastest/elastest-bigdata-service/blob/master/rest-api/cover/status.json"
+        ],
+        "conf": [
+            "https://github.com/elastest/elastest-bigdata-service/blob/master/rest-api/logging.conf",
+            "https://github.com/elastest/elastest-bigdata-service/blob/master/spark/slave.conf",
+            "https://github.com/elastest/elastest-bigdata-service/blob/master/spark/master.conf",
+            "https://github.com/elastest/elastest-bigdata-service/blob/master/spark/spark_conf/spark-defaults.conf"
+        ]
+    }
+}

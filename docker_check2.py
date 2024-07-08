@@ -79,9 +79,12 @@ def find_docker_compose(root_dir):
         for file in files:
             if 'docker-compose.yml' in file:
                 working_dockerfiles.append(file)
-    
     print(working_dockerfiles)
-    return working_dockerfiles
+    if working_dockerfiles:
+        final_eval = check_docker_compose_files()
+        return final_eval
+    else:
+        return 0
 
 def check_docker_compose_files():
     global working_dockerfiles
@@ -101,20 +104,8 @@ def check_docker_compose_files():
     else:
         return 0
 
-def main():
+def docker_main(repo_dir):
     global result
-    open_csv_file()
-    while links_dict:
-        key, value = fetch_new_url()
-        repo_dir = clone_repo(key)
-        if repo_dir:
-            find_docker_compose(repo_dir)
-            if working_dockerfiles:
-                final_eval = check_docker_compose_files()
-                write_csv_file(key, value, final_eval)
-                delete_repo(repo_dir)
+    result = find_docker_compose(repo_dir)
+    return result 
 
-
-
-
-main()

@@ -1,0 +1,61 @@
+{
+    "id": "RADAR-base/RADAR-Rest-Source-Auth",
+    "repo_link": "https://github.com/RADAR-base/RADAR-Rest-Source-Auth",
+    "file_extensions": [
+        ".yml",
+        ".conf",
+        ".json",
+        ".yaml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/RADAR-base/RADAR-Rest-Source-Auth/blob/master/docker-compose.yml",
+            "https://github.com/RADAR-base/RADAR-Rest-Source-Auth/blob/master/docker/etc/rest-source-authorizer/authorizer.yml",
+            "https://github.com/RADAR-base/RADAR-Rest-Source-Auth/blob/master/authorizer-app-backend/docker-compose.yml",
+            "https://github.com/RADAR-base/RADAR-Rest-Source-Auth/blob/master/authorizer-app-backend/authorizer.yml",
+            "https://github.com/RADAR-base/RADAR-Rest-Source-Auth/blob/master/.github/dependabot.yml",
+            "https://github.com/RADAR-base/RADAR-Rest-Source-Auth/blob/master/.github/workflows/release.yml",
+            "https://github.com/RADAR-base/RADAR-Rest-Source-Auth/blob/master/.github/workflows/main.yml"
+        ],
+        "yaml": [
+            "https://github.com/RADAR-base/RADAR-Rest-Source-Auth/blob/master/.github/workflows/scheduled-snyk.yaml",
+            "https://github.com/RADAR-base/RADAR-Rest-Source-Auth/blob/master/.github/workflows/snyk.yaml"
+        ],
+        "json": [
+            "https://github.com/RADAR-base/RADAR-Rest-Source-Auth/blob/master/authorizer-app/tsconfig.app.json",
+            "https://github.com/RADAR-base/RADAR-Rest-Source-Auth/blob/master/authorizer-app/angular.json",
+            "https://github.com/RADAR-base/RADAR-Rest-Source-Auth/blob/master/authorizer-app/package.json",
+            "https://github.com/RADAR-base/RADAR-Rest-Source-Auth/blob/master/authorizer-app/tsconfig.json",
+            "https://github.com/RADAR-base/RADAR-Rest-Source-Auth/blob/master/authorizer-app/proxy.conf.json",
+            "https://github.com/RADAR-base/RADAR-Rest-Source-Auth/blob/master/authorizer-app/src/assets/i18n/nl.json",
+            "https://github.com/RADAR-base/RADAR-Rest-Source-Auth/blob/master/authorizer-app/src/assets/i18n/en.json",
+            "https://github.com/RADAR-base/RADAR-Rest-Source-Auth/blob/master/authorizer-app/src/assets/i18n/en-US.json",
+            "https://github.com/RADAR-base/RADAR-Rest-Source-Auth/blob/master/authorizer-app/src/assets/i18n/auth/nl.json",
+            "https://github.com/RADAR-base/RADAR-Rest-Source-Auth/blob/master/authorizer-app/src/assets/i18n/auth/en.json",
+            "https://github.com/RADAR-base/RADAR-Rest-Source-Auth/blob/master/authorizer-app/src/assets/i18n/auth/en-US.json",
+            "https://github.com/RADAR-base/RADAR-Rest-Source-Auth/blob/master/authorizer-app/src/assets/i18n/admin/nl.json",
+            "https://github.com/RADAR-base/RADAR-Rest-Source-Auth/blob/master/authorizer-app/src/assets/i18n/admin/en.json",
+            "https://github.com/RADAR-base/RADAR-Rest-Source-Auth/blob/master/authorizer-app/src/assets/i18n/admin/en-US.json",
+            "https://github.com/RADAR-base/RADAR-Rest-Source-Auth/blob/master/authorizer-app/src/assets/i18n/shared/nl.json",
+            "https://github.com/RADAR-base/RADAR-Rest-Source-Auth/blob/master/authorizer-app/src/assets/i18n/shared/en.json",
+            "https://github.com/RADAR-base/RADAR-Rest-Source-Auth/blob/master/authorizer-app/src/assets/i18n/shared/en-US.json"
+        ],
+        "conf": [
+            "https://github.com/RADAR-base/RADAR-Rest-Source-Auth/blob/master/docker/etc/webserver/nginx-proxy.conf",
+            "https://github.com/RADAR-base/RADAR-Rest-Source-Auth/blob/master/authorizer-app/docker/optimization.conf",
+            "https://github.com/RADAR-base/RADAR-Rest-Source-Auth/blob/master/authorizer-app/docker/default.conf"
+        ]
+    }
+}

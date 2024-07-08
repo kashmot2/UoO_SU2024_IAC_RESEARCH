@@ -1,0 +1,56 @@
+{
+    "id": "bbc/cloud-sync",
+    "repo_link": "https://github.com/bbc/cloud-sync",
+    "file_extensions": [
+        ".yml",
+        ".json",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/bbc/cloud-sync/blob/master/docker-compose-wallclock.yml",
+            "https://github.com/bbc/cloud-sync/blob/master/docker-compose-local.yml",
+            "https://github.com/bbc/cloud-sync/blob/master/docker-compose.yml"
+        ],
+        "json": [
+            "https://github.com/bbc/cloud-sync/blob/master/package.json",
+            "https://github.com/bbc/cloud-sync/blob/master/secure-wallclock-service/package.json",
+            "https://github.com/bbc/cloud-sync/blob/master/secure-wallclock-service/config/wallclock-service.json",
+            "https://github.com/bbc/cloud-sync/blob/master/wallclock-service/package.json",
+            "https://github.com/bbc/cloud-sync/blob/master/wallclock-service/examples/client-browser/package.json",
+            "https://github.com/bbc/cloud-sync/blob/master/consul/consul.json",
+            "https://github.com/bbc/cloud-sync/blob/master/examples/load-test-monitor/webapp/package.json",
+            "https://github.com/bbc/cloud-sync/blob/master/examples/load-test-monitor/server/package.json",
+            "https://github.com/bbc/cloud-sync/blob/master/examples/load-test-monitor/server/src/message.json",
+            "https://github.com/bbc/cloud-sync/blob/master/examples/messagingadapter/package.json",
+            "https://github.com/bbc/cloud-sync/blob/master/examples/mqtt-browser-client/package.json",
+            "https://github.com/bbc/cloud-sync/blob/master/examples/node-test-client/package.json",
+            "https://github.com/bbc/cloud-sync/blob/master/examples/node-test-client/config/auxplan.json",
+            "https://github.com/bbc/cloud-sync/blob/master/examples/node-test-client/config/masterplan.json",
+            "https://github.com/bbc/cloud-sync/blob/master/examples/synchronisedvideo/package.json",
+            "https://github.com/bbc/cloud-sync/blob/master/.vscode/launch.json",
+            "https://github.com/bbc/cloud-sync/blob/master/src/package.json",
+            "https://github.com/bbc/cloud-sync/blob/master/src/statscontroller/package.json",
+            "https://github.com/bbc/cloud-sync/blob/master/src/sessioncontroller/package.json",
+            "https://github.com/bbc/cloud-sync/blob/master/src/synccontroller/package.json"
+        ],
+        "conf": [
+            "https://github.com/bbc/cloud-sync/blob/master/mosquitto/config/mosquitto.conf",
+            "https://github.com/bbc/cloud-sync/blob/master/telegraf/cloud-sync.conf",
+            "https://github.com/bbc/cloud-sync/blob/master/telegraf/wallclock.conf",
+            "https://github.com/bbc/cloud-sync/blob/master/redis/redis.conf",
+            "https://github.com/bbc/cloud-sync/blob/master/examples/load-test-monitor/mosquitto/mosquitto.conf"
+        ]
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "id": "mozilla-bteam/bmo",
+    "repo_link": "https://github.com/mozilla-bteam/bmo",
+    "file_extensions": [
+        ".json",
+        ".yml",
+        ".yaml",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/mozilla-bteam/bmo/blob/master/docker-compose.yml",
+            "https://github.com/mozilla-bteam/bmo/blob/master/docker-compose.test.yml",
+            "https://github.com/mozilla-bteam/bmo/blob/master/.github/workflows/deploy.yml",
+            "https://github.com/mozilla-bteam/bmo/blob/master/.github/workflows/ci.yml",
+            "https://github.com/mozilla-bteam/bmo/blob/master/.circleci/config.yml"
+        ],
+        "yaml": [
+            "https://github.com/mozilla-bteam/bmo/blob/master/.readthedocs.yaml"
+        ],
+        "json": [
+            "https://github.com/mozilla-bteam/bmo/blob/master/contribute.json",
+            "https://github.com/mozilla-bteam/bmo/blob/master/.vscode/settings.json",
+            "https://github.com/mozilla-bteam/bmo/blob/master/.vscode/tasks.json"
+        ],
+        "conf": [
+            "https://github.com/mozilla-bteam/bmo/blob/master/qa/config/selenium_test.conf",
+            "https://github.com/mozilla-bteam/bmo/blob/master/conf/log4perl-json.conf",
+            "https://github.com/mozilla-bteam/bmo/blob/master/conf/log4perl-syslog.conf",
+            "https://github.com/mozilla-bteam/bmo/blob/master/conf/log4perl-suite.conf",
+            "https://github.com/mozilla-bteam/bmo/blob/master/conf/log4perl-morbo.conf",
+            "https://github.com/mozilla-bteam/bmo/blob/master/conf/log4perl-test.conf",
+            "https://github.com/mozilla-bteam/bmo/blob/master/conf/log4perl-docker.conf",
+            "https://github.com/mozilla-bteam/bmo/blob/master/conf/log4perl-t.conf"
+        ]
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "id": "kecorbin/pyosupgrade",
+    "repo_link": "https://github.com/kecorbin/pyosupgrade",
+    "file_extensions": [
+        ".yaml",
+        ".yml",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "GOOG",
+        "ANS",
+        "PUP",
+        "DOC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/kecorbin/pyosupgrade/blob/master/docker-compose.yml"
+        ],
+        "yaml": [
+            "https://github.com/kecorbin/pyosupgrade/blob/master/images.yaml",
+            "https://github.com/kecorbin/pyosupgrade/blob/master/regions.yaml"
+        ],
+        "conf": [
+            "https://github.com/kecorbin/pyosupgrade/blob/master/nginx/conf.d/upgrade.conf",
+            "https://github.com/kecorbin/pyosupgrade/blob/master/nginx/conf.d/flower.conf",
+            "https://github.com/kecorbin/pyosupgrade/blob/master/nginx/conf.d/https_redirect.conf"
+        ]
+    }
+}

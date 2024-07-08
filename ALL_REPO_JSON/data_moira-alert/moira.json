@@ -1,0 +1,50 @@
+{
+    "id": "moira-alert/moira",
+    "repo_link": "https://github.com/moira-alert/moira",
+    "file_extensions": [
+        ".yml",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "ANS",
+        "PUP",
+        "DOC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/moira-alert/moira/blob/master/.golangci.yml",
+            "https://github.com/moira-alert/moira/blob/master/docker-compose.yml",
+            "https://github.com/moira-alert/moira/blob/master/local/api.yml",
+            "https://github.com/moira-alert/moira/blob/master/local/notifier.yml",
+            "https://github.com/moira-alert/moira/blob/master/local/filter.yml",
+            "https://github.com/moira-alert/moira/blob/master/local/checker.yml",
+            "https://github.com/moira-alert/moira/blob/master/local/cli.yml",
+            "https://github.com/moira-alert/moira/blob/master/local/prometheus.yml",
+            "https://github.com/moira-alert/moira/blob/master/.github/workflows/codeql-analysis.yml",
+            "https://github.com/moira-alert/moira/blob/master/.github/workflows/lint.yml",
+            "https://github.com/moira-alert/moira/blob/master/.github/workflows/docker-release.yml",
+            "https://github.com/moira-alert/moira/blob/master/.github/workflows/test.yml",
+            "https://github.com/moira-alert/moira/blob/master/.github/workflows/swagger-publish.yml",
+            "https://github.com/moira-alert/moira/blob/master/.github/workflows/docker-nightly.yml",
+            "https://github.com/moira-alert/moira/blob/master/.github/workflows/publish-packages.yml",
+            "https://github.com/moira-alert/moira/blob/master/.github/workflows/swagger-delete.yml",
+            "https://github.com/moira-alert/moira/blob/master/.github/workflows/cleanup-feature.yml",
+            "https://github.com/moira-alert/moira/blob/master/.github/workflows/swagger-validate.yml",
+            "https://github.com/moira-alert/moira/blob/master/.github/workflows/docker-feature.yml",
+            "https://github.com/moira-alert/moira/blob/master/pkg/notifier/notifier.yml",
+            "https://github.com/moira-alert/moira/blob/master/pkg/checker/checker.yml",
+            "https://github.com/moira-alert/moira/blob/master/pkg/cli/cli.yml",
+            "https://github.com/moira-alert/moira/blob/master/pkg/api/api.yml",
+            "https://github.com/moira-alert/moira/blob/master/pkg/filter/filter.yml"
+        ],
+        "conf": [
+            "https://github.com/moira-alert/moira/blob/master/local/relay.conf",
+            "https://github.com/moira-alert/moira/blob/master/local/nginx.conf",
+            "https://github.com/moira-alert/moira/blob/master/pkg/filter/storage-schemas.conf"
+        ]
+    }
+}

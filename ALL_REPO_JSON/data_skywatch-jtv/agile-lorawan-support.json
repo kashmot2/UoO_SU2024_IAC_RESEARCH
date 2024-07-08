@@ -1,0 +1,28 @@
+{
+    "id": "skywatch-jtv/agile-lorawan-support",
+    "repo_link": "https://github.com/skywatch-jtv/agile-lorawan-support",
+    "file_extensions": [
+        ".yml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/skywatch-jtv/agile-lorawan-support/blob/master/docker-compose.yml"
+        ],
+        "json": [
+            "https://github.com/skywatch-jtv/agile-lorawan-support/blob/master/packet-forwarder/local_conf_template.json",
+            "https://github.com/skywatch-jtv/agile-lorawan-support/blob/master/backup_app/.vscode/launch.json",
+            "https://github.com/skywatch-jtv/agile-lorawan-support/blob/master/backup_app/.vscode/tasks.json"
+        ]
+    }
+}

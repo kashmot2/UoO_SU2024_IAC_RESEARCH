@@ -1,0 +1,63 @@
+{
+    "id": "sandialabs/scot",
+    "repo_link": "https://github.com/sandialabs/scot",
+    "file_extensions": [
+        ".yml",
+        ".conf",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/sandialabs/scot/blob/master/docker-compose-custom.yml",
+            "https://github.com/sandialabs/scot/blob/master/docker-compose-perl.yml",
+            "https://github.com/sandialabs/scot/blob/master/.gitlab-ci-dockerhub.yml",
+            "https://github.com/sandialabs/scot/blob/master/docker-compose.yml",
+            "https://github.com/sandialabs/scot/blob/master/.travis.yml",
+            "https://github.com/sandialabs/scot/blob/master/docker-configs/elastic/elasticsearch.yml",
+            "https://github.com/sandialabs/scot/blob/master/etc/elasticsearch.yml",
+            "https://github.com/sandialabs/scot/blob/master/public/libs/sigma.js-1.2.0/.travis.yml",
+            "https://github.com/sandialabs/scot/blob/master/scot-ui/public/libs/sigma.js-1.2.0/.travis.yml"
+        ],
+        "json": [
+            "https://github.com/sandialabs/scot/blob/master/public/asset-manifest.json",
+            "https://github.com/sandialabs/scot/blob/master/public/manifest.json",
+            "https://github.com/sandialabs/scot/blob/master/public/libs/sigma.js-1.2.0/package.json",
+            "https://github.com/sandialabs/scot/blob/master/public/libs/sigma.js-1.2.0/examples/data/arctic.json",
+            "https://github.com/sandialabs/scot/blob/master/public/libs/sigma.js-1.2.0/examples/data/geolocalized.json",
+            "https://github.com/sandialabs/scot/blob/master/lib/apidoc.json",
+            "https://github.com/sandialabs/scot/blob/master/scot-ui/package.json",
+            "https://github.com/sandialabs/scot/blob/master/scot-ui/public/manifest.json",
+            "https://github.com/sandialabs/scot/blob/master/scot-ui/public/libs/sigma.js-1.2.0/package.json",
+            "https://github.com/sandialabs/scot/blob/master/scot-ui/public/libs/sigma.js-1.2.0/examples/data/arctic.json",
+            "https://github.com/sandialabs/scot/blob/master/scot-ui/public/libs/sigma.js-1.2.0/examples/data/geolocalized.json"
+        ],
+        "conf": [
+            "https://github.com/sandialabs/scot/blob/master/install/src/mongodb/init-mongod.conf",
+            "https://github.com/sandialabs/scot/blob/master/install/src/mongodb/mongod.conf",
+            "https://github.com/sandialabs/scot/blob/master/install/src/apache2/scot-revproxy-rh-7-remoteuser.conf",
+            "https://github.com/sandialabs/scot/blob/master/install/src/apache2/scot-revproxy-Ubuntu-Local.conf",
+            "https://github.com/sandialabs/scot/blob/master/install/src/apache2/scot-revproxy-CentOS-Local.conf",
+            "https://github.com/sandialabs/scot/blob/master/install/src/apache2/scot-revproxy-Ubuntu-Remoteuser.conf",
+            "https://github.com/sandialabs/scot/blob/master/install/src/apache2/scot-revproxy-rh-aux.conf",
+            "https://github.com/sandialabs/scot/blob/master/install/src/apache2/scot-revproxy-CentOS-Remoteuser.conf",
+            "https://github.com/sandialabs/scot/blob/master/install/src/apache2/scot-revproxy-rh-7-aux.conf",
+            "https://github.com/sandialabs/scot/blob/master/install/src/apache2/scot-revproxy-CentOS.conf",
+            "https://github.com/sandialabs/scot/blob/master/install/src/apache2/scot-revproxy-local.conf",
+            "https://github.com/sandialabs/scot/blob/master/install/src/apache2/scot-revproxy-Ubuntu.conf",
+            "https://github.com/sandialabs/scot/blob/master/docker-configs/mongodb/mongod.conf",
+            "https://github.com/sandialabs/scot/blob/master/docker-configs/apache/scot-revproxy-Ubuntu.conf",
+            "https://github.com/sandialabs/scot/blob/master/etc/log.conf"
+        ]
+    }
+}

@@ -1,0 +1,83 @@
+{
+    "id": "ienoobong/mmadu",
+    "repo_link": "https://github.com/ienoobong/mmadu",
+    "file_extensions": [
+        ".yml",
+        ".json",
+        ".vm",
+        ".rb"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "CH",
+        "VAG",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/ienoobong/mmadu/blob/master/.travis.yml",
+            "https://github.com/ienoobong/mmadu/blob/master/docker/prod/docker-compose.yml",
+            "https://github.com/ienoobong/mmadu/blob/master/mmadu-registration/src/test/resources/application.yml",
+            "https://github.com/ienoobong/mmadu/blob/master/mmadu-registration/src/test/resources/application-populated.yml",
+            "https://github.com/ienoobong/mmadu/blob/master/mmadu-registration/src/main/resources/application-test_heroku.yml",
+            "https://github.com/ienoobong/mmadu/blob/master/mmadu-registration/src/main/resources/application-prod.yml",
+            "https://github.com/ienoobong/mmadu/blob/master/mmadu-registration/src/main/resources/application-dev.yml",
+            "https://github.com/ienoobong/mmadu/blob/master/mmadu-registration/src/main/resources/application.yml",
+            "https://github.com/ienoobong/mmadu/blob/master/docs/_config.yml",
+            "https://github.com/ienoobong/mmadu/blob/master/docs/_data/guides.yml",
+            "https://github.com/ienoobong/mmadu/blob/master/docs/_data/references.yml",
+            "https://github.com/ienoobong/mmadu/blob/master/samples/java/authorization-springboot/src/main/resources/application.yml",
+            "https://github.com/ienoobong/mmadu/blob/master/mmadu-identity/src/test/resources/application.yml",
+            "https://github.com/ienoobong/mmadu/blob/master/mmadu-identity/src/test/resources/application-populated.yml",
+            "https://github.com/ienoobong/mmadu/blob/master/mmadu-identity/src/main/resources/application-test_heroku.yml",
+            "https://github.com/ienoobong/mmadu/blob/master/mmadu-identity/src/main/resources/application-prod.yml",
+            "https://github.com/ienoobong/mmadu/blob/master/mmadu-identity/src/main/resources/application-dev.yml",
+            "https://github.com/ienoobong/mmadu/blob/master/mmadu-identity/src/main/resources/application.yml",
+            "https://github.com/ienoobong/mmadu/blob/master/mmadu-user-service/src/test/resources/application-IT.yml",
+            "https://github.com/ienoobong/mmadu/blob/master/mmadu-user-service/src/test/resources/application.yml",
+            "https://github.com/ienoobong/mmadu/blob/master/mmadu-user-service/src/test/resources/domains.yml",
+            "https://github.com/ienoobong/mmadu/blob/master/mmadu-user-service/src/test/resources/application-populated.yml",
+            "https://github.com/ienoobong/mmadu/blob/master/mmadu-user-service/src/main/resources/application-test_heroku.yml",
+            "https://github.com/ienoobong/mmadu/blob/master/mmadu-user-service/src/main/resources/application-prod.yml",
+            "https://github.com/ienoobong/mmadu/blob/master/mmadu-user-service/src/main/resources/application-dev.yml",
+            "https://github.com/ienoobong/mmadu/blob/master/mmadu-user-service/src/main/resources/application.yml"
+        ],
+        "json": [
+            "https://github.com/ienoobong/mmadu/blob/master/mmadu-registration/src/test/resources/responses/client-credentials-token.json",
+            "https://github.com/ienoobong/mmadu/blob/master/mmadu-registration/src/test/resources/requests/domains/sample.json",
+            "https://github.com/ienoobong/mmadu/blob/master/mmadu-registration/src/test/resources/keys/key-data.json",
+            "https://github.com/ienoobong/mmadu/blob/master/mmadu-registration/src/test/resources/claims/claim_template.json",
+            "https://github.com/ienoobong/mmadu/blob/master/common/security-utils/src/test/resources/keys/jwt/key-data.json",
+            "https://github.com/ienoobong/mmadu/blob/master/common/security-utils/src/test/resources/claims/sample-claim.json",
+            "https://github.com/ienoobong/mmadu/blob/master/common/theme-utils/package-lock.json",
+            "https://github.com/ienoobong/mmadu/blob/master/common/theme-utils/package.json",
+            "https://github.com/ienoobong/mmadu/blob/master/mmadu-identity/src/test/resources/domains/sample.json",
+            "https://github.com/ienoobong/mmadu/blob/master/mmadu-identity/src/test/resources/responses/get-domain-by-id.json",
+            "https://github.com/ienoobong/mmadu/blob/master/mmadu-identity/src/test/resources/responses/user-authentication-response.json",
+            "https://github.com/ienoobong/mmadu/blob/master/mmadu-identity/src/test/resources/responses/get-user-by-username-and-domain.json",
+            "https://github.com/ienoobong/mmadu/blob/master/mmadu-identity/src/test/resources/responses/user-authentication-username-invalid.json",
+            "https://github.com/ienoobong/mmadu/blob/master/mmadu-identity/src/test/resources/responses/client-credentials-token.json",
+            "https://github.com/ienoobong/mmadu/blob/master/mmadu-identity/src/test/resources/responses/user-authentication-password-invalid.json",
+            "https://github.com/ienoobong/mmadu/blob/master/mmadu-identity/src/test/resources/requests/user-authentication-request.json",
+            "https://github.com/ienoobong/mmadu/blob/master/mmadu-identity/src/test/resources/keys/key-data.json",
+            "https://github.com/ienoobong/mmadu/blob/master/mmadu-identity/src/test/resources/claims/authentication-code-grant-access-token-claims.json",
+            "https://github.com/ienoobong/mmadu/blob/master/mmadu-identity/src/test/resources/claims/lasting-token-claim.json",
+            "https://github.com/ienoobong/mmadu/blob/master/mmadu-user-service/src/test/resources/domains/sample.json",
+            "https://github.com/ienoobong/mmadu/blob/master/mmadu-user-service/src/test/resources/keys/key-data.json",
+            "https://github.com/ienoobong/mmadu/blob/master/mmadu-user-service/src/test/resources/claims/claim_template.json"
+        ],
+        "ruby": [
+            "https://github.com/ienoobong/mmadu/blob/master/docs/_plugins/jekyll-ext.rb"
+        ],
+        "vm": [
+            "https://github.com/ienoobong/mmadu/blob/master/mmadu-registration/src/test/resources/templates/sample-template.vm",
+            "https://github.com/ienoobong/mmadu/blob/master/mmadu-registration/src/main/resources/vm/form-fields.vm"
+        ]
+    }
+}

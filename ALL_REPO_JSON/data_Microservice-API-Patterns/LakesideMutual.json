@@ -1,0 +1,67 @@
+{
+    "id": "Microservice-API-Patterns/LakesideMutual",
+    "repo_link": "https://github.com/Microservice-API-Patterns/LakesideMutual",
+    "file_extensions": [
+        ".yml",
+        ".conf",
+        ".json",
+        ".yaml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/Microservice-API-Patterns/LakesideMutual/blob/master/docker-compose-eureka.yml",
+            "https://github.com/Microservice-API-Patterns/LakesideMutual/blob/master/docker-compose.yml",
+            "https://github.com/Microservice-API-Patterns/LakesideMutual/blob/master/customer-core/nginx-loadbalancing/docker-compose.yml",
+            "https://github.com/Microservice-API-Patterns/LakesideMutual/blob/master/kubernetes/docker-compose.yml"
+        ],
+        "yaml": [
+            "https://github.com/Microservice-API-Patterns/LakesideMutual/blob/master/kubernetes/manifests/customer-self-service-backend.yaml",
+            "https://github.com/Microservice-API-Patterns/LakesideMutual/blob/master/kubernetes/manifests/policy-management-backend.yaml",
+            "https://github.com/Microservice-API-Patterns/LakesideMutual/blob/master/kubernetes/manifests/customer-self-service-frontend.yaml",
+            "https://github.com/Microservice-API-Patterns/LakesideMutual/blob/master/kubernetes/manifests/policy-management-frontend.yaml",
+            "https://github.com/Microservice-API-Patterns/LakesideMutual/blob/master/kubernetes/manifests/risk-management-server.yaml",
+            "https://github.com/Microservice-API-Patterns/LakesideMutual/blob/master/kubernetes/manifests/customer-management-backend.yaml",
+            "https://github.com/Microservice-API-Patterns/LakesideMutual/blob/master/kubernetes/manifests/spring-boot-admin.yaml",
+            "https://github.com/Microservice-API-Patterns/LakesideMutual/blob/master/kubernetes/manifests/customer-management-frontend.yaml",
+            "https://github.com/Microservice-API-Patterns/LakesideMutual/blob/master/kubernetes/manifests/customer-core.yaml"
+        ],
+        "json": [
+            "https://github.com/Microservice-API-Patterns/LakesideMutual/blob/master/customer-self-service-frontend/package-lock.json",
+            "https://github.com/Microservice-API-Patterns/LakesideMutual/blob/master/customer-self-service-frontend/package.json",
+            "https://github.com/Microservice-API-Patterns/LakesideMutual/blob/master/customer-self-service-frontend/.vscode/settings.json",
+            "https://github.com/Microservice-API-Patterns/LakesideMutual/blob/master/risk-management-server/config.json",
+            "https://github.com/Microservice-API-Patterns/LakesideMutual/blob/master/risk-management-server/package-lock.json",
+            "https://github.com/Microservice-API-Patterns/LakesideMutual/blob/master/risk-management-server/package.json",
+            "https://github.com/Microservice-API-Patterns/LakesideMutual/blob/master/risk-management-server/.vscode/settings.json",
+            "https://github.com/Microservice-API-Patterns/LakesideMutual/blob/master/risk-management-server/data/initial-data.json",
+            "https://github.com/Microservice-API-Patterns/LakesideMutual/blob/master/policy-management-frontend/.prettierrc.json",
+            "https://github.com/Microservice-API-Patterns/LakesideMutual/blob/master/policy-management-frontend/package-lock.json",
+            "https://github.com/Microservice-API-Patterns/LakesideMutual/blob/master/policy-management-frontend/package.json",
+            "https://github.com/Microservice-API-Patterns/LakesideMutual/blob/master/risk-management-client/config.json",
+            "https://github.com/Microservice-API-Patterns/LakesideMutual/blob/master/risk-management-client/package-lock.json",
+            "https://github.com/Microservice-API-Patterns/LakesideMutual/blob/master/risk-management-client/package.json",
+            "https://github.com/Microservice-API-Patterns/LakesideMutual/blob/master/risk-management-client/.vscode/settings.json",
+            "https://github.com/Microservice-API-Patterns/LakesideMutual/blob/master/customer-management-frontend/package-lock.json",
+            "https://github.com/Microservice-API-Patterns/LakesideMutual/blob/master/customer-management-frontend/package.json",
+            "https://github.com/Microservice-API-Patterns/LakesideMutual/blob/master/customer-management-frontend/.vscode/settings.json"
+        ],
+        "conf": [
+            "https://github.com/Microservice-API-Patterns/LakesideMutual/blob/master/customer-self-service-frontend/nginx.vh.default.conf",
+            "https://github.com/Microservice-API-Patterns/LakesideMutual/blob/master/policy-management-frontend/nginx.vh.default.conf",
+            "https://github.com/Microservice-API-Patterns/LakesideMutual/blob/master/customer-core/nginx-loadbalancing/nginx/nginx.conf",
+            "https://github.com/Microservice-API-Patterns/LakesideMutual/blob/master/customer-management-frontend/nginx.vh.default.conf"
+        ]
+    }
+}

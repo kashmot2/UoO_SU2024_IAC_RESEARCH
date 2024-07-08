@@ -1,0 +1,29 @@
+{
+    "id": "linianhui/oidc.example",
+    "repo_link": "https://github.com/linianhui/oidc.example",
+    "file_extensions": [
+        ".yml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/linianhui/oidc.example/blob/master/docker-compose.yml",
+            "https://github.com/linianhui/oidc.example/blob/master/.github/workflows/dotnet.yml",
+            "https://github.com/linianhui/oidc.example/blob/master/src/web.oauth2.resources.java/src/main/resources/application.yml"
+        ],
+        "json": [
+            "https://github.com/linianhui/oidc.example/blob/master/src/web.oauth2.resources.nodejs/package-lock.json",
+            "https://github.com/linianhui/oidc.example/blob/master/src/web.oauth2.resources.nodejs/package.json"
+        ]
+    }
+}

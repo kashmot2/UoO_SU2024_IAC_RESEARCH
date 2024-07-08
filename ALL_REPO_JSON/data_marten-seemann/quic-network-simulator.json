@@ -1,0 +1,22 @@
+{
+    "id": "marten-seemann/quic-network-simulator",
+    "repo_link": "https://github.com/marten-seemann/quic-network-simulator",
+    "file_extensions": [
+        ".yml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "ANS",
+        "DOC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/marten-seemann/quic-network-simulator/blob/master/docker-compose.yml",
+            "https://github.com/marten-seemann/quic-network-simulator/blob/master/.github/dependabot.yml",
+            "https://github.com/marten-seemann/quic-network-simulator/blob/master/.github/workflows/build-docker-images.yml"
+        ]
+    }
+}

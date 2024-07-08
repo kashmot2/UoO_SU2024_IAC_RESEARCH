@@ -1,0 +1,49 @@
+{
+    "id": "daggerok/streaming-file-server",
+    "repo_link": "https://github.com/daggerok/streaming-file-server",
+    "file_extensions": [
+        ".yml",
+        ".conf",
+        ".yaml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "GOOG",
+        "ANS",
+        "PUP",
+        "DOC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/daggerok/streaming-file-server/blob/master/.travis.yml",
+            "https://github.com/daggerok/streaming-file-server/blob/master/.github/workflows/release.yml",
+            "https://github.com/daggerok/streaming-file-server/blob/master/.github/workflows/pages.yml",
+            "https://github.com/daggerok/streaming-file-server/blob/master/.github/workflows/tests.yml",
+            "https://github.com/daggerok/streaming-file-server/blob/master/.github/workflows/pre-release.yml",
+            "https://github.com/daggerok/streaming-file-server/blob/master/modules/docker/all/docker-compose-haproxy.yml",
+            "https://github.com/daggerok/streaming-file-server/blob/master/modules/docker/all/docker-compose-nginx.yml",
+            "https://github.com/daggerok/streaming-file-server/blob/master/modules/docker/all/docker-compose-haproxy-dev.yml",
+            "https://github.com/daggerok/streaming-file-server/blob/master/modules/docker/all/docker-compose.yml",
+            "https://github.com/daggerok/streaming-file-server/blob/master/modules/docker/all/docker-compose-nginx-dev.yml",
+            "https://github.com/daggerok/streaming-file-server/blob/master/modules/docker/postgres/docker-compose.yml",
+            "https://github.com/daggerok/streaming-file-server/blob/master/modules/libraries/props/src/test/resources/application-file-items-rest-service-props.yml",
+            "https://github.com/daggerok/streaming-file-server/blob/master/modules/libraries/props/src/test/resources/application-app-props.yml",
+            "https://github.com/daggerok/streaming-file-server/blob/master/modules/libraries/props/src/test/resources/application-db-props.yml",
+            "https://github.com/daggerok/streaming-file-server/blob/master/modules/apps/file-server/src/main/resources/application-file-orig.yml",
+            "https://github.com/daggerok/streaming-file-server/blob/master/modules/apps/file-server/src/main/resources/application.yml",
+            "https://github.com/daggerok/streaming-file-server/blob/master/modules/apps/file-items-service/src/main/resources/application-db-pg.yml",
+            "https://github.com/daggerok/streaming-file-server/blob/master/modules/apps/file-items-service/src/main/resources/application.yml",
+            "https://github.com/daggerok/streaming-file-server/blob/master/modules/apps/file-items-service/src/main/resources/application-db-h2.yml"
+        ],
+        "yaml": [
+            "https://github.com/daggerok/streaming-file-server/blob/master/modules/libraries/props/src/test/resources/application.yaml",
+            "https://github.com/daggerok/streaming-file-server/blob/master/modules/libraries/web-security/src/test/resources/application.yaml"
+        ],
+        "conf": [
+            "https://github.com/daggerok/streaming-file-server/blob/master/modules/docker/all/nginx/default.conf"
+        ]
+    }
+}

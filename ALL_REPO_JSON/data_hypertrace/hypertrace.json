@@ -1,0 +1,60 @@
+{
+    "id": "hypertrace/hypertrace",
+    "repo_link": "https://github.com/hypertrace/hypertrace",
+    "file_extensions": [
+        ".yml",
+        ".json",
+        ".yaml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/hypertrace/hypertrace/blob/master/docker/docker-compose.prometheus.yml",
+            "https://github.com/hypertrace/hypertrace/blob/master/docker/docker-compose.alerting.yml",
+            "https://github.com/hypertrace/hypertrace/blob/master/docker/docker-compose.postgres.yml",
+            "https://github.com/hypertrace/hypertrace/blob/master/docker/docker-compose-zipkin-example.yml",
+            "https://github.com/hypertrace/hypertrace/blob/master/docker/prom.yml",
+            "https://github.com/hypertrace/hypertrace/blob/master/docker/docker-compose.yml",
+            "https://github.com/hypertrace/hypertrace/blob/master/docker/misc/docker-compose-tools.yml",
+            "https://github.com/hypertrace/hypertrace/blob/master/.github/workflows/hypertrace-release.yml",
+            "https://github.com/hypertrace/hypertrace/blob/master/.github/workflows/docker-tests.yml",
+            "https://github.com/hypertrace/hypertrace/blob/master/.github/workflows/release-bot.yml",
+            "https://github.com/hypertrace/hypertrace/blob/master/.github/workflows/pull-release.yml"
+        ],
+        "yaml": [
+            "https://github.com/hypertrace/hypertrace/blob/master/kubernetes/clusters/mini/values.yaml",
+            "https://github.com/hypertrace/hypertrace/blob/master/kubernetes/clusters/standard/values.yaml",
+            "https://github.com/hypertrace/hypertrace/blob/master/kubernetes/clusters/dev/values.yaml",
+            "https://github.com/hypertrace/hypertrace/blob/master/kubernetes/data-services/Chart.yaml",
+            "https://github.com/hypertrace/hypertrace/blob/master/kubernetes/data-services/values.yaml",
+            "https://github.com/hypertrace/hypertrace/blob/master/kubernetes/data-services/postgres/values.yaml",
+            "https://github.com/hypertrace/hypertrace/blob/master/kubernetes/data-services/templates/storageclass.yaml",
+            "https://github.com/hypertrace/hypertrace/blob/master/kubernetes/platform-services/Chart.yaml",
+            "https://github.com/hypertrace/hypertrace/blob/master/kubernetes/platform-services/values.yaml",
+            "https://github.com/hypertrace/hypertrace/blob/master/kubernetes/platform-services/postgres/values.yaml"
+        ],
+        "json": [
+            "https://github.com/hypertrace/hypertrace/blob/master/docker/configs/alert-rules.json",
+            "https://github.com/hypertrace/hypertrace/blob/master/docker/configs/notification-rules.json",
+            "https://github.com/hypertrace/hypertrace/blob/master/.github/ui-e2e-tests/package.json",
+            "https://github.com/hypertrace/hypertrace/blob/master/.github/ui-e2e-tests/tsconfig.json",
+            "https://github.com/hypertrace/hypertrace/blob/master/.github/graphql-e2e-tests/src/main/resources/traces/trace-3.json",
+            "https://github.com/hypertrace/hypertrace/blob/master/.github/graphql-e2e-tests/src/main/resources/traces/trace-2.json",
+            "https://github.com/hypertrace/hypertrace/blob/master/.github/graphql-e2e-tests/src/main/resources/traces/trace-4.json",
+            "https://github.com/hypertrace/hypertrace/blob/master/.github/graphql-e2e-tests/src/main/resources/traces/trace-1.json",
+            "https://github.com/hypertrace/hypertrace/blob/master/kubernetes/monitoring/dashboards/002-query-layer-metrics.json",
+            "https://github.com/hypertrace/hypertrace/blob/master/kubernetes/monitoring/dashboards/001-ingestion-pipeline-metrics.json",
+            "https://github.com/hypertrace/hypertrace/blob/master/kubernetes/monitoring/dashboards/000-jvm-metrics.json"
+        ]
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "id": "ealexisaraujo/product-collector",
+    "repo_link": "https://github.com/ealexisaraujo/product-collector",
+    "file_extensions": [
+        ".json",
+        ".yml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/ealexisaraujo/product-collector/blob/master/docker-compose.yml"
+        ],
+        "json": [
+            "https://github.com/ealexisaraujo/product-collector/blob/master/package-lock.json",
+            "https://github.com/ealexisaraujo/product-collector/blob/master/datamanager/package-lock.json",
+            "https://github.com/ealexisaraujo/product-collector/blob/master/datamanager/package.json",
+            "https://github.com/ealexisaraujo/product-collector/blob/master/datamanager/mercadoLibre/error.json",
+            "https://github.com/ealexisaraujo/product-collector/blob/master/datamanager/mercadoLibre/package-lock.json",
+            "https://github.com/ealexisaraujo/product-collector/blob/master/datamanager/mercadoLibre/package.json",
+            "https://github.com/ealexisaraujo/product-collector/blob/master/datamanager/criteria/package-lock.json",
+            "https://github.com/ealexisaraujo/product-collector/blob/master/datamanager/criteria/package.json",
+            "https://github.com/ealexisaraujo/product-collector/blob/master/normalization/jsdoc.json",
+            "https://github.com/ealexisaraujo/product-collector/blob/master/normalization/package-lock.json",
+            "https://github.com/ealexisaraujo/product-collector/blob/master/normalization/package.json",
+            "https://github.com/ealexisaraujo/product-collector/blob/master/normalization/now.json",
+            "https://github.com/ealexisaraujo/product-collector/blob/master/normalization/src/utils/mocks/productSearchCriteria.json",
+            "https://github.com/ealexisaraujo/product-collector/blob/master/normalization/src/utils/mocks/dataToBackendML.json",
+            "https://github.com/ealexisaraujo/product-collector/blob/master/normalization/src/utils/mocks/countriesMock.json",
+            "https://github.com/ealexisaraujo/product-collector/blob/master/normalization/src/utils/mocks/dataFromBackendPCGOOGLE-Large.json",
+            "https://github.com/ealexisaraujo/product-collector/blob/master/normalization/src/utils/mocks/dataFromBackendAMZ.json",
+            "https://github.com/ealexisaraujo/product-collector/blob/master/normalization/src/utils/mocks/internalProductCategories.json",
+            "https://github.com/ealexisaraujo/product-collector/blob/master/normalization/src/utils/mocks/dataToBackendAMZ.json",
+            "https://github.com/ealexisaraujo/product-collector/blob/master/normalization/src/utils/mocks/dataFromBackendML copy 2.json",
+            "https://github.com/ealexisaraujo/product-collector/blob/master/normalization/src/utils/mocks/dataFromBackendML.json",
+            "https://github.com/ealexisaraujo/product-collector/blob/master/normalization/src/utils/mocks/sendDataMock.json",
+            "https://github.com/ealexisaraujo/product-collector/blob/master/normalization/src/utils/mocks/dataFromBackendML copy.json",
+            "https://github.com/ealexisaraujo/product-collector/blob/master/normalization/src/utils/mocks/dataFromBackendPCGOOGLE.json",
+            "https://github.com/ealexisaraujo/product-collector/blob/master/fronted/package-lock.json",
+            "https://github.com/ealexisaraujo/product-collector/blob/master/fronted/package.json",
+            "https://github.com/ealexisaraujo/product-collector/blob/master/fronted/tsconfig.json",
+            "https://github.com/ealexisaraujo/product-collector/blob/master/backend/ApiREST/swagger.json",
+            "https://github.com/ealexisaraujo/product-collector/blob/master/backend/ApiREST/.prettierrc.json",
+            "https://github.com/ealexisaraujo/product-collector/blob/master/backend/ApiREST/package-lock.json",
+            "https://github.com/ealexisaraujo/product-collector/blob/master/backend/ApiREST/package.json",
+            "https://github.com/ealexisaraujo/product-collector/blob/master/backend/ApiREST/now.json",
+            "https://github.com/ealexisaraujo/product-collector/blob/master/backend/ApiREST/.eslintrc.json",
+            "https://github.com/ealexisaraujo/product-collector/blob/master/backend/.vscode/settings.json",
+            "https://github.com/ealexisaraujo/product-collector/blob/master/backend/ServerGraphlQL/.prettierrc.json",
+            "https://github.com/ealexisaraujo/product-collector/blob/master/backend/ServerGraphlQL/package-lock.json",
+            "https://github.com/ealexisaraujo/product-collector/blob/master/backend/ServerGraphlQL/package.json",
+            "https://github.com/ealexisaraujo/product-collector/blob/master/backend/ServerGraphlQL/now.json",
+            "https://github.com/ealexisaraujo/product-collector/blob/master/backend/ServerGraphlQL/.eslintrc.json",
+            "https://github.com/ealexisaraujo/product-collector/blob/master/.vscode/settings.json"
+        ]
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "id": "aspnetrun/run-aspnetcore-microservices",
+    "repo_link": "https://github.com/aspnetrun/run-aspnetcore-microservices",
+    "file_extensions": [
+        ".yml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/aspnetrun/run-aspnetcore-microservices/blob/master/src/docker-compose.override.yml",
+            "https://github.com/aspnetrun/run-aspnetcore-microservices/blob/master/src/docker-compose.yml"
+        ],
+        "json": [
+            "https://github.com/aspnetrun/run-aspnetcore-microservices/blob/master/src/launchSettings.json",
+            "https://github.com/aspnetrun/run-aspnetcore-microservices/blob/master/src/EShopMicroservices.postman_collection.json",
+            "https://github.com/aspnetrun/run-aspnetcore-microservices/blob/master/src/WebApps/Shopping.Web/appsettings.json",
+            "https://github.com/aspnetrun/run-aspnetcore-microservices/blob/master/src/WebApps/Shopping.Web/appsettings.Development.json",
+            "https://github.com/aspnetrun/run-aspnetcore-microservices/blob/master/src/ApiGateways/YarpApiGateway/appsettings.json",
+            "https://github.com/aspnetrun/run-aspnetcore-microservices/blob/master/src/ApiGateways/YarpApiGateway/appsettings.Local.json",
+            "https://github.com/aspnetrun/run-aspnetcore-microservices/blob/master/src/ApiGateways/YarpApiGateway/appsettings.Development.json",
+            "https://github.com/aspnetrun/run-aspnetcore-microservices/blob/master/src/Services/Basket/Basket.API/appsettings.json",
+            "https://github.com/aspnetrun/run-aspnetcore-microservices/blob/master/src/Services/Basket/Basket.API/appsettings.Development.json",
+            "https://github.com/aspnetrun/run-aspnetcore-microservices/blob/master/src/Services/Catalog/Catalog.API/appsettings.json",
+            "https://github.com/aspnetrun/run-aspnetcore-microservices/blob/master/src/Services/Catalog/Catalog.API/appsettings.Development.json",
+            "https://github.com/aspnetrun/run-aspnetcore-microservices/blob/master/src/Services/Discount/Discount.Grpc/appsettings.json",
+            "https://github.com/aspnetrun/run-aspnetcore-microservices/blob/master/src/Services/Discount/Discount.Grpc/appsettings.Development.json",
+            "https://github.com/aspnetrun/run-aspnetcore-microservices/blob/master/src/Services/Ordering/Ordering.API/appsettings.json",
+            "https://github.com/aspnetrun/run-aspnetcore-microservices/blob/master/src/Services/Ordering/Ordering.API/appsettings.Development.json"
+        ]
+    }
+}

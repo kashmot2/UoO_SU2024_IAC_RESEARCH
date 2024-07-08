@@ -1,0 +1,36 @@
+{
+    "id": "kartoza/docker-osm",
+    "repo_link": "https://github.com/kartoza/docker-osm",
+    "file_extensions": [
+        ".yml",
+        ".json",
+        ".yaml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/kartoza/docker-osm/blob/master/docker-compose.develop.yml",
+            "https://github.com/kartoza/docker-osm/blob/master/docker-compose.pgadmin.yml",
+            "https://github.com/kartoza/docker-osm/blob/master/docker-compose.web.yml",
+            "https://github.com/kartoza/docker-osm/blob/master/docker-compose.build.yml",
+            "https://github.com/kartoza/docker-osm/blob/master/docker-compose.yml",
+            "https://github.com/kartoza/docker-osm/blob/master/settings/mapping.yml"
+        ],
+        "yaml": [
+            "https://github.com/kartoza/docker-osm/blob/master/.github/workflows/build-image-latest.yaml"
+        ],
+        "json": [
+            "https://github.com/kartoza/docker-osm/blob/master/countries.json"
+        ]
+    }
+}

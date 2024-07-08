@@ -1,0 +1,84 @@
+{
+    "id": "sillsdev/web-languageforge",
+    "repo_link": "https://github.com/sillsdev/web-languageforge",
+    "file_extensions": [
+        ".yaml",
+        ".json",
+        ".yml",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/sillsdev/web-languageforge/blob/master/docker-compose.yml",
+            "https://github.com/sillsdev/web-languageforge/blob/master/.devcontainer/docker-compose.yml",
+            "https://github.com/sillsdev/web-languageforge/blob/master/.github/FUNDING.yml",
+            "https://github.com/sillsdev/web-languageforge/blob/master/.github/release.yml",
+            "https://github.com/sillsdev/web-languageforge/blob/master/.github/workflows/integrate-and-deploy.yml",
+            "https://github.com/sillsdev/web-languageforge/blob/master/.github/workflows/staging.yml",
+            "https://github.com/sillsdev/web-languageforge/blob/master/.github/workflows/production.yml",
+            "https://github.com/sillsdev/web-languageforge/blob/master/.github/workflows/e2e-tests.yml",
+            "https://github.com/sillsdev/web-languageforge/blob/master/.github/workflows/pull-request.yml",
+            "https://github.com/sillsdev/web-languageforge/blob/master/.github/workflows/set-backlog-fields.yml",
+            "https://github.com/sillsdev/web-languageforge/blob/master/.github/workflows/build-and-publish-base-php.yml"
+        ],
+        "yaml": [
+            "https://github.com/sillsdev/web-languageforge/blob/master/pnpm-lock.yaml",
+            "https://github.com/sillsdev/web-languageforge/blob/master/docker/deployment/prod/kustomization.yaml",
+            "https://github.com/sillsdev/web-languageforge/blob/master/docker/deployment/prod/app-config-patch.yaml",
+            "https://github.com/sillsdev/web-languageforge/blob/master/docker/deployment/prod/ingress-config-patch.yaml",
+            "https://github.com/sillsdev/web-languageforge/blob/master/docker/deployment/prod/lfmerge-pvcs-patch.yaml",
+            "https://github.com/sillsdev/web-languageforge/blob/master/docker/deployment/staging/kustomization.yaml",
+            "https://github.com/sillsdev/web-languageforge/blob/master/docker/deployment/staging/app-config-patch.yaml",
+            "https://github.com/sillsdev/web-languageforge/blob/master/docker/deployment/staging/ingress-config-patch.yaml",
+            "https://github.com/sillsdev/web-languageforge/blob/master/docker/deployment/staging/mongo-pvc-patch.yaml",
+            "https://github.com/sillsdev/web-languageforge/blob/master/docker/deployment/base/app-config.yaml",
+            "https://github.com/sillsdev/web-languageforge/blob/master/docker/deployment/base/secrets.yaml",
+            "https://github.com/sillsdev/web-languageforge/blob/master/docker/deployment/base/kustomization.yaml",
+            "https://github.com/sillsdev/web-languageforge/blob/master/docker/deployment/base/lfmerge-deployment.yaml",
+            "https://github.com/sillsdev/web-languageforge/blob/master/docker/deployment/base/next-app-deployment.yaml",
+            "https://github.com/sillsdev/web-languageforge/blob/master/docker/deployment/base/db-deployment.yaml",
+            "https://github.com/sillsdev/web-languageforge/blob/master/docker/deployment/base/app-deployment.yaml",
+            "https://github.com/sillsdev/web-languageforge/blob/master/docker/deployment/base/next-proxy-deployment.yaml",
+            "https://github.com/sillsdev/web-languageforge/blob/master/docker/deployment/base/lfmerge-pvcs.yaml",
+            "https://github.com/sillsdev/web-languageforge/blob/master/docker/deployment/base/ingress-config.yaml",
+            "https://github.com/sillsdev/web-languageforge/blob/master/docker/deployment/base/mail-deployment.yaml",
+            "https://github.com/sillsdev/web-languageforge/blob/master/next-app/pnpm-lock.yaml"
+        ],
+        "json": [
+            "https://github.com/sillsdev/web-languageforge/blob/master/.prettierrc.json",
+            "https://github.com/sillsdev/web-languageforge/blob/master/package.json",
+            "https://github.com/sillsdev/web-languageforge/blob/master/tslint.json",
+            "https://github.com/sillsdev/web-languageforge/blob/master/tsconfig.json",
+            "https://github.com/sillsdev/web-languageforge/blob/master/test/e2e/tsconfig.json",
+            "https://github.com/sillsdev/web-languageforge/blob/master/.devcontainer/devcontainer.json",
+            "https://github.com/sillsdev/web-languageforge/blob/master/next-app/package.json",
+            "https://github.com/sillsdev/web-languageforge/blob/master/next-app/tsconfig.json",
+            "https://github.com/sillsdev/web-languageforge/blob/master/.vscode/settings.json",
+            "https://github.com/sillsdev/web-languageforge/blob/master/.vscode/extensions.json",
+            "https://github.com/sillsdev/web-languageforge/blob/master/.vscode/launch.json",
+            "https://github.com/sillsdev/web-languageforge/blob/master/.vscode/tasks.json",
+            "https://github.com/sillsdev/web-languageforge/blob/master/src/site_wide_notices.json",
+            "https://github.com/sillsdev/web-languageforge/blob/master/src/app_dependencies.json",
+            "https://github.com/sillsdev/web-languageforge/blob/master/src/manifest.json",
+            "https://github.com/sillsdev/web-languageforge/blob/master/src/composer.json",
+            "https://github.com/sillsdev/web-languageforge/blob/master/src/.well-known/assetlinks.json",
+            "https://github.com/sillsdev/web-languageforge/blob/master/src/json/languageforge/lexicon/partOfSpeech.json",
+            "https://github.com/sillsdev/web-languageforge/blob/master/src/json/languageforge/lexicon/partOfSpeech_full.json"
+        ],
+        "conf": [
+            "https://github.com/sillsdev/web-languageforge/blob/master/docker/base-php/000-default.conf"
+        ]
+    }
+}

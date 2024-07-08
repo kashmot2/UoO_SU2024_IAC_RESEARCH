@@ -1,0 +1,70 @@
+{
+    "id": "harvard-lil/capstone",
+    "repo_link": "https://github.com/harvard-lil/capstone",
+    "file_extensions": [
+        ".yml",
+        ".json",
+        ".yaml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/harvard-lil/capstone/blob/master/codecov.yml",
+            "https://github.com/harvard-lil/capstone/blob/master/capstone/docker-compose.override.yml",
+            "https://github.com/harvard-lil/capstone/blob/master/capstone/docker-compose.yml",
+            "https://github.com/harvard-lil/capstone/blob/master/capstone/test_data/fastcase/data.yml",
+            "https://github.com/harvard-lil/capstone/blob/master/.github/workflows/lints.yml",
+            "https://github.com/harvard-lil/capstone/blob/master/.github/workflows/tests.yml"
+        ],
+        "yaml": [
+            "https://github.com/harvard-lil/capstone/blob/master/capstone/capapi/fixtures/groups.yaml"
+        ],
+        "json": [
+            "https://github.com/harvard-lil/capstone/blob/master/capstone/package.json",
+            "https://github.com/harvard-lil/capstone/blob/master/capstone/test_data/cap_static/unredacted/ReportersMetadata.json",
+            "https://github.com/harvard-lil/capstone/blob/master/capstone/test_data/cap_static/unredacted/JurisdictionsMetadata.json",
+            "https://github.com/harvard-lil/capstone/blob/master/capstone/test_data/cap_static/unredacted/VolumesMetadata.json",
+            "https://github.com/harvard-lil/capstone/blob/master/capstone/test_data/cap_static/unredacted/us/ReporterMetadata.json",
+            "https://github.com/harvard-lil/capstone/blob/master/capstone/test_data/cap_static/unredacted/us/VolumesMetadata.json",
+            "https://github.com/harvard-lil/capstone/blob/master/capstone/test_data/cap_static/unredacted/us/1/VolumeMetadata.json",
+            "https://github.com/harvard-lil/capstone/blob/master/capstone/test_data/cap_static/unredacted/us/1/CasesMetadata.json",
+            "https://github.com/harvard-lil/capstone/blob/master/capstone/test_data/cap_static/unredacted/us/1/cases/0002-02.json",
+            "https://github.com/harvard-lil/capstone/blob/master/capstone/test_data/cap_static/unredacted/us/1/cases/0002-01.json",
+            "https://github.com/harvard-lil/capstone/blob/master/capstone/test_data/cap_static/unredacted/us/1/cases/0001-01.json",
+            "https://github.com/harvard-lil/capstone/blob/master/capstone/test_data/cap_static/unredacted/us/2/VolumeMetadata.json",
+            "https://github.com/harvard-lil/capstone/blob/master/capstone/test_data/cap_static/unredacted/us/2/CasesMetadata.json",
+            "https://github.com/harvard-lil/capstone/blob/master/capstone/test_data/cap_static/unredacted/us/2/cases/0002-02.json",
+            "https://github.com/harvard-lil/capstone/blob/master/capstone/test_data/cap_static/unredacted/us/2/cases/0002-01.json",
+            "https://github.com/harvard-lil/capstone/blob/master/capstone/test_data/cap_static/unredacted/us/2/cases/0001-01.json",
+            "https://github.com/harvard-lil/capstone/blob/master/capstone/test_data/cap_static/redacted/ReportersMetadata.json",
+            "https://github.com/harvard-lil/capstone/blob/master/capstone/test_data/cap_static/redacted/JurisdictionsMetadata.json",
+            "https://github.com/harvard-lil/capstone/blob/master/capstone/test_data/cap_static/redacted/VolumesMetadata.json",
+            "https://github.com/harvard-lil/capstone/blob/master/capstone/test_data/cap_static/redacted/us/ReporterMetadata.json",
+            "https://github.com/harvard-lil/capstone/blob/master/capstone/test_data/cap_static/redacted/us/VolumesMetadata.json",
+            "https://github.com/harvard-lil/capstone/blob/master/capstone/test_data/cap_static/redacted/us/1/VolumeMetadata.json",
+            "https://github.com/harvard-lil/capstone/blob/master/capstone/test_data/cap_static/redacted/us/1/CasesMetadata.json",
+            "https://github.com/harvard-lil/capstone/blob/master/capstone/test_data/cap_static/redacted/us/1/cases/0002-02.json",
+            "https://github.com/harvard-lil/capstone/blob/master/capstone/test_data/cap_static/redacted/us/1/cases/0002-01.json",
+            "https://github.com/harvard-lil/capstone/blob/master/capstone/test_data/cap_static/redacted/us/1/cases/0001-01.json",
+            "https://github.com/harvard-lil/capstone/blob/master/capstone/test_data/cap_static/redacted/us/2/VolumeMetadata.json",
+            "https://github.com/harvard-lil/capstone/blob/master/capstone/test_data/cap_static/redacted/us/2/CasesMetadata.json",
+            "https://github.com/harvard-lil/capstone/blob/master/capstone/test_data/cap_static/redacted/us/2/cases/0002-02.json",
+            "https://github.com/harvard-lil/capstone/blob/master/capstone/test_data/cap_static/redacted/us/2/cases/0002-01.json",
+            "https://github.com/harvard-lil/capstone/blob/master/capstone/test_data/cap_static/redacted/us/2/cases/0001-01.json",
+            "https://github.com/harvard-lil/capstone/blob/master/capstone/test_data/inventory/2017-10-15T00-06Z/manifest.json",
+            "https://github.com/harvard-lil/capstone/blob/master/capstone/static/dist/manifest.json",
+            "https://github.com/harvard-lil/capstone/blob/master/capstone/scripts/fastcase/ingest_fastcase.schema.json",
+            "https://github.com/harvard-lil/capstone/blob/master/capstone/scripts/citation_cleanup/modification_instructions.json"
+        ]
+    }
+}

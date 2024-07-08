@@ -1,0 +1,63 @@
+{
+    "id": "ninokop/dubbo-demo",
+    "repo_link": "https://github.com/ninokop/dubbo-demo",
+    "file_extensions": [
+        ".yaml",
+        ".yml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "GOOG",
+        "ANS",
+        "DOC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/ninokop/dubbo-demo/blob/master/scripts/docker-compose.yml",
+            "https://github.com/ninokop/dubbo-demo/blob/master/scripts/basic/docker-compose.yml"
+        ],
+        "yaml": [
+            "https://github.com/ninokop/dubbo-demo/blob/master/scripts/consumer.yaml",
+            "https://github.com/ninokop/dubbo-demo/blob/master/scripts/provider.yaml",
+            "https://github.com/ninokop/dubbo-demo/blob/master/scripts/dubbo-provider-mesher/conf/microservice.yaml",
+            "https://github.com/ninokop/dubbo-demo/blob/master/scripts/dubbo-provider-mesher/conf/tls.yaml",
+            "https://github.com/ninokop/dubbo-demo/blob/master/scripts/dubbo-provider-mesher/conf/circuit_breaker.yaml",
+            "https://github.com/ninokop/dubbo-demo/blob/master/scripts/dubbo-provider-mesher/conf/load_balancing.yaml",
+            "https://github.com/ninokop/dubbo-demo/blob/master/scripts/dubbo-provider-mesher/conf/chassis.yaml",
+            "https://github.com/ninokop/dubbo-demo/blob/master/scripts/dubbo-provider-mesher/conf/mesher.yaml",
+            "https://github.com/ninokop/dubbo-demo/blob/master/scripts/dubbo-provider-mesher/conf/lager.yaml",
+            "https://github.com/ninokop/dubbo-demo/blob/master/scripts/dubbo-provider-mesher/conf/rate_limiting.yaml",
+            "https://github.com/ninokop/dubbo-demo/blob/master/scripts/dubbo-provider-mesher/conf/router.yaml",
+            "https://github.com/ninokop/dubbo-demo/blob/master/scripts/dubbo-provider-mesher/conf/auth.yaml",
+            "https://github.com/ninokop/dubbo-demo/blob/master/scripts/dubbo-provider-mesher/conf/monitoring.yaml",
+            "https://github.com/ninokop/dubbo-demo/blob/master/scripts/dubbo-provider-mesher/conf/dubbo-demo-provider/schema/mesherdubboprovider.yaml",
+            "https://github.com/ninokop/dubbo-demo/blob/master/scripts/dubbo-consumer-mesher/conf/microservice.yaml",
+            "https://github.com/ninokop/dubbo-demo/blob/master/scripts/dubbo-consumer-mesher/conf/tls.yaml",
+            "https://github.com/ninokop/dubbo-demo/blob/master/scripts/dubbo-consumer-mesher/conf/circuit_breaker.yaml",
+            "https://github.com/ninokop/dubbo-demo/blob/master/scripts/dubbo-consumer-mesher/conf/load_balancing.yaml",
+            "https://github.com/ninokop/dubbo-demo/blob/master/scripts/dubbo-consumer-mesher/conf/chassis.yaml",
+            "https://github.com/ninokop/dubbo-demo/blob/master/scripts/dubbo-consumer-mesher/conf/mesher.yaml",
+            "https://github.com/ninokop/dubbo-demo/blob/master/scripts/dubbo-consumer-mesher/conf/lager.yaml",
+            "https://github.com/ninokop/dubbo-demo/blob/master/scripts/dubbo-consumer-mesher/conf/rate_limiting.yaml",
+            "https://github.com/ninokop/dubbo-demo/blob/master/scripts/dubbo-consumer-mesher/conf/router.yaml",
+            "https://github.com/ninokop/dubbo-demo/blob/master/scripts/dubbo-consumer-mesher/conf/auth.yaml",
+            "https://github.com/ninokop/dubbo-demo/blob/master/scripts/dubbo-consumer-mesher/conf/monitoring.yaml",
+            "https://github.com/ninokop/dubbo-demo/blob/master/scripts/cse-consumer-mesher/conf/microservice.yaml",
+            "https://github.com/ninokop/dubbo-demo/blob/master/scripts/cse-consumer-mesher/conf/tls.yaml",
+            "https://github.com/ninokop/dubbo-demo/blob/master/scripts/cse-consumer-mesher/conf/circuit_breaker.yaml",
+            "https://github.com/ninokop/dubbo-demo/blob/master/scripts/cse-consumer-mesher/conf/load_balancing.yaml",
+            "https://github.com/ninokop/dubbo-demo/blob/master/scripts/cse-consumer-mesher/conf/chassis.yaml",
+            "https://github.com/ninokop/dubbo-demo/blob/master/scripts/cse-consumer-mesher/conf/mesher.yaml",
+            "https://github.com/ninokop/dubbo-demo/blob/master/scripts/cse-consumer-mesher/conf/lager.yaml",
+            "https://github.com/ninokop/dubbo-demo/blob/master/scripts/cse-consumer-mesher/conf/rate_limiting.yaml",
+            "https://github.com/ninokop/dubbo-demo/blob/master/scripts/cse-consumer-mesher/conf/router.yaml",
+            "https://github.com/ninokop/dubbo-demo/blob/master/scripts/cse-consumer-mesher/conf/auth.yaml",
+            "https://github.com/ninokop/dubbo-demo/blob/master/scripts/cse-consumer-mesher/conf/monitoring.yaml",
+            "https://github.com/ninokop/dubbo-demo/blob/master/scripts/cse-demo/microservice.yaml",
+            "https://github.com/ninokop/dubbo-demo/blob/master/servicecomb-demo/src/main/resources/microservice.yaml"
+        ]
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "id": "NEURONE-IL/neurone",
+    "repo_link": "https://github.com/NEURONE-IL/neurone",
+    "file_extensions": [
+        ".json",
+        ".yml",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/NEURONE-IL/neurone/blob/master/docker-compose.yml",
+            "https://github.com/NEURONE-IL/neurone/blob/master/.travis.yml",
+            "https://github.com/NEURONE-IL/neurone/blob/master/.deploy/dev/docker-compose.yml"
+        ],
+        "json": [
+            "https://github.com/NEURONE-IL/neurone/blob/master/package-lock.json",
+            "https://github.com/NEURONE-IL/neurone/blob/master/package.json",
+            "https://github.com/NEURONE-IL/neurone/blob/master/public/default/userSettings.json",
+            "https://github.com/NEURONE-IL/neurone/blob/master/public/i18n/locale-en.json",
+            "https://github.com/NEURONE-IL/neurone/blob/master/public/i18n/locale-es-CL.json",
+            "https://github.com/NEURONE-IL/neurone/blob/master/public/i18n/locale-fi.json"
+        ],
+        "conf": [
+            "https://github.com/NEURONE-IL/neurone/blob/master/.deploy/docker/meteor-env.conf",
+            "https://github.com/NEURONE-IL/neurone/blob/master/.deploy/docker/neurone.conf"
+        ]
+    }
+}

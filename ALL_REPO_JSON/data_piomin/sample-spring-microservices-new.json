@@ -1,0 +1,44 @@
+{
+    "id": "piomin/sample-spring-microservices-new",
+    "repo_link": "https://github.com/piomin/sample-spring-microservices-new",
+    "file_extensions": [
+        ".json",
+        ".yml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/piomin/sample-spring-microservices-new/blob/master/docker-compose.yml",
+            "https://github.com/piomin/sample-spring-microservices-new/blob/master/employee-service/src/main/resources/application.yml",
+            "https://github.com/piomin/sample-spring-microservices-new/blob/master/config-service/src/main/resources/application.yml",
+            "https://github.com/piomin/sample-spring-microservices-new/blob/master/config-service/src/main/resources/config/employee-service.yml",
+            "https://github.com/piomin/sample-spring-microservices-new/blob/master/config-service/src/main/resources/config/department-service.yml",
+            "https://github.com/piomin/sample-spring-microservices-new/blob/master/config-service/src/main/resources/config/gateway-service-docker.yml",
+            "https://github.com/piomin/sample-spring-microservices-new/blob/master/config-service/src/main/resources/config/gateway-service.yml",
+            "https://github.com/piomin/sample-spring-microservices-new/blob/master/config-service/src/main/resources/config/discovery-service.yml",
+            "https://github.com/piomin/sample-spring-microservices-new/blob/master/config-service/src/main/resources/config/department-service-docker.yml",
+            "https://github.com/piomin/sample-spring-microservices-new/blob/master/config-service/src/main/resources/config/organization-service.yml",
+            "https://github.com/piomin/sample-spring-microservices-new/blob/master/config-service/src/main/resources/config/organization-service-docker.yml",
+            "https://github.com/piomin/sample-spring-microservices-new/blob/master/config-service/src/main/resources/config/employee-service-docker.yml",
+            "https://github.com/piomin/sample-spring-microservices-new/blob/master/config-service/src/main/resources/config/discovery-service-docker.yml",
+            "https://github.com/piomin/sample-spring-microservices-new/blob/master/config-service/src/main/resources/config/employee-service-instance2.yml",
+            "https://github.com/piomin/sample-spring-microservices-new/blob/master/department-service/src/main/resources/application.yml",
+            "https://github.com/piomin/sample-spring-microservices-new/blob/master/gateway-service/src/main/resources/application.yml",
+            "https://github.com/piomin/sample-spring-microservices-new/blob/master/organization-service/src/main/resources/application.yml",
+            "https://github.com/piomin/sample-spring-microservices-new/blob/master/discovery-service/src/main/resources/application.yml",
+            "https://github.com/piomin/sample-spring-microservices-new/blob/master/.circleci/config.yml"
+        ],
+        "json": [
+            "https://github.com/piomin/sample-spring-microservices-new/blob/master/renovate.json"
+        ]
+    }
+}

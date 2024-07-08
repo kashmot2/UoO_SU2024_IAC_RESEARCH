@@ -1,0 +1,72 @@
+{
+    "id": "cod1ng-earth/coding-earth",
+    "repo_link": "https://github.com/cod1ng-earth/coding-earth",
+    "file_extensions": [
+        ".yml",
+        ".json",
+        ".yaml",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/cod1ng-earth/coding-earth/blob/master/docker-compose.yml",
+            "https://github.com/cod1ng-earth/coding-earth/blob/master/calendar/config/ics_calendars.yml"
+        ],
+        "yaml": [
+            "https://github.com/cod1ng-earth/coding-earth/blob/master/coordinator/.platform.app.yaml",
+            "https://github.com/cod1ng-earth/coding-earth/blob/master/calendar/.platform.app.yaml",
+            "https://github.com/cod1ng-earth/coding-earth/blob/master/calendar/config/services.yaml",
+            "https://github.com/cod1ng-earth/coding-earth/blob/master/calendar/config/routes.yaml",
+            "https://github.com/cod1ng-earth/coding-earth/blob/master/calendar/config/packages/nelmio_cors.yaml",
+            "https://github.com/cod1ng-earth/coding-earth/blob/master/calendar/config/packages/sensio_framework_extra.yaml",
+            "https://github.com/cod1ng-earth/coding-earth/blob/master/calendar/config/packages/framework.yaml",
+            "https://github.com/cod1ng-earth/coding-earth/blob/master/calendar/config/packages/translation.yaml",
+            "https://github.com/cod1ng-earth/coding-earth/blob/master/calendar/config/packages/cache.yaml",
+            "https://github.com/cod1ng-earth/coding-earth/blob/master/calendar/config/packages/test/framework.yaml",
+            "https://github.com/cod1ng-earth/coding-earth/blob/master/calendar/config/packages/test/routing.yaml",
+            "https://github.com/cod1ng-earth/coding-earth/blob/master/calendar/config/packages/dev/routing.yaml",
+            "https://github.com/cod1ng-earth/coding-earth/blob/master/calendar/config/routes/annotations.yaml",
+            "https://github.com/cod1ng-earth/coding-earth/blob/master/frontend/.platform.app.yaml",
+            "https://github.com/cod1ng-earth/coding-earth/blob/master/template/sample-platform-file.yaml",
+            "https://github.com/cod1ng-earth/coding-earth/blob/master/tweets/.platform.app.yaml",
+            "https://github.com/cod1ng-earth/coding-earth/blob/master/.platform/services.yaml",
+            "https://github.com/cod1ng-earth/coding-earth/blob/master/.platform/routes.yaml",
+            "https://github.com/cod1ng-earth/coding-earth/blob/master/rssreader/.platform.app.yaml"
+        ],
+        "json": [
+            "https://github.com/cod1ng-earth/coding-earth/blob/master/coordinator/package-lock.json",
+            "https://github.com/cod1ng-earth/coding-earth/blob/master/coordinator/package.json",
+            "https://github.com/cod1ng-earth/coding-earth/blob/master/coordinator/public/service.json",
+            "https://github.com/cod1ng-earth/coding-earth/blob/master/calendar/composer.json",
+            "https://github.com/cod1ng-earth/coding-earth/blob/master/calendar/public/service.json",
+            "https://github.com/cod1ng-earth/coding-earth/blob/master/frontend/package.json",
+            "https://github.com/cod1ng-earth/coding-earth/blob/master/frontend/public/manifest.json",
+            "https://github.com/cod1ng-earth/coding-earth/blob/master/tweets/package-lock.json",
+            "https://github.com/cod1ng-earth/coding-earth/blob/master/tweets/package.json",
+            "https://github.com/cod1ng-earth/coding-earth/blob/master/tweets/elasticsearch/mapping.json",
+            "https://github.com/cod1ng-earth/coding-earth/blob/master/rssreader/package-lock.json",
+            "https://github.com/cod1ng-earth/coding-earth/blob/master/rssreader/package.json"
+        ],
+        "conf": [
+            "https://github.com/cod1ng-earth/coding-earth/blob/master/web/conf.d/devday.conf",
+            "https://github.com/cod1ng-earth/coding-earth/blob/master/web/conf.d/tweets.conf",
+            "https://github.com/cod1ng-earth/coding-earth/blob/master/web/conf.d/rssreader.conf",
+            "https://github.com/cod1ng-earth/coding-earth/blob/master/web/conf.d/calendar.conf",
+            "https://github.com/cod1ng-earth/coding-earth/blob/master/web/conf.d/default.conf",
+            "https://github.com/cod1ng-earth/coding-earth/blob/master/web/conf.d/coordinator.conf",
+            "https://github.com/cod1ng-earth/coding-earth/blob/master/template/web.conf"
+        ]
+    }
+}

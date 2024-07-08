@@ -1,0 +1,59 @@
+{
+    "id": "MTG/freesound",
+    "repo_link": "https://github.com/MTG/freesound",
+    "file_extensions": [
+        ".json",
+        ".yml",
+        ".conf",
+        ".yaml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/MTG/freesound/blob/master/docker-compose.yml",
+            "https://github.com/MTG/freesound/blob/master/docker-compose.test.yml",
+            "https://github.com/MTG/freesound/blob/master/.github/workflows/clear_cache.yml",
+            "https://github.com/MTG/freesound/blob/master/.github/workflows/unit-tests.yml"
+        ],
+        "yaml": [
+            "https://github.com/MTG/freesound/blob/master/similarity/presets/spectral_centroid.yaml",
+            "https://github.com/MTG/freesound/blob/master/similarity/presets/lowlevel.yaml",
+            "https://github.com/MTG/freesound/blob/master/similarity/presets/pca.yaml",
+            "https://github.com/MTG/freesound/blob/master/_docs/api/generate_analysis_documentation/example.yaml",
+            "https://github.com/MTG/freesound/blob/master/utils/audioprocessing/essentia_profile.yaml"
+        ],
+        "json": [
+            "https://github.com/MTG/freesound/blob/master/package-lock.json",
+            "https://github.com/MTG/freesound/blob/master/package.json",
+            "https://github.com/MTG/freesound/blob/master/tickets/fixtures/moderation_queues.json",
+            "https://github.com/MTG/freesound/blob/master/follow/fixtures/follow.json",
+            "https://github.com/MTG/freesound/blob/master/utils/search/solr5.5.5/cores/freesound/conf/params.json",
+            "https://github.com/MTG/freesound/blob/master/utils/search/solr5.5.5/cores/forum/conf/params.json",
+            "https://github.com/MTG/freesound/blob/master/freesound/static/bw-frontend/bw-icons/selection.json",
+            "https://github.com/MTG/freesound/blob/master/tags/fixtures/fs1tags.json",
+            "https://github.com/MTG/freesound/blob/master/sounds/fixtures/packs.json",
+            "https://github.com/MTG/freesound/blob/master/sounds/fixtures/sounds_with_tags.json",
+            "https://github.com/MTG/freesound/blob/master/sounds/fixtures/licenses.json",
+            "https://github.com/MTG/freesound/blob/master/sounds/fixtures/sounds.json",
+            "https://github.com/MTG/freesound/blob/master/accounts/fixtures/user_groups.json",
+            "https://github.com/MTG/freesound/blob/master/accounts/fixtures/email_preference_type.json",
+            "https://github.com/MTG/freesound/blob/master/accounts/fixtures/users.json",
+            "https://github.com/MTG/freesound/blob/master/accounts/fixtures/moderation_test_users.json"
+        ],
+        "conf": [
+            "https://github.com/MTG/freesound/blob/master/docker/rabbitmq.conf",
+            "https://github.com/MTG/freesound/blob/master/_docs/api/source/_themes/freesound/theme.conf"
+        ]
+    }
+}

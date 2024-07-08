@@ -1,0 +1,49 @@
+{
+    "id": "dms98br/nest-microservices",
+    "repo_link": "https://github.com/dms98br/nest-microservices",
+    "file_extensions": [
+        ".json",
+        ".yml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/dms98br/nest-microservices/blob/master/docker-compose.yml",
+            "https://github.com/dms98br/nest-microservices/blob/master/docker-compose.node.yml"
+        ],
+        "json": [
+            "https://github.com/dms98br/nest-microservices/blob/master/package-lock.json",
+            "https://github.com/dms98br/nest-microservices/blob/master/media-service/nest-cli.json",
+            "https://github.com/dms98br/nest-microservices/blob/master/media-service/package-lock.json",
+            "https://github.com/dms98br/nest-microservices/blob/master/media-service/package.json",
+            "https://github.com/dms98br/nest-microservices/blob/master/media-service/tslint.json",
+            "https://github.com/dms98br/nest-microservices/blob/master/media-service/tsconfig.build.json",
+            "https://github.com/dms98br/nest-microservices/blob/master/media-service/tsconfig.json",
+            "https://github.com/dms98br/nest-microservices/blob/master/media-service/test/jest-e2e.json",
+            "https://github.com/dms98br/nest-microservices/blob/master/user-management-service/nest-cli.json",
+            "https://github.com/dms98br/nest-microservices/blob/master/user-management-service/package-lock.json",
+            "https://github.com/dms98br/nest-microservices/blob/master/user-management-service/package.json",
+            "https://github.com/dms98br/nest-microservices/blob/master/user-management-service/tslint.json",
+            "https://github.com/dms98br/nest-microservices/blob/master/user-management-service/tsconfig.build.json",
+            "https://github.com/dms98br/nest-microservices/blob/master/user-management-service/tsconfig.json",
+            "https://github.com/dms98br/nest-microservices/blob/master/user-management-service/test/jest-e2e.json",
+            "https://github.com/dms98br/nest-microservices/blob/master/api/nest-cli.json",
+            "https://github.com/dms98br/nest-microservices/blob/master/api/package-lock.json",
+            "https://github.com/dms98br/nest-microservices/blob/master/api/package.json",
+            "https://github.com/dms98br/nest-microservices/blob/master/api/tslint.json",
+            "https://github.com/dms98br/nest-microservices/blob/master/api/tsconfig.build.json",
+            "https://github.com/dms98br/nest-microservices/blob/master/api/tsconfig.json",
+            "https://github.com/dms98br/nest-microservices/blob/master/api/test/jest-e2e.json",
+            "https://github.com/dms98br/nest-microservices/blob/master/.vscode/launch.json"
+        ]
+    }
+}

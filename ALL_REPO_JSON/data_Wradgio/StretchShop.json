@@ -1,0 +1,38 @@
+{
+    "id": "Wradgio/StretchShop",
+    "repo_link": "https://github.com/Wradgio/StretchShop",
+    "file_extensions": [
+        ".json",
+        ".yml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/Wradgio/StretchShop/blob/master/docker/micro/docker-compose.yml",
+            "https://github.com/Wradgio/StretchShop/blob/master/docker/mixed/docker-compose.yml",
+            "https://github.com/Wradgio/StretchShop/blob/master/docker/mono/docker-compose.yml",
+            "https://github.com/Wradgio/StretchShop/blob/master/.github/workflows/docker-publish.yml"
+        ],
+        "json": [
+            "https://github.com/Wradgio/StretchShop/blob/master/package-lock.json",
+            "https://github.com/Wradgio/StretchShop/blob/master/package.json",
+            "https://github.com/Wradgio/StretchShop/blob/master/test/demodata/user.json",
+            "https://github.com/Wradgio/StretchShop/blob/master/resources/settings/business.json",
+            "https://github.com/Wradgio/StretchShop/blob/master/resources/settings/orders.json",
+            "https://github.com/Wradgio/StretchShop/blob/master/resources/settings/countries-full.json",
+            "https://github.com/Wradgio/StretchShop/blob/master/resources/settings/locals.json",
+            "https://github.com/Wradgio/StretchShop/blob/master/resources/pages/_default/homepage/homepage.json",
+            "https://github.com/Wradgio/StretchShop/blob/master/resources/pages/_default/info/info.json",
+            "https://github.com/Wradgio/StretchShop/blob/master/public/project_dictionary.json"
+        ]
+    }
+}

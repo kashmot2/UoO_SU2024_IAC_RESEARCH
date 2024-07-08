@@ -1,0 +1,32 @@
+{
+    "id": "TerraMA2/docker",
+    "repo_link": "https://github.com/TerraMA2/docker",
+    "file_extensions": [
+        ".yml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/TerraMA2/docker/blob/master/docker-compose.yml"
+        ],
+        "json": [
+            "https://github.com/TerraMA2/docker/blob/master/conf/bdqueimadas-light/conf/Filter.json",
+            "https://github.com/TerraMA2/docker/blob/master/conf/bdqueimadas-light/conf/Graphics.json",
+            "https://github.com/TerraMA2/docker/blob/master/conf/bdqueimadas-light/conf/Tables.json",
+            "https://github.com/TerraMA2/docker/blob/master/conf/bdqueimadas-light/conf/Database.json",
+            "https://github.com/TerraMA2/docker/blob/master/conf/bdqueimadas-light/conf/Application.json",
+            "https://github.com/TerraMA2/docker/blob/master/conf/bdqueimadas-light/conf/AttributesTable.json",
+            "https://github.com/TerraMA2/docker/blob/master/conf/bdqueimadas-light/conf/Map.json"
+        ]
+    }
+}

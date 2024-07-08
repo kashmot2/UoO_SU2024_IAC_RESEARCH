@@ -1,0 +1,74 @@
+{
+    "id": "raster-foundry/raster-foundry",
+    "repo_link": "https://github.com/raster-foundry/raster-foundry",
+    "file_extensions": [
+        ".yml",
+        ".conf",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/raster-foundry/raster-foundry/blob/master/docker-compose.swagger.yml",
+            "https://github.com/raster-foundry/raster-foundry/blob/master/docker-compose.dev.yml",
+            "https://github.com/raster-foundry/raster-foundry/blob/master/docker-compose.yml",
+            "https://github.com/raster-foundry/raster-foundry/blob/master/docker-compose.test.yml",
+            "https://github.com/raster-foundry/raster-foundry/blob/master/docs/swagger/spec.yml",
+            "https://github.com/raster-foundry/raster-foundry/blob/master/docs/swagger/tile-spec.yml",
+            "https://github.com/raster-foundry/raster-foundry/blob/master/deployment/ansible/raster-foundry-nexus.yml",
+            "https://github.com/raster-foundry/raster-foundry/blob/master/deployment/ansible/roles.yml",
+            "https://github.com/raster-foundry/raster-foundry/blob/master/deployment/ansible/raster-foundry.yml",
+            "https://github.com/raster-foundry/raster-foundry/blob/master/deployment/ansible/raster-foundry-jenkins.yml",
+            "https://github.com/raster-foundry/raster-foundry/blob/master/deployment/ansible/group_vars/jenkins.yml",
+            "https://github.com/raster-foundry/raster-foundry/blob/master/deployment/ansible/group_vars/all.yml",
+            "https://github.com/raster-foundry/raster-foundry/blob/master/deployment/ansible/group_vars/nexus.yml",
+            "https://github.com/raster-foundry/raster-foundry/blob/master/deployment/ansible/roles/raster-foundry.docker/tasks/main.yml",
+            "https://github.com/raster-foundry/raster-foundry/blob/master/deployment/ansible/roles/raster-foundry.docker/meta/main.yml",
+            "https://github.com/raster-foundry/raster-foundry/blob/master/deployment/ansible/roles/raster-foundry.docker/handlers/main.yml",
+            "https://github.com/raster-foundry/raster-foundry/blob/master/deployment/ansible/roles/raster-foundry.aws-cli/tasks/main.yml",
+            "https://github.com/raster-foundry/raster-foundry/blob/master/deployment/ansible/roles/raster-foundry.aws-cli/meta/main.yml",
+            "https://github.com/raster-foundry/raster-foundry/blob/master/deployment/ansible/roles/raster-foundry.jenkins/molecule-playbook.yml",
+            "https://github.com/raster-foundry/raster-foundry/blob/master/deployment/ansible/roles/raster-foundry.jenkins/molecule.yml",
+            "https://github.com/raster-foundry/raster-foundry/blob/master/deployment/ansible/roles/raster-foundry.jenkins/molecule-requirements.yml",
+            "https://github.com/raster-foundry/raster-foundry/blob/master/deployment/ansible/roles/raster-foundry.jenkins/tasks/main.yml",
+            "https://github.com/raster-foundry/raster-foundry/blob/master/deployment/ansible/roles/raster-foundry.jenkins/meta/main.yml",
+            "https://github.com/raster-foundry/raster-foundry/blob/master/deployment/ansible/roles/raster-foundry.jenkins/defaults/main.yml",
+            "https://github.com/raster-foundry/raster-foundry/blob/master/deployment/ansible/roles/raster-foundry.jenkins/handlers/main.yml",
+            "https://github.com/raster-foundry/raster-foundry/blob/master/deployment/ansible/roles/raster-foundry.nexus/tasks/main.yml",
+            "https://github.com/raster-foundry/raster-foundry/blob/master/deployment/ansible/roles/raster-foundry.nexus/meta/main.yml",
+            "https://github.com/raster-foundry/raster-foundry/blob/master/deployment/ansible/roles/raster-foundry.nexus/defaults/main.yml",
+            "https://github.com/raster-foundry/raster-foundry/blob/master/deployment/ansible/roles/raster-foundry.shellcheck/tasks/main.yml"
+        ],
+        "json": [
+            "https://github.com/raster-foundry/raster-foundry/blob/master/app-backend/.vscode/tasks.json",
+            "https://github.com/raster-foundry/raster-foundry/blob/master/static/assets/favicon/manifest.json"
+        ],
+        "conf": [
+            "https://github.com/raster-foundry/raster-foundry/blob/master/.scalafix.conf",
+            "https://github.com/raster-foundry/raster-foundry/blob/master/.scalafmt.conf",
+            "https://github.com/raster-foundry/raster-foundry/blob/master/app-backend/backsplash-core/src/main/resources/reference.conf",
+            "https://github.com/raster-foundry/raster-foundry/blob/master/app-backend/backsplash-server/src/main/resources/application.conf",
+            "https://github.com/raster-foundry/raster-foundry/blob/master/app-backend/backsplash-server/src/main/resources/reference.conf",
+            "https://github.com/raster-foundry/raster-foundry/blob/master/app-backend/notification/src/main/resources/reference.conf",
+            "https://github.com/raster-foundry/raster-foundry/blob/master/app-backend/http4s-util/src/main/resources/reference.conf",
+            "https://github.com/raster-foundry/raster-foundry/blob/master/app-backend/api-it/src/test/resources/reference.conf",
+            "https://github.com/raster-foundry/raster-foundry/blob/master/app-backend/common/src/main/resources/reference.conf",
+            "https://github.com/raster-foundry/raster-foundry/blob/master/app-backend/batch/src/main/resources/application.conf",
+            "https://github.com/raster-foundry/raster-foundry/blob/master/app-backend/db/src/test/resources/application.conf",
+            "https://github.com/raster-foundry/raster-foundry/blob/master/app-backend/api/src/main/resources/application.conf",
+            "https://github.com/raster-foundry/raster-foundry/blob/master/nginx/etc/nginx/nginx.conf",
+            "https://github.com/raster-foundry/raster-foundry/blob/master/nginx/etc/nginx/includes/proxy-settings.conf",
+            "https://github.com/raster-foundry/raster-foundry/blob/master/nginx/etc/nginx/includes/api-security-headers.conf"
+        ]
+    }
+}

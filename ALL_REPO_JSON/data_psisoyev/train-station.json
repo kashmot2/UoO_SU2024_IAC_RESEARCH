@@ -1,0 +1,27 @@
+{
+    "id": "psisoyev/train-station",
+    "repo_link": "https://github.com/psisoyev/train-station",
+    "file_extensions": [
+        ".conf",
+        ".yml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "ANS",
+        "PUP",
+        "DOC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/psisoyev/train-station/blob/master/docker-compose.yml",
+            "https://github.com/psisoyev/train-station/blob/master/.github/workflows/scala-steward.yml",
+            "https://github.com/psisoyev/train-station/blob/master/.github/workflows/scala.yml"
+        ],
+        "conf": [
+            "https://github.com/psisoyev/train-station/blob/master/.scalafmt.conf"
+        ]
+    }
+}

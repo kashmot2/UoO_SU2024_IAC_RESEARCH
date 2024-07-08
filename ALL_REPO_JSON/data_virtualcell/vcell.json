@@ -1,0 +1,74 @@
+{
+    "id": "virtualcell/vcell",
+    "repo_link": "https://github.com/virtualcell/vcell",
+    "file_extensions": [
+        ".json",
+        ".yaml",
+        ".yml",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/virtualcell/vcell/blob/master/python-restclient/.github/workflows/python.yml",
+            "https://github.com/virtualcell/vcell/blob/master/docker/swarm/docker-compose-dev-msg.yml",
+            "https://github.com/virtualcell/vcell/blob/master/docker/swarm/docker-compose.yml",
+            "https://github.com/virtualcell/vcell/blob/master/docker/swarm/docker-compose-small.yml",
+            "https://github.com/virtualcell/vcell/blob/master/.github/stale.yml",
+            "https://github.com/virtualcell/vcell/blob/master/.github/workflows/codeql-analysis.yml",
+            "https://github.com/virtualcell/vcell/blob/master/.github/workflows/biosimulations_cd.yml",
+            "https://github.com/virtualcell/vcell/blob/master/.github/workflows/site_deploy.yml",
+            "https://github.com/virtualcell/vcell/blob/master/.github/workflows/biosimulations_verify.yml",
+            "https://github.com/virtualcell/vcell/blob/master/.github/workflows/CI-full.yml",
+            "https://github.com/virtualcell/vcell/blob/master/.github/workflows/debug.yml",
+            "https://github.com/virtualcell/vcell/blob/master/.github/workflows/NightlyBMDB_CLI.yml",
+            "https://github.com/virtualcell/vcell/blob/master/.github/workflows/objective-c-xcode-debug.yml",
+            "https://github.com/virtualcell/vcell/blob/master/.github/workflows/nightly-model-testing.yml",
+            "https://github.com/virtualcell/vcell/blob/master/.github/workflows/create_bs_singularity.yml",
+            "https://github.com/virtualcell/vcell/blob/master/.github/workflows/ci_cd.yml"
+        ],
+        "yaml": [
+            "https://github.com/virtualcell/vcell/blob/master/tools/python-config.yaml",
+            "https://github.com/virtualcell/vcell/blob/master/tools/typescript-angular-config.yaml",
+            "https://github.com/virtualcell/vcell/blob/master/tools/java-config.yaml",
+            "https://github.com/virtualcell/vcell/blob/master/tools/openapi.yaml",
+            "https://github.com/virtualcell/vcell/blob/master/vcell-api/vcellapi.yaml",
+            "https://github.com/virtualcell/vcell/blob/master/vcell-restclient/api/openapi.yaml"
+        ],
+        "json": [
+            "https://github.com/virtualcell/vcell/blob/master/biosimulators.json",
+            "https://github.com/virtualcell/vcell/blob/master/.quarkus/cli/plugins/quarkus-cli-catalog.json",
+            "https://github.com/virtualcell/vcell/blob/master/webapp-ng/tsconfig.app.json",
+            "https://github.com/virtualcell/vcell/blob/master/webapp-ng/auth_config.json",
+            "https://github.com/virtualcell/vcell/blob/master/webapp-ng/angular.json",
+            "https://github.com/virtualcell/vcell/blob/master/webapp-ng/package-lock.json",
+            "https://github.com/virtualcell/vcell/blob/master/webapp-ng/package.json",
+            "https://github.com/virtualcell/vcell/blob/master/webapp-ng/tsconfig.json",
+            "https://github.com/virtualcell/vcell/blob/master/webapp-ng/.eslintrc.json",
+            "https://github.com/virtualcell/vcell/blob/master/webapp-ng/tsconfig.spec.json",
+            "https://github.com/virtualcell/vcell/blob/master/webapp-ng/e2e/tsconfig.json",
+            "https://github.com/virtualcell/vcell/blob/master/webapp-ng/src/assets/config/baseuri_config.json",
+            "https://github.com/virtualcell/vcell/blob/master/pythonCopasiOpt/vcell-opt/test_data/Biomodel_simple_parest.json",
+            "https://github.com/virtualcell/vcell/blob/master/pythonCopasiOpt/vcell-opt/test_data/optproblem.json",
+            "https://github.com/virtualcell/vcell/blob/master/vcell-util/src/main/resources/VCellEcsLayout.json",
+            "https://github.com/virtualcell/vcell/blob/master/thriftBuild/vcellopt.jtd.json",
+            "https://github.com/virtualcell/vcell/blob/master/vcell-cli-utils/tests/fixtures/validation/eungdamrong_and_Iyengar_BiophysJ_vcell_7.5.0.30.report.json",
+            "https://github.com/virtualcell/vcell/blob/master/vcell-cli-utils/tests/fixtures/validation/VerySimple_vcell_7.5.0.27.report.json",
+            "https://github.com/virtualcell/vcell/blob/master/vcell-cli-utils/tests/fixtures/validation/Aavani2019_BIOMD0000000876_vcell_7.5.0.27.report.json"
+        ],
+        "conf": [
+            "https://github.com/virtualcell/vcell/blob/master/webapp-ng/nginx-custom.conf"
+        ]
+    }
+}

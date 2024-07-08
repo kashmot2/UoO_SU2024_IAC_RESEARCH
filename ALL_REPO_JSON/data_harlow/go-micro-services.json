@@ -1,0 +1,28 @@
+{
+    "id": "harlow/go-micro-services",
+    "repo_link": "https://github.com/harlow/go-micro-services",
+    "file_extensions": [
+        ".yml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/harlow/go-micro-services/blob/master/docker-compose.yml"
+        ],
+        "json": [
+            "https://github.com/harlow/go-micro-services/blob/master/data/hotels.json",
+            "https://github.com/harlow/go-micro-services/blob/master/data/inventory.json",
+            "https://github.com/harlow/go-micro-services/blob/master/data/geo.json"
+        ]
+    }
+}

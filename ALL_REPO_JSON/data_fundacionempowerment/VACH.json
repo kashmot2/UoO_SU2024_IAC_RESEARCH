@@ -1,0 +1,31 @@
+{
+    "id": "fundacionempowerment/VACH",
+    "repo_link": "https://github.com/fundacionempowerment/VACH",
+    "file_extensions": [
+        ".yml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/fundacionempowerment/VACH/blob/master/codeception.yml",
+            "https://github.com/fundacionempowerment/VACH/blob/master/docker/docker-compose.yml",
+            "https://github.com/fundacionempowerment/VACH/blob/master/tests/functional.suite.yml",
+            "https://github.com/fundacionempowerment/VACH/blob/master/tests/acceptance.suite.yml",
+            "https://github.com/fundacionempowerment/VACH/blob/master/tests/unit.suite.yml"
+        ],
+        "json": [
+            "https://github.com/fundacionempowerment/VACH/blob/master/composer.json",
+            "https://github.com/fundacionempowerment/VACH/blob/master/docker/auth.json"
+        ]
+    }
+}

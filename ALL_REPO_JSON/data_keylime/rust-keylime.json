@@ -1,0 +1,50 @@
+{
+    "id": "keylime/rust-keylime",
+    "repo_link": "https://github.com/keylime/rust-keylime",
+    "file_extensions": [
+        ".yml",
+        ".conf",
+        ".yaml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/keylime/rust-keylime/blob/master/codecov.yml",
+            "https://github.com/keylime/rust-keylime/blob/master/docker-compose.yml",
+            "https://github.com/keylime/rust-keylime/blob/master/.github/dependabot.yml",
+            "https://github.com/keylime/rust-keylime/blob/master/.github/workflows/keylime-bot.yml",
+            "https://github.com/keylime/rust-keylime/blob/master/.github/workflows/rust.yml",
+            "https://github.com/keylime/rust-keylime/blob/master/.github/workflows/container.yml",
+            "https://github.com/keylime/rust-keylime/blob/master/.github/workflows/cargo-audit.yml"
+        ],
+        "yaml": [
+            "https://github.com/keylime/rust-keylime/blob/master/.packit.yaml",
+            "https://github.com/keylime/rust-keylime/blob/master/.github/workflows/submit-HEAD-coverage.yaml",
+            "https://github.com/keylime/rust-keylime/blob/master/.github/workflows/submit-PR-coverage.yaml"
+        ],
+        "json": [
+            "https://github.com/keylime/rust-keylime/blob/master/keylime-agent/test-data/test_ok.json",
+            "https://github.com/keylime/rust-keylime/blob/master/keylime-agent/test-data/test.json",
+            "https://github.com/keylime/rust-keylime/blob/master/keylime-agent/test-data/tpmdata_test.json",
+            "https://github.com/keylime/rust-keylime/blob/master/keylime-agent/tests/unzipped/test_err.json",
+            "https://github.com/keylime/rust-keylime/blob/master/keylime-agent/tests/unzipped/test_ok.json",
+            "https://github.com/keylime/rust-keylime/blob/master/tests/seccomp-profile.json"
+        ],
+        "conf": [
+            "https://github.com/keylime/rust-keylime/blob/master/keylime-agent.conf",
+            "https://github.com/keylime/rust-keylime/blob/master/docker/fedora/dbus-policy.conf"
+        ]
+    }
+}

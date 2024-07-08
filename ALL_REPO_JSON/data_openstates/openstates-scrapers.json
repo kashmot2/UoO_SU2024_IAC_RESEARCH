@@ -1,0 +1,36 @@
+{
+    "id": "openstates/openstates-scrapers",
+    "repo_link": "https://github.com/openstates/openstates-scrapers",
+    "file_extensions": [
+        ".yaml",
+        ".json",
+        ".yml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/openstates/openstates-scrapers/blob/master/docker-compose.yml",
+            "https://github.com/openstates/openstates-scrapers/blob/master/.github/workflows/ca-docker.yml",
+            "https://github.com/openstates/openstates-scrapers/blob/master/.github/workflows/lint.yml",
+            "https://github.com/openstates/openstates-scrapers/blob/master/.github/workflows/scrape.yml",
+            "https://github.com/openstates/openstates-scrapers/blob/master/.github/workflows/docker.yml"
+        ],
+        "yaml": [
+            "https://github.com/openstates/openstates-scrapers/blob/master/.pre-commit-config.yaml"
+        ],
+        "json": [
+            "https://github.com/openstates/openstates-scrapers/blob/master/jurisdiction_configs.json",
+            "https://github.com/openstates/openstates-scrapers/blob/master/.devcontainer/devcontainer.json"
+        ]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "id": "bcgov/von-bc-registries",
+    "repo_link": "https://github.com/bcgov/von-bc-registries",
+    "file_extensions": [
+        ".yaml",
+        ".yml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "GOOG",
+        "ANS",
+        "DOC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/bcgov/von-bc-registries/blob/master/docker/docker-compose.yml",
+            "https://github.com/bcgov/von-bc-registries/blob/master/bcreg-aca/config/schemas.yml",
+            "https://github.com/bcgov/von-bc-registries/blob/master/bcreg-aca/config/routes.yml",
+            "https://github.com/bcgov/von-bc-registries/blob/master/bcreg-aca/config/services.yml",
+            "https://github.com/bcgov/von-bc-registries/blob/master/bcreg-aca/config/settings.yml",
+            "https://github.com/bcgov/von-bc-registries/blob/master/.github/dependabot.yml"
+        ],
+        "yaml": [
+            "https://github.com/bcgov/von-bc-registries/blob/master/COMPLIANCE.yaml"
+        ]
+    }
+}

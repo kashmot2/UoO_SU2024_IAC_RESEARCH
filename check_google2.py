@@ -27,7 +27,8 @@ output_results = 'kubernetes-results.csv'
 failed_path = 'failed_cloned_repos.txt'
 debug_path = 'debug_.txt'
 file_correlated = "correlated.txt"
-file_flags= []
+file_flags_google= []
+file_flags_kub = []
 def tokenize_content(content):
     # Split the content by whitespace to get the tokens
     tokens = re.split(r'\s+', content)
@@ -47,7 +48,10 @@ def crop_tokens(tokens, start_token, end_token):
         return []
 
 def check_keys_in_files(directory):
-    global file_flags
+    global file_flags_google
+    global file_flags_kub
+    global google_flag
+    global kub_flag
     correlating_file = ''
     # Traverse the directory and check each file
     for root, _, files in os.walk(directory):
@@ -66,29 +70,31 @@ def check_keys_in_files(directory):
                     write_to_file(debug_path, f"Cropped Tokens: {rec_to_type}")
                     
                     if rec_to_type:
-                        flag = check_for_gcdm_syntax(rec_to_type)
+                        google_flag = check_for_gcdm_syntax(rec_to_type)
 
                         #FOR CHECKING KUBERNETES 
-                        if kub_flag == 0:
-                            flag = 0
-                        else:
-                            flag = 1
-                        """
-                        FOR CHECKING GOOGLE
                         if kub_flag ==1:
-                            flag = 0
-                        """
-                        file_flags.append(flag)
-                        if flag == 1:
+                            google_flag = 0
+                        
+                        file_flags_google.append(google_flag)
+                        file_flags_kub.append(kub_flag)
+                        if google_flag == 1:
                             correlating_file = file
                             write_to_file(file_correlated, f"{working_link} {working_id} {correlating_file}")
                     else:
-                        file_flags.append(0)
+                        file_flags_google.append(0)
     
-    if 1 in file_flags:
-        return 1
+    if 1 in file_flags_google:
+        google_flag = 1
     else:
-        return 0
+        google_flag = 0
+    
+    if 1 in file_flags_kub:
+        kub_flag = 1
+    else:
+        kub_flag = 0
+
+    return kub_flag, google_flag
 
 def check_for_gcdm_syntax(tokens):
     # Broad index-based check for GCDM keys in the correct order
@@ -180,19 +186,8 @@ def write_csv_file(id, link, result):
         writer = csv.writer(file)
         writer.writerow([link, id, result])
 
-def main():
-    write_csv_header()
-    open_csv_file()
-    while links_dict:
-        file_flags.clear()
-        link, id = fetch_new_url()
-        copy_pair(link, id)
-        repo_dir = clone_repo()
-        if repo_dir:
-            flag = check_keys_in_files(repo_dir)
-            delete_cloned_repo(repo_dir)
-            
-            write_csv_file(working_id,working_link,flag)
+def kub_google_main(repo_dir):
+    kub, goog = check_keys_in_files(repo_dir)
+    return kub,goog
 
-main()
 

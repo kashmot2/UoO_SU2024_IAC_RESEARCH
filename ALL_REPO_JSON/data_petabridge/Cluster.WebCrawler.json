@@ -1,0 +1,48 @@
+{
+    "id": "petabridge/Cluster.WebCrawler",
+    "repo_link": "https://github.com/petabridge/Cluster.WebCrawler",
+    "file_extensions": [
+        ".yml",
+        ".yaml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/petabridge/Cluster.WebCrawler/blob/master/docker/docker-compose-config.yml",
+            "https://github.com/petabridge/Cluster.WebCrawler/blob/master/docker/docker-compose.yml",
+            "https://github.com/petabridge/Cluster.WebCrawler/blob/master/.github/dependabot.yml"
+        ],
+        "yaml": [
+            "https://github.com/petabridge/Cluster.WebCrawler/blob/master/k8s/environment/configs/k8s-rbac.yaml",
+            "https://github.com/petabridge/Cluster.WebCrawler/blob/master/k8s/environment/configs/k8s-crd.yaml",
+            "https://github.com/petabridge/Cluster.WebCrawler/blob/master/k8s/services/k8s-tracker-service.yaml",
+            "https://github.com/petabridge/Cluster.WebCrawler/blob/master/k8s/services/k8s-crawler-service.yaml",
+            "https://github.com/petabridge/Cluster.WebCrawler/blob/master/k8s/services/k8s-web-service.yaml",
+            "https://github.com/petabridge/Cluster.WebCrawler/blob/master/k8s/services/k8s-local-web-loadbalancer.yaml",
+            "https://github.com/petabridge/Cluster.WebCrawler/blob/master/build-system/pr-validation.yaml",
+            "https://github.com/petabridge/Cluster.WebCrawler/blob/master/build-system/azure-pipeline.template.yaml",
+            "https://github.com/petabridge/Cluster.WebCrawler/blob/master/build-system/windows-release.yaml"
+        ],
+        "json": [
+            "https://github.com/petabridge/Cluster.WebCrawler/blob/master/src/WebCrawler.Web/appsettings.json",
+            "https://github.com/petabridge/Cluster.WebCrawler/blob/master/src/WebCrawler.Web/package.json",
+            "https://github.com/petabridge/Cluster.WebCrawler/blob/master/src/WebCrawler.Web/bundleconfig.json",
+            "https://github.com/petabridge/Cluster.WebCrawler/blob/master/src/WebCrawler.Web/appsettings.Development.json",
+            "https://github.com/petabridge/Cluster.WebCrawler/blob/master/src/WebCrawler.Web/wwwroot/lib/bootstrap/.bower.json",
+            "https://github.com/petabridge/Cluster.WebCrawler/blob/master/src/WebCrawler.Web/wwwroot/lib/jquery/.bower.json",
+            "https://github.com/petabridge/Cluster.WebCrawler/blob/master/src/WebCrawler.Web/wwwroot/lib/jquery-validation-unobtrusive/.bower.json",
+            "https://github.com/petabridge/Cluster.WebCrawler/blob/master/src/WebCrawler.Web/wwwroot/lib/jquery-validation/.bower.json"
+        ]
+    }
+}

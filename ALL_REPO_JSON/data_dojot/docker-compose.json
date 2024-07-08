@@ -1,0 +1,56 @@
+{
+    "id": "dojot/docker-compose",
+    "repo_link": "https://github.com/dojot/docker-compose",
+    "file_extensions": [
+        ".yml",
+        ".conf",
+        ".yaml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/dojot/docker-compose/blob/master/docker-compose.yml",
+            "https://github.com/dojot/docker-compose/blob/master/self-signed-certificate-nginx/docker-compose-dojot-https-self-signed-certificate.yml",
+            "https://github.com/dojot/docker-compose/blob/master/letsencrypt-nginx/docker-compose-dojot-https.yml",
+            "https://github.com/dojot/docker-compose/blob/master/letsencrypt-nginx/docker-compose-challenge.yml",
+            "https://github.com/dojot/docker-compose/blob/master/monitoring/loki/loki.yml",
+            "https://github.com/dojot/docker-compose/blob/master/monitoring/alertmanager/alertmanager.yml",
+            "https://github.com/dojot/docker-compose/blob/master/monitoring/promtail/promtail.yml",
+            "https://github.com/dojot/docker-compose/blob/master/monitoring/grafana/provisioning/datasources/datasource.yml",
+            "https://github.com/dojot/docker-compose/blob/master/monitoring/grafana/provisioning/dashboards/dashboards.yml",
+            "https://github.com/dojot/docker-compose/blob/master/monitoring/prometheus/prometheus.rules.yml",
+            "https://github.com/dojot/docker-compose/blob/master/monitoring/prometheus/prometheus.yml"
+        ],
+        "yaml": [
+            "https://github.com/dojot/docker-compose/blob/master/monitoring/docker-compose-monitoring.yaml"
+        ],
+        "json": [
+            "https://github.com/dojot/docker-compose/blob/master/monitoring/grafana/provisioning/dashboards/InfluxDB.json",
+            "https://github.com/dojot/docker-compose/blob/master/monitoring/grafana/provisioning/dashboards/mongodb.json",
+            "https://github.com/dojot/docker-compose/blob/master/monitoring/grafana/provisioning/dashboards/KongOfficial.json",
+            "https://github.com/dojot/docker-compose/blob/master/monitoring/grafana/provisioning/dashboards/VerneMQNodeMetrics.json",
+            "https://github.com/dojot/docker-compose/blob/master/monitoring/grafana/provisioning/dashboards/SystemMetrics.json",
+            "https://github.com/dojot/docker-compose/blob/master/monitoring/grafana/provisioning/dashboards/KafkaExporterOverview.json",
+            "https://github.com/dojot/docker-compose/blob/master/monitoring/grafana/provisioning/dashboards/Overview.json",
+            "https://github.com/dojot/docker-compose/blob/master/monitoring/grafana/provisioning/dashboards/RabbitMQOverview.json",
+            "https://github.com/dojot/docker-compose/blob/master/monitoring/grafana/provisioning/dashboards/ContainerMetrics.json"
+        ],
+        "conf": [
+            "https://github.com/dojot/docker-compose/blob/master/self-signed-certificate-nginx/nginx-dojot-https-self-signed-certificate.conf",
+            "https://github.com/dojot/docker-compose/blob/master/letsencrypt-nginx/nginx-challenge.conf",
+            "https://github.com/dojot/docker-compose/blob/master/letsencrypt-nginx/nginx-dojot-https.conf"
+        ]
+    }
+}

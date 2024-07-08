@@ -1,0 +1,49 @@
+{
+    "id": "HenryQW/Awesome-TTRSS",
+    "repo_link": "https://github.com/HenryQW/Awesome-TTRSS",
+    "file_extensions": [
+        ".yaml",
+        ".yml",
+        ".json",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/HenryQW/Awesome-TTRSS/blob/master/docker-compose.dev.yml",
+            "https://github.com/HenryQW/Awesome-TTRSS/blob/master/.gitpod.yml",
+            "https://github.com/HenryQW/Awesome-TTRSS/blob/master/docker-compose.yml",
+            "https://github.com/HenryQW/Awesome-TTRSS/blob/master/.devcontainer/docker-compose.yml",
+            "https://github.com/HenryQW/Awesome-TTRSS/blob/master/.github/FUNDING.yml",
+            "https://github.com/HenryQW/Awesome-TTRSS/blob/master/.github/stale.yml",
+            "https://github.com/HenryQW/Awesome-TTRSS/blob/master/.github/dependabot.yml",
+            "https://github.com/HenryQW/Awesome-TTRSS/blob/master/.github/workflows/doc-release.yml",
+            "https://github.com/HenryQW/Awesome-TTRSS/blob/master/.github/workflows/build-nightly-release.yml",
+            "https://github.com/HenryQW/Awesome-TTRSS/blob/master/.github/workflows/build-release.yml",
+            "https://github.com/HenryQW/Awesome-TTRSS/blob/master/.github/workflows/build-test.yml",
+            "https://github.com/HenryQW/Awesome-TTRSS/blob/master/.github/workflows/doc-test.yml"
+        ],
+        "yaml": [
+            "https://github.com/HenryQW/Awesome-TTRSS/blob/master/pnpm-lock.yaml"
+        ],
+        "json": [
+            "https://github.com/HenryQW/Awesome-TTRSS/blob/master/package.json",
+            "https://github.com/HenryQW/Awesome-TTRSS/blob/master/.devcontainer/devcontainer.json",
+            "https://github.com/HenryQW/Awesome-TTRSS/blob/master/.vscode/settings.json"
+        ],
+        "conf": [
+            "https://github.com/HenryQW/Awesome-TTRSS/blob/master/src/ttrss.nginx.conf"
+        ]
+    }
+}

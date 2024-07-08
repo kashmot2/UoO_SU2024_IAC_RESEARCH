@@ -1,0 +1,29 @@
+{
+    "id": "jatinbajaj1/xpresso",
+    "repo_link": "https://github.com/jatinbajaj1/xpresso",
+    "file_extensions": [
+        ".yml",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "ANS",
+        "PUP",
+        "DOC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/jatinbajaj1/xpresso/blob/master/docker-compose.yml",
+            "https://github.com/jatinbajaj1/xpresso/blob/master/etc/elasticsearch.yml",
+            "https://github.com/jatinbajaj1/xpresso/blob/master/old_configs/docker-compose.yml",
+            "https://github.com/jatinbajaj1/xpresso/blob/master/initializers/settings.yml"
+        ],
+        "conf": [
+            "https://github.com/jatinbajaj1/xpresso/blob/master/etc/nginx.conf",
+            "https://github.com/jatinbajaj1/xpresso/blob/master/old_configs/nginx.conf"
+        ]
+    }
+}

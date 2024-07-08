@@ -1,0 +1,38 @@
+{
+    "id": "secret-tech/backend-ico-dashboard",
+    "repo_link": "https://github.com/secret-tech/backend-ico-dashboard",
+    "file_extensions": [
+        ".yml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/secret-tech/backend-ico-dashboard/blob/master/docker-compose.stage.yml",
+            "https://github.com/secret-tech/backend-ico-dashboard/blob/master/docker-compose.yml",
+            "https://github.com/secret-tech/backend-ico-dashboard/blob/master/docker-compose.prod.yml",
+            "https://github.com/secret-tech/backend-ico-dashboard/blob/master/.travis.yml"
+        ],
+        "json": [
+            "https://github.com/secret-tech/backend-ico-dashboard/blob/master/package.json",
+            "https://github.com/secret-tech/backend-ico-dashboard/blob/master/tslint.json",
+            "https://github.com/secret-tech/backend-ico-dashboard/blob/master/tsconfig.build.json",
+            "https://github.com/secret-tech/backend-ico-dashboard/blob/master/tsconfig.json",
+            "https://github.com/secret-tech/backend-ico-dashboard/blob/master/test/fixtures/coinpayments/rates.json",
+            "https://github.com/secret-tech/backend-ico-dashboard/blob/master/contracts/default/whitelist-sc-abi.json",
+            "https://github.com/secret-tech/backend-ico-dashboard/blob/master/contracts/default/ico-sc-abi.json",
+            "https://github.com/secret-tech/backend-ico-dashboard/blob/master/contracts/default/token-sc-abi.json",
+            "https://github.com/secret-tech/backend-ico-dashboard/blob/master/src/resources/locales/ru/errors.json",
+            "https://github.com/secret-tech/backend-ico-dashboard/blob/master/src/resources/locales/ru/validation.json"
+        ]
+    }
+}

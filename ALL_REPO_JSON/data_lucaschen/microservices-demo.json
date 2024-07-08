@@ -1,0 +1,59 @@
+{
+    "id": "lucaschen/microservices-demo",
+    "repo_link": "https://github.com/lucaschen/microservices-demo",
+    "file_extensions": [
+        ".yml",
+        ".tf",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "TF",
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "OT",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/lucaschen/microservices-demo/blob/master/docker-compose.yml",
+            "https://github.com/lucaschen/microservices-demo/blob/master/api-gateway/appspec.yml",
+            "https://github.com/lucaschen/microservices-demo/blob/master/listings-service/appspec.yml",
+            "https://github.com/lucaschen/microservices-demo/blob/master/users-service/appspec.yml"
+        ],
+        "json": [
+            "https://github.com/lucaschen/microservices-demo/blob/master/api-gateway/package.json",
+            "https://github.com/lucaschen/microservices-demo/blob/master/classifieds-app/package.json",
+            "https://github.com/lucaschen/microservices-demo/blob/master/listings-service/package.json",
+            "https://github.com/lucaschen/microservices-demo/blob/master/node-deploy/package.json",
+            "https://github.com/lucaschen/microservices-demo/blob/master/users-service/package.json"
+        ],
+        "tf": [
+            "https://github.com/lucaschen/microservices-demo/blob/master/terraform/outputs.tf",
+            "https://github.com/lucaschen/microservices-demo/blob/master/terraform/listings-service.tf",
+            "https://github.com/lucaschen/microservices-demo/blob/master/terraform/networking.tf",
+            "https://github.com/lucaschen/microservices-demo/blob/master/terraform/providers.tf",
+            "https://github.com/lucaschen/microservices-demo/blob/master/terraform/users-service.tf",
+            "https://github.com/lucaschen/microservices-demo/blob/master/terraform/variables.tf",
+            "https://github.com/lucaschen/microservices-demo/blob/master/terraform/key-pairs.tf",
+            "https://github.com/lucaschen/microservices-demo/blob/master/terraform/api-gateway.tf",
+            "https://github.com/lucaschen/microservices-demo/blob/master/terraform/mysql-db/outputs.tf",
+            "https://github.com/lucaschen/microservices-demo/blob/master/terraform/mysql-db/main.tf",
+            "https://github.com/lucaschen/microservices-demo/blob/master/terraform/mysql-db/variables.tf",
+            "https://github.com/lucaschen/microservices-demo/blob/master/terraform/codedeploy-app/outputs.tf",
+            "https://github.com/lucaschen/microservices-demo/blob/master/terraform/codedeploy-app/iam-role-policies.tf",
+            "https://github.com/lucaschen/microservices-demo/blob/master/terraform/codedeploy-app/main.tf",
+            "https://github.com/lucaschen/microservices-demo/blob/master/terraform/codedeploy-app/s3.tf",
+            "https://github.com/lucaschen/microservices-demo/blob/master/terraform/codedeploy-app/iam-instance-policies.tf",
+            "https://github.com/lucaschen/microservices-demo/blob/master/terraform/codedeploy-app/iam-roles.tf",
+            "https://github.com/lucaschen/microservices-demo/blob/master/terraform/codedeploy-app/variables.tf",
+            "https://github.com/lucaschen/microservices-demo/blob/master/terraform/node-server/outputs.tf",
+            "https://github.com/lucaschen/microservices-demo/blob/master/terraform/node-server/main.tf",
+            "https://github.com/lucaschen/microservices-demo/blob/master/terraform/node-server/variables.tf"
+        ]
+    }
+}

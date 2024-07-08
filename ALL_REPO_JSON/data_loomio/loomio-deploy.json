@@ -1,0 +1,26 @@
+{
+    "id": "loomio/loomio-deploy",
+    "repo_link": "https://github.com/loomio/loomio-deploy",
+    "file_extensions": [
+        ".yml",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "ANS",
+        "PUP",
+        "DOC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/loomio/loomio-deploy/blob/master/docker-compose.yml",
+            "https://github.com/loomio/loomio-deploy/blob/master/.github/FUNDING.yml"
+        ],
+        "conf": [
+            "https://github.com/loomio/loomio-deploy/blob/master/nginx.conf"
+        ]
+    }
+}

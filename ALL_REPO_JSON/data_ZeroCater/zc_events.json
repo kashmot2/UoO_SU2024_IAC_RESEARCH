@@ -1,0 +1,21 @@
+{
+    "id": "ZeroCater/zc_events",
+    "repo_link": "https://github.com/ZeroCater/zc_events",
+    "file_extensions": [
+        ".yml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "ANS",
+        "DOC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/ZeroCater/zc_events/blob/master/circle.yml",
+            "https://github.com/ZeroCater/zc_events/blob/master/docker-compose.yml"
+        ]
+    }
+}

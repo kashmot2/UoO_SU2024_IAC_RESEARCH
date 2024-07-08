@@ -1,0 +1,20 @@
+{
+    "id": "sebgl/htpc-download-box",
+    "repo_link": "https://github.com/sebgl/htpc-download-box",
+    "file_extensions": [
+        ".yml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "ANS",
+        "DOC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/sebgl/htpc-download-box/blob/master/docker-compose.yml"
+        ]
+    }
+}

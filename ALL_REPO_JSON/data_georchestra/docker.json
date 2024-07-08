@@ -1,0 +1,29 @@
+{
+    "id": "georchestra/docker",
+    "repo_link": "https://github.com/georchestra/docker",
+    "file_extensions": [
+        ".yml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "ANS",
+        "DOC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/georchestra/docker/blob/master/docker-compose.override.yml",
+            "https://github.com/georchestra/docker/blob/master/docker-compose.atlas.yml",
+            "https://github.com/georchestra/docker/blob/master/docker-compose.gwc.yml",
+            "https://github.com/georchestra/docker/blob/master/docker-compose.datafeeder.gmail.yml",
+            "https://github.com/georchestra/docker/blob/master/docker-compose.yml",
+            "https://github.com/georchestra/docker/blob/master/docker-compose.sendmail.yml",
+            "https://github.com/georchestra/docker/blob/master/resources/traefik-config.yml",
+            "https://github.com/georchestra/docker/blob/master/resources/traefik.yml",
+            "https://github.com/georchestra/docker/blob/master/resources/kibana/kibana.yml",
+            "https://github.com/georchestra/docker/blob/master/.github/dependabot.yml"
+        ]
+    }
+}

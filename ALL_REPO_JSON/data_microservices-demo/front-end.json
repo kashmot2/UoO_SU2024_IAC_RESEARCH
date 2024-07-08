@@ -1,0 +1,29 @@
+{
+    "id": "microservices-demo/front-end",
+    "repo_link": "https://github.com/microservices-demo/front-end",
+    "file_extensions": [
+        ".json",
+        ".yml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/microservices-demo/front-end/blob/master/shippable.yml",
+            "https://github.com/microservices-demo/front-end/blob/master/.travis.yml",
+            "https://github.com/microservices-demo/front-end/blob/master/test/docker-compose.yml",
+            "https://github.com/microservices-demo/front-end/blob/master/.github/workflows/main.yml"
+        ],
+        "json": [
+            "https://github.com/microservices-demo/front-end/blob/master/package.json"
+        ]
+    }
+}

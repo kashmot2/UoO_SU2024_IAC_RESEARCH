@@ -1,0 +1,36 @@
+{
+    "id": "syxolk/euro2016",
+    "repo_link": "https://github.com/syxolk/euro2016",
+    "file_extensions": [
+        ".json",
+        ".yml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/syxolk/euro2016/blob/master/docker-compose.yml"
+        ],
+        "json": [
+            "https://github.com/syxolk/euro2016/blob/master/.prettierrc.json",
+            "https://github.com/syxolk/euro2016/blob/master/package-lock.json",
+            "https://github.com/syxolk/euro2016/blob/master/package.json",
+            "https://github.com/syxolk/euro2016/blob/master/tools/worldcup2022/worldcup2022.json",
+            "https://github.com/syxolk/euro2016/blob/master/tools/euro2024/euro2024.json",
+            "https://github.com/syxolk/euro2016/blob/master/tools/worldcup2018/worldcup2018.json",
+            "https://github.com/syxolk/euro2016/blob/master/tools/worldcup2018/worldcup2018-ko-matches.json",
+            "https://github.com/syxolk/euro2016/blob/master/tools/euro2016/euro2016.json",
+            "https://github.com/syxolk/euro2016/blob/master/tools/euro2020/euro2020.json",
+            "https://github.com/syxolk/euro2016/blob/master/locales/de.json",
+            "https://github.com/syxolk/euro2016/blob/master/locales/en.json"
+        ]
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "id": "theparanoids/ashirt-server",
+    "repo_link": "https://github.com/theparanoids/ashirt-server",
+    "file_extensions": [
+        ".yml",
+        ".json",
+        ".conf",
+        ".yaml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/theparanoids/ashirt-server/blob/master/docker-compose-prod.yml",
+            "https://github.com/theparanoids/ashirt-server/blob/master/docker-compose.yml",
+            "https://github.com/theparanoids/ashirt-server/blob/master/backend/dbconfig.yml",
+            "https://github.com/theparanoids/ashirt-server/blob/master/.github/dependabot.yml"
+        ],
+        "yaml": [
+            "https://github.com/theparanoids/ashirt-server/blob/master/.github/workflows/ci.yaml"
+        ],
+        "json": [
+            "https://github.com/theparanoids/ashirt-server/blob/master/frontend/package-lock.json",
+            "https://github.com/theparanoids/ashirt-server/blob/master/frontend/package.json",
+            "https://github.com/theparanoids/ashirt-server/blob/master/frontend/tsconfig.json",
+            "https://github.com/theparanoids/ashirt-server/blob/master/backend/integration/fixtures/dummyCode.json"
+        ],
+        "conf": [
+            "https://github.com/theparanoids/ashirt-server/blob/master/frontend/nginx.conf",
+            "https://github.com/theparanoids/ashirt-server/blob/master/backend/services/staticcheck.conf"
+        ]
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "id": "volak/TodoMVC-DDD-CQRS-EventSourcing",
+    "repo_link": "https://github.com/volak/TodoMVC-DDD-CQRS-EventSourcing",
+    "file_extensions": [
+        ".yml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/volak/TodoMVC-DDD-CQRS-EventSourcing/blob/master/docker-compose.override.yml",
+            "https://github.com/volak/TodoMVC-DDD-CQRS-EventSourcing/blob/master/docker-compose.yml"
+        ],
+        "json": [
+            "https://github.com/volak/TodoMVC-DDD-CQRS-EventSourcing/blob/master/src/Web/appsettings.json",
+            "https://github.com/volak/TodoMVC-DDD-CQRS-EventSourcing/blob/master/src/Web/appsettings.Development.json",
+            "https://github.com/volak/TodoMVC-DDD-CQRS-EventSourcing/blob/master/src/Web/ClientApp/cypress.json",
+            "https://github.com/volak/TodoMVC-DDD-CQRS-EventSourcing/blob/master/src/Web/ClientApp/package.json",
+            "https://github.com/volak/TodoMVC-DDD-CQRS-EventSourcing/blob/master/src/Web/ClientApp/.eslintrc.json",
+            "https://github.com/volak/TodoMVC-DDD-CQRS-EventSourcing/blob/master/src/Web/ClientApp/public/manifest.json",
+            "https://github.com/volak/TodoMVC-DDD-CQRS-EventSourcing/blob/master/src/Web/Properties/launchSettings.json"
+        ]
+    }
+}

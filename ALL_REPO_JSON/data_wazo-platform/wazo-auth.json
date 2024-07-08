@@ -1,0 +1,68 @@
+{
+    "id": "wazo-platform/wazo-auth",
+    "repo_link": "https://github.com/wazo-platform/wazo-auth",
+    "file_extensions": [
+        ".yaml",
+        ".conf",
+        ".yml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "GOOG",
+        "ANS",
+        "PUP",
+        "DOC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/wazo-platform/wazo-auth/blob/master/integration_tests/assets/docker-compose.base.override.yml",
+            "https://github.com/wazo-platform/wazo-auth/blob/master/integration_tests/assets/docker-compose.database.override.yml",
+            "https://github.com/wazo-platform/wazo-auth/blob/master/integration_tests/assets/docker-compose.yml",
+            "https://github.com/wazo-platform/wazo-auth/blob/master/integration_tests/assets/docker-compose.external_auth.override.yml",
+            "https://github.com/wazo-platform/wazo-auth/blob/master/integration_tests/assets/docker-compose.metadata.override.yml",
+            "https://github.com/wazo-platform/wazo-auth/blob/master/integration_tests/assets/etc/wazo-auth/conf.d/asset.metadata.yml",
+            "https://github.com/wazo-platform/wazo-auth/blob/master/integration_tests/assets/etc/wazo-auth/conf.d/asset.external_auth.yml",
+            "https://github.com/wazo-platform/wazo-auth/blob/master/integration_tests/assets/etc/wazo-auth/conf.d/asset.base.yml",
+            "https://github.com/wazo-platform/wazo-auth/blob/master/integration_tests/assets/etc/wazo-auth/conf.d/50-default.yml",
+            "https://github.com/wazo-platform/wazo-auth/blob/master/etc/wazo-auth/config.yml",
+            "https://github.com/wazo-platform/wazo-auth/blob/master/wazo_auth/plugins/external_auth/google/api.yml",
+            "https://github.com/wazo-platform/wazo-auth/blob/master/wazo_auth/plugins/external_auth/microsoft/api.yml",
+            "https://github.com/wazo-platform/wazo-auth/blob/master/wazo_auth/plugins/external_auth/mobile/api.yml",
+            "https://github.com/wazo-platform/wazo-auth/blob/master/wazo_auth/plugins/http/idp/api.yml",
+            "https://github.com/wazo-platform/wazo-auth/blob/master/wazo_auth/plugins/http/user_group/api.yml",
+            "https://github.com/wazo-platform/wazo-auth/blob/master/wazo_auth/plugins/http/config/api.yml",
+            "https://github.com/wazo-platform/wazo-auth/blob/master/wazo_auth/plugins/http/user_registration/api.yml",
+            "https://github.com/wazo-platform/wazo-auth/blob/master/wazo_auth/plugins/http/backends/api.yml",
+            "https://github.com/wazo-platform/wazo-auth/blob/master/wazo_auth/plugins/http/user_policy/api.yml",
+            "https://github.com/wazo-platform/wazo-auth/blob/master/wazo_auth/plugins/http/groups/api.yml",
+            "https://github.com/wazo-platform/wazo-auth/blob/master/wazo_auth/plugins/http/status/api.yml",
+            "https://github.com/wazo-platform/wazo-auth/blob/master/wazo_auth/plugins/http/tenants/api.yml",
+            "https://github.com/wazo-platform/wazo-auth/blob/master/wazo_auth/plugins/http/email_confirm/api.yml",
+            "https://github.com/wazo-platform/wazo-auth/blob/master/wazo_auth/plugins/http/policies/api.yml",
+            "https://github.com/wazo-platform/wazo-auth/blob/master/wazo_auth/plugins/http/ldap_config/api.yml",
+            "https://github.com/wazo-platform/wazo-auth/blob/master/wazo_auth/plugins/http/user_email/api.yml",
+            "https://github.com/wazo-platform/wazo-auth/blob/master/wazo_auth/plugins/http/sessions/api.yml",
+            "https://github.com/wazo-platform/wazo-auth/blob/master/wazo_auth/plugins/http/user_session/api.yml",
+            "https://github.com/wazo-platform/wazo-auth/blob/master/wazo_auth/plugins/http/users/api.yml",
+            "https://github.com/wazo-platform/wazo-auth/blob/master/wazo_auth/plugins/http/api/api.yml",
+            "https://github.com/wazo-platform/wazo-auth/blob/master/wazo_auth/plugins/http/password_reset/api.yml",
+            "https://github.com/wazo-platform/wazo-auth/blob/master/wazo_auth/plugins/http/external/api.yml",
+            "https://github.com/wazo-platform/wazo-auth/blob/master/wazo_auth/plugins/http/tokens/api.yml",
+            "https://github.com/wazo-platform/wazo-auth/blob/master/wazo_auth/plugins/http/group_policy/api.yml",
+            "https://github.com/wazo-platform/wazo-auth/blob/master/wazo_auth/plugins/http/saml/api.yml"
+        ],
+        "yaml": [
+            "https://github.com/wazo-platform/wazo-auth/blob/master/.pre-commit-config.yaml",
+            "https://github.com/wazo-platform/wazo-auth/blob/master/zuul.yaml",
+            "https://github.com/wazo-platform/wazo-auth/blob/master/zuul.d/functional-pre-run.yaml"
+        ],
+        "conf": [
+            "https://github.com/wazo-platform/wazo-auth/blob/master/openssl-x509.conf",
+            "https://github.com/wazo-platform/wazo-auth/blob/master/etc/nginx/wazo-auth-shared.conf",
+            "https://github.com/wazo-platform/wazo-auth/blob/master/etc/rsyslog.d/99-wazo-auth.conf"
+        ]
+    }
+}

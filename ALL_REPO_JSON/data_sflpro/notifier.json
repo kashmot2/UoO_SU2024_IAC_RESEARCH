@@ -1,0 +1,28 @@
+{
+    "id": "sflpro/notifier",
+    "repo_link": "https://github.com/sflpro/notifier",
+    "file_extensions": [
+        ".yml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/sflpro/notifier/blob/master/.travis.yml",
+            "https://github.com/sflpro/notifier/blob/master/samples/notifier-postgres-rabbit/docker-compose.yml",
+            "https://github.com/sflpro/notifier/blob/master/samples/notifier-postgres-noworker/docker-compose.yml"
+        ],
+        "json": [
+            "https://github.com/sflpro/notifier/blob/master/infra/infra-integrations/infra-integrations-push/src/main/resources/com/sflpro/notifier/externalclients/push/firebase/notifier-development-firebase-adminsdk-629bf-582f1cff8f.json"
+        ]
+    }
+}

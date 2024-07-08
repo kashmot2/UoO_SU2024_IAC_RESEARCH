@@ -1,0 +1,39 @@
+{
+    "id": "skalogs/SkaETL",
+    "repo_link": "https://github.com/skalogs/SkaETL",
+    "file_extensions": [
+        ".yml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/skalogs/SkaETL/blob/master/.travis.yml",
+            "https://github.com/skalogs/SkaETL/blob/master/retry-importer/src/main/resources/application.yml",
+            "https://github.com/skalogs/SkaETL/blob/master/error-importer/src/main/resources/application.yml",
+            "https://github.com/skalogs/SkaETL/blob/master/standalone-importer/src/main/resources/application.yml",
+            "https://github.com/skalogs/SkaETL/blob/master/metric-importer/src/main/resources/application.yml",
+            "https://github.com/skalogs/SkaETL/blob/master/process-importer-simulator/src/main/resources/application.yml",
+            "https://github.com/skalogs/SkaETL/blob/master/local/docker-compose.yml",
+            "https://github.com/skalogs/SkaETL/blob/master/local/dependency/docker-compose.yml",
+            "https://github.com/skalogs/SkaETL/blob/master/generator/src/main/resources/application.yml",
+            "https://github.com/skalogs/SkaETL/blob/master/referential-importer-impl/src/main/resources/application.yml",
+            "https://github.com/skalogs/SkaETL/blob/master/skaetl-backend/src/main/resources/application.yml",
+            "https://github.com/skalogs/SkaETL/blob/master/process-importer/src/main/resources/application.yml",
+            "https://github.com/skalogs/SkaETL/blob/master/referential-importer/src/main/resources/application.yml"
+        ],
+        "json": [
+            "https://github.com/skalogs/SkaETL/blob/master/skaetl-frontend/package.json",
+            "https://github.com/skalogs/SkaETL/blob/master/skaetl-frontend/src/assets/favicons/manifest.json"
+        ]
+    }
+}

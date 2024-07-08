@@ -1,0 +1,28 @@
+{
+    "id": "hubcare/hubcare-api",
+    "repo_link": "https://github.com/hubcare/hubcare-api",
+    "file_extensions": [
+        ".yml",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "ANS",
+        "PUP",
+        "DOC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/hubcare/hubcare-api/blob/master/docker-compose.production.yml",
+            "https://github.com/hubcare/hubcare-api/blob/master/docker-compose.rancher.yml",
+            "https://github.com/hubcare/hubcare-api/blob/master/docker-compose.yml",
+            "https://github.com/hubcare/hubcare-api/blob/master/.gitlab-ci.yml"
+        ],
+        "conf": [
+            "https://github.com/hubcare/hubcare-api/blob/master/nginx.conf"
+        ]
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "id": "itering/subscan-essentials",
+    "repo_link": "https://github.com/itering/subscan-essentials",
+    "file_extensions": [
+        ".yml",
+        ".json",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/itering/subscan-essentials/blob/master/.golangci.yml",
+            "https://github.com/itering/subscan-essentials/blob/master/docker-compose.db.yml",
+            "https://github.com/itering/subscan-essentials/blob/master/docker-compose.yml",
+            "https://github.com/itering/subscan-essentials/blob/master/.github/workflows/go.yml"
+        ],
+        "json": [
+            "https://github.com/itering/subscan-essentials/blob/master/dogo.json",
+            "https://github.com/itering/subscan-essentials/blob/master/ui/package.json",
+            "https://github.com/itering/subscan-essentials/blob/master/ui/locales/zh-CN.json",
+            "https://github.com/itering/subscan-essentials/blob/master/ui/locales/en.json",
+            "https://github.com/itering/subscan-essentials/blob/master/ui/plugins/external/events.json",
+            "https://github.com/itering/subscan-essentials/blob/master/ui/plugins/external/blocks.json",
+            "https://github.com/itering/subscan-essentials/blob/master/configs/source/westend.json",
+            "https://github.com/itering/subscan-essentials/blob/master/configs/source/polkadot.json",
+            "https://github.com/itering/subscan-essentials/blob/master/configs/source/kusama.json"
+        ],
+        "conf": [
+            "https://github.com/itering/subscan-essentials/blob/master/ui/default.conf"
+        ]
+    }
+}

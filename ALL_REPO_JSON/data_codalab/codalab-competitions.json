@@ -1,0 +1,55 @@
+{
+    "id": "codalab/codalab-competitions",
+    "repo_link": "https://github.com/codalab/codalab-competitions",
+    "file_extensions": [
+        ".yml",
+        ".conf",
+        ".json",
+        ".yaml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/codalab/codalab-competitions/blob/master/docker-compose.yml",
+            "https://github.com/codalab/codalab-competitions/blob/master/.github/dependabot.yml",
+            "https://github.com/codalab/codalab-competitions/blob/master/.circleci/config.yml"
+        ],
+        "yaml": [
+            "https://github.com/codalab/codalab-competitions/blob/master/codalab/repositories/1/bundle.yaml",
+            "https://github.com/codalab/codalab-competitions/blob/master/.github/workflows/run-pytest.yaml"
+        ],
+        "json": [
+            "https://github.com/codalab/codalab-competitions/blob/master/codalab/package-lock.json",
+            "https://github.com/codalab/codalab-competitions/blob/master/codalab/package.json",
+            "https://github.com/codalab/codalab-competitions/blob/master/codalab/apps/web/static/bootstrap/less/.csscomb.json",
+            "https://github.com/codalab/codalab-competitions/blob/master/codalab/apps/web/static/js/vendor/select2/select2.jquery.json",
+            "https://github.com/codalab/codalab-competitions/blob/master/codalab/apps/web/static/js/vendor/select2/bower.json",
+            "https://github.com/codalab/codalab-competitions/blob/master/codalab/apps/web/static/js/vendor/select2/component.json",
+            "https://github.com/codalab/codalab-competitions/blob/master/codalab/apps/web/static/js/vendor/select2/package.json",
+            "https://github.com/codalab/codalab-competitions/blob/master/codalab/apps/web/static/js/vendor/select2/composer.json",
+            "https://github.com/codalab/codalab-competitions/blob/master/codalab/apps/web/fixtures/initial_data.json",
+            "https://github.com/codalab/codalab-competitions/blob/master/codalab/apps/web/fixtures/initialize_site.json",
+            "https://github.com/codalab/codalab-competitions/blob/master/codalab/apps/teams/fixtures/initial_team_data.json"
+        ],
+        "conf": [
+            "https://github.com/codalab/codalab-competitions/blob/master/docker/nginx/nginx.conf",
+            "https://github.com/codalab/codalab-competitions/blob/master/docker/nginx/ssl.conf",
+            "https://github.com/codalab/codalab-competitions/blob/master/codalab/config/templates/supervisor.conf",
+            "https://github.com/codalab/codalab-competitions/blob/master/codalab/config/templates/nginx.conf",
+            "https://github.com/codalab/codalab-competitions/blob/master/codalab/codalabtools/deploy/configs/upstart/codalab-compute-worker.conf",
+            "https://github.com/codalab/codalab-competitions/blob/master/codalab/codalabtools/deploy/configs/upstart/flower.conf",
+            "https://github.com/codalab/codalab-competitions/blob/master/codalab/codalabtools/deploy/configs/upstart/codalab-monitor.conf"
+        ]
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "id": "RedHatInsights/insights-puptoo",
+    "repo_link": "https://github.com/RedHatInsights/insights-puptoo",
+    "file_extensions": [
+        ".yaml",
+        ".yml",
+        ".json",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/RedHatInsights/insights-puptoo/blob/master/.github/workflows/security-scanning.yml",
+            "https://github.com/RedHatInsights/insights-puptoo/blob/master/dev/openshift.yml",
+            "https://github.com/RedHatInsights/insights-puptoo/blob/master/dev/full-stack.yml",
+            "https://github.com/RedHatInsights/insights-puptoo/blob/master/dev/docker-compose.yml",
+            "https://github.com/RedHatInsights/insights-puptoo/blob/master/dev/test-stack.yml",
+            "https://github.com/RedHatInsights/insights-puptoo/blob/master/dev/test-producer-job.yml"
+        ],
+        "yaml": [
+            "https://github.com/RedHatInsights/insights-puptoo/blob/master/deployment.yaml",
+            "https://github.com/RedHatInsights/insights-puptoo/blob/master/dashboards/grafana-dashboard-insights-puptoo-general.configmap.yaml"
+        ],
+        "json": [
+            "https://github.com/RedHatInsights/insights-puptoo/blob/master/dev/cdappconfig.json",
+            "https://github.com/RedHatInsights/insights-puptoo/blob/master/dev/test-archives/core-base/meta_data/insights.specs.Specs.ps_aux.json",
+            "https://github.com/RedHatInsights/insights-puptoo/blob/master/dev/test-archives/core-base/meta_data/insights.specs.Specs.pmlog_summary_pcp_zeroconf.json",
+            "https://github.com/RedHatInsights/insights-puptoo/blob/master/dev/test-archives/core-base/meta_data/insights.specs.Specs.systemctl_list_unit_files.json",
+            "https://github.com/RedHatInsights/insights-puptoo/blob/master/dev/test-archives/core-base/meta_data/insights.specs.Specs.redhat_release.json",
+            "https://github.com/RedHatInsights/insights-puptoo/blob/master/dev/test-archives/core-base/meta_data/insights.specs.Specs.cpuinfo.json",
+            "https://github.com/RedHatInsights/insights-puptoo/blob/master/dev/test-archives/core-base/meta_data/insights.specs.Specs.ps_ef.json",
+            "https://github.com/RedHatInsights/insights-puptoo/blob/master/dev/test-archives/core-base/meta_data/insights.specs.Specs.sestatus.json",
+            "https://github.com/RedHatInsights/insights-puptoo/blob/master/dev/test-archives/core-base/meta_data/insights.specs.Specs.iris_cpf.json",
+            "https://github.com/RedHatInsights/insights-puptoo/blob/master/dev/test-archives/core-base/meta_data/insights.specs.Specs.bootc_status.json",
+            "https://github.com/RedHatInsights/insights-puptoo/blob/master/dev/test-archives/core-base/meta_data/insights.specs.Specs.lscpu.json",
+            "https://github.com/RedHatInsights/insights-puptoo/blob/master/dev/test-archives/core-base/meta_data/insights.specs.Specs.date.json",
+            "https://github.com/RedHatInsights/insights-puptoo/blob/master/dev/test-archives/core-base/meta_data/insights.specs.Specs.dmidecode.json",
+            "https://github.com/RedHatInsights/insights-puptoo/blob/master/dev/test-archives/core-base/meta_data/insights.specs.Specs.ip_s_link.json",
+            "https://github.com/RedHatInsights/insights-puptoo/blob/master/dev/test-archives/core-base/meta_data/insights.specs.Specs.tuned_adm.json",
+            "https://github.com/RedHatInsights/insights-puptoo/blob/master/dev/test-archives/core-base/meta_data/insights.specs.Specs.ps_auxww.json",
+            "https://github.com/RedHatInsights/insights-puptoo/blob/master/dev/test-archives/core-base/meta_data/insights.specs.Specs.installed_rpms.json",
+            "https://github.com/RedHatInsights/insights-puptoo/blob/master/dev/test-archives/core-base/meta_data/insights.specs.Specs.ip_route_show_table_all.json",
+            "https://github.com/RedHatInsights/insights-puptoo/blob/master/dev/test-archives/core-base/meta_data/insights.specs.Specs.rhsm_releasever.json",
+            "https://github.com/RedHatInsights/insights-puptoo/blob/master/dev/test-archives/core-base/meta_data/insights.specs.Specs.date_utc.json",
+            "https://github.com/RedHatInsights/insights-puptoo/blob/master/dev/test-archives/core-base/meta_data/insights.specs.Specs.pmlog_summary.json",
+            "https://github.com/RedHatInsights/insights-puptoo/blob/master/dev/test-archives/core-base/meta_data/insights.specs.Specs.uptime.json",
+            "https://github.com/RedHatInsights/insights-puptoo/blob/master/dev/test-archives/core-base/meta_data/insights.specs.Specs.yum_list_available.json",
+            "https://github.com/RedHatInsights/insights-puptoo/blob/master/dev/test-archives/core-base/meta_data/insights.specs.Specs.yum_repos_d.json",
+            "https://github.com/RedHatInsights/insights-puptoo/blob/master/dev/test-archives/core-base/meta_data/insights.specs.Specs.ip_addresses.json",
+            "https://github.com/RedHatInsights/insights-puptoo/blob/master/dev/test-archives/core-base/meta_data/insights.specs.Specs.aws_instance_id_doc.json",
+            "https://github.com/RedHatInsights/insights-puptoo/blob/master/dev/test-archives/core-base/meta_data/insights.specs.Specs.iris_list.json",
+            "https://github.com/RedHatInsights/insights-puptoo/blob/master/dev/test-archives/core-base/meta_data/insights.specs.Specs.ps_alxwww.json",
+            "https://github.com/RedHatInsights/insights-puptoo/blob/master/dev/test-archives/core-base/meta_data/insights.specs.Specs.lsmod.json",
+            "https://github.com/RedHatInsights/insights-puptoo/blob/master/dev/test-archives/core-base/meta_data/insights.specs.Specs.ps_eo.json",
+            "https://github.com/RedHatInsights/insights-puptoo/blob/master/dev/test-archives/core-base/meta_data/insights.specs.Specs.meminfo.json",
+            "https://github.com/RedHatInsights/insights-puptoo/blob/master/dev/test-archives/core-base/meta_data/insights.specs.Specs.ip_addr.json",
+            "https://github.com/RedHatInsights/insights-puptoo/blob/master/dev/test-archives/core-base/meta_data/insights.specs.Specs.systemctl_list_units.json",
+            "https://github.com/RedHatInsights/insights-puptoo/blob/master/dev/test-archives/core-base/meta_data/insights.specs.Specs.dnf_conf.json",
+            "https://github.com/RedHatInsights/insights-puptoo/blob/master/dev/test-archives/core-base/meta_data/insights.specs.Specs.sap_hdb_version.json",
+            "https://github.com/RedHatInsights/insights-puptoo/blob/master/dev/test-archives/core-base/meta_data/insights.specs.Specs.pcp_raw_data.json",
+            "https://github.com/RedHatInsights/insights-puptoo/blob/master/dev/test-archives/core-base/meta_data/insights.specs.Specs.virt_what.json",
+            "https://github.com/RedHatInsights/insights-puptoo/blob/master/dev/test-archives/core-base/meta_data/insights.specs.Specs.yum_repolist.json",
+            "https://github.com/RedHatInsights/insights-puptoo/blob/master/dev/test-archives/core-base/meta_data/insights.specs.Specs.subscription_manager_facts.json",
+            "https://github.com/RedHatInsights/insights-puptoo/blob/master/dev/test-archives/core-base/meta_data/insights.specs.Specs.uname.json",
+            "https://github.com/RedHatInsights/insights-puptoo/blob/master/dev/test-archives/core-base/meta_data/insights.specs.Specs.ps_auxcww.json",
+            "https://github.com/RedHatInsights/insights-puptoo/blob/master/dev/test-archives/core-base/data/var/lib/rhsm/cache/releasever.json"
+        ],
+        "conf": [
+            "https://github.com/RedHatInsights/insights-puptoo/blob/master/dev/test-archives/core-base/data/etc/rhsm/rhsm.conf",
+            "https://github.com/RedHatInsights/insights-puptoo/blob/master/dev/test-archives/core-base/data/etc/dnf/dnf.conf"
+        ]
+    }
+}

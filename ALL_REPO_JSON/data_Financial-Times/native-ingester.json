@@ -1,0 +1,38 @@
+{
+    "id": "Financial-Times/native-ingester",
+    "repo_link": "https://github.com/Financial-Times/native-ingester",
+    "file_extensions": [
+        ".json",
+        ".yml",
+        ".yaml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/Financial-Times/native-ingester/blob/master/docker-compose.yml",
+            "https://github.com/Financial-Times/native-ingester/blob/master/.circleci/config.yml"
+        ],
+        "yaml": [
+            "https://github.com/Financial-Times/native-ingester/blob/master/helm/native-ingester/Chart.yaml",
+            "https://github.com/Financial-Times/native-ingester/blob/master/helm/native-ingester/values.yaml",
+            "https://github.com/Financial-Times/native-ingester/blob/master/helm/native-ingester/app-configs/native-ingester-metadata_eks_publish.yaml",
+            "https://github.com/Financial-Times/native-ingester/blob/master/helm/native-ingester/app-configs/native-ingester-cms_eks_publish.yaml",
+            "https://github.com/Financial-Times/native-ingester/blob/master/helm/native-ingester/templates/deployment.yaml",
+            "https://github.com/Financial-Times/native-ingester/blob/master/helm/native-ingester/templates/service.yaml"
+        ],
+        "json": [
+            "https://github.com/Financial-Times/native-ingester/blob/master/config.json",
+            "https://github.com/Financial-Times/native-ingester/blob/master/config_metadata.json"
+        ]
+    }
+}

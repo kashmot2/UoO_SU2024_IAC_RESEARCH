@@ -1,0 +1,48 @@
+{
+    "id": "interlay/polkabtc-js",
+    "repo_link": "https://github.com/interlay/polkabtc-js",
+    "file_extensions": [
+        ".yml",
+        ".json",
+        ".yaml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/interlay/polkabtc-js/blob/master/.yarnrc.yml",
+            "https://github.com/interlay/polkabtc-js/blob/master/docker-compose.yml",
+            "https://github.com/interlay/polkabtc-js/blob/master/.chglog/config.yml",
+            "https://github.com/interlay/polkabtc-js/blob/master/.github/dependabot.yml",
+            "https://github.com/interlay/polkabtc-js/blob/master/.github/workflows/npm.yml",
+            "https://github.com/interlay/polkabtc-js/blob/master/.github/workflows/integration-tests.yml",
+            "https://github.com/interlay/polkabtc-js/blob/master/.github/workflows/projects.yml"
+        ],
+        "yaml": [
+            "https://github.com/interlay/polkabtc-js/blob/master/.github/workflows/docs.yaml"
+        ],
+        "json": [
+            "https://github.com/interlay/polkabtc-js/blob/master/tsconfig-base.json",
+            "https://github.com/interlay/polkabtc-js/blob/master/package.json",
+            "https://github.com/interlay/polkabtc-js/blob/master/typedoc.json",
+            "https://github.com/interlay/polkabtc-js/blob/master/tsconfig.json",
+            "https://github.com/interlay/polkabtc-js/blob/master/tsconfig-types.json",
+            "https://github.com/interlay/polkabtc-js/blob/master/.eslintrc.json",
+            "https://github.com/interlay/polkabtc-js/blob/master/tsconfig-cjs.json",
+            "https://github.com/interlay/polkabtc-js/blob/master/docker/vault_2-keyfile.json",
+            "https://github.com/interlay/polkabtc-js/blob/master/docker/vault_3-keyfile.json",
+            "https://github.com/interlay/polkabtc-js/blob/master/docker/vault_1-keyfile.json",
+            "https://github.com/interlay/polkabtc-js/blob/master/docker/oracle-config.json",
+            "https://github.com/interlay/polkabtc-js/blob/master/src/json/parachain.json"
+        ]
+    }
+}

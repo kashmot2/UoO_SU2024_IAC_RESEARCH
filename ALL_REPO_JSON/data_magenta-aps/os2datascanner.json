@@ -1,0 +1,41 @@
+{
+    "id": "magenta-aps/os2datascanner",
+    "repo_link": "https://github.com/magenta-aps/os2datascanner",
+    "file_extensions": [
+        ".yml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/magenta-aps/os2datascanner/blob/master/.readthedocs.yml",
+            "https://github.com/magenta-aps/os2datascanner/blob/master/docker-compose.yml",
+            "https://github.com/magenta-aps/os2datascanner/blob/master/.gitlab-ci.yml",
+            "https://github.com/magenta-aps/os2datascanner/blob/master/dev-environment/docker-compose.yml",
+            "https://github.com/magenta-aps/os2datascanner/blob/master/dev-environment/prometheus.yml",
+            "https://github.com/magenta-aps/os2datascanner/blob/master/dev-environment/grafana/datasources.yml",
+            "https://github.com/magenta-aps/os2datascanner/blob/master/dev-environment/grafana/dashboards/dashboard.yml",
+            "https://github.com/magenta-aps/os2datascanner/blob/master/var/prometheus/postgres.yml",
+            "https://github.com/magenta-aps/os2datascanner/blob/master/contrib/graylog/docker-compose.yml",
+            "https://github.com/magenta-aps/os2datascanner/blob/master/doc/samples/docker-compose.yml"
+        ],
+        "json": [
+            "https://github.com/magenta-aps/os2datascanner/blob/master/dev-environment/grafana/dashboards/engine.json",
+            "https://github.com/magenta-aps/os2datascanner/blob/master/src/os2datascanner/projects/admin/adminapp/package-lock.json",
+            "https://github.com/magenta-aps/os2datascanner/blob/master/src/os2datascanner/projects/admin/adminapp/package.json",
+            "https://github.com/magenta-aps/os2datascanner/blob/master/src/os2datascanner/projects/admin/adminapp/static/src/svg/selection.json",
+            "https://github.com/magenta-aps/os2datascanner/blob/master/src/os2datascanner/projects/report/reportapp/results-and-metadata.json",
+            "https://github.com/magenta-aps/os2datascanner/blob/master/src/os2datascanner/projects/report/reportapp/package-lock.json",
+            "https://github.com/magenta-aps/os2datascanner/blob/master/src/os2datascanner/projects/report/reportapp/package.json"
+        ]
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "id": "xeraa/microservice-monitoring",
+    "repo_link": "https://github.com/xeraa/microservice-monitoring",
+    "file_extensions": [
+        ".yml",
+        ".tf",
+        ".json",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "TF",
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "PUP",
+        "OT",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/xeraa/microservice-monitoring/blob/master/workshop/include_deploy_boot.yml",
+            "https://github.com/xeraa/microservice-monitoring/blob/master/workshop/deploy_backend.yml",
+            "https://github.com/xeraa/microservice-monitoring/blob/master/workshop/deploy_frontend.yml",
+            "https://github.com/xeraa/microservice-monitoring/blob/master/workshop/configure_php.yml",
+            "https://github.com/xeraa/microservice-monitoring/blob/master/workshop/variables.yml",
+            "https://github.com/xeraa/microservice-monitoring/blob/master/workshop/deploy_bad.yml",
+            "https://github.com/xeraa/microservice-monitoring/blob/master/workshop/include_event.yml",
+            "https://github.com/xeraa/microservice-monitoring/blob/master/workshop/configure_all.yml",
+            "https://github.com/xeraa/microservice-monitoring/blob/master/workshop/files/mysite/_config/logging.yml",
+            "https://github.com/xeraa/microservice-monitoring/blob/master/workshop/files/mysite/_config/routes.yml",
+            "https://github.com/xeraa/microservice-monitoring/blob/master/workshop/templates/packetbeat.yml",
+            "https://github.com/xeraa/microservice-monitoring/blob/master/workshop/templates/heartbeat.yml",
+            "https://github.com/xeraa/microservice-monitoring/blob/master/workshop/templates/apm-server.yml",
+            "https://github.com/xeraa/microservice-monitoring/blob/master/workshop/templates/auditbeat.yml",
+            "https://github.com/xeraa/microservice-monitoring/blob/master/workshop/templates/metricbeat.yml",
+            "https://github.com/xeraa/microservice-monitoring/blob/master/workshop/templates/filebeat.yml",
+            "https://github.com/xeraa/microservice-monitoring/blob/master/workshop/templates/mysite.yml",
+            "https://github.com/xeraa/microservice-monitoring/blob/master/lightsail/include_deploy_boot.yml",
+            "https://github.com/xeraa/microservice-monitoring/blob/master/lightsail/restart_frontend.yml",
+            "https://github.com/xeraa/microservice-monitoring/blob/master/lightsail/configure_backend.yml",
+            "https://github.com/xeraa/microservice-monitoring/blob/master/lightsail/deploy_backend.yml",
+            "https://github.com/xeraa/microservice-monitoring/blob/master/lightsail/deploy_frontend.yml",
+            "https://github.com/xeraa/microservice-monitoring/blob/master/lightsail/variables.yml",
+            "https://github.com/xeraa/microservice-monitoring/blob/master/lightsail/include_event.yml",
+            "https://github.com/xeraa/microservice-monitoring/blob/master/lightsail/configure_all.yml",
+            "https://github.com/xeraa/microservice-monitoring/blob/master/lightsail/templates/packetbeat.yml",
+            "https://github.com/xeraa/microservice-monitoring/blob/master/lightsail/templates/heartbeat.yml",
+            "https://github.com/xeraa/microservice-monitoring/blob/master/lightsail/templates/auditbeat.yml",
+            "https://github.com/xeraa/microservice-monitoring/blob/master/lightsail/templates/metricbeat.yml",
+            "https://github.com/xeraa/microservice-monitoring/blob/master/lightsail/templates/filebeat.yml",
+            "https://github.com/xeraa/microservice-monitoring/blob/master/java/docker-compose.yml",
+            "https://github.com/xeraa/microservice-monitoring/blob/master/java/frontend/src/main/resources/application.yml",
+            "https://github.com/xeraa/microservice-monitoring/blob/master/java/backend/src/main/resources/application.yml",
+            "https://github.com/xeraa/microservice-monitoring/blob/master/local/docker-compose.yml",
+            "https://github.com/xeraa/microservice-monitoring/blob/master/local/config/packetbeat.yml",
+            "https://github.com/xeraa/microservice-monitoring/blob/master/local/config/heartbeat.yml",
+            "https://github.com/xeraa/microservice-monitoring/blob/master/local/config/apm-server.yml",
+            "https://github.com/xeraa/microservice-monitoring/blob/master/local/config/metricbeat.yml",
+            "https://github.com/xeraa/microservice-monitoring/blob/master/local/config/filebeat.yml",
+            "https://github.com/xeraa/microservice-monitoring/blob/master/.github/dependabot.yml"
+        ],
+        "json": [
+            "https://github.com/xeraa/microservice-monitoring/blob/master/workshop/files/alerting_heapsize.json",
+            "https://github.com/xeraa/microservice-monitoring/blob/master/lightsail/files/security_role_dashboard.json",
+            "https://github.com/xeraa/microservice-monitoring/blob/master/lightsail/files/alerting_heapsize.json",
+            "https://github.com/xeraa/microservice-monitoring/blob/master/lightsail/templates/security_user_dashboard.json"
+        ],
+        "conf": [
+            "https://github.com/xeraa/microservice-monitoring/blob/master/workshop/templates/osquery.conf",
+            "https://github.com/xeraa/microservice-monitoring/blob/master/workshop/templates/frontend.conf",
+            "https://github.com/xeraa/microservice-monitoring/blob/master/workshop/templates/backend.conf",
+            "https://github.com/xeraa/microservice-monitoring/blob/master/workshop/templates/nginx.conf",
+            "https://github.com/xeraa/microservice-monitoring/blob/master/lightsail/templates/frontend.conf",
+            "https://github.com/xeraa/microservice-monitoring/blob/master/lightsail/templates/tls.conf",
+            "https://github.com/xeraa/microservice-monitoring/blob/master/lightsail/templates/backend.conf",
+            "https://github.com/xeraa/microservice-monitoring/blob/master/lightsail/templates/nginx.conf"
+        ],
+        "tf": [
+            "https://github.com/xeraa/microservice-monitoring/blob/master/workshop/variables.tf",
+            "https://github.com/xeraa/microservice-monitoring/blob/master/workshop/terraform.tf",
+            "https://github.com/xeraa/microservice-monitoring/blob/master/lightsail/variables.tf",
+            "https://github.com/xeraa/microservice-monitoring/blob/master/lightsail/terraform.tf"
+        ]
+    }
+}

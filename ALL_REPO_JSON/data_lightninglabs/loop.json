@@ -1,0 +1,41 @@
+{
+    "id": "lightninglabs/loop",
+    "repo_link": "https://github.com/lightninglabs/loop",
+    "file_extensions": [
+        ".yaml",
+        ".conf",
+        ".yml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/lightninglabs/loop/blob/master/.golangci.yml",
+            "https://github.com/lightninglabs/loop/blob/master/regtest/docker-compose.yml",
+            "https://github.com/lightninglabs/loop/blob/master/.github/workflows/docker.yml",
+            "https://github.com/lightninglabs/loop/blob/master/.github/workflows/main.yml",
+            "https://github.com/lightninglabs/loop/blob/master/.github/ISSUE_TEMPLATE/config.yml"
+        ],
+        "yaml": [
+            "https://github.com/lightninglabs/loop/blob/master/sqlc.yaml",
+            "https://github.com/lightninglabs/loop/blob/master/looprpc/client.yaml"
+        ],
+        "json": [
+            "https://github.com/lightninglabs/loop/blob/master/looprpc/client.swagger.json"
+        ],
+        "conf": [
+            "https://github.com/lightninglabs/loop/blob/master/sample-loopd.conf"
+        ]
+    }
+}

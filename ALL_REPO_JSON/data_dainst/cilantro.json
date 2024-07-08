@@ -1,0 +1,66 @@
+{
+    "id": "dainst/cilantro",
+    "repo_link": "https://github.com/dainst/cilantro",
+    "file_extensions": [
+        ".yml",
+        ".conf",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/dainst/cilantro/blob/master/docker-compose.local_omp.yml",
+            "https://github.com/dainst/cilantro/blob/master/docker-compose.local_ojs.yml",
+            "https://github.com/dainst/cilantro/blob/master/docker-compose.build.yml",
+            "https://github.com/dainst/cilantro/blob/master/docker-compose.yml",
+            "https://github.com/dainst/cilantro/blob/master/docker-compose.prod.yml",
+            "https://github.com/dainst/cilantro/blob/master/docker-compose.test.yml",
+            "https://github.com/dainst/cilantro/blob/master/test/resources/configs/config_invalid_def/job_types/job1.yml",
+            "https://github.com/dainst/cilantro/blob/master/test/resources/configs/config_valid/job_types/job1.yml",
+            "https://github.com/dainst/cilantro/blob/master/test/resources/configs/config_valid/job_types/job2.yml",
+            "https://github.com/dainst/cilantro/blob/master/test/resources/configs/config_params/job_types/job1.yml",
+            "https://github.com/dainst/cilantro/blob/master/config/logging.yml",
+            "https://github.com/dainst/cilantro/blob/master/config/viewers.yml"
+        ],
+        "json": [
+            "https://github.com/dainst/cilantro/blob/master/frontend/package-lock.json",
+            "https://github.com/dainst/cilantro/blob/master/frontend/package.json",
+            "https://github.com/dainst/cilantro/blob/master/frontend/tsconfig.json",
+            "https://github.com/dainst/cilantro/blob/master/frontend/tests/resources/ingest-journal/staging-tree-mock.json",
+            "https://github.com/dainst/cilantro/blob/master/frontend/tests/resources/ingest-archival-material/staging-tree-mock.json",
+            "https://github.com/dainst/cilantro/blob/master/frontend/tests/resources/ingest-monograph/staging-tree-mock.json",
+            "https://github.com/dainst/cilantro/blob/master/test/resources/objects/a_archival_description_0001/meta.json",
+            "https://github.com/dainst/cilantro/blob/master/test/resources/objects/a_omp_book_0002/meta.json",
+            "https://github.com/dainst/cilantro/blob/master/test/resources/objects/a_journal_0003/meta.json",
+            "https://github.com/dainst/cilantro/blob/master/test/resources/objects/a_journal_0003/parts/part_0002/meta.json",
+            "https://github.com/dainst/cilantro/blob/master/test/resources/objects/a_journal_0003/parts/part_0001/meta.json",
+            "https://github.com/dainst/cilantro/blob/master/test/resources/configs/config_valid/job_types/schemas/job2_schema.json",
+            "https://github.com/dainst/cilantro/blob/master/test/resources/configs/config_valid/job_types/schemas/job3_schema.json",
+            "https://github.com/dainst/cilantro/blob/master/test/resources/params/archival_material.json",
+            "https://github.com/dainst/cilantro/blob/master/test/resources/params/journal.json",
+            "https://github.com/dainst/cilantro/blob/master/test/resources/params/monograph.json",
+            "https://github.com/dainst/cilantro/blob/master/test/resources/params/nlp.json",
+            "https://github.com/dainst/cilantro/blob/master/test/wiremock_config/mappings/ojs_import_issue.json",
+            "https://github.com/dainst/cilantro/blob/master/test/wiremock_config/mappings/atom_get_record.json",
+            "https://github.com/dainst/cilantro/blob/master/test/wiremock_config/mappings/omp_import.json",
+            "https://github.com/dainst/cilantro/blob/master/test/wiremock_config/mappings/atom_create_digital_object.json",
+            "https://github.com/dainst/cilantro/blob/master/resources/job_parameter_schemas/ingest_journals_schema.json",
+            "https://github.com/dainst/cilantro/blob/master/resources/job_parameter_schemas/nlp_schema.json",
+            "https://github.com/dainst/cilantro/blob/master/resources/job_parameter_schemas/ingest_archival_material_schema.json",
+            "https://github.com/dainst/cilantro/blob/master/resources/job_parameter_schemas/ingest_monographs_schema.json"
+        ],
+        "conf": [
+            "https://github.com/dainst/cilantro/blob/master/docker/cilantro-frontend/nginx.conf"
+        ]
+    }
+}

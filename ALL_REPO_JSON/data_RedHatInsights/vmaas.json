@@ -1,0 +1,70 @@
+{
+    "id": "RedHatInsights/vmaas",
+    "repo_link": "https://github.com/RedHatInsights/vmaas",
+    "file_extensions": [
+        ".yml",
+        ".yaml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/RedHatInsights/vmaas/blob/master/docker-compose.devel.yml",
+            "https://github.com/RedHatInsights/vmaas/blob/master/docker-compose-dbdocs.yml",
+            "https://github.com/RedHatInsights/vmaas/blob/master/docker-compose.test.listen.yml",
+            "https://github.com/RedHatInsights/vmaas/blob/master/docker-compose.yml",
+            "https://github.com/RedHatInsights/vmaas/blob/master/docker-compose.test.yml",
+            "https://github.com/RedHatInsights/vmaas/blob/master/vmaas-go/.golangci.yml",
+            "https://github.com/RedHatInsights/vmaas/blob/master/vmaas/webapp/test/data/cache.yml",
+            "https://github.com/RedHatInsights/vmaas/blob/master/.github/workflows/lint.yml",
+            "https://github.com/RedHatInsights/vmaas/blob/master/.github/workflows/semantic-release.yml",
+            "https://github.com/RedHatInsights/vmaas/blob/master/.github/workflows/db-docs.yml",
+            "https://github.com/RedHatInsights/vmaas/blob/master/.github/workflows/safety.yml",
+            "https://github.com/RedHatInsights/vmaas/blob/master/.github/workflows/tests.yml",
+            "https://github.com/RedHatInsights/vmaas/blob/master/monitoring/grafana/dashboards.yml",
+            "https://github.com/RedHatInsights/vmaas/blob/master/monitoring/grafana/datasources.yml",
+            "https://github.com/RedHatInsights/vmaas/blob/master/monitoring/grafana/dashboards/grafana-dashboard-clouddot-insights-vmaas.configmap.yml",
+            "https://github.com/RedHatInsights/vmaas/blob/master/monitoring/prometheus/prometheus.yml"
+        ],
+        "yaml": [
+            "https://github.com/RedHatInsights/vmaas/blob/master/deploy/clowdapp.yaml",
+            "https://github.com/RedHatInsights/vmaas/blob/master/vmaas/webapp/webapp.v3.spec.yaml",
+            "https://github.com/RedHatInsights/vmaas/blob/master/vmaas/webapp/webapp.v2.spec.yaml",
+            "https://github.com/RedHatInsights/vmaas/blob/master/vmaas/webapp/webapp.v1.spec.yaml",
+            "https://github.com/RedHatInsights/vmaas/blob/master/vmaas/webapp/webapp.healthz.spec.yaml",
+            "https://github.com/RedHatInsights/vmaas/blob/master/vmaas/reposcan/reposcan.spec.yaml",
+            "https://github.com/RedHatInsights/vmaas/blob/master/vmaas/reposcan/reposcan.healthz.spec.yaml",
+            "https://github.com/RedHatInsights/vmaas/blob/master/vmaas/reposcan/test_data/repodata/modules.yaml"
+        ],
+        "json": [
+            "https://github.com/RedHatInsights/vmaas/blob/master/vmaas/webapp/test/data/cves.in.1.json",
+            "https://github.com/RedHatInsights/vmaas/blob/master/vmaas/webapp/test/data/updates.in.1.json",
+            "https://github.com/RedHatInsights/vmaas/blob/master/vmaas/webapp/test/data/updates.out.3.json",
+            "https://github.com/RedHatInsights/vmaas/blob/master/vmaas/webapp/test/data/errata.out.1.json",
+            "https://github.com/RedHatInsights/vmaas/blob/master/vmaas/webapp/test/data/updates.out.2.json",
+            "https://github.com/RedHatInsights/vmaas/blob/master/vmaas/webapp/test/data/updates.out.1.json",
+            "https://github.com/RedHatInsights/vmaas/blob/master/vmaas/webapp/test/data/cves.out.1.json",
+            "https://github.com/RedHatInsights/vmaas/blob/master/vmaas/webapp/test/data/repos.out.1.json",
+            "https://github.com/RedHatInsights/vmaas/blob/master/vmaas/webapp/test/data/errata.in.1.json",
+            "https://github.com/RedHatInsights/vmaas/blob/master/vmaas/webapp/test/data/repos.in.1.json",
+            "https://github.com/RedHatInsights/vmaas/blob/master/vmaas/webapp/test/data/updates.in.2.json",
+            "https://github.com/RedHatInsights/vmaas/blob/master/vmaas/webapp/test/data/updates.in.3.json",
+            "https://github.com/RedHatInsights/vmaas/blob/master/vmaas/reposcan/test_data/api/repolist.json",
+            "https://github.com/RedHatInsights/vmaas/blob/master/vmaas/reposcan/redhatcsaf/test/cve-2023-0030.json",
+            "https://github.com/RedHatInsights/vmaas/blob/master/vmaas/reposcan/redhatcsaf/test/cve-2023-1017.json",
+            "https://github.com/RedHatInsights/vmaas/blob/master/vmaas/reposcan/redhatcsaf/test/cve-2023-0049.json",
+            "https://github.com/RedHatInsights/vmaas/blob/master/conf/repolist.json",
+            "https://github.com/RedHatInsights/vmaas/blob/master/conf/cdappconfig.json"
+        ]
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "id": "Hygieia/ExecDashboard",
+    "repo_link": "https://github.com/Hygieia/ExecDashboard",
+    "file_extensions": [
+        ".yml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/Hygieia/ExecDashboard/blob/master/docker-compose.yml",
+            "https://github.com/Hygieia/ExecDashboard/blob/master/.travis.yml"
+        ],
+        "json": [
+            "https://github.com/Hygieia/ExecDashboard/blob/master/exec-ui/proxy.config.json",
+            "https://github.com/Hygieia/ExecDashboard/blob/master/exec-ui/.angular-cli.json",
+            "https://github.com/Hygieia/ExecDashboard/blob/master/exec-ui/package-lock.json",
+            "https://github.com/Hygieia/ExecDashboard/blob/master/exec-ui/package.json",
+            "https://github.com/Hygieia/ExecDashboard/blob/master/exec-ui/tslint.json",
+            "https://github.com/Hygieia/ExecDashboard/blob/master/exec-ui/tsconfig.json",
+            "https://github.com/Hygieia/ExecDashboard/blob/master/exec-ui/e2e/tsconfig.e2e.json",
+            "https://github.com/Hygieia/ExecDashboard/blob/master/exec-ui/src/tsconfig.app.json",
+            "https://github.com/Hygieia/ExecDashboard/blob/master/exec-ui/src/tsconfig.spec.json",
+            "https://github.com/Hygieia/ExecDashboard/blob/master/exec-api/src/main/resources/stub-data/portfolios.json",
+            "https://github.com/Hygieia/ExecDashboard/blob/master/exec-api/src/main/resources/stub-data/incident_portfolios_new.json",
+            "https://github.com/Hygieia/ExecDashboard/blob/master/exec-api/src/main/resources/stub-data/incident_portfolios.json"
+        ]
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "id": "codefordc/dc-campaign-finance-watch",
+    "repo_link": "https://github.com/codefordc/dc-campaign-finance-watch",
+    "file_extensions": [
+        ".yml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/codefordc/dc-campaign-finance-watch/blob/master/docker-compose.production.yml",
+            "https://github.com/codefordc/dc-campaign-finance-watch/blob/master/_config.yml",
+            "https://github.com/codefordc/dc-campaign-finance-watch/blob/master/docker-compose.yml",
+            "https://github.com/codefordc/dc-campaign-finance-watch/blob/master/.travis.yml"
+        ],
+        "json": [
+            "https://github.com/codefordc/dc-campaign-finance-watch/blob/master/package.json",
+            "https://github.com/codefordc/dc-campaign-finance-watch/blob/master/importer/candidateNameToProfileUrl.json",
+            "https://github.com/codefordc/dc-campaign-finance-watch/blob/master/schema/award.json",
+            "https://github.com/codefordc/dc-campaign-finance-watch/blob/master/schema/company.json",
+            "https://github.com/codefordc/dc-campaign-finance-watch/blob/master/schema/candidate.json",
+            "https://github.com/codefordc/dc-campaign-finance-watch/blob/master/schema/contribution.json",
+            "https://github.com/codefordc/dc-campaign-finance-watch/blob/master/src/config.json"
+        ]
+    }
+}

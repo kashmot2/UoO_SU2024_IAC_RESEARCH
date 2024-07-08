@@ -1,0 +1,49 @@
+{
+    "id": "wazo-pbx/wazo-webhookd",
+    "repo_link": "https://github.com/wazo-pbx/wazo-webhookd",
+    "file_extensions": [
+        ".yaml",
+        ".yml",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "GOOG",
+        "ANS",
+        "PUP",
+        "DOC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/wazo-pbx/wazo-webhookd/blob/master/integration_tests/assets/docker-compose.base.override.yml",
+            "https://github.com/wazo-pbx/wazo-webhookd/blob/master/integration_tests/assets/docker-compose.proxy.override.yml",
+            "https://github.com/wazo-pbx/wazo-webhookd/blob/master/integration_tests/assets/docker-compose.database.override.yml",
+            "https://github.com/wazo-pbx/wazo-webhookd/blob/master/integration_tests/assets/docker-compose.yml",
+            "https://github.com/wazo-pbx/wazo-webhookd/blob/master/integration_tests/assets/docker-compose.documentation.override.yml",
+            "https://github.com/wazo-pbx/wazo-webhookd/blob/master/integration_tests/assets/etc/wazo-webhookd/conf.d/20-proxy.yml",
+            "https://github.com/wazo-pbx/wazo-webhookd/blob/master/integration_tests/assets/etc/wazo-webhookd/conf.d/50-default.yml",
+            "https://github.com/wazo-pbx/wazo-webhookd/blob/master/etc/wazo-purge-db/conf.d/50-webhookd.yml",
+            "https://github.com/wazo-pbx/wazo-webhookd/blob/master/etc/wazo-webhookd/config.yml",
+            "https://github.com/wazo-pbx/wazo-webhookd/blob/master/wazo_webhookd/plugins/config/api.yml",
+            "https://github.com/wazo-pbx/wazo-webhookd/blob/master/wazo_webhookd/plugins/status/api.yml",
+            "https://github.com/wazo-pbx/wazo-webhookd/blob/master/wazo_webhookd/plugins/subscription/api.yml",
+            "https://github.com/wazo-pbx/wazo-webhookd/blob/master/wazo_webhookd/plugins/mobile/api.yml",
+            "https://github.com/wazo-pbx/wazo-webhookd/blob/master/wazo_webhookd/plugins/api/api.yml",
+            "https://github.com/wazo-pbx/wazo-webhookd/blob/master/wazo_webhookd/plugins/services/api.yml"
+        ],
+        "yaml": [
+            "https://github.com/wazo-pbx/wazo-webhookd/blob/master/.pre-commit-config.yaml",
+            "https://github.com/wazo-pbx/wazo-webhookd/blob/master/zuul.yaml",
+            "https://github.com/wazo-pbx/wazo-webhookd/blob/master/zuul.d/pre.yaml"
+        ],
+        "conf": [
+            "https://github.com/wazo-pbx/wazo-webhookd/blob/master/integration_tests/assets/fake-apple-ca/nginx.conf",
+            "https://github.com/wazo-pbx/wazo-webhookd/blob/master/integration_tests/assets/fake-apple-ca/certs/server.conf",
+            "https://github.com/wazo-pbx/wazo-webhookd/blob/master/integration_tests/assets/fake-apple-ca/certs/client.conf",
+            "https://github.com/wazo-pbx/wazo-webhookd/blob/master/integration_tests/assets/fake-apple-ca/certs/ca.conf"
+        ]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "id": "kiotlog/kiotlog",
+    "repo_link": "https://github.com/kiotlog/kiotlog",
+    "file_extensions": [
+        ".yml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/kiotlog/kiotlog/blob/master/docker-compose.arm32.yml",
+            "https://github.com/kiotlog/kiotlog/blob/master/docker-compose.yml",
+            "https://github.com/kiotlog/kiotlog/blob/master/.travis.yml",
+            "https://github.com/kiotlog/kiotlog/blob/master/HttpReceiver/docker/alpine/docker-compose.yml",
+            "https://github.com/kiotlog/kiotlog/blob/master/.github/workflows/build-solution.yml"
+        ],
+        "json": [
+            "https://github.com/kiotlog/kiotlog/blob/master/HttpReceiver/attic/runtimeconfig.json",
+            "https://github.com/kiotlog/kiotlog/blob/master/Decoder/attic/runtimeconfig.json"
+        ]
+    }
+}

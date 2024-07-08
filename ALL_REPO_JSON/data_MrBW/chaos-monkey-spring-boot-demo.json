@@ -1,0 +1,60 @@
+{
+    "id": "MrBW/chaos-monkey-spring-boot-demo",
+    "repo_link": "https://github.com/MrBW/chaos-monkey-spring-boot-demo",
+    "file_extensions": [
+        ".yml",
+        ".yaml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/MrBW/chaos-monkey-spring-boot-demo/blob/master/docker-compose.yml",
+            "https://github.com/MrBW/chaos-monkey-spring-boot-demo/blob/master/hot-deals/src/main/resources/application-docker.yml",
+            "https://github.com/MrBW/chaos-monkey-spring-boot-demo/blob/master/hot-deals/src/main/resources/application.yml",
+            "https://github.com/MrBW/chaos-monkey-spring-boot-demo/blob/master/bestseller-fashion/src/main/resources/application-docker.yml",
+            "https://github.com/MrBW/chaos-monkey-spring-boot-demo/blob/master/bestseller-fashion/src/main/resources/application.yml",
+            "https://github.com/MrBW/chaos-monkey-spring-boot-demo/blob/master/api-gateway/src/main/resources/application-docker.yml",
+            "https://github.com/MrBW/chaos-monkey-spring-boot-demo/blob/master/api-gateway/src/main/resources/application.yml",
+            "https://github.com/MrBW/chaos-monkey-spring-boot-demo/blob/master/eureka-server/src/main/resources/application.yml",
+            "https://github.com/MrBW/chaos-monkey-spring-boot-demo/blob/master/bestseller-toys/src/main/resources/application-docker.yml",
+            "https://github.com/MrBW/chaos-monkey-spring-boot-demo/blob/master/bestseller-toys/src/main/resources/application.yml",
+            "https://github.com/MrBW/chaos-monkey-spring-boot-demo/blob/master/gateway/src/main/resources/application-docker.yml",
+            "https://github.com/MrBW/chaos-monkey-spring-boot-demo/blob/master/gateway/src/main/resources/application.yml"
+        ],
+        "yaml": [
+            "https://github.com/MrBW/chaos-monkey-spring-boot-demo/blob/master/chaostoolkit-base/config/settings.yaml",
+            "https://github.com/MrBW/chaos-monkey-spring-boot-demo/blob/master/k8s/8-toys-service.yaml",
+            "https://github.com/MrBW/chaos-monkey-spring-boot-demo/blob/master/k8s/7-toys-deployment.yaml",
+            "https://github.com/MrBW/chaos-monkey-spring-boot-demo/blob/master/k8s/10-hotdeals-service.yaml",
+            "https://github.com/MrBW/chaos-monkey-spring-boot-demo/blob/master/k8s/3-api-gateway-service.yaml",
+            "https://github.com/MrBW/chaos-monkey-spring-boot-demo/blob/master/k8s/6-fashion-service.yaml",
+            "https://github.com/MrBW/chaos-monkey-spring-boot-demo/blob/master/k8s/9-hotdeals-deployment.yaml",
+            "https://github.com/MrBW/chaos-monkey-spring-boot-demo/blob/master/k8s/5-fashion-deployment.yaml",
+            "https://github.com/MrBW/chaos-monkey-spring-boot-demo/blob/master/k8s/2-api-gateway-deployment.yaml",
+            "https://github.com/MrBW/chaos-monkey-spring-boot-demo/blob/master/k8s/1-namespace.yaml",
+            "https://github.com/MrBW/chaos-monkey-spring-boot-demo/blob/master/k8s/4-api-gateway-ingress.yaml"
+        ],
+        "json": [
+            "https://github.com/MrBW/chaos-monkey-spring-boot-demo/blob/master/chaostoolkit-base/chaostoolkit-experiments/1_legacy_exp_spring_latency.json",
+            "https://github.com/MrBW/chaos-monkey-spring-boot-demo/blob/master/chaostoolkit-base/chaostoolkit-experiments/2_cb_exp_spring_latency.json",
+            "https://github.com/MrBW/chaos-monkey-spring-boot-demo/blob/master/chaostoolkit-base/chaostoolkit-experiments/1_legacy_exp_spring_exception.json",
+            "https://github.com/MrBW/chaos-monkey-spring-boot-demo/blob/master/chaostoolkit-base/chaostoolkit-experiments/3_lb_exp_spring_exception.json",
+            "https://github.com/MrBW/chaos-monkey-spring-boot-demo/blob/master/chaostoolkit-base/chaostoolkit-experiments/2_cb_exp_spring_exception.json",
+            "https://github.com/MrBW/chaos-monkey-spring-boot-demo/blob/master/chaostoolkit-base/chaostoolkit-experiments/special_lb_exp_spring_exception.json",
+            "https://github.com/MrBW/chaos-monkey-spring-boot-demo/blob/master/chaostoolkit-base/chaostoolkit-experiments/3_lb_exp_spring_latency.json",
+            "https://github.com/MrBW/chaos-monkey-spring-boot-demo/blob/master/pivotal-webinar/manually/assault-config.json",
+            "https://github.com/MrBW/chaos-monkey-spring-boot-demo/blob/master/pivotal-webinar/manually/assault-config-exp.json"
+        ]
+    }
+}

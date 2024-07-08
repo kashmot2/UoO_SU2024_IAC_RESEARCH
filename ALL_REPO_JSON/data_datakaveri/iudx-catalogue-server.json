@@ -1,0 +1,67 @@
+{
+    "id": "datakaveri/iudx-catalogue-server",
+    "repo_link": "https://github.com/datakaveri/iudx-catalogue-server",
+    "file_extensions": [
+        ".yml",
+        ".json",
+        ".yaml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/datakaveri/iudx-catalogue-server/blob/master/docker-compose.yml",
+            "https://github.com/datakaveri/iudx-catalogue-server/blob/master/.github/workflows/docker-image.yml"
+        ],
+        "yaml": [
+            "https://github.com/datakaveri/iudx-catalogue-server/blob/master/docs/openapi.yaml",
+            "https://github.com/datakaveri/iudx-catalogue-server/blob/master/src/main/profanity-check-sdk/docker-compose.yaml"
+        ],
+        "json": [
+            "https://github.com/datakaveri/iudx-catalogue-server/blob/master/pythonscript/config.json",
+            "https://github.com/datakaveri/iudx-catalogue-server/blob/master/configs/postman-env.json",
+            "https://github.com/datakaveri/iudx-catalogue-server/blob/master/configs/config-test-examples.json",
+            "https://github.com/datakaveri/iudx-catalogue-server/blob/master/configs/config-example.json",
+            "https://github.com/datakaveri/iudx-catalogue-server/blob/master/configs/indices-mappings/rating_mappings.json",
+            "https://github.com/datakaveri/iudx-catalogue-server/blob/master/configs/indices-mappings/instance_mappings.json",
+            "https://github.com/datakaveri/iudx-catalogue-server/blob/master/configs/indices-mappings/domain_mappings.json",
+            "https://github.com/datakaveri/iudx-catalogue-server/blob/master/configs/indices-mappings/cat_mappings.json",
+            "https://github.com/datakaveri/iudx-catalogue-server/blob/master/src/test/resources/resourceGroup.json",
+            "https://github.com/datakaveri/iudx-catalogue-server/blob/master/src/test/resources/resourceBadBody.json",
+            "https://github.com/datakaveri/iudx-catalogue-server/blob/master/src/test/resources/resourceSvrProvider.json",
+            "https://github.com/datakaveri/iudx-catalogue-server/blob/master/src/test/resources/providerVector.json",
+            "https://github.com/datakaveri/iudx-catalogue-server/blob/master/src/test/resources/prepareDeleteItems.json",
+            "https://github.com/datakaveri/iudx-catalogue-server/blob/master/src/test/resources/CAT.postman_environmentv5.5.0.json",
+            "https://github.com/datakaveri/iudx-catalogue-server/blob/master/src/test/resources/resources.json",
+            "https://github.com/datakaveri/iudx-catalogue-server/blob/master/src/test/resources/iudx-catalogue-server-v4.5.0.postman-env.json",
+            "https://github.com/datakaveri/iudx-catalogue-server/blob/master/src/test/resources/iudx-catalogue-server-v4.5.0.postman_collection.json",
+            "https://github.com/datakaveri/iudx-catalogue-server/blob/master/src/test/resources/iudx-catalogue-server-v5.0.0.postman_collection.json",
+            "https://github.com/datakaveri/iudx-catalogue-server/blob/master/src/test/resources/resourcesToDelete.json",
+            "https://github.com/datakaveri/iudx-catalogue-server/blob/master/src/test/resources/iudx-catalogue-server-v5.5.0.postman_collection.json",
+            "https://github.com/datakaveri/iudx-catalogue-server/blob/master/src/test/resources/resourceToUpdate.json",
+            "https://github.com/datakaveri/iudx-catalogue-server/blob/master/src/main/resources/iudx/catalogue/server/validator/cosItemSchema.json",
+            "https://github.com/datakaveri/iudx-catalogue-server/blob/master/src/main/resources/iudx/catalogue/server/validator/resourceItemSchema.json",
+            "https://github.com/datakaveri/iudx-catalogue-server/blob/master/src/main/resources/iudx/catalogue/server/validator/ownerItemSchema.json",
+            "https://github.com/datakaveri/iudx-catalogue-server/blob/master/src/main/resources/iudx/catalogue/server/validator/mlayerInstanceSchema.json",
+            "https://github.com/datakaveri/iudx-catalogue-server/blob/master/src/main/resources/iudx/catalogue/server/validator/mlayerDomainSchema.json",
+            "https://github.com/datakaveri/iudx-catalogue-server/blob/master/src/main/resources/iudx/catalogue/server/validator/ratingSchema.json",
+            "https://github.com/datakaveri/iudx-catalogue-server/blob/master/src/main/resources/iudx/catalogue/server/validator/resourceGroupItemSchema.json",
+            "https://github.com/datakaveri/iudx-catalogue-server/blob/master/src/main/resources/iudx/catalogue/server/validator/providerItemSchema.json",
+            "https://github.com/datakaveri/iudx-catalogue-server/blob/master/src/main/resources/iudx/catalogue/server/validator/resourceServerItemSchema.json",
+            "https://github.com/datakaveri/iudx-catalogue-server/blob/master/src/main/resources/iudx/catalogue/server/validator/stackSchema4Patch.json",
+            "https://github.com/datakaveri/iudx-catalogue-server/blob/master/src/main/resources/iudx/catalogue/server/validator/mlayerDatasetSchema.json",
+            "https://github.com/datakaveri/iudx-catalogue-server/blob/master/src/main/resources/iudx/catalogue/server/validator/stackSchema4Post.json",
+            "https://github.com/datakaveri/iudx-catalogue-server/blob/master/src/main/resources/iudx/catalogue/server/validator/mlayerGeoQuerySchema.json",
+            "https://github.com/datakaveri/iudx-catalogue-server/blob/master/src/main/profanity-check-sdk/example-config.json"
+        ]
+    }
+}

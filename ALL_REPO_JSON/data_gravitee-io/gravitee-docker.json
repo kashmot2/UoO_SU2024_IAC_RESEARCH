@@ -1,0 +1,29 @@
+{
+    "id": "gravitee-io/gravitee-docker",
+    "repo_link": "https://github.com/gravitee-io/gravitee-docker",
+    "file_extensions": [
+        ".json",
+        ".yml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/gravitee-io/gravitee-docker/blob/master/apim/3.x/docker-compose.yml",
+            "https://github.com/gravitee-io/gravitee-docker/blob/master/apim/4.x/docker-compose.yml",
+            "https://github.com/gravitee-io/gravitee-docker/blob/master/apim/1.x/docker-compose.yml",
+            "https://github.com/gravitee-io/gravitee-docker/blob/master/.circleci/config.yml"
+        ],
+        "json": [
+            "https://github.com/gravitee-io/gravitee-docker/blob/master/.github/renovate.json"
+        ]
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "id": "javieroc/docker-microservices",
+    "repo_link": "https://github.com/javieroc/docker-microservices",
+    "file_extensions": [
+        ".conf",
+        ".yml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/javieroc/docker-microservices/blob/master/docker-compose.yml",
+            "https://github.com/javieroc/docker-microservices/blob/master/api-php/src/.styleci.yml"
+        ],
+        "json": [
+            "https://github.com/javieroc/docker-microservices/blob/master/endpoints.json",
+            "https://github.com/javieroc/docker-microservices/blob/master/api-php/src/composer.json",
+            "https://github.com/javieroc/docker-microservices/blob/master/api-php/src/storage/api-docs/api-docs.json",
+            "https://github.com/javieroc/docker-microservices/blob/master/frontend/package-lock.json",
+            "https://github.com/javieroc/docker-microservices/blob/master/frontend/package.json",
+            "https://github.com/javieroc/docker-microservices/blob/master/api-node/package-lock.json",
+            "https://github.com/javieroc/docker-microservices/blob/master/api-node/package.json",
+            "https://github.com/javieroc/docker-microservices/blob/master/api-node/src/config/config.json"
+        ],
+        "conf": [
+            "https://github.com/javieroc/docker-microservices/blob/master/default.conf",
+            "https://github.com/javieroc/docker-microservices/blob/master/api-php/supervisord.conf",
+            "https://github.com/javieroc/docker-microservices/blob/master/api-php/nginx.conf"
+        ]
+    }
+}

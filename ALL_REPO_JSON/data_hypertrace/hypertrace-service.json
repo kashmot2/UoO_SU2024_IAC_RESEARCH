@@ -1,0 +1,73 @@
+{
+    "id": "hypertrace/hypertrace-service",
+    "repo_link": "https://github.com/hypertrace/hypertrace-service",
+    "file_extensions": [
+        ".yml",
+        ".yaml",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "GOOG",
+        "ANS",
+        "PUP",
+        "DOC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/hypertrace/hypertrace-service/blob/master/codecov.yml",
+            "https://github.com/hypertrace/hypertrace-service/blob/master/.github/workflows/pr-test.yml",
+            "https://github.com/hypertrace/hypertrace-service/blob/master/.github/workflows/publish.yml",
+            "https://github.com/hypertrace/hypertrace-service/blob/master/.github/workflows/docker-tests.yml",
+            "https://github.com/hypertrace/hypertrace-service/blob/master/.github/workflows/pr-build.yml",
+            "https://github.com/hypertrace/hypertrace-service/blob/master/.github/workflows/merge-publish.yml",
+            "https://github.com/hypertrace/hypertrace-service/blob/master/.github/workflows/hypertrace-service/docker-compose-zipkin-example.yml",
+            "https://github.com/hypertrace/hypertrace-service/blob/master/.github/workflows/hypertrace-service/docker-compose.yml",
+            "https://github.com/hypertrace/hypertrace-service/blob/master/.github/workflows/hypertrace-service/postgres/docker-compose.yml"
+        ],
+        "yaml": [
+            "https://github.com/hypertrace/hypertrace-service/blob/master/hypertrace-service/helm/Chart.yaml",
+            "https://github.com/hypertrace/hypertrace-service/blob/master/hypertrace-service/helm/values.yaml",
+            "https://github.com/hypertrace/hypertrace-service/blob/master/hypertrace-service/helm/templates/deployment.yaml",
+            "https://github.com/hypertrace/hypertrace-service/blob/master/hypertrace-service/helm/templates/logconfig.yaml",
+            "https://github.com/hypertrace/hypertrace-service/blob/master/hypertrace-data-query-service/helm/Chart.yaml",
+            "https://github.com/hypertrace/hypertrace-service/blob/master/hypertrace-data-query-service/helm/values.yaml",
+            "https://github.com/hypertrace/hypertrace-service/blob/master/hypertrace-data-query-service/helm/templates/service-deployment.yaml",
+            "https://github.com/hypertrace/hypertrace-service/blob/master/hypertrace-data-query-service/helm/templates/query-service-config.yaml",
+            "https://github.com/hypertrace/hypertrace-service/blob/master/hypertrace-data-query-service/helm/templates/service.yaml",
+            "https://github.com/hypertrace/hypertrace-service/blob/master/hypertrace-data-query-service/helm/templates/gateway-service-config.yaml",
+            "https://github.com/hypertrace/hypertrace-service/blob/master/hypertrace-data-query-service/helm/templates/service-config.yaml",
+            "https://github.com/hypertrace/hypertrace-service/blob/master/hypertrace-data-query-service/helm/templates/logconfig.yaml",
+            "https://github.com/hypertrace/hypertrace-service/blob/master/hypertrace-data-config-service/helm/Chart.yaml",
+            "https://github.com/hypertrace/hypertrace-service/blob/master/hypertrace-data-config-service/helm/values.yaml",
+            "https://github.com/hypertrace/hypertrace-service/blob/master/hypertrace-data-config-service/helm/templates/all-service-bootstrap.yaml",
+            "https://github.com/hypertrace/hypertrace-service/blob/master/hypertrace-data-config-service/helm/templates/attribute-service-config.yaml",
+            "https://github.com/hypertrace/hypertrace-service/blob/master/hypertrace-data-config-service/helm/templates/service-deployment.yaml",
+            "https://github.com/hypertrace/hypertrace-service/blob/master/hypertrace-data-config-service/helm/templates/config-service-config.yaml",
+            "https://github.com/hypertrace/hypertrace-service/blob/master/hypertrace-data-config-service/helm/templates/service.yaml",
+            "https://github.com/hypertrace/hypertrace-service/blob/master/hypertrace-data-config-service/helm/templates/service-config.yaml",
+            "https://github.com/hypertrace/hypertrace-service/blob/master/hypertrace-data-config-service/helm/templates/entity-service-config.yaml",
+            "https://github.com/hypertrace/hypertrace-service/blob/master/hypertrace-data-config-service/helm/templates/logconfig.yaml"
+        ],
+        "conf": [
+            "https://github.com/hypertrace/hypertrace-service/blob/master/hypertrace-service/src/main/resources/configs/hypertrace-graphql-service/default-cluster/application.conf",
+            "https://github.com/hypertrace/hypertrace-service/blob/master/hypertrace-service/src/main/resources/configs/config-service/default-cluster/application.conf",
+            "https://github.com/hypertrace/hypertrace-service/blob/master/hypertrace-service/src/main/resources/configs/hypertrace-service/application.conf",
+            "https://github.com/hypertrace/hypertrace-service/blob/master/hypertrace-service/src/main/resources/configs/entity-service/default-cluster/application.conf",
+            "https://github.com/hypertrace/hypertrace-service/blob/master/hypertrace-service/src/main/resources/configs/gateway-service/default-cluster/application.conf",
+            "https://github.com/hypertrace/hypertrace-service/blob/master/hypertrace-service/src/main/resources/configs/config-bootstrapper/application.conf",
+            "https://github.com/hypertrace/hypertrace-service/blob/master/hypertrace-service/src/main/resources/configs/attribute-service/default-cluster/application.conf",
+            "https://github.com/hypertrace/hypertrace-service/blob/master/hypertrace-service/src/main/resources/configs/query-service/default-cluster/application.conf",
+            "https://github.com/hypertrace/hypertrace-service/blob/master/hypertrace-data-query-service/src/main/resources/configs/hypertrace-data-query-service/application.conf",
+            "https://github.com/hypertrace/hypertrace-service/blob/master/hypertrace-data-query-service/src/main/resources/configs/gateway-service/default-cluster/application.conf",
+            "https://github.com/hypertrace/hypertrace-service/blob/master/hypertrace-data-query-service/src/main/resources/configs/query-service/default-cluster/application.conf",
+            "https://github.com/hypertrace/hypertrace-service/blob/master/hypertrace-data-config-service/src/main/resources/configs/config-service/defaut-cluster/application.conf",
+            "https://github.com/hypertrace/hypertrace-service/blob/master/hypertrace-data-config-service/src/main/resources/configs/entity-service/default-cluster/application.conf",
+            "https://github.com/hypertrace/hypertrace-service/blob/master/hypertrace-data-config-service/src/main/resources/configs/attribute-service/default-cluster/application.conf",
+            "https://github.com/hypertrace/hypertrace-service/blob/master/hypertrace-data-config-service/src/main/resources/configs/hypertrace-data-config-service/application.conf"
+        ]
+    }
+}

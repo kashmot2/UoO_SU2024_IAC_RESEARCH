@@ -1,0 +1,26 @@
+{
+    "id": "kkosiba/ecommerce-backend",
+    "repo_link": "https://github.com/kkosiba/ecommerce-backend",
+    "file_extensions": [
+        ".yml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/kkosiba/ecommerce-backend/blob/master/docker-compose.yml"
+        ],
+        "json": [
+            "https://github.com/kkosiba/ecommerce-backend/blob/master/products/fixture.json"
+        ]
+    }
+}

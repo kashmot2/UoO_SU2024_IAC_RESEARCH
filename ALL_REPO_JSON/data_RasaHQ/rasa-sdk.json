@@ -1,0 +1,50 @@
+{
+    "id": "RasaHQ/rasa-sdk",
+    "repo_link": "https://github.com/RasaHQ/rasa-sdk",
+    "file_extensions": [
+        ".yaml",
+        ".yml",
+        ".hcl"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "GOOG",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/RasaHQ/rasa-sdk/blob/master/.typo-ci.yml",
+            "https://github.com/RasaHQ/rasa-sdk/blob/master/tests/tracing/fixtures/jaeger_endpoints.yml",
+            "https://github.com/RasaHQ/rasa-sdk/blob/master/tests/tracing/fixtures/otlp_endpoints.yml",
+            "https://github.com/RasaHQ/rasa-sdk/blob/master/tests/tracing/fixtures/no_tracing.yml",
+            "https://github.com/RasaHQ/rasa-sdk/blob/master/examples/docker-compose.yml",
+            "https://github.com/RasaHQ/rasa-sdk/blob/master/.github/no-response.yml",
+            "https://github.com/RasaHQ/rasa-sdk/blob/master/.github/dependabot.yml",
+            "https://github.com/RasaHQ/rasa-sdk/blob/master/.github/workflows/rasa-sdk-dev-docker-image.yml",
+            "https://github.com/RasaHQ/rasa-sdk/blob/master/.github/workflows/scan_docker_image_dependencies.yml",
+            "https://github.com/RasaHQ/rasa-sdk/blob/master/.github/workflows/spellcheck.yml",
+            "https://github.com/RasaHQ/rasa-sdk/blob/master/.github/workflows/git-backup.yml",
+            "https://github.com/RasaHQ/rasa-sdk/blob/master/.github/workflows/continuous-integration.yml",
+            "https://github.com/RasaHQ/rasa-sdk/blob/master/.github/workflows/security-patching.yml",
+            "https://github.com/RasaHQ/rasa-sdk/blob/master/.github/workflows/semgrep-check.yml",
+            "https://github.com/RasaHQ/rasa-sdk/blob/master/.github/workflows/security-scans.yml",
+            "https://github.com/RasaHQ/rasa-sdk/blob/master/.github/ISSUE_TEMPLATE/config.yml",
+            "https://github.com/RasaHQ/rasa-sdk/blob/master/data/test_invalid_yaml.yml",
+            "https://github.com/RasaHQ/rasa-sdk/blob/master/data/test_logging_config_files/test_non_existent_handler_id.yml",
+            "https://github.com/RasaHQ/rasa-sdk/blob/master/data/test_logging_config_files/test_invalid_format_value_in_config.yml",
+            "https://github.com/RasaHQ/rasa-sdk/blob/master/data/test_logging_config_files/test_missing_required_key_invalid_config.yml",
+            "https://github.com/RasaHQ/rasa-sdk/blob/master/data/test_logging_config_files/test_invalid_value_for_level_in_config.yml",
+            "https://github.com/RasaHQ/rasa-sdk/blob/master/data/test_logging_config_files/test_valid_logging_config.yml",
+            "https://github.com/RasaHQ/rasa-sdk/blob/master/data/test_logging_config_files/test_invalid_handler_key_in_config.yml"
+        ],
+        "yaml": [
+            "https://github.com/RasaHQ/rasa-sdk/blob/master/.pre-commit-config.yaml",
+            "https://github.com/RasaHQ/rasa-sdk/blob/master/trivy-secret.yaml"
+        ]
+    }
+}

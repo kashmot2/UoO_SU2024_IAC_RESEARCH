@@ -1,0 +1,58 @@
+{
+    "id": "gs1/GS1_DigitalLink_Resolver_CE",
+    "repo_link": "https://github.com/gs1/GS1_DigitalLink_Resolver_CE",
+    "file_extensions": [
+        ".yaml",
+        ".yml",
+        ".json",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/gs1/GS1_DigitalLink_Resolver_CE/blob/master/docker-compose.yml"
+        ],
+        "yaml": [
+            "https://github.com/gs1/GS1_DigitalLink_Resolver_CE/blob/master/kustomization.yaml",
+            "https://github.com/gs1/GS1_DigitalLink_Resolver_CE/blob/master/k8s/resolver-sql-server.yaml",
+            "https://github.com/gs1/GS1_DigitalLink_Resolver_CE/blob/master/k8s/resolver-mongo-server.yaml",
+            "https://github.com/gs1/GS1_DigitalLink_Resolver_CE/blob/master/k8s/dashboard-sync-server.yaml",
+            "https://github.com/gs1/GS1_DigitalLink_Resolver_CE/blob/master/k8s/digitallink-toolkit-server.yaml",
+            "https://github.com/gs1/GS1_DigitalLink_Resolver_CE/blob/master/k8s/resolver-web-server.yaml",
+            "https://github.com/gs1/GS1_DigitalLink_Resolver_CE/blob/master/k8s/resolver-data-entry-server.yaml",
+            "https://github.com/gs1/GS1_DigitalLink_Resolver_CE/blob/master/k8s/frontend-proxy-server.yaml",
+            "https://github.com/gs1/GS1_DigitalLink_Resolver_CE/blob/master/k8s/resolver-pvc-drives.yaml",
+            "https://github.com/gs1/GS1_DigitalLink_Resolver_CE/blob/master/k8s/build-sync-server.yaml"
+        ],
+        "json": [
+            "https://github.com/gs1/GS1_DigitalLink_Resolver_CE/blob/master/Documentation/example_resolver_entry.json",
+            "https://github.com/gs1/GS1_DigitalLink_Resolver_CE/blob/master/resolver_data_entry_server/nodemon.json",
+            "https://github.com/gs1/GS1_DigitalLink_Resolver_CE/blob/master/resolver_data_entry_server/package-lock.json",
+            "https://github.com/gs1/GS1_DigitalLink_Resolver_CE/blob/master/resolver_data_entry_server/package.json",
+            "https://github.com/gs1/GS1_DigitalLink_Resolver_CE/blob/master/build_sync_server/package.json",
+            "https://github.com/gs1/GS1_DigitalLink_Resolver_CE/blob/master/dashboard_sync_server/package.json",
+            "https://github.com/gs1/GS1_DigitalLink_Resolver_CE/blob/master/resolver_web_server/package-lock.json",
+            "https://github.com/gs1/GS1_DigitalLink_Resolver_CE/blob/master/resolver_web_server/package.json",
+            "https://github.com/gs1/GS1_DigitalLink_Resolver_CE/blob/master/resolver_web_server/src/resolverDescriptionFile.schema.json",
+            "https://github.com/gs1/GS1_DigitalLink_Resolver_CE/blob/master/resolver_web_server/src/wellknown.json",
+            "https://github.com/gs1/GS1_DigitalLink_Resolver_CE/blob/master/resolver_web_server/src/controllers/resolverDescriptionFile.schema.json",
+            "https://github.com/gs1/GS1_DigitalLink_Resolver_CE/blob/master/resolver_mongo_server/example_mongo_doc.json",
+            "https://github.com/gs1/GS1_DigitalLink_Resolver_CE/blob/master/.vscode/settings.json",
+            "https://github.com/gs1/GS1_DigitalLink_Resolver_CE/blob/master/digitallink_toolkit_server/package.json"
+        ],
+        "conf": [
+            "https://github.com/gs1/GS1_DigitalLink_Resolver_CE/blob/master/frontend_proxy_server/nginx.conf"
+        ]
+    }
+}

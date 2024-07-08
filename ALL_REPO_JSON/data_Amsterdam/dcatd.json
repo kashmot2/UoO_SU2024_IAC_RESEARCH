@@ -1,0 +1,40 @@
+{
+    "id": "Amsterdam/dcatd",
+    "repo_link": "https://github.com/Amsterdam/dcatd",
+    "file_extensions": [
+        ".yml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/Amsterdam/dcatd/blob/master/dcat_schema.yml",
+            "https://github.com/Amsterdam/dcatd/blob/master/dcatd.yml",
+            "https://github.com/Amsterdam/dcatd/blob/master/docker-compose.yml",
+            "https://github.com/Amsterdam/dcatd/blob/master/tests/datacatalog/integration_config.yml",
+            "https://github.com/Amsterdam/dcatd/blob/master/tests/datacatalog/plugins/test_postgres_config.yml",
+            "https://github.com/Amsterdam/dcatd/blob/master/utils/config.yml",
+            "https://github.com/Amsterdam/dcatd/blob/master/examples/running/config.yml",
+            "https://github.com/Amsterdam/dcatd/blob/master/src/datacatalog/openapi.yml",
+            "https://github.com/Amsterdam/dcatd/blob/master/src/datacatalog/config_schema.yml",
+            "https://github.com/Amsterdam/dcatd/blob/master/src/datacatalog/plugins/postgres/config_schema.yml",
+            "https://github.com/Amsterdam/dcatd/blob/master/src/datacatalog/plugins/swift/config_schema.yml"
+        ],
+        "json": [
+            "https://github.com/Amsterdam/dcatd/blob/master/json-schema-draft-07.json",
+            "https://github.com/Amsterdam/dcatd/blob/master/tests/datacatalog/test.json",
+            "https://github.com/Amsterdam/dcatd/blob/master/tests/datacatalog/test_update.json",
+            "https://github.com/Amsterdam/dcatd/blob/master/tests/datacatalog/test_unpublished.json",
+            "https://github.com/Amsterdam/dcatd/blob/master/examples/rdflib/9c3036b8-f6ac-4a4e-9036-5a3cc90c3900.json"
+        ]
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "id": "flowant/website",
+    "repo_link": "https://github.com/flowant/website",
+    "file_extensions": [
+        ".yml",
+        ".yaml",
+        ".json",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/flowant/website/blob/master/docker-compose.yml",
+            "https://github.com/flowant/website/blob/master/docker-compose-maven.yml",
+            "https://github.com/flowant/website/blob/master/docker-compose-dockerhub.yml",
+            "https://github.com/flowant/website/blob/master/authserver/src/main/resources/application.yml",
+            "https://github.com/flowant/website/blob/master/backend/src/main/resources/application.yml",
+            "https://github.com/flowant/website/blob/master/common/src/main/resources/application.yml",
+            "https://github.com/flowant/website/blob/master/registry/src/main/resources/application.yml",
+            "https://github.com/flowant/website/blob/master/gateway/src/main/resources/application.yml"
+        ],
+        "yaml": [
+            "https://github.com/flowant/website/blob/master/k8s-cassandra.yaml"
+        ],
+        "json": [
+            "https://github.com/flowant/website/blob/master/frontend/angular.json",
+            "https://github.com/flowant/website/blob/master/frontend/package-lock.json",
+            "https://github.com/flowant/website/blob/master/frontend/package.json",
+            "https://github.com/flowant/website/blob/master/frontend/tslint.json",
+            "https://github.com/flowant/website/blob/master/frontend/tsconfig.json",
+            "https://github.com/flowant/website/blob/master/frontend/e2e/tsconfig.e2e.json",
+            "https://github.com/flowant/website/blob/master/frontend/src/tsconfig.app.json",
+            "https://github.com/flowant/website/blob/master/frontend/src/tslint.json",
+            "https://github.com/flowant/website/blob/master/frontend/src/tsconfig.spec.json"
+        ],
+        "conf": [
+            "https://github.com/flowant/website/blob/master/frontend/nginx-default.conf"
+        ]
+    }
+}

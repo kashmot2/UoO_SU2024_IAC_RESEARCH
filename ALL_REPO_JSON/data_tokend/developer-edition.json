@@ -1,0 +1,52 @@
+{
+    "id": "tokend/developer-edition",
+    "repo_link": "https://github.com/tokend/developer-edition",
+    "file_extensions": [
+        ".yml",
+        ".tf",
+        ".yaml",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "TF",
+        "PUL",
+        "CP",
+        "AWS",
+        "GOOG",
+        "ANS",
+        "PUP",
+        "OT",
+        "DOC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/tokend/developer-edition/blob/master/docker-compose.yml",
+            "https://github.com/tokend/developer-edition/blob/master/configs/api.yml"
+        ],
+        "yaml": [
+            "https://github.com/tokend/developer-edition/blob/master/configs/coinpayments-atomic-swap-checker.yaml",
+            "https://github.com/tokend/developer-edition/blob/master/configs/erc20-withdraw.yaml",
+            "https://github.com/tokend/developer-edition/blob/master/configs/errors.yaml",
+            "https://github.com/tokend/developer-edition/blob/master/configs/cop.yaml",
+            "https://github.com/tokend/developer-edition/blob/master/configs/coinpayments-atomic-swap-matcher.yaml",
+            "https://github.com/tokend/developer-edition/blob/master/configs/salecloser.yaml",
+            "https://github.com/tokend/developer-edition/blob/master/configs/horizon.yaml",
+            "https://github.com/tokend/developer-edition/blob/master/configs/stellar-withdraw.yaml",
+            "https://github.com/tokend/developer-edition/blob/master/configs/coinpayments-deposit.yaml",
+            "https://github.com/tokend/developer-edition/blob/master/configs/charts.yaml",
+            "https://github.com/tokend/developer-edition/blob/master/configs/stellar-deposit.yaml",
+            "https://github.com/tokend/developer-edition/blob/master/configs/coinpayments-deposit-verify.yaml",
+            "https://github.com/tokend/developer-edition/blob/master/configs/traefik.yaml",
+            "https://github.com/tokend/developer-edition/blob/master/configs/coinpayments-withdraw.yaml",
+            "https://github.com/tokend/developer-edition/blob/master/configs/erc20-deposit.yaml",
+            "https://github.com/tokend/developer-edition/blob/master/configs/poll-closer.yaml"
+        ],
+        "conf": [
+            "https://github.com/tokend/developer-edition/blob/master/configs/nginx.conf"
+        ],
+        "tf": [
+            "https://github.com/tokend/developer-edition/blob/master/terraform/main.tf"
+        ]
+    }
+}

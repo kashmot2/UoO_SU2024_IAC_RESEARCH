@@ -1,0 +1,80 @@
+{
+    "id": "ukwa/ukwa-services",
+    "repo_link": "https://github.com/ukwa/ukwa-services",
+    "file_extensions": [
+        ".yml",
+        ".conf",
+        ".yaml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/ukwa/ukwa-services/blob/master/access/docker-compose.shared.yml",
+            "https://github.com/ukwa/ukwa-services/blob/master/access/cdx/docker-compose.yml",
+            "https://github.com/ukwa/ukwa-services/blob/master/access/website/docker-compose.yml",
+            "https://github.com/ukwa/ukwa-services/blob/master/access/website/dev/docker-compose.yml",
+            "https://github.com/ukwa/ukwa-services/blob/master/access/website_tests/docker-compose.yml",
+            "https://github.com/ukwa/ukwa-services/blob/master/ingest/fc/fc-wb/docker-compose.yml",
+            "https://github.com/ukwa/ukwa-services/blob/master/ingest/fc/fc-crawl/docker-compose.yml",
+            "https://github.com/ukwa/ukwa-services/blob/master/ingest/fc/fc-crawl/prometheus/alerts.yml",
+            "https://github.com/ukwa/ukwa-services/blob/master/ingest/fc/fc-crawl/prometheus/prometheus.yml",
+            "https://github.com/ukwa/ukwa-services/blob/master/ingest/fc/fc-kafka/docker-compose.yml",
+            "https://github.com/ukwa/ukwa-services/blob/master/ingest/fc/fc-kafka/prom-jmx/prom-jmx-agent-config-kafka.yml",
+            "https://github.com/ukwa/ukwa-services/blob/master/ingest/fc/fc-kafka-ui/docker-compose.yml",
+            "https://github.com/ukwa/ukwa-services/blob/master/ingest/crawl_log_db/docker-compose.dev.yml",
+            "https://github.com/ukwa/ukwa-services/blob/master/ingest/dc/dc-kafka/docker-compose.yml",
+            "https://github.com/ukwa/ukwa-services/blob/master/ingest/dc/dc-kafka/prom-jmx/prom-jmx-agent-config-kafka.yml",
+            "https://github.com/ukwa/ukwa-services/blob/master/ingest/dc/dc-wb/docker-compose.yml",
+            "https://github.com/ukwa/ukwa-services/blob/master/ingest/dc/dc-crawl/docker-compose.yml",
+            "https://github.com/ukwa/ukwa-services/blob/master/ingest/dc/dc-crawl/prometheus/config/alert.rules.yml",
+            "https://github.com/ukwa/ukwa-services/blob/master/ingest/dc/dc-crawl/prometheus/config/prometheus.yml",
+            "https://github.com/ukwa/ukwa-services/blob/master/ingest/dc/dc-kafka-ui/docker-compose.yml",
+            "https://github.com/ukwa/ukwa-services/blob/master/ingest/w3act/docker-compose.yml",
+            "https://github.com/ukwa/ukwa-services/blob/master/ingest/w3act/scripts/ddhapt/docker-compose.yml",
+            "https://github.com/ukwa/ukwa-services/blob/master/.github/workflows/deploy-beta-swarm.yml",
+            "https://github.com/ukwa/ukwa-services/blob/master/.github/workflows/push-to-docker-hub.yml",
+            "https://github.com/ukwa/ukwa-services/blob/master/manage/trackdb/docker-compose.yml",
+            "https://github.com/ukwa/ukwa-services/blob/master/manage/rclone/docker-compose.yml",
+            "https://github.com/ukwa/ukwa-services/blob/master/manage/httpfs/docker-compose.yml",
+            "https://github.com/ukwa/ukwa-services/blob/master/manage/intranet/docker-compose.yml"
+        ],
+        "yaml": [
+            "https://github.com/ukwa/ukwa-services/blob/master/access/website/config/pywb/config-nobanner.yaml",
+            "https://github.com/ukwa/ukwa-services/blob/master/access/website/config/pywb/config.yaml",
+            "https://github.com/ukwa/ukwa-services/blob/master/ingest/fc/fc-wb/pywb-config.yaml",
+            "https://github.com/ukwa/ukwa-services/blob/master/ingest/w3act/config/pywb.yaml",
+            "https://github.com/ukwa/ukwa-services/blob/master/ingest/w3act/grafana/datasources/w3act-db.yaml",
+            "https://github.com/ukwa/ukwa-services/blob/master/ingest/w3act/grafana/datasources/crawl-logs.yaml",
+            "https://github.com/ukwa/ukwa-services/blob/master/ingest/w3act/grafana/dashboards/dashboards.yaml",
+            "https://github.com/ukwa/ukwa-services/blob/master/manage/airflow/docker-compose.yaml",
+            "https://github.com/ukwa/ukwa-services/blob/master/manage/intranet/config/pywb/config-nobanner.yaml"
+        ],
+        "json": [
+            "https://github.com/ukwa/ukwa-services/blob/master/ingest/crawl_log_db/schema_fields.json",
+            "https://github.com/ukwa/ukwa-services/blob/master/ingest/w3act/config/crawl-log-viewer-topics.json",
+            "https://github.com/ukwa/ukwa-services/blob/master/ingest/w3act/grafana/dashboards/crawl-logs/recent-crawler-activity.json",
+            "https://github.com/ukwa/ukwa-services/blob/master/ingest/w3act/grafana/dashboards/crawl-logs/recent-seed-crawl-results.json",
+            "https://github.com/ukwa/ukwa-services/blob/master/ingest/w3act/grafana/dashboards/crawl-logs/urls-capped.json",
+            "https://github.com/ukwa/ukwa-services/blob/master/ingest/w3act/grafana/dashboards/documents/docs-in-w3act.json",
+            "https://github.com/ukwa/ukwa-services/blob/master/manage/intranet/config/crawl-log-topics.json"
+        ],
+        "conf": [
+            "https://github.com/ukwa/ukwa-services/blob/master/access/website/config/nginx.conf",
+            "https://github.com/ukwa/ukwa-services/blob/master/access/scripts/warc-npld.conf",
+            "https://github.com/ukwa/ukwa-services/blob/master/ingest/w3act/config/nginx.conf",
+            "https://github.com/ukwa/ukwa-services/blob/master/manage/rclone/config/rclone.conf"
+        ]
+    }
+}

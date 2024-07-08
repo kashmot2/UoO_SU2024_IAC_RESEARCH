@@ -1,0 +1,43 @@
+{
+    "id": "QwantResearch/kartotherian_docker",
+    "repo_link": "https://github.com/QwantResearch/kartotherian_docker",
+    "file_extensions": [
+        ".yml",
+        ".conf",
+        ".yaml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "GOOG",
+        "ANS",
+        "PUP",
+        "DOC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/QwantResearch/kartotherian_docker/blob/master/local-compose.yml",
+            "https://github.com/QwantResearch/kartotherian_docker/blob/master/docker-compose.yml",
+            "https://github.com/QwantResearch/kartotherian_docker/blob/master/.github/workflows/ci.yml",
+            "https://github.com/QwantResearch/kartotherian_docker/blob/master/load_db/config.yml"
+        ],
+        "yaml": [
+            "https://github.com/QwantResearch/kartotherian_docker/blob/master/tilerator/sources.yaml",
+            "https://github.com/QwantResearch/kartotherian_docker/blob/master/tilerator/config.worker.yaml",
+            "https://github.com/QwantResearch/kartotherian_docker/blob/master/tilerator/config.api.yaml",
+            "https://github.com/QwantResearch/kartotherian_docker/blob/master/import_data/invoke.yaml",
+            "https://github.com/QwantResearch/kartotherian_docker/blob/master/kartotherian/sources.yaml",
+            "https://github.com/QwantResearch/kartotherian_docker/blob/master/kartotherian/config.yaml",
+            "https://github.com/QwantResearch/kartotherian_docker/blob/master/kubernetes/requirements.yaml",
+            "https://github.com/QwantResearch/kartotherian_docker/blob/master/kubernetes/Chart.yaml",
+            "https://github.com/QwantResearch/kartotherian_docker/blob/master/kubernetes/values.yaml",
+            "https://github.com/QwantResearch/kartotherian_docker/blob/master/kubernetes/values_prod.yaml",
+            "https://github.com/QwantResearch/kartotherian_docker/blob/master/kubernetes/templates/load_db.job.yaml"
+        ],
+        "conf": [
+            "https://github.com/QwantResearch/kartotherian_docker/blob/master/telegraf/telegraf.conf"
+        ]
+    }
+}

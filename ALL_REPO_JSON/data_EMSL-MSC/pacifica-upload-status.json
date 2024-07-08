@@ -1,0 +1,38 @@
+{
+    "id": "EMSL-MSC/pacifica-upload-status",
+    "repo_link": "https://github.com/EMSL-MSC/pacifica-upload-status",
+    "file_extensions": [
+        ".json",
+        ".yml",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/EMSL-MSC/pacifica-upload-status/blob/master/docker-compose.yml",
+            "https://github.com/EMSL-MSC/pacifica-upload-status/blob/master/.travis.yml",
+            "https://github.com/EMSL-MSC/pacifica-upload-status/blob/master/application/third_party/Requests-1.7.0/.coveralls.yml",
+            "https://github.com/EMSL-MSC/pacifica-upload-status/blob/master/application/third_party/Requests-1.7.0/.travis.yml"
+        ],
+        "json": [
+            "https://github.com/EMSL-MSC/pacifica-upload-status/blob/master/package-lock.json",
+            "https://github.com/EMSL-MSC/pacifica-upload-status/blob/master/manifest.json",
+            "https://github.com/EMSL-MSC/pacifica-upload-status/blob/master/.eslintrc.json",
+            "https://github.com/EMSL-MSC/pacifica-upload-status/blob/master/application/third_party/Requests-1.7.0/composer.json"
+        ],
+        "conf": [
+            "https://github.com/EMSL-MSC/pacifica-upload-status/blob/master/tests/apache_conf/sites/myemsl-status.conf",
+            "https://github.com/EMSL-MSC/pacifica-upload-status/blob/master/tests/apache_conf/modules/loglevel.conf"
+        ]
+    }
+}

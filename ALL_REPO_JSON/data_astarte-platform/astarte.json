@@ -1,0 +1,65 @@
+{
+    "id": "astarte-platform/astarte",
+    "repo_link": "https://github.com/astarte-platform/astarte",
+    "file_extensions": [
+        ".yaml",
+        ".yml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/astarte-platform/astarte/blob/master/docker-compose.yml",
+            "https://github.com/astarte-platform/astarte/blob/master/tools/astarte_export/.travis.yml",
+            "https://github.com/astarte-platform/astarte/blob/master/.github/dco.yml",
+            "https://github.com/astarte-platform/astarte/blob/master/.github/labeler.yml"
+        ],
+        "yaml": [
+            "https://github.com/astarte-platform/astarte/blob/master/codecov.yaml",
+            "https://github.com/astarte-platform/astarte/blob/master/.github/workflows/astarte-apps-build-workflow.yaml",
+            "https://github.com/astarte-platform/astarte/blob/master/.github/workflows/docs-workflow.yaml",
+            "https://github.com/astarte-platform/astarte/blob/master/.github/workflows/astarte-end-to-end-test-workflow.yaml",
+            "https://github.com/astarte-platform/astarte/blob/master/.github/workflows/pr-container-build-workflow.yaml",
+            "https://github.com/astarte-platform/astarte/blob/master/apps/astarte_housekeeping_api/priv/static/astarte_housekeeping_api.yaml",
+            "https://github.com/astarte-platform/astarte/blob/master/apps/astarte_realm_management_api/priv/static/astarte_realm_management_api.yaml",
+            "https://github.com/astarte-platform/astarte/blob/master/apps/astarte_appengine_api/priv/static/astarte_appengine_api.yaml",
+            "https://github.com/astarte-platform/astarte/blob/master/apps/astarte_pairing_api/priv/static/astarte_pairing_api.yaml"
+        ],
+        "json": [
+            "https://github.com/astarte-platform/astarte/blob/master/tools/astarte_e2e/priv/interfaces/org.astarte-platform.e2etest.SimpleDatastream.json",
+            "https://github.com/astarte-platform/astarte/blob/master/tools/astarte_e2e/priv/interfaces/org.astarte-platform.e2etest.SimpleProperties.json",
+            "https://github.com/astarte-platform/astarte/blob/master/tools/astarte_device_fleet_simulator/priv/interfaces/org.astarte-platform.genericsensors.Values.json",
+            "https://github.com/astarte-platform/astarte/blob/master/standard-interfaces/org.astarte-platform.genericsensors.Values.json",
+            "https://github.com/astarte-platform/astarte/blob/master/standard-interfaces/org.astarte-platform.genericsensors.SamplingRate.json",
+            "https://github.com/astarte-platform/astarte/blob/master/standard-interfaces/org.astarte-platform.genericevents.DeviceEvents.json",
+            "https://github.com/astarte-platform/astarte/blob/master/standard-interfaces/org.astarte-platform.genericcommands.ServerCommands.json",
+            "https://github.com/astarte-platform/astarte/blob/master/standard-interfaces/org.astarte-platform.genericsensors.AvailableSensors.json",
+            "https://github.com/astarte-platform/astarte/blob/master/standard-interfaces/org.astarte-platform.genericsensors.Geolocation.json",
+            "https://github.com/astarte-platform/astarte/blob/master/compose/cfssl-config/csr_root_ca.json",
+            "https://github.com/astarte-platform/astarte/blob/master/compose/cfssl-config/ca_root_config.json",
+            "https://github.com/astarte-platform/astarte/blob/master/compose/astarte-dashboard/config.json",
+            "https://github.com/astarte-platform/astarte/blob/master/examples/sensor-channels/package-lock.json",
+            "https://github.com/astarte-platform/astarte/blob/master/examples/sensor-channels/package.json",
+            "https://github.com/astarte-platform/astarte/blob/master/examples/sensor-graph/package-lock.json",
+            "https://github.com/astarte-platform/astarte/blob/master/examples/sensor-graph/package.json",
+            "https://github.com/astarte-platform/astarte/blob/master/examples/sensor-samplingrate/package-lock.json",
+            "https://github.com/astarte-platform/astarte/blob/master/examples/sensor-samplingrate/package.json",
+            "https://github.com/astarte-platform/astarte/blob/master/examples/sensors-viewer/package-lock.json",
+            "https://github.com/astarte-platform/astarte/blob/master/examples/sensors-viewer/package.json",
+            "https://github.com/astarte-platform/astarte/blob/master/examples/sensor-geolocation/package-lock.json",
+            "https://github.com/astarte-platform/astarte/blob/master/examples/sensor-geolocation/package.json",
+            "https://github.com/astarte-platform/astarte/blob/master/examples/sensor-geolocation/public/manifest.json",
+            "https://github.com/astarte-platform/astarte/blob/master/apps/astarte_housekeeping/coveralls.json"
+        ]
+    }
+}

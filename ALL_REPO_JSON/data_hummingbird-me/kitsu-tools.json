@@ -1,0 +1,27 @@
+{
+    "id": "hummingbird-me/kitsu-tools",
+    "repo_link": "https://github.com/hummingbird-me/kitsu-tools",
+    "file_extensions": [
+        ".yml",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "ANS",
+        "PUP",
+        "DOC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/hummingbird-me/kitsu-tools/blob/master/docker-compose.yml"
+        ],
+        "conf": [
+            "https://github.com/hummingbird-me/kitsu-tools/blob/master/router/logging.include.conf",
+            "https://github.com/hummingbird-me/kitsu-tools/blob/master/router/proxy.include.conf",
+            "https://github.com/hummingbird-me/kitsu-tools/blob/master/router/nginx.conf"
+        ]
+    }
+}

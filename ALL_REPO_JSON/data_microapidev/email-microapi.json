@@ -1,0 +1,39 @@
+{
+    "id": "microapidev/email-microapi",
+    "repo_link": "https://github.com/microapidev/email-microapi",
+    "file_extensions": [
+        ".yml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/microapidev/email-microapi/blob/master/docker-compose.yml",
+            "https://github.com/microapidev/email-microapi/blob/master/docker-compose.debug.yml",
+            "https://github.com/microapidev/email-microapi/blob/master/newsletter_with_frontend/static/newsletter_with_frontend/plugins/js-beautify-1.7.5/appveyor.yml",
+            "https://github.com/microapidev/email-microapi/blob/master/newsletter_with_frontend/static/newsletter_with_frontend/plugins/js-beautify-1.7.5/.travis.yml",
+            "https://github.com/microapidev/email-microapi/blob/master/newsletter_with_frontend/static/newsletter_with_frontend/plugins/js-beautify-1.7.5/.codeclimate.yml"
+        ],
+        "json": [
+            "https://github.com/microapidev/email-microapi/blob/master/swagger/swagger.json",
+            "https://github.com/microapidev/email-microapi/blob/master/newsletter_with_frontend/static/newsletter_with_frontend/package-lock.json",
+            "https://github.com/microapidev/email-microapi/blob/master/newsletter_with_frontend/static/newsletter_with_frontend/package.json",
+            "https://github.com/microapidev/email-microapi/blob/master/newsletter_with_frontend/static/newsletter_with_frontend/plugins/ckeditor-4.11.4/samples/toolbarconfigurator/font/config.json",
+            "https://github.com/microapidev/email-microapi/blob/master/newsletter_with_frontend/static/newsletter_with_frontend/plugins/code-prettify/bower.json",
+            "https://github.com/microapidev/email-microapi/blob/master/newsletter_with_frontend/static/newsletter_with_frontend/plugins/code-prettify/package.json",
+            "https://github.com/microapidev/email-microapi/blob/master/newsletter_with_frontend/static/newsletter_with_frontend/plugins/js-beautify-1.7.5/bower.json",
+            "https://github.com/microapidev/email-microapi/blob/master/newsletter_with_frontend/static/newsletter_with_frontend/plugins/js-beautify-1.7.5/package.json",
+            "https://github.com/microapidev/email-microapi/blob/master/newsletter_with_frontend/static/newsletter_with_frontend/plugins/js-beautify-1.7.5/js/config/defaults.json",
+            "https://github.com/microapidev/email-microapi/blob/master/newsletter_with_frontend/static/newsletter_with_frontend/plugins/jquery-ui-1.12.1.custom/package.json"
+        ]
+    }
+}

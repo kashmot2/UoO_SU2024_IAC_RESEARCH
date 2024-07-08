@@ -1,0 +1,63 @@
+{
+    "id": "EGA-archive/beacon-2.x",
+    "repo_link": "https://github.com/EGA-archive/beacon-2.x",
+    "file_extensions": [
+        ".json",
+        ".conf",
+        ".yml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/EGA-archive/beacon-2.x/blob/master/deploy/docker-compose.yml",
+            "https://github.com/EGA-archive/beacon-2.x/blob/master/deploy/logger.yml",
+            "https://github.com/EGA-archive/beacon-2.x/blob/master/permissions/controlled_datasets.yml",
+            "https://github.com/EGA-archive/beacon-2.x/blob/master/permissions/registered_datasets.yml",
+            "https://github.com/EGA-archive/beacon-2.x/blob/master/permissions/public_datasets.yml",
+            "https://github.com/EGA-archive/beacon-2.x/blob/master/.github/workflows/update_api_version.yml",
+            "https://github.com/EGA-archive/beacon-2.x/blob/master/.github/workflows/push_docker_image.yml",
+            "https://github.com/EGA-archive/beacon-2.x/blob/master/.github/workflows/demo.yml",
+            "https://github.com/EGA-archive/beacon-2.x/blob/master/beacon/api_version.yml",
+            "https://github.com/EGA-archive/beacon-2.x/blob/master/beacon/logger.yml",
+            "https://github.com/EGA-archive/beacon-2.x/blob/master/beacon/request/datasets.yml",
+            "https://github.com/EGA-archive/beacon-2.x/blob/master/beacon/request/cohorts.yml",
+            "https://github.com/EGA-archive/beacon-2.x/blob/master/beacon/request/response_type.yml"
+        ],
+        "json": [
+            "https://github.com/EGA-archive/beacon-2.x/blob/master/frontend/package-lock.json",
+            "https://github.com/EGA-archive/beacon-2.x/blob/master/frontend/package.json",
+            "https://github.com/EGA-archive/beacon-2.x/blob/master/frontend/public/manifest.json",
+            "https://github.com/EGA-archive/beacon-2.x/blob/master/frontend/src/config.json",
+            "https://github.com/EGA-archive/beacon-2.x/blob/master/deploy/beacon-realm.json",
+            "https://github.com/EGA-archive/beacon-2.x/blob/master/deploy/data/filtering_terms.json",
+            "https://github.com/EGA-archive/beacon-2.x/blob/master/deploy/data/analyses.json",
+            "https://github.com/EGA-archive/beacon-2.x/blob/master/deploy/data/cohorts.json",
+            "https://github.com/EGA-archive/beacon-2.x/blob/master/deploy/data/datasets.json",
+            "https://github.com/EGA-archive/beacon-2.x/blob/master/deploy/data/individuals.json",
+            "https://github.com/EGA-archive/beacon-2.x/blob/master/deploy/data/biosamples.json",
+            "https://github.com/EGA-archive/beacon-2.x/blob/master/deploy/data/runs.json",
+            "https://github.com/EGA-archive/beacon-2.x/blob/master/deploy/data/genomicVariations.json",
+            "https://github.com/EGA-archive/beacon-2.x/blob/master/tests/responses/individual-NA24631.json",
+            "https://github.com/EGA-archive/beacon-2.x/blob/master/tests/responses/geographic-origin.json",
+            "https://github.com/EGA-archive/beacon-2.x/blob/master/tests/responses/all-individuals.json",
+            "https://github.com/EGA-archive/beacon-2.x/blob/master/tests/requests/descendants.json",
+            "https://github.com/EGA-archive/beacon-2.x/blob/master/tests/requests/individual-NA24631.json",
+            "https://github.com/EGA-archive/beacon-2.x/blob/master/tests/requests/geographic-origin.json",
+            "https://github.com/EGA-archive/beacon-2.x/blob/master/tests/requests/all-individuals.json"
+        ],
+        "conf": [
+            "https://github.com/EGA-archive/beacon-2.x/blob/master/deploy/supervisord.conf",
+            "https://github.com/EGA-archive/beacon-2.x/blob/master/deploy/nginx.conf"
+        ]
+    }
+}

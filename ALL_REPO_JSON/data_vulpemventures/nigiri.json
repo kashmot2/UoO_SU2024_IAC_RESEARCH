@@ -1,0 +1,30 @@
+{
+    "id": "vulpemventures/nigiri",
+    "repo_link": "https://github.com/vulpemventures/nigiri",
+    "file_extensions": [
+        ".yml",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "ANS",
+        "PUP",
+        "DOC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/vulpemventures/nigiri/blob/master/.goreleaser.yml",
+            "https://github.com/vulpemventures/nigiri/blob/master/cmd/nigiri/resources/docker-compose.yml",
+            "https://github.com/vulpemventures/nigiri/blob/master/.github/workflows/release.yml",
+            "https://github.com/vulpemventures/nigiri/blob/master/.github/workflows/test.yml"
+        ],
+        "conf": [
+            "https://github.com/vulpemventures/nigiri/blob/master/cmd/nigiri/resources/elements.conf",
+            "https://github.com/vulpemventures/nigiri/blob/master/cmd/nigiri/resources/lnd.conf",
+            "https://github.com/vulpemventures/nigiri/blob/master/cmd/nigiri/resources/bitcoin.conf"
+        ]
+    }
+}

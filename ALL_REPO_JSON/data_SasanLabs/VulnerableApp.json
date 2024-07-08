@@ -1,0 +1,37 @@
+{
+    "id": "SasanLabs/VulnerableApp",
+    "repo_link": "https://github.com/SasanLabs/VulnerableApp",
+    "file_extensions": [
+        ".yml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/SasanLabs/VulnerableApp/blob/master/docker-compose.yml",
+            "https://github.com/SasanLabs/VulnerableApp/blob/master/.travis.yml",
+            "https://github.com/SasanLabs/VulnerableApp/blob/master/docs/_config_local.yml",
+            "https://github.com/SasanLabs/VulnerableApp/blob/master/docs/_config.yml",
+            "https://github.com/SasanLabs/VulnerableApp/blob/master/.github/FUNDING.yml",
+            "https://github.com/SasanLabs/VulnerableApp/blob/master/.github/workflows/gradle.yml",
+            "https://github.com/SasanLabs/VulnerableApp/blob/master/.github/workflows/sonar.yml",
+            "https://github.com/SasanLabs/VulnerableApp/blob/master/.github/workflows/create-release.yml",
+            "https://github.com/SasanLabs/VulnerableApp/blob/master/.github/workflows/docker.yml"
+        ],
+        "json": [
+            "https://github.com/SasanLabs/VulnerableApp/blob/master/src/main/resources/scripts/JWT/SymmetricAlgoKeys.json",
+            "https://github.com/SasanLabs/VulnerableApp/blob/master/src/main/resources/scripts/PathTraversal/OwaspAppInfo.json",
+            "https://github.com/SasanLabs/VulnerableApp/blob/master/src/main/resources/scripts/PathTraversal/UserInfo.json",
+            "https://github.com/SasanLabs/VulnerableApp/blob/master/src/main/resources/scripts/PathTraversal/secret.json"
+        ]
+    }
+}

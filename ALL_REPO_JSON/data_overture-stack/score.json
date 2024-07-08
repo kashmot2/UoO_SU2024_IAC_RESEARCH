@@ -1,0 +1,38 @@
+{
+    "id": "overture-stack/score",
+    "repo_link": "https://github.com/overture-stack/score",
+    "file_extensions": [
+        ".yml",
+        ".conf",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/overture-stack/score/blob/master/docker-compose.yml",
+            "https://github.com/overture-stack/score/blob/master/score-server/src/main/resources/application.yml",
+            "https://github.com/overture-stack/score/blob/master/score-client/src/test/resources/application.yml",
+            "https://github.com/overture-stack/score/blob/master/score-client/src/main/resources/application.yml"
+        ],
+        "json": [
+            "https://github.com/overture-stack/score/blob/master/docker/aws-cli-init/config.json",
+            "https://github.com/overture-stack/score/blob/master/docker/score-client-init/TEST-CA/analysis.json",
+            "https://github.com/overture-stack/score/blob/master/minio/.minio.sys/format.json",
+            "https://github.com/overture-stack/score/blob/master/minio/.minio.sys/buckets/cram/yeast.cram.crai/fs.json",
+            "https://github.com/overture-stack/score/blob/master/minio/.minio.sys/buckets/cram/yeast.cram/fs.json"
+        ],
+        "conf": [
+            "https://github.com/overture-stack/score/blob/master/score-server/src/main/conf/wrapper.conf"
+        ]
+    }
+}

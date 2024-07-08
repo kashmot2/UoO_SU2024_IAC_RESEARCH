@@ -1,0 +1,44 @@
+{
+    "id": "Engineering-Research-and-Development/true-connector-execution_core_container",
+    "repo_link": "https://github.com/Engineering-Research-and-Development/true-connector-execution_core_container",
+    "file_extensions": [
+        ".yml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/Engineering-Research-and-Development/true-connector-execution_core_container/blob/master/ci/docker/docker-compose-uc.yml",
+            "https://github.com/Engineering-Research-and-Development/true-connector-execution_core_container/blob/master/ci/docker/docker-compose.yml",
+            "https://github.com/Engineering-Research-and-Development/true-connector-execution_core_container/blob/master/.github/workflows/docker-publish.yml",
+            "https://github.com/Engineering-Research-and-Development/true-connector-execution_core_container/blob/master/.github/workflows/maven_release.yml",
+            "https://github.com/Engineering-Research-and-Development/true-connector-execution_core_container/blob/master/.github/workflows/ECC.yml"
+        ],
+        "json": [
+            "https://github.com/Engineering-Research-and-Development/true-connector-execution_core_container/blob/master/ci/docker/test-cases/https-https-header-contract-negotiation/HTTPS-HTTPS-header-contract-negotiation.json",
+            "https://github.com/Engineering-Research-and-Development/true-connector-execution_core_container/blob/master/ci/docker/test-cases/ws-ws/WS-WS.json",
+            "https://github.com/Engineering-Research-and-Development/true-connector-execution_core_container/blob/master/ci/docker/test-cases/ws-idscp2/WS-IDSCP2.json",
+            "https://github.com/Engineering-Research-and-Development/true-connector-execution_core_container/blob/master/ci/docker/test-cases/https-https-header/HTTPS-HTTPS-header.json",
+            "https://github.com/Engineering-Research-and-Development/true-connector-execution_core_container/blob/master/ci/docker/test-cases/https-idscp2-form/HTTPS-IDSCP2-form.json",
+            "https://github.com/Engineering-Research-and-Development/true-connector-execution_core_container/blob/master/ci/docker/test-cases/https-https-form-contract-negotiation/HTTPS-HTTPS-form-contract-negotiation.json",
+            "https://github.com/Engineering-Research-and-Development/true-connector-execution_core_container/blob/master/ci/docker/test-cases/https-https-mixed-contract-negotiation/HTTPS-HTTPS-mixed-contract-negotiation.json",
+            "https://github.com/Engineering-Research-and-Development/true-connector-execution_core_container/blob/master/ci/docker/test-cases/https-https-mixed/HTTPS-HTTPS-mixed.json",
+            "https://github.com/Engineering-Research-and-Development/true-connector-execution_core_container/blob/master/ci/docker/test-cases/https-https-form/HTTPS-HTTPS-form-API.json",
+            "https://github.com/Engineering-Research-and-Development/true-connector-execution_core_container/blob/master/ci/docker/test-cases/https-https-form/HTTPS-HTTPS-form.json",
+            "https://github.com/Engineering-Research-and-Development/true-connector-execution_core_container/blob/master/ci/docker/test-cases/https-idscp2-mixed/HTTPS-IDSCP2-mixed.json",
+            "https://github.com/Engineering-Research-and-Development/true-connector-execution_core_container/blob/master/ci/docker/test-cases/https-idscp2-header/HTTPS-IDSCP2-header.json",
+            "https://github.com/Engineering-Research-and-Development/true-connector-execution_core_container/blob/master/ci/docker/be-dataapp_data_sender/contract_agreement.json",
+            "https://github.com/Engineering-Research-and-Development/true-connector-execution_core_container/blob/master/ci/docker/be-dataapp_data_receiver/contract_agreement.json",
+            "https://github.com/Engineering-Research-and-Development/true-connector-execution_core_container/blob/master/ci/docker/be-dataapp_data_receiver/dummyfile1.json"
+        ]
+    }
+}

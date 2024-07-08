@@ -1,0 +1,55 @@
+{
+    "id": "BrainBackup/bb8",
+    "repo_link": "https://github.com/BrainBackup/bb8",
+    "file_extensions": [
+        ".json",
+        ".yml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/BrainBackup/bb8/blob/master/docker-compose.yml",
+            "https://github.com/BrainBackup/bb8/blob/master/elastic/docker-compose.yml",
+            "https://github.com/BrainBackup/bb8/blob/master/mysql/docker-compose.yml",
+            "https://github.com/BrainBackup/bb8/blob/master/.github/workflows/auth-service.yml",
+            "https://github.com/BrainBackup/bb8/blob/master/.github/workflows/text-service.yml",
+            "https://github.com/BrainBackup/bb8/blob/master/.github/workflows/npmpackages.yml",
+            "https://github.com/BrainBackup/bb8/blob/master/.github/workflows/dockerimage.yml"
+        ],
+        "json": [
+            "https://github.com/BrainBackup/bb8/blob/master/package.json",
+            "https://github.com/BrainBackup/bb8/blob/master/tsconfig.json",
+            "https://github.com/BrainBackup/bb8/blob/master/types/package-lock.json",
+            "https://github.com/BrainBackup/bb8/blob/master/types/package.json",
+            "https://github.com/BrainBackup/bb8/blob/master/types/tslint.json",
+            "https://github.com/BrainBackup/bb8/blob/master/types/tsconfig.json",
+            "https://github.com/BrainBackup/bb8/blob/master/web-ui/package-lock.json",
+            "https://github.com/BrainBackup/bb8/blob/master/web-ui/package.json",
+            "https://github.com/BrainBackup/bb8/blob/master/web-ui/semantic.json",
+            "https://github.com/BrainBackup/bb8/blob/master/web-ui/tsconfig.json",
+            "https://github.com/BrainBackup/bb8/blob/master/web-ui/.storybook/tsconfig.json",
+            "https://github.com/BrainBackup/bb8/blob/master/chrome-extension/manifest.json",
+            "https://github.com/BrainBackup/bb8/blob/master/type-test/package-lock.json",
+            "https://github.com/BrainBackup/bb8/blob/master/type-test/package.json",
+            "https://github.com/BrainBackup/bb8/blob/master/text-service/nest-cli.json",
+            "https://github.com/BrainBackup/bb8/blob/master/text-service/package.json",
+            "https://github.com/BrainBackup/bb8/blob/master/text-service/tsconfig.build.json",
+            "https://github.com/BrainBackup/bb8/blob/master/text-service/tsconfig.json",
+            "https://github.com/BrainBackup/bb8/blob/master/text-service/test/jest-e2e.json",
+            "https://github.com/BrainBackup/bb8/blob/master/auth-service/nest-cli.json",
+            "https://github.com/BrainBackup/bb8/blob/master/auth-service/package.json",
+            "https://github.com/BrainBackup/bb8/blob/master/auth-service/tsconfig.build.json",
+            "https://github.com/BrainBackup/bb8/blob/master/auth-service/tsconfig.json",
+            "https://github.com/BrainBackup/bb8/blob/master/auth-service/test/jest-e2e.json"
+        ]
+    }
+}

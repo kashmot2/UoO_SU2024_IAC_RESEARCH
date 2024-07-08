@@ -1,0 +1,52 @@
+{
+    "id": "sagikazarmark/modern-go-application",
+    "repo_link": "https://github.com/sagikazarmark/modern-go-application",
+    "file_extensions": [
+        ".yaml",
+        ".yml",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "GOOG",
+        "ANS",
+        "PUP",
+        "DOC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/sagikazarmark/modern-go-application/blob/master/docker-compose.yml",
+            "https://github.com/sagikazarmark/modern-go-application/blob/master/etc/local/prometheus/prometheus.yml",
+            "https://github.com/sagikazarmark/modern-go-application/blob/master/etc/ansible/roles/deployment/tasks/main.yml",
+            "https://github.com/sagikazarmark/modern-go-application/blob/master/etc/ansible/roles/deployment/meta/main.yml",
+            "https://github.com/sagikazarmark/modern-go-application/blob/master/etc/ansible/roles/deployment/defaults/main.yml",
+            "https://github.com/sagikazarmark/modern-go-application/blob/master/etc/ansible/roles/deployment/molecule/default/molecule.yml",
+            "https://github.com/sagikazarmark/modern-go-application/blob/master/etc/ansible/roles/deployment/molecule/default/playbook.yml",
+            "https://github.com/sagikazarmark/modern-go-application/blob/master/etc/ansible/roles/deployment/molecule/default/requirements.yml",
+            "https://github.com/sagikazarmark/modern-go-application/blob/master/etc/ansible/roles/deployment/molecule/default/prepare.yml",
+            "https://github.com/sagikazarmark/modern-go-application/blob/master/etc/ansible/roles/application-setup/tasks/ingress.yml",
+            "https://github.com/sagikazarmark/modern-go-application/blob/master/etc/ansible/roles/application-setup/tasks/user.yml",
+            "https://github.com/sagikazarmark/modern-go-application/blob/master/etc/ansible/roles/application-setup/tasks/app.yml",
+            "https://github.com/sagikazarmark/modern-go-application/blob/master/etc/ansible/roles/application-setup/tasks/main.yml",
+            "https://github.com/sagikazarmark/modern-go-application/blob/master/etc/ansible/roles/application-setup/meta/main.yml",
+            "https://github.com/sagikazarmark/modern-go-application/blob/master/etc/ansible/roles/application-setup/defaults/main.yml",
+            "https://github.com/sagikazarmark/modern-go-application/blob/master/etc/ansible/roles/application-setup/molecule/default/molecule.yml",
+            "https://github.com/sagikazarmark/modern-go-application/blob/master/etc/ansible/roles/application-setup/molecule/default/playbook.yml",
+            "https://github.com/sagikazarmark/modern-go-application/blob/master/etc/ansible/roles/application-setup/molecule/default/prepare.yml",
+            "https://github.com/sagikazarmark/modern-go-application/blob/master/etc/ansible/roles/application-setup/handlers/main.yml"
+        ],
+        "yaml": [
+            "https://github.com/sagikazarmark/modern-go-application/blob/master/.golangci.yaml",
+            "https://github.com/sagikazarmark/modern-go-application/blob/master/etc/local/opencensus/agent.yaml",
+            "https://github.com/sagikazarmark/modern-go-application/blob/master/etc/local/opencensus/collector.yaml",
+            "https://github.com/sagikazarmark/modern-go-application/blob/master/etc/local/grafana/provisioning/datasources/datasource.yaml",
+            "https://github.com/sagikazarmark/modern-go-application/blob/master/.github/workflows/ci.yaml"
+        ],
+        "conf": [
+            "https://github.com/sagikazarmark/modern-go-application/blob/master/etc/ansible/roles/application-setup/templates/nginx.conf"
+        ]
+    }
+}

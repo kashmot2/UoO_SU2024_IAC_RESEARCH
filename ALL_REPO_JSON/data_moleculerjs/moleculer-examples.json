@@ -1,0 +1,36 @@
+{
+    "id": "moleculerjs/moleculer-examples",
+    "repo_link": "https://github.com/moleculerjs/moleculer-examples",
+    "file_extensions": [
+        ".json",
+        ".yml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/moleculerjs/moleculer-examples/blob/master/conduit/docker-compose.yml",
+            "https://github.com/moleculerjs/moleculer-examples/blob/master/blog/docker/micro/docker-compose.yml",
+            "https://github.com/moleculerjs/moleculer-examples/blob/master/blog/docker/mixed/docker-compose.yml",
+            "https://github.com/moleculerjs/moleculer-examples/blob/master/blog/docker/mono/docker-compose.yml",
+            "https://github.com/moleculerjs/moleculer-examples/blob/master/blog/docker/dev/docker-compose.yml"
+        ],
+        "json": [
+            "https://github.com/moleculerjs/moleculer-examples/blob/master/conduit/package-lock.json",
+            "https://github.com/moleculerjs/moleculer-examples/blob/master/conduit/package.json",
+            "https://github.com/moleculerjs/moleculer-examples/blob/master/conduit/public/asset-manifest.json",
+            "https://github.com/moleculerjs/moleculer-examples/blob/master/conduit/.vscode/launch.json",
+            "https://github.com/moleculerjs/moleculer-examples/blob/master/blog/package-lock.json",
+            "https://github.com/moleculerjs/moleculer-examples/blob/master/blog/package.json",
+            "https://github.com/moleculerjs/moleculer-examples/blob/master/.vscode/launch.json"
+        ]
+    }
+}

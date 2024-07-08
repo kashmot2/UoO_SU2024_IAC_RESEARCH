@@ -1,0 +1,46 @@
+{
+    "id": "pclubiitk/puppy-love",
+    "repo_link": "https://github.com/pclubiitk/puppy-love",
+    "file_extensions": [
+        ".conf",
+        ".yml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/pclubiitk/puppy-love/blob/master/docker-compose.yml"
+        ],
+        "json": [
+            "https://github.com/pclubiitk/puppy-love/blob/master/frontend/.angular-cli.json",
+            "https://github.com/pclubiitk/puppy-love/blob/master/frontend/package-lock.json",
+            "https://github.com/pclubiitk/puppy-love/blob/master/frontend/package.json",
+            "https://github.com/pclubiitk/puppy-love/blob/master/frontend/tslint.json",
+            "https://github.com/pclubiitk/puppy-love/blob/master/frontend/tsconfig.json",
+            "https://github.com/pclubiitk/puppy-love/blob/master/frontend/proxy.conf.json",
+            "https://github.com/pclubiitk/puppy-love/blob/master/frontend/e2e/tsconfig.e2e.json",
+            "https://github.com/pclubiitk/puppy-love/blob/master/frontend/src/tsconfig.app.json",
+            "https://github.com/pclubiitk/puppy-love/blob/master/frontend/src/ngsw-config.json",
+            "https://github.com/pclubiitk/puppy-love/blob/master/frontend/src/tsconfig.spec.json",
+            "https://github.com/pclubiitk/puppy-love/blob/master/scripts/package-lock.json",
+            "https://github.com/pclubiitk/puppy-love/blob/master/scripts/mongodump/puppy/heart.metadata.json",
+            "https://github.com/pclubiitk/puppy-love/blob/master/scripts/mongodump/puppy/declare.metadata.json",
+            "https://github.com/pclubiitk/puppy-love/blob/master/scripts/mongodump/puppy/user.metadata.json"
+        ],
+        "conf": [
+            "https://github.com/pclubiitk/puppy-love/blob/master/puppy.nginx.conf",
+            "https://github.com/pclubiitk/puppy-love/blob/master/frontend/nginx.conf",
+            "https://github.com/pclubiitk/puppy-love/blob/master/service/nginx/nginx.prod.conf"
+        ]
+    }
+}

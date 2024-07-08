@@ -1,0 +1,28 @@
+{
+    "id": "mikesplain/openvas-docker",
+    "repo_link": "https://github.com/mikesplain/openvas-docker",
+    "file_extensions": [
+        ".yml",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "ANS",
+        "PUP",
+        "DOC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/mikesplain/openvas-docker/blob/master/docker-compose.yml",
+            "https://github.com/mikesplain/openvas-docker/blob/master/.travis.yml",
+            "https://github.com/mikesplain/openvas-docker/blob/master/.github/stale.yml"
+        ],
+        "conf": [
+            "https://github.com/mikesplain/openvas-docker/blob/master/conf/nginx_ssl.conf",
+            "https://github.com/mikesplain/openvas-docker/blob/master/conf/nginx.conf"
+        ]
+    }
+}

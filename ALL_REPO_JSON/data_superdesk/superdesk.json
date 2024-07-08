@@ -1,0 +1,45 @@
+{
+    "id": "superdesk/superdesk",
+    "repo_link": "https://github.com/superdesk/superdesk",
+    "file_extensions": [
+        ".yml",
+        ".json",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/superdesk/superdesk/blob/master/docker-compose.override.yml",
+            "https://github.com/superdesk/superdesk/blob/master/.landscape.yml",
+            "https://github.com/superdesk/superdesk/blob/master/docker-compose.yml",
+            "https://github.com/superdesk/superdesk/blob/master/.codeclimate.yml",
+            "https://github.com/superdesk/superdesk/blob/master/server/logging_config.yml",
+            "https://github.com/superdesk/superdesk/blob/master/.github/docker-compose.yml",
+            "https://github.com/superdesk/superdesk/blob/master/.github/dependabot.yml",
+            "https://github.com/superdesk/superdesk/blob/master/.github/workflows/lint.yml",
+            "https://github.com/superdesk/superdesk/blob/master/.github/workflows/tests.yml",
+            "https://github.com/superdesk/superdesk/blob/master/.github/workflows/dockerhub.yml"
+        ],
+        "json": [
+            "https://github.com/superdesk/superdesk/blob/master/.fireq.json",
+            "https://github.com/superdesk/superdesk/blob/master/server/data/planning_types.json",
+            "https://github.com/superdesk/superdesk/blob/master/server/data/vocabularies.json",
+            "https://github.com/superdesk/superdesk/blob/master/client/package-lock.json",
+            "https://github.com/superdesk/superdesk/blob/master/client/package.json"
+        ],
+        "conf": [
+            "https://github.com/superdesk/superdesk/blob/master/client/docker/superdesk_vhost.conf",
+            "https://github.com/superdesk/superdesk/blob/master/client/docker/nginx.conf"
+        ]
+    }
+}

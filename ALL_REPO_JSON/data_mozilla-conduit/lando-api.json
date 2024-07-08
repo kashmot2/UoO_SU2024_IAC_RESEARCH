@@ -1,0 +1,25 @@
+{
+    "id": "mozilla-conduit/lando-api",
+    "repo_link": "https://github.com/mozilla-conduit/lando-api",
+    "file_extensions": [
+        ".yml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "ANS",
+        "DOC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/mozilla-conduit/lando-api/blob/master/docker-compose.ci.yml",
+            "https://github.com/mozilla-conduit/lando-api/blob/master/docker-compose.yml",
+            "https://github.com/mozilla-conduit/lando-api/blob/master/landoapi/spec/treestatus.yml",
+            "https://github.com/mozilla-conduit/lando-api/blob/master/landoapi/spec/swagger.yml",
+            "https://github.com/mozilla-conduit/lando-api/blob/master/.github/dependabot.yml",
+            "https://github.com/mozilla-conduit/lando-api/blob/master/.circleci/config.yml"
+        ]
+    }
+}

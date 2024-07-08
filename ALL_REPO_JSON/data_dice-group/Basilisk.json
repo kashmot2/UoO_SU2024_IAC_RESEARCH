@@ -1,0 +1,22 @@
+{
+    "id": "dice-group/Basilisk",
+    "repo_link": "https://github.com/dice-group/Basilisk",
+    "file_extensions": [
+        ".yml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "ANS",
+        "DOC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/dice-group/Basilisk/blob/master/docker-compose.yml",
+            "https://github.com/dice-group/Basilisk/blob/master/benchmark-service/src/main/resources/application.yml",
+            "https://github.com/dice-group/Basilisk/blob/master/repository-service/src/main/resources/application.yml"
+        ]
+    }
+}

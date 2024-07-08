@@ -1,0 +1,28 @@
+{
+    "id": "piomin/sample-spring-microservices",
+    "repo_link": "https://github.com/piomin/sample-spring-microservices",
+    "file_extensions": [
+        ".yml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "ANS",
+        "DOC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/piomin/sample-spring-microservices/blob/master/docker-compose.yml",
+            "https://github.com/piomin/sample-spring-microservices/blob/master/account-service/src/main/resources/application.yml",
+            "https://github.com/piomin/sample-spring-microservices/blob/master/gateway-service/src/main/resources/bootstrap.yml",
+            "https://github.com/piomin/sample-spring-microservices/blob/master/gateway-service/src/main/resources/application.yml",
+            "https://github.com/piomin/sample-spring-microservices/blob/master/customer-service/src/main/resources/bootstrap.yml",
+            "https://github.com/piomin/sample-spring-microservices/blob/master/customer-service/src/main/resources/application.yml",
+            "https://github.com/piomin/sample-spring-microservices/blob/master/zipkin-service/src/main/resources/application.yml",
+            "https://github.com/piomin/sample-spring-microservices/blob/master/discovery-service/src/main/resources/application.yml",
+            "https://github.com/piomin/sample-spring-microservices/blob/master/.github/workflows/codeql.yml"
+        ]
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "id": "bcgov/EDUC-ECAS",
+    "repo_link": "https://github.com/bcgov/EDUC-ECAS",
+    "file_extensions": [
+        ".yaml",
+        ".json",
+        ".yml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/bcgov/EDUC-ECAS/blob/master/docker/docker-compose.yml"
+        ],
+        "yaml": [
+            "https://github.com/bcgov/EDUC-ECAS/blob/master/COMPLIANCE.yaml",
+            "https://github.com/bcgov/EDUC-ECAS/blob/master/openshift/templates/ecas-frontend/ecas-frontend-deploy.yaml",
+            "https://github.com/bcgov/EDUC-ECAS/blob/master/openshift/templates/ecas-api/ecas-api-deploy.yaml",
+            "https://github.com/bcgov/EDUC-ECAS/blob/master/openshift/templates/cas-api/cas-api-deploy.yaml"
+        ],
+        "json": [
+            "https://github.com/bcgov/EDUC-ECAS/blob/master/web-app/package-lock.json",
+            "https://github.com/bcgov/EDUC-ECAS/blob/master/web-app/package.json",
+            "https://github.com/bcgov/EDUC-ECAS/blob/master/web-app/composer.json",
+            "https://github.com/bcgov/EDUC-ECAS/blob/master/web-app/public/mix-manifest.json",
+            "https://github.com/bcgov/EDUC-ECAS/blob/master/dyn365-customizations/Ecas.Dyn365.CASIntegration/Ecas.Dyn365.CAS.ScheduledJob/appsettings.json",
+            "https://github.com/bcgov/EDUC-ECAS/blob/master/dyn365-customizations/Ecas.Dyn365.CASIntegration/Ecas.Dyn365.CAS.ScheduledJob/obj/project.assets.json",
+            "https://github.com/bcgov/EDUC-ECAS/blob/master/dyn365-customizations/Ecas.Dyn365.CASIntegration/Ecas.Dyn365.CAS.ScheduledJob/bin/Debug/netcoreapp2.1/Ecas.Dyn365.CAS.ScheduledJob.deps.json",
+            "https://github.com/bcgov/EDUC-ECAS/blob/master/dyn365-customizations/Ecas.Dyn365.CASIntegration/Ecas.Dyn365.CAS.ScheduledJob/bin/Debug/netcoreapp2.1/appsettings.json",
+            "https://github.com/bcgov/EDUC-ECAS/blob/master/dyn365-customizations/Ecas.Dyn365.CASIntegration/Ecas.Dyn365.CAS.ScheduledJob/bin/Debug/netcoreapp2.1/Ecas.Dyn365.CAS.ScheduledJob.runtimeconfig.json",
+            "https://github.com/bcgov/EDUC-ECAS/blob/master/dyn365-customizations/Ecas.Dyn365.CASIntegration/Ecas.Dyn365.CAS.ScheduledJob/bin/Debug/netcoreapp2.1/Ecas.Dyn365.CAS.ScheduledJob.runtimeconfig.dev.json",
+            "https://github.com/bcgov/EDUC-ECAS/blob/master/web-api/Ecas.Dyn365Service/appsettings.json",
+            "https://github.com/bcgov/EDUC-ECAS/blob/master/web-api/Ecas.Dyn365Service/appsettings.Development.json",
+            "https://github.com/bcgov/EDUC-ECAS/blob/master/web-api/Ecas.Dyn365Service/obj/project.assets.json",
+            "https://github.com/bcgov/EDUC-ECAS/blob/master/web-api/Ecas.Dyn365Service/obj/Release/netcoreapp2.1/PubTmp/Out/Ecas.Dyn365Service.deps.json",
+            "https://github.com/bcgov/EDUC-ECAS/blob/master/web-api/Ecas.Dyn365Service/obj/Release/netcoreapp2.1/PubTmp/Out/appsettings.json",
+            "https://github.com/bcgov/EDUC-ECAS/blob/master/web-api/Ecas.Dyn365Service/obj/Release/netcoreapp2.1/PubTmp/Out/Ecas.Dyn365Service.runtimeconfig.json",
+            "https://github.com/bcgov/EDUC-ECAS/blob/master/web-api/Ecas.Dyn365Service/obj/Release/netcoreapp2.1/PubTmp/Out/appsettings.Development.json",
+            "https://github.com/bcgov/EDUC-ECAS/blob/master/web-api/Ecas.Dyn365Service/bin/Release/netcoreapp2.1/Ecas.Dyn365Service.deps.json",
+            "https://github.com/bcgov/EDUC-ECAS/blob/master/web-api/Ecas.Dyn365Service/bin/Release/netcoreapp2.1/Ecas.Dyn365Service.runtimeconfig.dev.json",
+            "https://github.com/bcgov/EDUC-ECAS/blob/master/web-api/Ecas.Dyn365Service/bin/Release/netcoreapp2.1/Ecas.Dyn365Service.runtimeconfig.json",
+            "https://github.com/bcgov/EDUC-ECAS/blob/master/web-api/Ecas.Dyn365Service/bin/Debug/netcoreapp2.1/Ecas.Dyn365Service.deps.json",
+            "https://github.com/bcgov/EDUC-ECAS/blob/master/web-api/Ecas.Dyn365Service/bin/Debug/netcoreapp2.1/Ecas.Dyn365Service.runtimeconfig.dev.json",
+            "https://github.com/bcgov/EDUC-ECAS/blob/master/web-api/Ecas.Dyn365Service/bin/Debug/netcoreapp2.1/Ecas.Dyn365Service.runtimeconfig.json",
+            "https://github.com/bcgov/EDUC-ECAS/blob/master/web-api/Ecas.Dyn365Service/Properties/launchSettings.json",
+            "https://github.com/bcgov/EDUC-ECAS/blob/master/openshift/templates/ecas-frontend/ecas-frontend-build.json",
+            "https://github.com/bcgov/EDUC-ECAS/blob/master/openshift/templates/ecas-api/ecas-api-build.json",
+            "https://github.com/bcgov/EDUC-ECAS/blob/master/openshift/templates/cas-api/cas-api-build.json"
+        ]
+    }
+}

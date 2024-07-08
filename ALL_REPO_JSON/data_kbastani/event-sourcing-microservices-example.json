@@ -1,0 +1,77 @@
+{
+    "id": "kbastani/event-sourcing-microservices-example",
+    "repo_link": "https://github.com/kbastani/event-sourcing-microservices-example",
+    "file_extensions": [
+        ".yml",
+        ".yaml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/kbastani/event-sourcing-microservices-example/blob/master/docker-compose.yml",
+            "https://github.com/kbastani/event-sourcing-microservices-example/blob/master/.travis.yml",
+            "https://github.com/kbastani/event-sourcing-microservices-example/blob/master/recommendation-service/src/main/resources/bootstrap.yml",
+            "https://github.com/kbastani/event-sourcing-microservices-example/blob/master/recommendation-service/src/main/resources/application.yml",
+            "https://github.com/kbastani/event-sourcing-microservices-example/blob/master/discovery-service/src/main/resources/bootstrap.yml",
+            "https://github.com/kbastani/event-sourcing-microservices-example/blob/master/discovery-service/src/main/resources/application.yml",
+            "https://github.com/kbastani/event-sourcing-microservices-example/blob/master/edge-service/src/main/resources/bootstrap.yml",
+            "https://github.com/kbastani/event-sourcing-microservices-example/blob/master/edge-service/src/main/resources/application.yml",
+            "https://github.com/kbastani/event-sourcing-microservices-example/blob/master/friend-service/src/main/resources/bootstrap.yml",
+            "https://github.com/kbastani/event-sourcing-microservices-example/blob/master/friend-service/src/main/resources/application.yml",
+            "https://github.com/kbastani/event-sourcing-microservices-example/blob/master/deployment/docker/docker-compose-build.yml",
+            "https://github.com/kbastani/event-sourcing-microservices-example/blob/master/user-service/src/main/resources/bootstrap.yml",
+            "https://github.com/kbastani/event-sourcing-microservices-example/blob/master/user-service/src/main/resources/application.yml"
+        ],
+        "yaml": [
+            "https://github.com/kbastani/event-sourcing-microservices-example/blob/master/friend-service/src/main/resources/db/changelog/db.changelog-master.yaml",
+            "https://github.com/kbastani/event-sourcing-microservices-example/blob/master/deployment/helm/recommendation-service/requirements.yaml",
+            "https://github.com/kbastani/event-sourcing-microservices-example/blob/master/deployment/helm/recommendation-service/Chart.yaml",
+            "https://github.com/kbastani/event-sourcing-microservices-example/blob/master/deployment/helm/recommendation-service/values.yaml",
+            "https://github.com/kbastani/event-sourcing-microservices-example/blob/master/deployment/helm/recommendation-service/templates/deployment.yaml",
+            "https://github.com/kbastani/event-sourcing-microservices-example/blob/master/deployment/helm/recommendation-service/templates/service.yaml",
+            "https://github.com/kbastani/event-sourcing-microservices-example/blob/master/deployment/helm/recommendation-service/templates/rbac.yaml",
+            "https://github.com/kbastani/event-sourcing-microservices-example/blob/master/deployment/helm/recommendation-service/templates/serviceaccount.yaml",
+            "https://github.com/kbastani/event-sourcing-microservices-example/blob/master/deployment/helm/social-network/requirements.yaml",
+            "https://github.com/kbastani/event-sourcing-microservices-example/blob/master/deployment/helm/social-network/Chart.yaml",
+            "https://github.com/kbastani/event-sourcing-microservices-example/blob/master/deployment/helm/social-network/values.yaml",
+            "https://github.com/kbastani/event-sourcing-microservices-example/blob/master/deployment/helm/social-network/templates/grafana-dashboard-spring.yaml",
+            "https://github.com/kbastani/event-sourcing-microservices-example/blob/master/deployment/helm/edge-service/Chart.yaml",
+            "https://github.com/kbastani/event-sourcing-microservices-example/blob/master/deployment/helm/edge-service/values.yaml",
+            "https://github.com/kbastani/event-sourcing-microservices-example/blob/master/deployment/helm/edge-service/templates/deployment.yaml",
+            "https://github.com/kbastani/event-sourcing-microservices-example/blob/master/deployment/helm/edge-service/templates/cm-app.yaml",
+            "https://github.com/kbastani/event-sourcing-microservices-example/blob/master/deployment/helm/edge-service/templates/service.yaml",
+            "https://github.com/kbastani/event-sourcing-microservices-example/blob/master/deployment/helm/edge-service/templates/rbac.yaml",
+            "https://github.com/kbastani/event-sourcing-microservices-example/blob/master/deployment/helm/edge-service/templates/serviceaccount.yaml",
+            "https://github.com/kbastani/event-sourcing-microservices-example/blob/master/deployment/helm/friend-service/requirements.yaml",
+            "https://github.com/kbastani/event-sourcing-microservices-example/blob/master/deployment/helm/friend-service/Chart.yaml",
+            "https://github.com/kbastani/event-sourcing-microservices-example/blob/master/deployment/helm/friend-service/values.yaml",
+            "https://github.com/kbastani/event-sourcing-microservices-example/blob/master/deployment/helm/friend-service/templates/deployment.yaml",
+            "https://github.com/kbastani/event-sourcing-microservices-example/blob/master/deployment/helm/friend-service/templates/service.yaml",
+            "https://github.com/kbastani/event-sourcing-microservices-example/blob/master/deployment/helm/friend-service/templates/rbac.yaml",
+            "https://github.com/kbastani/event-sourcing-microservices-example/blob/master/deployment/helm/friend-service/templates/serviceaccount.yaml",
+            "https://github.com/kbastani/event-sourcing-microservices-example/blob/master/deployment/helm/user-service/requirements.yaml",
+            "https://github.com/kbastani/event-sourcing-microservices-example/blob/master/deployment/helm/user-service/Chart.yaml",
+            "https://github.com/kbastani/event-sourcing-microservices-example/blob/master/deployment/helm/user-service/values.yaml",
+            "https://github.com/kbastani/event-sourcing-microservices-example/blob/master/deployment/helm/user-service/templates/deployment.yaml",
+            "https://github.com/kbastani/event-sourcing-microservices-example/blob/master/deployment/helm/user-service/templates/service.yaml",
+            "https://github.com/kbastani/event-sourcing-microservices-example/blob/master/deployment/helm/user-service/templates/rbac.yaml",
+            "https://github.com/kbastani/event-sourcing-microservices-example/blob/master/deployment/helm/user-service/templates/serviceaccount.yaml",
+            "https://github.com/kbastani/event-sourcing-microservices-example/blob/master/user-service/src/main/resources/db/changelog/db.changelog-master.yaml"
+        ],
+        "json": [
+            "https://github.com/kbastani/event-sourcing-microservices-example/blob/master/deployment/helm/social-network/dashboards/domain.json",
+            "https://github.com/kbastani/event-sourcing-microservices-example/blob/master/deployment/helm/social-network/dashboards/spring.json"
+        ]
+    }
+}

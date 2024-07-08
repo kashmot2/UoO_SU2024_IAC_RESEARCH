@@ -1,0 +1,65 @@
+{
+    "id": "asc-lab/micronaut-microservices-poc",
+    "repo_link": "https://github.com/asc-lab/micronaut-microservices-poc",
+    "file_extensions": [
+        ".yml",
+        ".json",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/asc-lab/micronaut-microservices-poc/blob/master/azure-pipelines.yml",
+            "https://github.com/asc-lab/micronaut-microservices-poc/blob/master/docker-compose.yml",
+            "https://github.com/asc-lab/micronaut-microservices-poc/blob/master/product-service/micronaut-cli.yml",
+            "https://github.com/asc-lab/micronaut-microservices-poc/blob/master/product-service/src/main/resources/application.yml",
+            "https://github.com/asc-lab/micronaut-microservices-poc/blob/master/policy-search-service/micronaut-cli.yml",
+            "https://github.com/asc-lab/micronaut-microservices-poc/blob/master/policy-search-service/src/main/resources/application.yml",
+            "https://github.com/asc-lab/micronaut-microservices-poc/blob/master/dashboard-service/micronaut-cli.yml",
+            "https://github.com/asc-lab/micronaut-microservices-poc/blob/master/dashboard-service/src/main/resources/application.yml",
+            "https://github.com/asc-lab/micronaut-microservices-poc/blob/master/payment-service/micronaut-cli.yml",
+            "https://github.com/asc-lab/micronaut-microservices-poc/blob/master/payment-service/src/main/resources/application.yml",
+            "https://github.com/asc-lab/micronaut-microservices-poc/blob/master/chat-service/micronaut-cli.yml",
+            "https://github.com/asc-lab/micronaut-microservices-poc/blob/master/chat-service/src/main/resources/application.yml",
+            "https://github.com/asc-lab/micronaut-microservices-poc/blob/master/pricing-service/micronaut-cli.yml",
+            "https://github.com/asc-lab/micronaut-microservices-poc/blob/master/pricing-service/src/main/resources/application.yml",
+            "https://github.com/asc-lab/micronaut-microservices-poc/blob/master/scripts/infra.yml",
+            "https://github.com/asc-lab/micronaut-microservices-poc/blob/master/scripts/app.yml",
+            "https://github.com/asc-lab/micronaut-microservices-poc/blob/master/.github/workflows/maven.yml",
+            "https://github.com/asc-lab/micronaut-microservices-poc/blob/master/documents-service/micronaut-cli.yml",
+            "https://github.com/asc-lab/micronaut-microservices-poc/blob/master/documents-service/src/main/resources/application.yml",
+            "https://github.com/asc-lab/micronaut-microservices-poc/blob/master/auth-service/micronaut-cli.yml",
+            "https://github.com/asc-lab/micronaut-microservices-poc/blob/master/auth-service/src/main/resources/application.yml",
+            "https://github.com/asc-lab/micronaut-microservices-poc/blob/master/policy-service/micronaut-cli.yml",
+            "https://github.com/asc-lab/micronaut-microservices-poc/blob/master/policy-service/src/main/resources/application.yml",
+            "https://github.com/asc-lab/micronaut-microservices-poc/blob/master/agent-portal-gateway/micronaut-cli.yml",
+            "https://github.com/asc-lab/micronaut-microservices-poc/blob/master/agent-portal-gateway/src/main/resources/application.yml"
+        ],
+        "json": [
+            "https://github.com/asc-lab/micronaut-microservices-poc/blob/master/web-angular/angular.json",
+            "https://github.com/asc-lab/micronaut-microservices-poc/blob/master/web-angular/package-lock.json",
+            "https://github.com/asc-lab/micronaut-microservices-poc/blob/master/web-angular/package.json",
+            "https://github.com/asc-lab/micronaut-microservices-poc/blob/master/web-angular/tslint.json",
+            "https://github.com/asc-lab/micronaut-microservices-poc/blob/master/web-angular/tsconfig.json",
+            "https://github.com/asc-lab/micronaut-microservices-poc/blob/master/web-angular/e2e/tsconfig.e2e.json",
+            "https://github.com/asc-lab/micronaut-microservices-poc/blob/master/web-angular/src/tsconfig.app.json",
+            "https://github.com/asc-lab/micronaut-microservices-poc/blob/master/web-angular/src/tslint.json",
+            "https://github.com/asc-lab/micronaut-microservices-poc/blob/master/web-angular/src/tsconfig.spec.json",
+            "https://github.com/asc-lab/micronaut-microservices-poc/blob/master/web-vue/package-lock.json",
+            "https://github.com/asc-lab/micronaut-microservices-poc/blob/master/web-vue/package.json"
+        ],
+        "conf": [
+            "https://github.com/asc-lab/micronaut-microservices-poc/blob/master/web-vue/nginx-app.conf"
+        ]
+    }
+}

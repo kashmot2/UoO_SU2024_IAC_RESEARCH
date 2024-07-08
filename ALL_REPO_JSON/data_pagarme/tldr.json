@@ -1,0 +1,28 @@
+{
+    "id": "pagarme/tldr",
+    "repo_link": "https://github.com/pagarme/tldr",
+    "file_extensions": [
+        ".yml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/pagarme/tldr/blob/master/yopa-config.yml",
+            "https://github.com/pagarme/tldr/blob/master/docker-compose.yml"
+        ],
+        "json": [
+            "https://github.com/pagarme/tldr/blob/master/package-lock.json",
+            "https://github.com/pagarme/tldr/blob/master/package.json"
+        ]
+    }
+}

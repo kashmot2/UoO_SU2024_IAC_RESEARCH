@@ -1,0 +1,43 @@
+{
+    "id": "neuland/micro-frontends",
+    "repo_link": "https://github.com/neuland/micro-frontends",
+    "file_extensions": [
+        ".json",
+        ".yml",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/neuland/micro-frontends/blob/master/_config.yml",
+            "https://github.com/neuland/micro-frontends/blob/master/3-data-fetching/docker-compose.yml",
+            "https://github.com/neuland/micro-frontends/blob/master/2-composition-universal/docker-compose.yml"
+        ],
+        "json": [
+            "https://github.com/neuland/micro-frontends/blob/master/package-lock.json",
+            "https://github.com/neuland/micro-frontends/blob/master/package.json",
+            "https://github.com/neuland/micro-frontends/blob/master/3-data-fetching/team-green/package-lock.json",
+            "https://github.com/neuland/micro-frontends/blob/master/3-data-fetching/team-green/package.json",
+            "https://github.com/neuland/micro-frontends/blob/master/2-composition-universal/team-red/package-lock.json",
+            "https://github.com/neuland/micro-frontends/blob/master/2-composition-universal/team-red/package.json",
+            "https://github.com/neuland/micro-frontends/blob/master/2-composition-universal/team-green/package-lock.json",
+            "https://github.com/neuland/micro-frontends/blob/master/2-composition-universal/team-green/package.json",
+            "https://github.com/neuland/micro-frontends/blob/master/2-composition-universal/team-blue/package-lock.json",
+            "https://github.com/neuland/micro-frontends/blob/master/2-composition-universal/team-blue/package.json",
+            "https://github.com/neuland/micro-frontends/blob/master/.vscode/settings.json"
+        ],
+        "conf": [
+            "https://github.com/neuland/micro-frontends/blob/master/2-composition-universal/nginx/nginx.conf"
+        ]
+    }
+}

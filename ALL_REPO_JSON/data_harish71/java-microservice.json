@@ -1,0 +1,54 @@
+{
+    "id": "harish71/java-microservice",
+    "repo_link": "https://github.com/harish71/java-microservice",
+    "file_extensions": [
+        ".yml",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "ANS",
+        "PUP",
+        "DOC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/harish71/java-microservice/blob/master/docker-compose.yml",
+            "https://github.com/harish71/java-microservice/blob/master/aws-compose.yml",
+            "https://github.com/harish71/java-microservice/blob/master/oauth-server/src/main/resources/bootstrap.yml",
+            "https://github.com/harish71/java-microservice/blob/master/oauth-server/src/main/resources/docker/filebeat.yml",
+            "https://github.com/harish71/java-microservice/blob/master/proxy/filebeat.yml",
+            "https://github.com/harish71/java-microservice/blob/master/admin-server/src/main/resources/bootstrap.yml",
+            "https://github.com/harish71/java-microservice/blob/master/admin-server/src/main/resources/application.yml",
+            "https://github.com/harish71/java-microservice/blob/master/admin-server/src/main/resources/docker/filebeat.yml",
+            "https://github.com/harish71/java-microservice/blob/master/api-gateway/src/main/resources/bootstrap.yml",
+            "https://github.com/harish71/java-microservice/blob/master/api-gateway/src/main/resources/docker/filebeat.yml",
+            "https://github.com/harish71/java-microservice/blob/master/eureka-server/src/main/resources/bootstrap.yml",
+            "https://github.com/harish71/java-microservice/blob/master/eureka-server/src/main/resources/application.yml",
+            "https://github.com/harish71/java-microservice/blob/master/eureka-server/src/main/resources/docker/filebeat.yml",
+            "https://github.com/harish71/java-microservice/blob/master/mail-service/src/main/resources/bootstrap.yml",
+            "https://github.com/harish71/java-microservice/blob/master/mail-service/src/main/resources/docker/filebeat.yml",
+            "https://github.com/harish71/java-microservice/blob/master/user-service/src/main/resources/bootstrap.yml",
+            "https://github.com/harish71/java-microservice/blob/master/user-service/src/main/resources/docker/filebeat.yml",
+            "https://github.com/harish71/java-microservice/blob/master/config-server/src/test/resources/offline-repository/testConfig.yml",
+            "https://github.com/harish71/java-microservice/blob/master/config-server/src/test/resources/offline-repository/application.yml",
+            "https://github.com/harish71/java-microservice/blob/master/config-server/src/main/resources/application.yml",
+            "https://github.com/harish71/java-microservice/blob/master/config-server/src/main/resources/docker/filebeat.yml",
+            "https://github.com/harish71/java-microservice/blob/master/config-server/src/main/resources/offline-repository/admin.yml",
+            "https://github.com/harish71/java-microservice/blob/master/config-server/src/main/resources/offline-repository/eureka-server.yml",
+            "https://github.com/harish71/java-microservice/blob/master/remainder-service/src/main/resources/bootstrap.yml",
+            "https://github.com/harish71/java-microservice/blob/master/remainder-service/src/main/resources/docker/filebeat.yml",
+            "https://github.com/harish71/java-microservice/blob/master/assets/infra-docker-compose.yml",
+            "https://github.com/harish71/java-microservice/blob/master/assets/proxy-docker-compose.yml",
+            "https://github.com/harish71/java-microservice/blob/master/assets/event-docker-compose.yml",
+            "https://github.com/harish71/java-microservice/blob/master/assets/oauth-docker-compose.yml",
+            "https://github.com/harish71/java-microservice/blob/master/assets/logging-docker-compose.yml"
+        ],
+        "conf": [
+            "https://github.com/harish71/java-microservice/blob/master/proxy/default.conf"
+        ]
+    }
+}

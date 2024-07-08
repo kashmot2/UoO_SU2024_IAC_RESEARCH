@@ -1,0 +1,47 @@
+{
+    "id": "charlessolar/eShopOnContainersDDD",
+    "repo_link": "https://github.com/charlessolar/eShopOnContainersDDD",
+    "file_extensions": [
+        ".yml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/charlessolar/eShopOnContainersDDD/blob/master/docker-compose.override.yml",
+            "https://github.com/charlessolar/eShopOnContainersDDD/blob/master/docker-compose.yml"
+        ],
+        "json": [
+            "https://github.com/charlessolar/eShopOnContainersDDD/blob/master/src/Contexts/Basket/Presentation/appsettings.json",
+            "https://github.com/charlessolar/eShopOnContainersDDD/blob/master/src/Contexts/Basket/Presentation/appsettings.Development.json",
+            "https://github.com/charlessolar/eShopOnContainersDDD/blob/master/src/Contexts/Basket/Presentation/Properties/launchSettings.json",
+            "https://github.com/charlessolar/eShopOnContainersDDD/blob/master/src/Contexts/Identity/Presentation/appsettings.json",
+            "https://github.com/charlessolar/eShopOnContainersDDD/blob/master/src/Contexts/Identity/Presentation/appsettings.Development.json",
+            "https://github.com/charlessolar/eShopOnContainersDDD/blob/master/src/Contexts/Identity/Presentation/Properties/launchSettings.json",
+            "https://github.com/charlessolar/eShopOnContainersDDD/blob/master/src/Contexts/Payment/Presentation/appsettings.json",
+            "https://github.com/charlessolar/eShopOnContainersDDD/blob/master/src/Contexts/Payment/Presentation/appsettings.Development.json",
+            "https://github.com/charlessolar/eShopOnContainersDDD/blob/master/src/Contexts/Payment/Presentation/Properties/launchSettings.json",
+            "https://github.com/charlessolar/eShopOnContainersDDD/blob/master/src/Contexts/Catalog/Presentation/appsettings.json",
+            "https://github.com/charlessolar/eShopOnContainersDDD/blob/master/src/Contexts/Catalog/Presentation/appsettings.Development.json",
+            "https://github.com/charlessolar/eShopOnContainersDDD/blob/master/src/Contexts/Catalog/Presentation/Properties/launchSettings.json",
+            "https://github.com/charlessolar/eShopOnContainersDDD/blob/master/src/Contexts/Ordering/Presentation/appsettings.json",
+            "https://github.com/charlessolar/eShopOnContainersDDD/blob/master/src/Contexts/Ordering/Presentation/appsettings.Development.json",
+            "https://github.com/charlessolar/eShopOnContainersDDD/blob/master/src/Contexts/Ordering/Presentation/Properties/launchSettings.json",
+            "https://github.com/charlessolar/eShopOnContainersDDD/blob/master/src/Frontend/appsettings.json",
+            "https://github.com/charlessolar/eShopOnContainersDDD/blob/master/src/Frontend/appsettings.Development.json",
+            "https://github.com/charlessolar/eShopOnContainersDDD/blob/master/src/Frontend/ClientApp/package-lock.json",
+            "https://github.com/charlessolar/eShopOnContainersDDD/blob/master/src/Frontend/ClientApp/package.json",
+            "https://github.com/charlessolar/eShopOnContainersDDD/blob/master/src/Frontend/ClientApp/public/manifest.json",
+            "https://github.com/charlessolar/eShopOnContainersDDD/blob/master/src/Frontend/Properties/launchSettings.json"
+        ]
+    }
+}

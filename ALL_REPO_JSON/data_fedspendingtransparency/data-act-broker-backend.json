@@ -1,0 +1,32 @@
+{
+    "id": "fedspendingtransparency/data-act-broker-backend",
+    "repo_link": "https://github.com/fedspendingtransparency/data-act-broker-backend",
+    "file_extensions": [
+        ".yml",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "ANS",
+        "PUP",
+        "DOC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/fedspendingtransparency/data-act-broker-backend/blob/master/docker-compose.yml",
+            "https://github.com/fedspendingtransparency/data-act-broker-backend/blob/master/docker-compose.frontend.yml",
+            "https://github.com/fedspendingtransparency/data-act-broker-backend/blob/master/.travis.yml",
+            "https://github.com/fedspendingtransparency/data-act-broker-backend/blob/master/.codeclimate.yml",
+            "https://github.com/fedspendingtransparency/data-act-broker-backend/blob/master/dataactcore/config_example.yml",
+            "https://github.com/fedspendingtransparency/data-act-broker-backend/blob/master/dataactcore/local_config_example.yml",
+            "https://github.com/fedspendingtransparency/data-act-broker-backend/blob/master/dataactcore/local_secrets_example.yml"
+        ],
+        "conf": [
+            "https://github.com/fedspendingtransparency/data-act-broker-backend/blob/master/dataactbroker/config/supervisord.conf",
+            "https://github.com/fedspendingtransparency/data-act-broker-backend/blob/master/dataactvalidator/config/supervisord.conf"
+        ]
+    }
+}

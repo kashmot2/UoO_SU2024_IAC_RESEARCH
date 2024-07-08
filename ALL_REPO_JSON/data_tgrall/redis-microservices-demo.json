@@ -1,0 +1,50 @@
+{
+    "id": "tgrall/redis-microservices-demo",
+    "repo_link": "https://github.com/tgrall/redis-microservices-demo",
+    "file_extensions": [
+        ".yml",
+        ".json",
+        ".conf",
+        ".yaml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/tgrall/redis-microservices-demo/blob/master/docker-compose.yml",
+            "https://github.com/tgrall/redis-microservices-demo/blob/master/.github/workflows/codeql-analysis.yml"
+        ],
+        "yaml": [
+            "https://github.com/tgrall/redis-microservices-demo/blob/master/kubernetes/redis-demo-movie-database-crd.yaml",
+            "https://github.com/tgrall/redis-microservices-demo/blob/master/kubernetes/redis-demo-application-deployment.yaml",
+            "https://github.com/tgrall/redis-microservices-demo/blob/master/kubernetes/redis-demo-cluster-crd.yaml"
+        ],
+        "json": [
+            "https://github.com/tgrall/redis-microservices-demo/blob/master/notifications-service-node/package-lock.json",
+            "https://github.com/tgrall/redis-microservices-demo/blob/master/notifications-service-node/package.json",
+            "https://github.com/tgrall/redis-microservices-demo/blob/master/notifications-service-node/config.dev.json",
+            "https://github.com/tgrall/redis-microservices-demo/blob/master/notifications-service-node/config.prod.json",
+            "https://github.com/tgrall/redis-microservices-demo/blob/master/ui-redis-front-end/redis-front/cypress.json",
+            "https://github.com/tgrall/redis-microservices-demo/blob/master/ui-redis-front-end/redis-front/package-lock.json",
+            "https://github.com/tgrall/redis-microservices-demo/blob/master/ui-redis-front-end/redis-front/package.json",
+            "https://github.com/tgrall/redis-microservices-demo/blob/master/ui-redis-front-end/redis-front/tsconfig.json",
+            "https://github.com/tgrall/redis-microservices-demo/blob/master/comments-service/package-lock.json",
+            "https://github.com/tgrall/redis-microservices-demo/blob/master/comments-service/package.json",
+            "https://github.com/tgrall/redis-microservices-demo/blob/master/comments-service/config.dev.json",
+            "https://github.com/tgrall/redis-microservices-demo/blob/master/comments-service/config.prod.json"
+        ],
+        "conf": [
+            "https://github.com/tgrall/redis-microservices-demo/blob/master/ui-redis-front-end/redis-front/nginx.conf"
+        ]
+    }
+}

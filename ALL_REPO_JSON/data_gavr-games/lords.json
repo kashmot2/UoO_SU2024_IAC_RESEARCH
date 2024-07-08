@@ -1,0 +1,37 @@
+{
+    "id": "gavr-games/lords",
+    "repo_link": "https://github.com/gavr-games/lords",
+    "file_extensions": [
+        ".yml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/gavr-games/lords/blob/master/tci.yml",
+            "https://github.com/gavr-games/lords/blob/master/docker-compose.yml",
+            "https://github.com/gavr-games/lords/blob/master/docker-compose.prod.yml",
+            "https://github.com/gavr-games/lords/blob/master/web/vendor/philipp15b/php-i18n/lang/lang_de.yml",
+            "https://github.com/gavr-games/lords/blob/master/web/vendor/philipp15b/php-i18n/lang/lang_en.yml"
+        ],
+        "json": [
+            "https://github.com/gavr-games/lords/blob/master/web/package-lock.json",
+            "https://github.com/gavr-games/lords/blob/master/web/package.json",
+            "https://github.com/gavr-games/lords/blob/master/web/composer.json",
+            "https://github.com/gavr-games/lords/blob/master/web/general_js/scripts.json",
+            "https://github.com/gavr-games/lords/blob/master/web/vendor/composer/installed.json",
+            "https://github.com/gavr-games/lords/blob/master/web/vendor/philipp15b/php-i18n/composer.json",
+            "https://github.com/gavr-games/lords/blob/master/web/vendor/philipp15b/php-i18n/lang/lang_en.json",
+            "https://github.com/gavr-games/lords/blob/master/web/vendor/philipp15b/php-i18n/lang/lang_de.json"
+        ]
+    }
+}

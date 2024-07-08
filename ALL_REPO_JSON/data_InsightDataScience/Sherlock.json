@@ -1,0 +1,28 @@
+{
+    "id": "InsightDataScience/Sherlock",
+    "repo_link": "https://github.com/InsightDataScience/Sherlock",
+    "file_extensions": [
+        ".yml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/InsightDataScience/Sherlock/blob/master/docker-compose-gpu.yml",
+            "https://github.com/InsightDataScience/Sherlock/blob/master/docker-compose.yml"
+        ],
+        "json": [
+            "https://github.com/InsightDataScience/Sherlock/blob/master/src/app/models/InceptionV3/catVdog_less/catVdog_less.json",
+            "https://github.com/InsightDataScience/Sherlock/blob/master/src/app/models/InceptionV3/base/base.json"
+        ]
+    }
+}

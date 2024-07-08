@@ -1,0 +1,40 @@
+{
+    "id": "KSP-CKAN/NetKAN-Infra",
+    "repo_link": "https://github.com/KSP-CKAN/NetKAN-Infra",
+    "file_extensions": [
+        ".yml",
+        ".json",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/KSP-CKAN/NetKAN-Infra/blob/master/docker-compose.yml",
+            "https://github.com/KSP-CKAN/NetKAN-Infra/blob/master/.devcontainer/docker-compose.yml",
+            "https://github.com/KSP-CKAN/NetKAN-Infra/blob/master/.github/workflows/coverage-report.yml",
+            "https://github.com/KSP-CKAN/NetKAN-Infra/blob/master/.github/workflows/test.yml",
+            "https://github.com/KSP-CKAN/NetKAN-Infra/blob/master/.github/workflows/deploy.yml",
+            "https://github.com/KSP-CKAN/NetKAN-Infra/blob/master/.github/workflows/coverage-build.yml",
+            "https://github.com/KSP-CKAN/NetKAN-Infra/blob/master/.github/workflows/build.yml"
+        ],
+        "json": [
+            "https://github.com/KSP-CKAN/NetKAN-Infra/blob/master/.devcontainer/devcontainer.json",
+            "https://github.com/KSP-CKAN/NetKAN-Infra/blob/master/.vscode/settings.json",
+            "https://github.com/KSP-CKAN/NetKAN-Infra/blob/master/.vscode/extensions.json"
+        ],
+        "conf": [
+            "https://github.com/KSP-CKAN/NetKAN-Infra/blob/master/nginx/nginx-dev.conf",
+            "https://github.com/KSP-CKAN/NetKAN-Infra/blob/master/nginx/nginx.conf"
+        ]
+    }
+}

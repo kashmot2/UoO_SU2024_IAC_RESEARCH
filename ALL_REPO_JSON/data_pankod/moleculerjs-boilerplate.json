@@ -1,0 +1,41 @@
+{
+    "id": "pankod/moleculerjs-boilerplate",
+    "repo_link": "https://github.com/pankod/moleculerjs-boilerplate",
+    "file_extensions": [
+        ".json",
+        ".yml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/pankod/moleculerjs-boilerplate/blob/master/docker-compose.yml",
+            "https://github.com/pankod/moleculerjs-boilerplate/blob/master/.travis.yml",
+            "https://github.com/pankod/moleculerjs-boilerplate/blob/master/documentation/docker-compose.yml",
+            "https://github.com/pankod/moleculerjs-boilerplate/blob/master/documentation/website/config.yml"
+        ],
+        "json": [
+            "https://github.com/pankod/moleculerjs-boilerplate/blob/master/tsconfig.production.json",
+            "https://github.com/pankod/moleculerjs-boilerplate/blob/master/swaggerConfig.json",
+            "https://github.com/pankod/moleculerjs-boilerplate/blob/master/package-lock.json",
+            "https://github.com/pankod/moleculerjs-boilerplate/blob/master/package.json",
+            "https://github.com/pankod/moleculerjs-boilerplate/blob/master/tsconfig.json",
+            "https://github.com/pankod/moleculerjs-boilerplate/blob/master/documentation/package-lock.json",
+            "https://github.com/pankod/moleculerjs-boilerplate/blob/master/documentation/website/docs.json",
+            "https://github.com/pankod/moleculerjs-boilerplate/blob/master/documentation/website/package-lock.json",
+            "https://github.com/pankod/moleculerjs-boilerplate/blob/master/documentation/website/package.json",
+            "https://github.com/pankod/moleculerjs-boilerplate/blob/master/documentation/website/sidebars.json",
+            "https://github.com/pankod/moleculerjs-boilerplate/blob/master/documentation/website/i18n/en.json",
+            "https://github.com/pankod/moleculerjs-boilerplate/blob/master/swagger/swagger.json",
+            "https://github.com/pankod/moleculerjs-boilerplate/blob/master/swagger/package.json"
+        ]
+    }
+}

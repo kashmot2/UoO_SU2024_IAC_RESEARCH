@@ -1,0 +1,45 @@
+{
+    "id": "Sfeir/golang-200",
+    "repo_link": "https://github.com/Sfeir/golang-200",
+    "file_extensions": [
+        ".yml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/Sfeir/golang-200/blob/master/docker/mongodb.yml",
+            "https://github.com/Sfeir/golang-200/blob/master/docker/postgresql.yml",
+            "https://github.com/Sfeir/golang-200/blob/master/docker/databases.yml",
+            "https://github.com/Sfeir/golang-200/blob/master/docker/docker-compose.yml",
+            "https://github.com/Sfeir/golang-200/blob/master/vendor/gopkg.in/urfave/cli.v1/appveyor.yml",
+            "https://github.com/Sfeir/golang-200/blob/master/vendor/gopkg.in/urfave/cli.v1/.travis.yml",
+            "https://github.com/Sfeir/golang-200/blob/master/vendor/gopkg.in/mgo.v2/.travis.yml",
+            "https://github.com/Sfeir/golang-200/blob/master/vendor/github.com/gorilla/context/.travis.yml",
+            "https://github.com/Sfeir/golang-200/blob/master/vendor/github.com/gorilla/mux/.travis.yml",
+            "https://github.com/Sfeir/golang-200/blob/master/vendor/github.com/meatballhat/negroni-logrus/.travis.yml",
+            "https://github.com/Sfeir/golang-200/blob/master/vendor/github.com/rs/cors/.travis.yml",
+            "https://github.com/Sfeir/golang-200/blob/master/vendor/github.com/mattes/migrate/.travis.yml",
+            "https://github.com/Sfeir/golang-200/blob/master/vendor/github.com/bshuster-repo/logrus-logstash-hook/.travis.yml",
+            "https://github.com/Sfeir/golang-200/blob/master/vendor/github.com/sirupsen/logrus/appveyor.yml",
+            "https://github.com/Sfeir/golang-200/blob/master/vendor/github.com/sirupsen/logrus/.travis.yml",
+            "https://github.com/Sfeir/golang-200/blob/master/vendor/github.com/lib/pq/.travis.yml",
+            "https://github.com/Sfeir/golang-200/blob/master/vendor/github.com/satori/go.uuid/.travis.yml"
+        ],
+        "json": [
+            "https://github.com/Sfeir/golang-200/blob/master/etc/todomedium.json",
+            "https://github.com/Sfeir/golang-200/blob/master/etc/todohigh.json",
+            "https://github.com/Sfeir/golang-200/blob/master/etc/todo_list_go.postman_collection.json",
+            "https://github.com/Sfeir/golang-200/blob/master/vendor/gopkg.in/urfave/cli.v1/flag-types.json"
+        ]
+    }
+}

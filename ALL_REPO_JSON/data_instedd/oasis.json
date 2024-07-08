@@ -1,0 +1,38 @@
+{
+    "id": "instedd/oasis",
+    "repo_link": "https://github.com/instedd/oasis",
+    "file_extensions": [
+        ".yaml",
+        ".yml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/instedd/oasis/blob/master/docker-compose.yml",
+            "https://github.com/instedd/oasis/blob/master/.travis.yml"
+        ],
+        "yaml": [
+            "https://github.com/instedd/oasis/blob/master/.pre-commit-config.yaml"
+        ],
+        "json": [
+            "https://github.com/instedd/oasis/blob/master/frontend/jsconfig.json",
+            "https://github.com/instedd/oasis/blob/master/frontend/package.json",
+            "https://github.com/instedd/oasis/blob/master/frontend/public/manifest.json",
+            "https://github.com/instedd/oasis/blob/master/frontend/src/text.json",
+            "https://github.com/instedd/oasis/blob/master/backend/static/asset-manifest.json",
+            "https://github.com/instedd/oasis/blob/master/backend/static/manifest.json",
+            "https://github.com/instedd/oasis/blob/master/backend/alembic/seed_data/symptoms.json"
+        ]
+    }
+}

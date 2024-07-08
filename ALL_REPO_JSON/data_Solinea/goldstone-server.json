@@ -1,0 +1,76 @@
+{
+    "id": "Solinea/goldstone-server",
+    "repo_link": "https://github.com/Solinea/goldstone-server",
+    "file_extensions": [
+        ".yml",
+        ".json",
+        ".conf",
+        ".rb",
+        ".yaml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "CH",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/Solinea/goldstone-server/blob/master/compose-containerapp-oss.yml",
+            "https://github.com/Solinea/goldstone-server/blob/master/compose-localapp-gse.yml",
+            "https://github.com/Solinea/goldstone-server/blob/master/compose-localapp-oss.yml",
+            "https://github.com/Solinea/goldstone-server/blob/master/circle.yml",
+            "https://github.com/Solinea/goldstone-server/blob/master/compose-containerapp-gse.yml",
+            "https://github.com/Solinea/goldstone-server/blob/master/.travis.yml",
+            "https://github.com/Solinea/goldstone-server/blob/master/.codeclimate.yml",
+            "https://github.com/Solinea/goldstone-server/blob/master/docker/docker-compose-enterprise.yml",
+            "https://github.com/Solinea/goldstone-server/blob/master/docker/docker-compose-ci.yml",
+            "https://github.com/Solinea/goldstone-server/blob/master/docker/docker-compose.yml",
+            "https://github.com/Solinea/goldstone-server/blob/master/docker/goldstone-search/config/logging.yml",
+            "https://github.com/Solinea/goldstone-server/blob/master/docker/goldstone-search/config/elasticsearch.yml",
+            "https://github.com/Solinea/goldstone-server/blob/master/docs/mkdocs.yml"
+        ],
+        "yaml": [
+            "https://github.com/Solinea/goldstone-server/blob/master/goldstone/core/fixtures/core_initial_data.yaml"
+        ],
+        "json": [
+            "https://github.com/Solinea/goldstone-server/blob/master/package.json",
+            "https://github.com/Solinea/goldstone-server/blob/master/docker/goldstone-logtest/goldstone/test/filters/syslog/issue-544.json",
+            "https://github.com/Solinea/goldstone-server/blob/master/docker/goldstone-logtest/goldstone/test/filters/syslog/syslog_base.json",
+            "https://github.com/Solinea/goldstone-server/blob/master/docker/goldstone-logtest/goldstone/test/patterns/goldstone/openstack_components.json",
+            "https://github.com/Solinea/goldstone-server/blob/master/docker/goldstone-logtest/goldstone/test/patterns/goldstone/openstack_normal.json",
+            "https://github.com/Solinea/goldstone-server/blob/master/docker/goldstone-logtest/goldstone/test/patterns/goldstone/openstack_source.json",
+            "https://github.com/Solinea/goldstone-server/blob/master/docker/goldstone-logtest/goldstone/test/patterns/goldstone/openstack_pid.json",
+            "https://github.com/Solinea/goldstone-server/blob/master/docker/goldstone-logtest/goldstone/test/patterns/goldstone/generic_syslog.json",
+            "https://github.com/Solinea/goldstone-server/blob/master/docker/goldstone-logtest/goldstone/test/patterns/goldstone/openstack_reqlist.json",
+            "https://github.com/Solinea/goldstone-server/blob/master/docker/goldstone-logtest/goldstone/test/patterns/goldstone/openstack_loglevel.json",
+            "https://github.com/Solinea/goldstone-server/blob/master/docker/goldstone-search/config/templates/ceilo_events_template.json",
+            "https://github.com/Solinea/goldstone-server/blob/master/docker/goldstone-search/config/templates/goldstone_es_template.json",
+            "https://github.com/Solinea/goldstone-server/blob/master/docker/goldstone-search/config/templates/goldstone_reports_template.json",
+            "https://github.com/Solinea/goldstone-server/blob/master/docker/goldstone-search/config/templates/goldstone_metrics_template.json",
+            "https://github.com/Solinea/goldstone-server/blob/master/docker/goldstone-search/config/templates/api_stats_template.json",
+            "https://github.com/Solinea/goldstone-server/blob/master/test/sample_event_data.json",
+            "https://github.com/Solinea/goldstone-server/blob/master/goldstone/goldstone_es_template.json",
+            "https://github.com/Solinea/goldstone-server/blob/master/goldstone/goldstone_reports_template.json",
+            "https://github.com/Solinea/goldstone-server/blob/master/goldstone/goldstone_metrics_template.json",
+            "https://github.com/Solinea/goldstone-server/blob/master/goldstone/static/i18n/po_json/i18n_combined.json"
+        ],
+        "ruby": [
+            "https://github.com/Solinea/goldstone-server/blob/master/docker/goldstone-logtest/test/spec/spec_helper.rb",
+            "https://github.com/Solinea/goldstone-server/blob/master/docker/goldstone-logtest/test/spec/patterns_spec.rb",
+            "https://github.com/Solinea/goldstone-server/blob/master/docker/goldstone-logtest/test/spec/filter_spec.rb"
+        ],
+        "conf": [
+            "https://github.com/Solinea/goldstone-server/blob/master/rpm_packaging/rsyslog/goldstone.conf",
+            "https://github.com/Solinea/goldstone-server/blob/master/docker/goldstone-web/config/nginx.conf",
+            "https://github.com/Solinea/goldstone-server/blob/master/docker/goldstone-web/config/conf.d/default.conf"
+        ]
+    }
+}

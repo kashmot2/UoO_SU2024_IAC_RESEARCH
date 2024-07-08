@@ -1,0 +1,60 @@
+{
+    "id": "apache/skywalking-nodejs",
+    "repo_link": "https://github.com/apache/skywalking-nodejs",
+    "file_extensions": [
+        ".yaml",
+        ".json",
+        ".yml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/apache/skywalking-nodejs/blob/master/tests/plugins/mysql2/docker-compose.yml",
+            "https://github.com/apache/skywalking-nodejs/blob/master/tests/plugins/express/docker-compose.yml",
+            "https://github.com/apache/skywalking-nodejs/blob/master/tests/plugins/ioredis/docker-compose.yml",
+            "https://github.com/apache/skywalking-nodejs/blob/master/tests/plugins/mongodb/docker-compose.yml",
+            "https://github.com/apache/skywalking-nodejs/blob/master/tests/plugins/mongoose/docker-compose.yml",
+            "https://github.com/apache/skywalking-nodejs/blob/master/tests/plugins/pg/docker-compose.yml",
+            "https://github.com/apache/skywalking-nodejs/blob/master/tests/plugins/common/base-compose.yml",
+            "https://github.com/apache/skywalking-nodejs/blob/master/tests/plugins/http/docker-compose.yml",
+            "https://github.com/apache/skywalking-nodejs/blob/master/tests/plugins/mysql/docker-compose.yml",
+            "https://github.com/apache/skywalking-nodejs/blob/master/tests/plugins/axios/docker-compose.yml"
+        ],
+        "yaml": [
+            "https://github.com/apache/skywalking-nodejs/blob/master/.asf.yaml",
+            "https://github.com/apache/skywalking-nodejs/blob/master/.licenserc.yaml",
+            "https://github.com/apache/skywalking-nodejs/blob/master/tests/plugins/mysql2/expected.data.yaml",
+            "https://github.com/apache/skywalking-nodejs/blob/master/tests/plugins/express/expected.data.yaml",
+            "https://github.com/apache/skywalking-nodejs/blob/master/tests/plugins/ioredis/expected.data.yaml",
+            "https://github.com/apache/skywalking-nodejs/blob/master/tests/plugins/mongodb/expected.data.yaml",
+            "https://github.com/apache/skywalking-nodejs/blob/master/tests/plugins/mongoose/expected.data.yaml",
+            "https://github.com/apache/skywalking-nodejs/blob/master/tests/plugins/pg/expected.data.yaml",
+            "https://github.com/apache/skywalking-nodejs/blob/master/tests/plugins/http/expected.data.yaml",
+            "https://github.com/apache/skywalking-nodejs/blob/master/tests/plugins/mysql/expected.data.yaml",
+            "https://github.com/apache/skywalking-nodejs/blob/master/tests/plugins/axios/expected.data.yaml",
+            "https://github.com/apache/skywalking-nodejs/blob/master/.github/workflows/test.yaml",
+            "https://github.com/apache/skywalking-nodejs/blob/master/.github/workflows/license.yaml",
+            "https://github.com/apache/skywalking-nodejs/blob/master/.github/workflows/build.yaml"
+        ],
+        "json": [
+            "https://github.com/apache/skywalking-nodejs/blob/master/package-lock.json",
+            "https://github.com/apache/skywalking-nodejs/blob/master/package.json",
+            "https://github.com/apache/skywalking-nodejs/blob/master/tsconfig.json",
+            "https://github.com/apache/skywalking-nodejs/blob/master/tests/tslint.json",
+            "https://github.com/apache/skywalking-nodejs/blob/master/tests/tsconfig.json",
+            "https://github.com/apache/skywalking-nodejs/blob/master/tests/build/package.json",
+            "https://github.com/apache/skywalking-nodejs/blob/master/tests/build/tsconfig.json",
+            "https://github.com/apache/skywalking-nodejs/blob/master/src/tsconfig.json"
+        ]
+    }
+}

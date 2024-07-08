@@ -1,0 +1,47 @@
+{
+    "id": "cau-se/titan-ccp",
+    "repo_link": "https://github.com/cau-se/titan-ccp",
+    "file_extensions": [
+        ".yml",
+        ".yaml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "GOOG",
+        "ANS",
+        "DOC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/cau-se/titan-ccp/blob/master/docker-compose/titan-ccp/docker-compose.demo.yml",
+            "https://github.com/cau-se/titan-ccp/blob/master/docker-compose/titan-ccp/docker-compose.dev.yml",
+            "https://github.com/cau-se/titan-ccp/blob/master/docker-compose/titan-ccp/docker-compose.yml",
+            "https://github.com/cau-se/titan-ccp/blob/master/docker-compose/titan-ccp/docker-compose.prod.yml",
+            "https://github.com/cau-se/titan-ccp/blob/master/kubernetes/cassandra/cassandra-outside.yml"
+        ],
+        "yaml": [
+            "https://github.com/cau-se/titan-ccp/blob/master/kubernetes/kafka-topic-creator.yaml",
+            "https://github.com/cau-se/titan-ccp/blob/master/kubernetes/kafka-values.yaml",
+            "https://github.com/cau-se/titan-ccp/blob/master/kubernetes/mongo-db-values.yaml",
+            "https://github.com/cau-se/titan-ccp/blob/master/kubernetes/titan-ccp-frontend/frontend-deployment.yaml",
+            "https://github.com/cau-se/titan-ccp/blob/master/kubernetes/titan-ccp-frontend/frontend-service.yaml",
+            "https://github.com/cau-se/titan-ccp/blob/master/kubernetes/titan-flow-raritan/flow-raritan-deployment.yaml",
+            "https://github.com/cau-se/titan-ccp/blob/master/kubernetes/titan-flow-raritan/flow-raritan-service.yaml",
+            "https://github.com/cau-se/titan-ccp/blob/master/kubernetes/titan-ccp-raritan-simulator/raritan-simulator-deployment.yaml",
+            "https://github.com/cau-se/titan-ccp/blob/master/kubernetes/cassandra-test/cassandra-test-service.yaml",
+            "https://github.com/cau-se/titan-ccp/blob/master/kubernetes/cassandra-test/cassandra-test.yaml",
+            "https://github.com/cau-se/titan-ccp/blob/master/kubernetes/titan-ccp-stats/stats-deployment.yaml",
+            "https://github.com/cau-se/titan-ccp/blob/master/kubernetes/titan-ccp-stats/stats-service.yaml",
+            "https://github.com/cau-se/titan-ccp/blob/master/kubernetes/titan-ccp-history/history-service.yaml",
+            "https://github.com/cau-se/titan-ccp/blob/master/kubernetes/titan-ccp-history/history-deployment.yaml",
+            "https://github.com/cau-se/titan-ccp/blob/master/kubernetes/titan-ccp-sensor-management/sensor-management-service.yaml",
+            "https://github.com/cau-se/titan-ccp/blob/master/kubernetes/titan-ccp-sensor-management/sensor-management-deployment.yaml",
+            "https://github.com/cau-se/titan-ccp/blob/master/kubernetes/cassandra/cassandra-statefulset.yaml",
+            "https://github.com/cau-se/titan-ccp/blob/master/kubernetes/cassandra/cassandra-service.yaml",
+            "https://github.com/cau-se/titan-ccp/blob/master/kubernetes/titan-ccp-aggregation/aggregation-deployment.yaml"
+        ]
+    }
+}

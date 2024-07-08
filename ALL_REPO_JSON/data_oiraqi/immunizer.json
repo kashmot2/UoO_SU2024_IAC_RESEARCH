@@ -1,0 +1,29 @@
+{
+    "id": "oiraqi/immunizer",
+    "repo_link": "https://github.com/oiraqi/immunizer",
+    "file_extensions": [
+        ".json",
+        ".yml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/oiraqi/immunizer/blob/master/docker/docker-compose.yml"
+        ],
+        "json": [
+            "https://github.com/oiraqi/immunizer/blob/master/microservices/analyzer/.vscode/settings.json",
+            "https://github.com/oiraqi/immunizer/blob/master/microagents/effector/framework/src/main/resources/smef.json",
+            "https://github.com/oiraqi/immunizer/blob/master/.vscode/settings.json",
+            "https://github.com/oiraqi/immunizer/blob/master/apps/ofbiz/ofbiz-config.json"
+        ]
+    }
+}

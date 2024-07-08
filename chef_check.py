@@ -118,19 +118,14 @@ def scan_for_cookbooks(repo_dir):
         print(f"'cookbooks' directory NOT found in {repo_dir}.")
         return repo_dir
 
-def main():
+def get_final_flag(repo_dir):
+    new_dir = scan_for_cookbooks(repo_dir)
+    flag = run_foodcritic(new_dir)
+    return flag
+
+
+def chef_main(repo_dir):
     global result
-    open_csv_file()
-    while links_dict:
-        key, value = fetch_new_url()
-        repo_dir = clone_repo(key)
-        if repo_dir:
-            new_dir = scan_for_cookbooks(repo_dir)
-            run_foodcritic(new_dir)
-            write_csv_file(key, value, result)
-            delete_repo(repo_dir)
+    result = get_final_flag(repo_dir)
+    return result
 
-
-
-
-main()

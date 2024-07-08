@@ -1,0 +1,45 @@
+{
+    "id": "ioos/glider-dac",
+    "repo_link": "https://github.com/ioos/glider-dac",
+    "file_extensions": [
+        ".yaml",
+        ".yml",
+        ".json",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/ioos/glider-dac/blob/master/config.yml",
+            "https://github.com/ioos/glider-dac/blob/master/docker-compose.yml",
+            "https://github.com/ioos/glider-dac/blob/master/.github/dependabot.yml",
+            "https://github.com/ioos/glider-dac/blob/master/.github/workflows/pytest.yml",
+            "https://github.com/ioos/glider-dac/blob/master/.github/workflows/sync_theme.yml",
+            "https://github.com/ioos/glider-dac/blob/master/.github/workflows/md-link-check.yml",
+            "https://github.com/ioos/glider-dac/blob/master/data/qc_config.yml"
+        ],
+        "yaml": [
+            "https://github.com/ioos/glider-dac/blob/master/.pre-commit-config.yaml"
+        ],
+        "json": [
+            "https://github.com/ioos/glider-dac/blob/master/.mlc_config.json",
+            "https://github.com/ioos/glider-dac/blob/master/.github/workflows/mlc_config.json"
+        ],
+        "conf": [
+            "https://github.com/ioos/glider-dac/blob/master/deploy/supervisord-perms-monitor.conf",
+            "https://github.com/ioos/glider-dac/blob/master/deploy/dap.supervisord.conf",
+            "https://github.com/ioos/glider-dac/blob/master/deploy/supervisord.conf"
+        ]
+    }
+}

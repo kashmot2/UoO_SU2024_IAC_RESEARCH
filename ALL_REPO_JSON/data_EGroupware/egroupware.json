@@ -1,0 +1,56 @@
+{
+    "id": "EGroupware/egroupware",
+    "repo_link": "https://github.com/EGroupware/egroupware",
+    "file_extensions": [
+        ".json",
+        ".yml",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/EGroupware/egroupware/blob/master/.travis.yml",
+            "https://github.com/EGroupware/egroupware/blob/master/doc/docker/docker-compose.yml",
+            "https://github.com/EGroupware/egroupware/blob/master/doc/docker/development/docker-compose.yml"
+        ],
+        "json": [
+            "https://github.com/EGroupware/egroupware/blob/master/package-lock.json",
+            "https://github.com/EGroupware/egroupware/blob/master/package.json",
+            "https://github.com/EGroupware/egroupware/blob/master/manifest.json",
+            "https://github.com/EGroupware/egroupware/blob/master/tsconfig.json",
+            "https://github.com/EGroupware/egroupware/blob/master/composer.json",
+            "https://github.com/EGroupware/egroupware/blob/master/infolog/tests/status_map.json",
+            "https://github.com/EGroupware/egroupware/blob/master/calendar/setup/zones.json",
+            "https://github.com/EGroupware/egroupware/blob/master/calendar/setup/ical_holiday_urls.json",
+            "https://github.com/EGroupware/egroupware/blob/master/pixelegg/login/login.json",
+            "https://github.com/EGroupware/egroupware/blob/master/api/js/etemplate/test/et2_test_expressions.json",
+            "https://github.com/EGroupware/egroupware/blob/master/api/js/etemplate/test/et2_test_tabbox.json",
+            "https://github.com/EGroupware/egroupware/blob/master/api/js/etemplate/test/et2_test_basic.json",
+            "https://github.com/EGroupware/egroupware/blob/master/api/js/etemplate/test/et2_test_text.json",
+            "https://github.com/EGroupware/egroupware/blob/master/api/js/etemplate/test/et2_test_timesheet_edit.json",
+            "https://github.com/EGroupware/egroupware/blob/master/api/js/etemplate/test/et2_test_input_validator.json",
+            "https://github.com/EGroupware/egroupware/blob/master/api/js/etemplate/test/et2_test_dates.json"
+        ],
+        "conf": [
+            "https://github.com/EGroupware/egroupware/blob/master/api/ntlm/egroupware.conf",
+            "https://github.com/EGroupware/egroupware/blob/master/doc/travis-ci-apache.conf",
+            "https://github.com/EGroupware/egroupware/blob/master/doc/docker/nginx.conf",
+            "https://github.com/EGroupware/egroupware/blob/master/doc/docker/development/nginx.conf",
+            "https://github.com/EGroupware/egroupware/blob/master/doc/mail/tcpmaps.conf",
+            "https://github.com/EGroupware/egroupware/blob/master/doc/ldap/acl_addressbook.conf",
+            "https://github.com/EGroupware/egroupware/blob/master/doc/ldap/acl_egw_addressbook.conf",
+            "https://github.com/EGroupware/egroupware/blob/master/doc/rpm-build/apache.conf",
+            "https://github.com/EGroupware/egroupware/blob/master/doc/rpm-build/nginx.conf"
+        ]
+    }
+}

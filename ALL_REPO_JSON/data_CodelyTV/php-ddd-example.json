@@ -1,0 +1,60 @@
+{
+    "id": "CodelyTV/php-ddd-example",
+    "repo_link": "https://github.com/CodelyTV/php-ddd-example",
+    "file_extensions": [
+        ".yml",
+        ".json",
+        ".yaml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/CodelyTV/php-ddd-example/blob/master/docker-compose.yml",
+            "https://github.com/CodelyTV/php-ddd-example/blob/master/behat.yml",
+            "https://github.com/CodelyTV/php-ddd-example/blob/master/etc/prometheus/prometheus.yml",
+            "https://github.com/CodelyTV/php-ddd-example/blob/master/.github/FUNDING.yml",
+            "https://github.com/CodelyTV/php-ddd-example/blob/master/.github/workflows/labeler.yml",
+            "https://github.com/CodelyTV/php-ddd-example/blob/master/.github/workflows/ci.yml",
+            "https://github.com/CodelyTV/php-ddd-example/blob/master/apps/mooc/backend/tests/mooc_backend.yml"
+        ],
+        "yaml": [
+            "https://github.com/CodelyTV/php-ddd-example/blob/master/apps/backoffice/frontend/config/services.yaml",
+            "https://github.com/CodelyTV/php-ddd-example/blob/master/apps/backoffice/frontend/config/services_test.yaml",
+            "https://github.com/CodelyTV/php-ddd-example/blob/master/apps/backoffice/frontend/config/routes/metrics.yaml",
+            "https://github.com/CodelyTV/php-ddd-example/blob/master/apps/backoffice/frontend/config/routes/api_courses.yaml",
+            "https://github.com/CodelyTV/php-ddd-example/blob/master/apps/backoffice/frontend/config/routes/courses.yaml",
+            "https://github.com/CodelyTV/php-ddd-example/blob/master/apps/backoffice/frontend/config/routes/health-check.yaml",
+            "https://github.com/CodelyTV/php-ddd-example/blob/master/apps/backoffice/frontend/config/routes/home.yaml",
+            "https://github.com/CodelyTV/php-ddd-example/blob/master/apps/backoffice/frontend/config/services/framework.yaml",
+            "https://github.com/CodelyTV/php-ddd-example/blob/master/apps/backoffice/backend/config/services.yaml",
+            "https://github.com/CodelyTV/php-ddd-example/blob/master/apps/backoffice/backend/config/services_test.yaml",
+            "https://github.com/CodelyTV/php-ddd-example/blob/master/apps/backoffice/backend/config/routes/metrics.yaml",
+            "https://github.com/CodelyTV/php-ddd-example/blob/master/apps/backoffice/backend/config/routes/courses.yaml",
+            "https://github.com/CodelyTV/php-ddd-example/blob/master/apps/backoffice/backend/config/routes/health-check.yaml",
+            "https://github.com/CodelyTV/php-ddd-example/blob/master/apps/backoffice/backend/config/services/framework.yaml",
+            "https://github.com/CodelyTV/php-ddd-example/blob/master/apps/mooc/backend/config/services.yaml",
+            "https://github.com/CodelyTV/php-ddd-example/blob/master/apps/mooc/backend/config/services_test.yaml",
+            "https://github.com/CodelyTV/php-ddd-example/blob/master/apps/mooc/backend/config/routes/metrics.yaml",
+            "https://github.com/CodelyTV/php-ddd-example/blob/master/apps/mooc/backend/config/routes/courses_counter.yaml",
+            "https://github.com/CodelyTV/php-ddd-example/blob/master/apps/mooc/backend/config/routes/courses.yaml",
+            "https://github.com/CodelyTV/php-ddd-example/blob/master/apps/mooc/backend/config/routes/health-check.yaml",
+            "https://github.com/CodelyTV/php-ddd-example/blob/master/apps/mooc/backend/config/services/framework.yaml",
+            "https://github.com/CodelyTV/php-ddd-example/blob/master/src/Backoffice/Shared/Infrastructure/Symfony/DependencyInjection/backoffice_services.yaml",
+            "https://github.com/CodelyTV/php-ddd-example/blob/master/src/Mooc/Shared/Infrastructure/Symfony/DependencyInjection/mooc_services.yaml"
+        ],
+        "json": [
+            "https://github.com/CodelyTV/php-ddd-example/blob/master/composer.json",
+            "https://github.com/CodelyTV/php-ddd-example/blob/master/etc/databases/backoffice/courses.json"
+        ]
+    }
+}

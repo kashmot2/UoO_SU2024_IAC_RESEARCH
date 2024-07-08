@@ -1,0 +1,38 @@
+{
+    "id": "PecanProject/BETYdb-YABA",
+    "repo_link": "https://github.com/PecanProject/BETYdb-YABA",
+    "file_extensions": [
+        ".yml",
+        ".json",
+        ".yaml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/PecanProject/BETYdb-YABA/blob/master/docker-compose.yml",
+            "https://github.com/PecanProject/BETYdb-YABA/blob/master/.travis.yml",
+            "https://github.com/PecanProject/BETYdb-YABA/blob/master/.github/workflows/linter.yml",
+            "https://github.com/PecanProject/BETYdb-YABA/blob/master/.github/workflows/py_tests.yml",
+            "https://github.com/PecanProject/BETYdb-YABA/blob/master/.github/workflows/interface_test.yml"
+        ],
+        "yaml": [
+            "https://github.com/PecanProject/BETYdb-YABA/blob/master/app/yaba.yaml",
+            "https://github.com/PecanProject/BETYdb-YABA/blob/master/app/credentials.yaml"
+        ],
+        "json": [
+            "https://github.com/PecanProject/BETYdb-YABA/blob/master/visualization/package-lock.json",
+            "https://github.com/PecanProject/BETYdb-YABA/blob/master/visualization/package.json",
+            "https://github.com/PecanProject/BETYdb-YABA/blob/master/interface/package.json"
+        ]
+    }
+}

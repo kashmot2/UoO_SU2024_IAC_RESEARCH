@@ -1,0 +1,33 @@
+{
+    "id": "ivadim/fruitnanny",
+    "repo_link": "https://github.com/ivadim/fruitnanny",
+    "file_extensions": [
+        ".yml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/ivadim/fruitnanny/blob/master/docker-compose.local.yml",
+            "https://github.com/ivadim/fruitnanny/blob/master/azure-pipelines.yml",
+            "https://github.com/ivadim/fruitnanny/blob/master/azure-pipelines.pr.yml",
+            "https://github.com/ivadim/fruitnanny/blob/master/docker-compose.notification.yml",
+            "https://github.com/ivadim/fruitnanny/blob/master/docker-compose.yml"
+        ],
+        "json": [
+            "https://github.com/ivadim/fruitnanny/blob/master/npm-shrinkwrap.json",
+            "https://github.com/ivadim/fruitnanny/blob/master/package.json",
+            "https://github.com/ivadim/fruitnanny/blob/master/tslint.json",
+            "https://github.com/ivadim/fruitnanny/blob/master/tsconfig.json"
+        ]
+    }
+}

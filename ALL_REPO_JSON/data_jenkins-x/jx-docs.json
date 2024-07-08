@@ -1,0 +1,50 @@
+{
+    "id": "jenkins-x/jx-docs",
+    "repo_link": "https://github.com/jenkins-x/jx-docs",
+    "file_extensions": [
+        ".yaml",
+        ".json",
+        ".yml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/jenkins-x/jx-docs/blob/master/.gitpod.yml",
+            "https://github.com/jenkins-x/jx-docs/blob/master/docker-compose.yml",
+            "https://github.com/jenkins-x/jx-docs/blob/master/.github/workflows/regenerate.yml",
+            "https://github.com/jenkins-x/jx-docs/blob/master/.github/ISSUE_TEMPLATE/config.yml"
+        ],
+        "yaml": [
+            "https://github.com/jenkins-x/jx-docs/blob/master/.pre-commit-config.yaml",
+            "https://github.com/jenkins-x/jx-docs/blob/master/dependency-matrix/matrix.yaml",
+            "https://github.com/jenkins-x/jx-docs/blob/master/.lighthouse/jenkins-x/pullrequest.yaml",
+            "https://github.com/jenkins-x/jx-docs/blob/master/.lighthouse/jenkins-x/triggers.yaml",
+            "https://github.com/jenkins-x/jx-docs/blob/master/.lighthouse/jenkins-x/release.yaml",
+            "https://github.com/jenkins-x/jx-docs/blob/master/.lighthouse/jenkins-x/preview.yaml",
+            "https://github.com/jenkins-x/jx-docs/blob/master/charts/preview/Chart.yaml",
+            "https://github.com/jenkins-x/jx-docs/blob/master/charts/preview/values.yaml",
+            "https://github.com/jenkins-x/jx-docs/blob/master/charts/preview/helmfile.yaml",
+            "https://github.com/jenkins-x/jx-docs/blob/master/charts/preview/templates/deployment.yaml",
+            "https://github.com/jenkins-x/jx-docs/blob/master/charts/preview/templates/ingress.yaml",
+            "https://github.com/jenkins-x/jx-docs/blob/master/charts/preview/templates/service.yaml",
+            "https://github.com/jenkins-x/jx-docs/blob/master/.github/actions/create-pr-for-plugin-docs/action.yaml"
+        ],
+        "json": [
+            "https://github.com/jenkins-x/jx-docs/blob/master/package-lock.json",
+            "https://github.com/jenkins-x/jx-docs/blob/master/package.json",
+            "https://github.com/jenkins-x/jx-docs/blob/master/static/favicons/manifest.json",
+            "https://github.com/jenkins-x/jx-docs/blob/master/static/schemas/jx-requirements.json",
+            "https://github.com/jenkins-x/jx-docs/blob/master/static/schemas/jx-schema.json"
+        ]
+    }
+}

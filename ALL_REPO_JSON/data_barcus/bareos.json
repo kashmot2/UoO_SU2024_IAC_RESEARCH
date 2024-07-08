@@ -1,0 +1,40 @@
+{
+    "id": "barcus/bareos",
+    "repo_link": "https://github.com/barcus/bareos",
+    "file_extensions": [
+        ".yml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "ANS",
+        "DOC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/barcus/bareos/blob/master/docker-compose-alpine-mysql.yml",
+            "https://github.com/barcus/bareos/blob/master/docker-compose-alpine-pgsql.yml",
+            "https://github.com/barcus/bareos/blob/master/docker-compose-ubuntu-pgsql.yml",
+            "https://github.com/barcus/bareos/blob/master/docker-compose.yml",
+            "https://github.com/barcus/bareos/blob/master/docker-compose-alpine-mysql-v2.yml",
+            "https://github.com/barcus/bareos/blob/master/docker-compose-ubuntu-mysql.yml",
+            "https://github.com/barcus/bareos/blob/master/.travis.yml",
+            "https://github.com/barcus/bareos/blob/master/bareos-db-migration/docker-compose.yml",
+            "https://github.com/barcus/bareos/blob/master/.github/dependabot.yml",
+            "https://github.com/barcus/bareos/blob/master/.github/workflows/ci-webui.yml",
+            "https://github.com/barcus/bareos/blob/master/.github/workflows/run-compose.yml",
+            "https://github.com/barcus/bareos/blob/master/.github/workflows/ci-storage.yml",
+            "https://github.com/barcus/bareos/blob/master/.github/workflows/ci-director.yml",
+            "https://github.com/barcus/bareos/blob/master/.github/workflows/ci-api.yml",
+            "https://github.com/barcus/bareos/blob/master/.github/workflows/test-n-lint.yml",
+            "https://github.com/barcus/bareos/blob/master/.github/workflows/push-readme.yml",
+            "https://github.com/barcus/bareos/blob/master/.github/workflows/ci-client.yml",
+            "https://github.com/barcus/bareos/blob/master/.github/actions/test-bareos-app/action.yml",
+            "https://github.com/barcus/bareos/blob/master/.github/actions/build-bareos-app/action.yml",
+            "https://github.com/barcus/bareos/blob/master/.github/actions/prepare-bareos-app/action.yml",
+            "https://github.com/barcus/bareos/blob/master/.github/actions/push-bareos-app/action.yml"
+        ]
+    }
+}

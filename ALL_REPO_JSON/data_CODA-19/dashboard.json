@@ -1,0 +1,51 @@
+{
+    "id": "CODA-19/dashboard",
+    "repo_link": "https://github.com/CODA-19/dashboard",
+    "file_extensions": [
+        ".yml",
+        ".json",
+        ".yaml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/CODA-19/dashboard/blob/master/docker-compose.no-dash.yml",
+            "https://github.com/CODA-19/dashboard/blob/master/.yarnrc.yml",
+            "https://github.com/CODA-19/dashboard/blob/master/docker-compose.yml"
+        ],
+        "yaml": [
+            "https://github.com/CODA-19/dashboard/blob/master/front-end/coda-sa.yaml",
+            "https://github.com/CODA-19/dashboard/blob/master/front-end/coda19-hub-dashboard.dev.yaml",
+            "https://github.com/CODA-19/dashboard/blob/master/front-end/coda19-hub-dashboard.yaml",
+            "https://github.com/CODA-19/dashboard/blob/master/back-end/coda-sa.yaml",
+            "https://github.com/CODA-19/dashboard/blob/master/back-end/coda19-dashboard-back.yaml",
+            "https://github.com/CODA-19/dashboard/blob/master/back-end/coda19-dashboard-back.dev.yaml"
+        ],
+        "json": [
+            "https://github.com/CODA-19/dashboard/blob/master/package-lock.json",
+            "https://github.com/CODA-19/dashboard/blob/master/package.json",
+            "https://github.com/CODA-19/dashboard/blob/master/front-end/package-lock.json",
+            "https://github.com/CODA-19/dashboard/blob/master/front-end/package.json",
+            "https://github.com/CODA-19/dashboard/blob/master/front-end/src/plugins/lang/en.json",
+            "https://github.com/CODA-19/dashboard/blob/master/front-end/src/plugins/lang/fr.json",
+            "https://github.com/CODA-19/dashboard/blob/master/back-end/nodemon.json",
+            "https://github.com/CODA-19/dashboard/blob/master/back-end/package-lock.json",
+            "https://github.com/CODA-19/dashboard/blob/master/back-end/package.json",
+            "https://github.com/CODA-19/dashboard/blob/master/back-end/tsconfig.json",
+            "https://github.com/CODA-19/dashboard/blob/master/back-end/tests/summary.json",
+            "https://github.com/CODA-19/dashboard/blob/master/back-end/tests/data.json",
+            "https://github.com/CODA-19/dashboard/blob/master/back-end/tests/age.json",
+            "https://github.com/CODA-19/dashboard/blob/master/back-end/tests/stats.json"
+        ]
+    }
+}

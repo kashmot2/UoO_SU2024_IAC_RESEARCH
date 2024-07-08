@@ -1,0 +1,29 @@
+{
+    "id": "SrinivasanTarget/ContractTestingBoilerplate",
+    "repo_link": "https://github.com/SrinivasanTarget/ContractTestingBoilerplate",
+    "file_extensions": [
+        ".yml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/SrinivasanTarget/ContractTestingBoilerplate/blob/master/docker-compose.yml",
+            "https://github.com/SrinivasanTarget/ContractTestingBoilerplate/blob/master/date-producer-kafka/src/test/resources/application.yml",
+            "https://github.com/SrinivasanTarget/ContractTestingBoilerplate/blob/master/date-producer-kafka/src/main/resources/application.yml",
+            "https://github.com/SrinivasanTarget/ContractTestingBoilerplate/blob/master/.github/dependabot.yml"
+        ],
+        "json": [
+            "https://github.com/SrinivasanTarget/ContractTestingBoilerplate/blob/master/date-provider/src/test/resources/pacts/valid-interactions.json"
+        ]
+    }
+}

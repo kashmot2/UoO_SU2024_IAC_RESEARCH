@@ -1,0 +1,34 @@
+{
+    "id": "stackroute/ibm-wave7-lifeline",
+    "repo_link": "https://github.com/stackroute/ibm-wave7-lifeline",
+    "file_extensions": [
+        ".yml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/stackroute/ibm-wave7-lifeline/blob/master/docker-compose.yml",
+            "https://github.com/stackroute/ibm-wave7-lifeline/blob/master/.travis.yml"
+        ],
+        "json": [
+            "https://github.com/stackroute/ibm-wave7-lifeline/blob/master/lifeline-angular-frontend/tsconfig.app.json",
+            "https://github.com/stackroute/ibm-wave7-lifeline/blob/master/lifeline-angular-frontend/angular.json",
+            "https://github.com/stackroute/ibm-wave7-lifeline/blob/master/lifeline-angular-frontend/package-lock.json",
+            "https://github.com/stackroute/ibm-wave7-lifeline/blob/master/lifeline-angular-frontend/package.json",
+            "https://github.com/stackroute/ibm-wave7-lifeline/blob/master/lifeline-angular-frontend/tslint.json",
+            "https://github.com/stackroute/ibm-wave7-lifeline/blob/master/lifeline-angular-frontend/tsconfig.json",
+            "https://github.com/stackroute/ibm-wave7-lifeline/blob/master/lifeline-angular-frontend/tsconfig.spec.json",
+            "https://github.com/stackroute/ibm-wave7-lifeline/blob/master/lifeline-angular-frontend/e2e/tsconfig.json"
+        ]
+    }
+}

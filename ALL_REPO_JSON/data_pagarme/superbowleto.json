@@ -1,0 +1,34 @@
+{
+    "id": "pagarme/superbowleto",
+    "repo_link": "https://github.com/pagarme/superbowleto",
+    "file_extensions": [
+        ".yml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/pagarme/superbowleto/blob/master/yopa-config.yml",
+            "https://github.com/pagarme/superbowleto/blob/master/docker-compose.yml",
+            "https://github.com/pagarme/superbowleto/blob/master/.github/workflows/lint_tests_and_sonar.yml",
+            "https://github.com/pagarme/superbowleto/blob/master/.github/workflows/build_and_deploy_stg.yml",
+            "https://github.com/pagarme/superbowleto/blob/master/.github/workflows/build_and_deploy_prd.yml",
+            "https://github.com/pagarme/superbowleto/blob/master/.github/workflows/build_and_deploy_sdx.yml",
+            "https://github.com/pagarme/superbowleto/blob/master/.github/workflows/superbowleto_build_and_push.yml",
+            "https://github.com/pagarme/superbowleto/blob/master/.github/workflows/superbowleto_deploy.yml"
+        ],
+        "json": [
+            "https://github.com/pagarme/superbowleto/blob/master/package-lock.json",
+            "https://github.com/pagarme/superbowleto/blob/master/package.json"
+        ]
+    }
+}

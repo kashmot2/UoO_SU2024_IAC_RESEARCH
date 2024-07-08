@@ -1,0 +1,70 @@
+{
+    "id": "MEAE-GOT/WAII",
+    "repo_link": "https://github.com/MEAE-GOT/WAII",
+    "file_extensions": [
+        ".json",
+        ".yaml",
+        ".yml",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/MEAE-GOT/WAII/blob/master/tutorial/themes/learn/.grenrc.yml",
+            "https://github.com/MEAE-GOT/WAII/blob/master/tutorial/themes/learn/wercker.yml",
+            "https://github.com/MEAE-GOT/WAII/blob/master/docker/agt-docker/docker-compose-agt.yml",
+            "https://github.com/MEAE-GOT/WAII/blob/master/docker/viss-docker-rl/docker-compose-rl.yml",
+            "https://github.com/MEAE-GOT/WAII/blob/master/.github/workflows/buildcheck.yml",
+            "https://github.com/MEAE-GOT/WAII/blob/master/.github/workflows/vissv2server-build.yml"
+        ],
+        "yaml": [
+            "https://github.com/MEAE-GOT/WAII/blob/master/tutorial/data/units.yaml",
+            "https://github.com/MEAE-GOT/WAII/blob/master/tools/DomainConversionTool/VSS-v4.1.yaml",
+            "https://github.com/MEAE-GOT/WAII/blob/master/tools/DomainConversionTool/CAN-v0.1.yaml",
+            "https://github.com/MEAE-GOT/WAII/blob/master/tools/DomainConversionTool/Map-VSSv0.1-CANv0.1.yaml",
+            "https://github.com/MEAE-GOT/WAII/blob/master/tools/DomainConversionTool/UnitScaling.yaml",
+            "https://github.com/MEAE-GOT/WAII/blob/master/tools/DomainConversionTool/VSS-v0.1.yaml"
+        ],
+        "json": [
+            "https://github.com/MEAE-GOT/WAII/blob/master/w3c.json",
+            "https://github.com/MEAE-GOT/WAII/blob/master/tutorial/themes/learn/layouts/index.json",
+            "https://github.com/MEAE-GOT/WAII/blob/master/feeder/feeder-rl/VehicleVssMapData.json",
+            "https://github.com/MEAE-GOT/WAII/blob/master/feeder/feeder-rl/config-template.json",
+            "https://github.com/MEAE-GOT/WAII/blob/master/feeder/feeder-template/feederv2/VssVehicleScaling.json",
+            "https://github.com/MEAE-GOT/WAII/blob/master/feeder/feeder-template/feederv1/VehicleVssMapData.json",
+            "https://github.com/MEAE-GOT/WAII/blob/master/server/vissv2server/uds-registration.json",
+            "https://github.com/MEAE-GOT/WAII/blob/master/server/vissv2server/uds-registration.docker.json",
+            "https://github.com/MEAE-GOT/WAII/blob/master/server/vissv2server/serviceMgr/signaldimension.json",
+            "https://github.com/MEAE-GOT/WAII/blob/master/server/vissv2server/atServer/scopelist.json",
+            "https://github.com/MEAE-GOT/WAII/blob/master/server/vissv2server/atServer/purposelist.json",
+            "https://github.com/MEAE-GOT/WAII/blob/master/server/transport_sec/transportSec.json",
+            "https://github.com/MEAE-GOT/WAII/blob/master/client/client-1.0/requests.json",
+            "https://github.com/MEAE-GOT/WAII/blob/master/client/client-1.0/csv_client/requests.json",
+            "https://github.com/MEAE-GOT/WAII/blob/master/client/client-1.0/csv_client/transport_sec/transportSec.json",
+            "https://github.com/MEAE-GOT/WAII/blob/master/client/client-1.0/transport_sec/transportSec.json",
+            "https://github.com/MEAE-GOT/WAII/blob/master/client/client-1.0/grpc_client/transportSec.json",
+            "https://github.com/MEAE-GOT/WAII/blob/master/client/client-1.0/grpc_client/transport_sec/transportSec.json",
+            "https://github.com/MEAE-GOT/WAII/blob/master/client/client-1.0/grpc_client/grpc_map_client/transportSec.json",
+            "https://github.com/MEAE-GOT/WAII/blob/master/client/client-1.0/grpc_client/grpc_map_client/static/package-lock.json",
+            "https://github.com/MEAE-GOT/WAII/blob/master/client/client-1.0/grpc_client/grpc_map_client/static/package.json",
+            "https://github.com/MEAE-GOT/WAII/blob/master/client/client-1.0/compress_client/requests.json",
+            "https://github.com/MEAE-GOT/WAII/blob/master/client/client-1.0/compress_client/transport_sec/transportSec.json"
+        ],
+        "conf": [
+            "https://github.com/MEAE-GOT/WAII/blob/master/redis/redis.conf",
+            "https://github.com/MEAE-GOT/WAII/blob/master/redis/redisNative.conf",
+            "https://github.com/MEAE-GOT/WAII/blob/master/paho-mqtt/mosquitto.conf"
+        ]
+    }
+}

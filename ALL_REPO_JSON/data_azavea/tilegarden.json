@@ -1,0 +1,34 @@
+{
+    "id": "azavea/tilegarden",
+    "repo_link": "https://github.com/azavea/tilegarden",
+    "file_extensions": [
+        ".yml",
+        ".tf",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "TF",
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "OT",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/azavea/tilegarden/blob/master/docker-compose.yml",
+            "https://github.com/azavea/tilegarden/blob/master/.travis.yml"
+        ],
+        "json": [
+            "https://github.com/azavea/tilegarden/blob/master/src/tiler/package.json",
+            "https://github.com/azavea/tilegarden/blob/master/src/tiler/.eslintrc.json"
+        ],
+        "tf": [
+            "https://github.com/azavea/tilegarden/blob/master/src/terraform/cloudfront.tf"
+        ]
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "id": "FantasticFiasco/serilog-sinks-http-elastic-stack",
+    "repo_link": "https://github.com/FantasticFiasco/serilog-sinks-http-elastic-stack",
+    "file_extensions": [
+        ".json",
+        ".yml",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/FantasticFiasco/serilog-sinks-http-elastic-stack/blob/master/elastic-stack/docker-compose.yml",
+            "https://github.com/FantasticFiasco/serilog-sinks-http-elastic-stack/blob/master/elastic-stack/kibana/config/kibana.yml",
+            "https://github.com/FantasticFiasco/serilog-sinks-http-elastic-stack/blob/master/elastic-stack/logstash/config/logstash.yml",
+            "https://github.com/FantasticFiasco/serilog-sinks-http-elastic-stack/blob/master/elastic-stack/elasticsearch/config/elasticsearch.yml",
+            "https://github.com/FantasticFiasco/serilog-sinks-http-elastic-stack/blob/master/.github/workflows/update-copyright-years-in-license-file.yml",
+            "https://github.com/FantasticFiasco/serilog-sinks-http-elastic-stack/blob/master/.github/workflows/ci-cd.yml",
+            "https://github.com/FantasticFiasco/serilog-sinks-http-elastic-stack/blob/master/serilog/docker-compose.yml"
+        ],
+        "json": [
+            "https://github.com/FantasticFiasco/serilog-sinks-http-elastic-stack/blob/master/renovate.json",
+            "https://github.com/FantasticFiasco/serilog-sinks-http-elastic-stack/blob/master/elastic-stack/setup/roles/logstash_writer.json",
+            "https://github.com/FantasticFiasco/serilog-sinks-http-elastic-stack/blob/master/.vscode/settings.json",
+            "https://github.com/FantasticFiasco/serilog-sinks-http-elastic-stack/blob/master/serilog/.vscode/launch.json",
+            "https://github.com/FantasticFiasco/serilog-sinks-http-elastic-stack/blob/master/serilog/.vscode/tasks.json"
+        ],
+        "conf": [
+            "https://github.com/FantasticFiasco/serilog-sinks-http-elastic-stack/blob/master/elastic-stack/logstash/pipeline/logstash.conf"
+        ]
+    }
+}

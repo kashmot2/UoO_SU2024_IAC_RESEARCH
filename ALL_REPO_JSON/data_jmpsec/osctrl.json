@@ -1,0 +1,60 @@
+{
+    "id": "jmpsec/osctrl",
+    "repo_link": "https://github.com/jmpsec/osctrl",
+    "file_extensions": [
+        ".yaml",
+        ".yml",
+        ".json",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/jmpsec/osctrl/blob/master/docker-compose-dev.yml",
+            "https://github.com/jmpsec/osctrl/blob/master/.github/workflows/build_and_test_main_merge.yml",
+            "https://github.com/jmpsec/osctrl/blob/master/.github/workflows/build_and_test_pr.yml",
+            "https://github.com/jmpsec/osctrl/blob/master/.github/workflows/create_tagged_releases.yml",
+            "https://github.com/jmpsec/osctrl/blob/master/.github/actions/test/binaries/action.yml",
+            "https://github.com/jmpsec/osctrl/blob/master/.github/actions/tagged_release/docker/codesign/action.yml",
+            "https://github.com/jmpsec/osctrl/blob/master/.github/actions/tagged_release/github/action.yml",
+            "https://github.com/jmpsec/osctrl/blob/master/.github/actions/build/docker/action.yml",
+            "https://github.com/jmpsec/osctrl/blob/master/.github/actions/build/binaries/action.yml",
+            "https://github.com/jmpsec/osctrl/blob/master/.github/actions/build/dpkg/action.yml"
+        ],
+        "yaml": [
+            "https://github.com/jmpsec/osctrl/blob/master/.pre-commit-config.yaml",
+            "https://github.com/jmpsec/osctrl/blob/master/osctrl-api.yaml"
+        ],
+        "json": [
+            "https://github.com/jmpsec/osctrl/blob/master/deploy/osquery/decorators.json",
+            "https://github.com/jmpsec/osctrl/blob/master/deploy/osquery/data/5.11.0.json",
+            "https://github.com/jmpsec/osctrl/blob/master/deploy/config/jwt.json",
+            "https://github.com/jmpsec/osctrl/blob/master/deploy/config/db.json",
+            "https://github.com/jmpsec/osctrl/blob/master/deploy/config/service.json",
+            "https://github.com/jmpsec/osctrl/blob/master/deploy/config/logger.json",
+            "https://github.com/jmpsec/osctrl/blob/master/deploy/config/redis.json"
+        ],
+        "conf": [
+            "https://github.com/jmpsec/osctrl/blob/master/deploy/osquery/packs/osctrl-windows-registry-monitoring.conf",
+            "https://github.com/jmpsec/osctrl/blob/master/deploy/osquery/packs/osctrl-windows-application-security.conf",
+            "https://github.com/jmpsec/osctrl/blob/master/deploy/osquery/packs/osctrl-windows-compliance.conf",
+            "https://github.com/jmpsec/osctrl/blob/master/deploy/osquery/packs/osctrl-linux-rootkits.conf",
+            "https://github.com/jmpsec/osctrl/blob/master/deploy/docker/conf/nginx/osctrl.conf",
+            "https://github.com/jmpsec/osctrl/blob/master/deploy/docker/conf/nginx/nginx.conf",
+            "https://github.com/jmpsec/osctrl/blob/master/deploy/redis/redis.conf",
+            "https://github.com/jmpsec/osctrl/blob/master/deploy/nginx/nginx.conf",
+            "https://github.com/jmpsec/osctrl/blob/master/deploy/nginx/ssl.conf"
+        ]
+    }
+}

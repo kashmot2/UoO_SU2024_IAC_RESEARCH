@@ -1,0 +1,56 @@
+{
+    "id": "BuoyantIO/emojivoto",
+    "repo_link": "https://github.com/BuoyantIO/emojivoto",
+    "file_extensions": [
+        ".yml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/BuoyantIO/emojivoto/blob/master/docker-compose.yml",
+            "https://github.com/BuoyantIO/emojivoto/blob/master/training/linkerd-identity-with-debug.yml",
+            "https://github.com/BuoyantIO/emojivoto/blob/master/training/traffic-split/web-svc-ts.yml",
+            "https://github.com/BuoyantIO/emojivoto/blob/master/training/traffic-split/nginx-ing.yml",
+            "https://github.com/BuoyantIO/emojivoto/blob/master/training/traffic-split/vote-bot-update.yml",
+            "https://github.com/BuoyantIO/emojivoto/blob/master/training/traffic-split/100-0.yml",
+            "https://github.com/BuoyantIO/emojivoto/blob/master/training/traffic-split/75-25.yml",
+            "https://github.com/BuoyantIO/emojivoto/blob/master/training/traffic-split/ingress-ts-patch.yml",
+            "https://github.com/BuoyantIO/emojivoto/blob/master/training/traffic-split/web-svc-2.yml",
+            "https://github.com/BuoyantIO/emojivoto/blob/master/training/traffic-split/web-apex.yml",
+            "https://github.com/BuoyantIO/emojivoto/blob/master/training/service-profiles/voting-svc-profile.yml",
+            "https://github.com/BuoyantIO/emojivoto/blob/master/training/service-profiles/web-service-profile-with-timeout.yml",
+            "https://github.com/BuoyantIO/emojivoto/blob/master/training/service-profiles/web-service-profile.yml",
+            "https://github.com/BuoyantIO/emojivoto/blob/master/training/service-profiles/emoji-svc-profile.yml",
+            "https://github.com/BuoyantIO/emojivoto/blob/master/training/service-profiles/web-service-profile-with-retry-budget.yml",
+            "https://github.com/BuoyantIO/emojivoto/blob/master/.github/dco.yml",
+            "https://github.com/BuoyantIO/emojivoto/blob/master/kustomize/tracing/patch.yml",
+            "https://github.com/BuoyantIO/emojivoto/blob/master/kustomize/tracing/kustomization.yml",
+            "https://github.com/BuoyantIO/emojivoto/blob/master/kustomize/daemonset/patch.yml",
+            "https://github.com/BuoyantIO/emojivoto/blob/master/kustomize/daemonset/kustomization.yml",
+            "https://github.com/BuoyantIO/emojivoto/blob/master/kustomize/statefulset/service-name.yml",
+            "https://github.com/BuoyantIO/emojivoto/blob/master/kustomize/statefulset/patch.yml",
+            "https://github.com/BuoyantIO/emojivoto/blob/master/kustomize/statefulset/kustomization.yml",
+            "https://github.com/BuoyantIO/emojivoto/blob/master/kustomize/deployment/vote-bot.yml",
+            "https://github.com/BuoyantIO/emojivoto/blob/master/kustomize/deployment/ns.yml",
+            "https://github.com/BuoyantIO/emojivoto/blob/master/kustomize/deployment/web.yml",
+            "https://github.com/BuoyantIO/emojivoto/blob/master/kustomize/deployment/voting.yml",
+            "https://github.com/BuoyantIO/emojivoto/blob/master/kustomize/deployment/kustomization.yml",
+            "https://github.com/BuoyantIO/emojivoto/blob/master/kustomize/deployment/emoji.yml",
+            "https://github.com/BuoyantIO/emojivoto/blob/master/kustomize/job/patch.yml",
+            "https://github.com/BuoyantIO/emojivoto/blob/master/kustomize/job/kustomization.yml"
+        ],
+        "json": [
+            "https://github.com/BuoyantIO/emojivoto/blob/master/emojivoto-web/webapp/package.json"
+        ]
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "id": "CMLPlatform/ramascene",
+    "repo_link": "https://github.com/CMLPlatform/ramascene",
+    "file_extensions": [
+        ".json",
+        ".yml",
+        ".rb",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "CH",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/CMLPlatform/ramascene/blob/master/docker-compose.yml"
+        ],
+        "json": [
+            "https://github.com/CMLPlatform/ramascene/blob/master/webpack-stats.json",
+            "https://github.com/CMLPlatform/ramascene/blob/master/package.json",
+            "https://github.com/CMLPlatform/ramascene/blob/master/static_assets/country_lvl.json",
+            "https://github.com/CMLPlatform/ramascene/blob/master/static_assets/continent_lvl.json",
+            "https://github.com/CMLPlatform/ramascene/blob/master/static_assets/total_lvl.json",
+            "https://github.com/CMLPlatform/ramascene/blob/master/static_assets/vendor/font-awesome/package.json",
+            "https://github.com/CMLPlatform/ramascene/blob/master/python_ini/geomapBuilds/output/country_lvl.json",
+            "https://github.com/CMLPlatform/ramascene/blob/master/python_ini/geomapBuilds/output/continent_lvl.json",
+            "https://github.com/CMLPlatform/ramascene/blob/master/python_ini/geomapBuilds/output/total_lvl.json",
+            "https://github.com/CMLPlatform/ramascene/blob/master/python_ini/geomapBuilds/geo-countries/datapackage.json",
+            "https://github.com/CMLPlatform/ramascene/blob/master/python_ini/geomapBuilds/geo-countries/data/validation_report.json",
+            "https://github.com/CMLPlatform/ramascene/blob/master/python_ini/geomapBuilds/data/geomapping_ISO3166_3.json",
+            "https://github.com/CMLPlatform/ramascene/blob/master/python_ini/data/geomapping_ISO3166_2.json",
+            "https://github.com/CMLPlatform/ramascene/blob/master/python_ini/data/geomapping_ISO3166_3.json"
+        ],
+        "ruby": [
+            "https://github.com/CMLPlatform/ramascene/blob/master/config/deploy.rb",
+            "https://github.com/CMLPlatform/ramascene/blob/master/config/deploy/staging_django.rb",
+            "https://github.com/CMLPlatform/ramascene/blob/master/config/deploy/development_celery_modelling.rb",
+            "https://github.com/CMLPlatform/ramascene/blob/master/config/deploy/production_celery_calculation.rb",
+            "https://github.com/CMLPlatform/ramascene/blob/master/config/deploy/staging_celery_calculation.rb",
+            "https://github.com/CMLPlatform/ramascene/blob/master/config/deploy/production_celery_modelling.rb",
+            "https://github.com/CMLPlatform/ramascene/blob/master/config/deploy/production_django.rb",
+            "https://github.com/CMLPlatform/ramascene/blob/master/config/deploy/development_django.rb",
+            "https://github.com/CMLPlatform/ramascene/blob/master/config/deploy/staging_celery_modelling.rb",
+            "https://github.com/CMLPlatform/ramascene/blob/master/config/deploy/development_celery_calculation.rb"
+        ],
+        "conf": [
+            "https://github.com/CMLPlatform/ramascene/blob/master/docs/source/ystatic/example_nginx.conf",
+            "https://github.com/CMLPlatform/ramascene/blob/master/docs/source/ystatic/example_nginx_with_flower.conf",
+            "https://github.com/CMLPlatform/ramascene/blob/master/docs/source/ystatic/example_supervisord.conf"
+        ]
+    }
+}

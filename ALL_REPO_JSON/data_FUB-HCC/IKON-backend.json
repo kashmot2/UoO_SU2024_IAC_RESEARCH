@@ -1,0 +1,37 @@
+{
+    "id": "FUB-HCC/IKON-backend",
+    "repo_link": "https://github.com/FUB-HCC/IKON-backend",
+    "file_extensions": [
+        ".yml",
+        ".json",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/FUB-HCC/IKON-backend/blob/master/.eslintrc.yml",
+            "https://github.com/FUB-HCC/IKON-backend/blob/master/docker-compose.build.yml",
+            "https://github.com/FUB-HCC/IKON-backend/blob/master/docker-compose.yml",
+            "https://github.com/FUB-HCC/IKON-backend/blob/master/.github/workflows/dockerpush.yml"
+        ],
+        "json": [
+            "https://github.com/FUB-HCC/IKON-backend/blob/master/docs/tes.openapi.json",
+            "https://github.com/FUB-HCC/IKON-backend/blob/master/docs/mwc.openapi.json",
+            "https://github.com/FUB-HCC/IKON-backend/blob/master/docs/sharing.openapi.json",
+            "https://github.com/FUB-HCC/IKON-backend/blob/master/src/mwc/package.json"
+        ],
+        "conf": [
+            "https://github.com/FUB-HCC/IKON-backend/blob/master/src/controller/src/nginx.conf"
+        ]
+    }
+}

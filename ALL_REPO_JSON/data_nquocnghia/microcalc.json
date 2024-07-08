@@ -1,0 +1,47 @@
+{
+    "id": "nquocnghia/microcalc",
+    "repo_link": "https://github.com/nquocnghia/microcalc",
+    "file_extensions": [
+        ".yml",
+        ".yaml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/nquocnghia/microcalc/blob/master/docker-compose.ci.yml",
+            "https://github.com/nquocnghia/microcalc/blob/master/docker-compose.yml",
+            "https://github.com/nquocnghia/microcalc/blob/master/.github/dependabot.yml",
+            "https://github.com/nquocnghia/microcalc/blob/master/.github/workflows/main.yml",
+            "https://github.com/nquocnghia/microcalc/blob/master/services/sub/docker-compose.yml",
+            "https://github.com/nquocnghia/microcalc/blob/master/services/mod/src/main/resources/application.yml"
+        ],
+        "yaml": [
+            "https://github.com/nquocnghia/microcalc/blob/master/helm/microcalc/Chart.yaml",
+            "https://github.com/nquocnghia/microcalc/blob/master/helm/microcalc/values.yaml",
+            "https://github.com/nquocnghia/microcalc/blob/master/helm/microcalc/templates/deployment.yaml",
+            "https://github.com/nquocnghia/microcalc/blob/master/helm/microcalc/templates/service.yaml",
+            "https://github.com/nquocnghia/microcalc/blob/master/helm/microcalc/templates/gateway.yaml"
+        ],
+        "json": [
+            "https://github.com/nquocnghia/microcalc/blob/master/services/pow/package-lock.json",
+            "https://github.com/nquocnghia/microcalc/blob/master/services/pow/package.json",
+            "https://github.com/nquocnghia/microcalc/blob/master/services/neg/appsettings.json",
+            "https://github.com/nquocnghia/microcalc/blob/master/services/neg/appsettings.Development.json",
+            "https://github.com/nquocnghia/microcalc/blob/master/services/neg/Properties/launchSettings.json",
+            "https://github.com/nquocnghia/microcalc/blob/master/services/sub/composer.json",
+            "https://github.com/nquocnghia/microcalc/blob/master/services/add/package-lock.json",
+            "https://github.com/nquocnghia/microcalc/blob/master/services/add/package.json"
+        ]
+    }
+}

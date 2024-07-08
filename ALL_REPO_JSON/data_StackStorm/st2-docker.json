@@ -1,0 +1,37 @@
+{
+    "id": "StackStorm/st2-docker",
+    "repo_link": "https://github.com/StackStorm/st2-docker",
+    "file_extensions": [
+        ".yml",
+        ".yaml",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "GOOG",
+        "ANS",
+        "PUP",
+        "DOC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/StackStorm/st2-docker/blob/master/docker-compose.yml",
+            "https://github.com/StackStorm/st2-docker/blob/master/.github/FUNDING.yml",
+            "https://github.com/StackStorm/st2-docker/blob/master/.github/workflows/st2-docker.yml"
+        ],
+        "yaml": [
+            "https://github.com/StackStorm/st2-docker/blob/master/tests/st2tests.yaml",
+            "https://github.com/StackStorm/st2-docker/blob/master/files/rbac/assignments/stanley.yaml",
+            "https://github.com/StackStorm/st2-docker/blob/master/files/rbac/assignments/st2admin.yaml",
+            "https://github.com/StackStorm/st2-docker/blob/master/files/rbac/roles/sample.yaml"
+        ],
+        "conf": [
+            "https://github.com/StackStorm/st2-docker/blob/master/files/st2-cli.conf",
+            "https://github.com/StackStorm/st2-docker/blob/master/files/st2.user.conf",
+            "https://github.com/StackStorm/st2-docker/blob/master/files/st2.docker.conf"
+        ]
+    }
+}

@@ -1,0 +1,83 @@
+{
+    "id": "behaviosec/explore-flink",
+    "repo_link": "https://github.com/behaviosec/explore-flink",
+    "file_extensions": [
+        ".yml",
+        ".json",
+        ".yaml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/behaviosec/explore-flink/blob/master/.travis.yml",
+            "https://github.com/behaviosec/explore-flink/blob/master/docker/grafana-spend-report-init/provisioning/datasources/datasource.yml",
+            "https://github.com/behaviosec/explore-flink/blob/master/docker/grafana-spend-report-init/provisioning/dashboards/dashboards.yml",
+            "https://github.com/behaviosec/explore-flink/blob/master/docker/prometheus/prometheus.yml",
+            "https://github.com/behaviosec/explore-flink/blob/master/table-walkthrough/docker-compose.yml",
+            "https://github.com/behaviosec/explore-flink/blob/master/conf/prometheus.yml"
+        ],
+        "yaml": [
+            "https://github.com/behaviosec/explore-flink/blob/master/k8s/tpch-dbgen-datarate-pvc.yaml",
+            "https://github.com/behaviosec/explore-flink/blob/master/k8s/flink-taskmanager-statefulset.yaml",
+            "https://github.com/behaviosec/explore-flink/blob/master/k8s/flink-jobmanager-job.yaml",
+            "https://github.com/behaviosec/explore-flink/blob/master/k8s/prometheus-configuration-configmap.yaml",
+            "https://github.com/behaviosec/explore-flink/blob/master/k8s/grafana-service.yaml",
+            "https://github.com/behaviosec/explore-flink/blob/master/k8s/prometheus-rest-service.yaml",
+            "https://github.com/behaviosec/explore-flink/blob/master/k8s/prometheus-deployment.yaml",
+            "https://github.com/behaviosec/explore-flink/blob/master/k8s/kafka-producer-tpch-order.yaml",
+            "https://github.com/behaviosec/explore-flink/blob/master/k8s/grafana-deployment.yaml",
+            "https://github.com/behaviosec/explore-flink/blob/master/k8s/tpch-dbgen-deployment.yaml",
+            "https://github.com/behaviosec/explore-flink/blob/master/k8s/tpch-dbgen-job.yaml",
+            "https://github.com/behaviosec/explore-flink/blob/master/k8s/tpch-dbgen-pvc.yaml",
+            "https://github.com/behaviosec/explore-flink/blob/master/k8s/flink-taskmanager-service.yaml",
+            "https://github.com/behaviosec/explore-flink/blob/master/k8s/flink-jobmanager-service.yaml",
+            "https://github.com/behaviosec/explore-flink/blob/master/k8s/flink-configuration-configmap.yaml",
+            "https://github.com/behaviosec/explore-flink/blob/master/k8s/flink-jobmanager-rest-service.yaml",
+            "https://github.com/behaviosec/explore-flink/blob/master/k8s/grafana-rest-service.yaml",
+            "https://github.com/behaviosec/explore-flink/blob/master/k8s/prometheus-service.yaml",
+            "https://github.com/behaviosec/explore-flink/blob/master/k8s/kafka-metrics.yaml",
+            "https://github.com/behaviosec/explore-flink/blob/master/k8s/grafana-configuration-configmap.yaml",
+            "https://github.com/behaviosec/explore-flink/blob/master/k8s/metrics-server.yaml",
+            "https://github.com/behaviosec/explore-flink/blob/master/operations-playground/docker-compose.yaml",
+            "https://github.com/behaviosec/explore-flink/blob/master/operations-playground/conf/flink-conf.yaml",
+            "https://github.com/behaviosec/explore-flink/blob/master/conf/flink-conf.yaml"
+        ],
+        "json": [
+            "https://github.com/behaviosec/explore-flink/blob/master/docker/ops-playground-image/java/explore-flink/src/test/resources/valencia/traffic-jam-state-offline-skewed-01.json",
+            "https://github.com/behaviosec/explore-flink/blob/master/docker/ops-playground-image/java/explore-flink/src/test/resources/valencia/air-pollution-offline.json",
+            "https://github.com/behaviosec/explore-flink/blob/master/docker/ops-playground-image/java/explore-flink/src/test/resources/valencia/traffic-jam-state-offline-skewed-00.json",
+            "https://github.com/behaviosec/explore-flink/blob/master/docker/ops-playground-image/java/explore-flink/src/test/resources/valencia/air-pollution-offline-skewed-01.json",
+            "https://github.com/behaviosec/explore-flink/blob/master/docker/ops-playground-image/java/explore-flink/src/test/resources/valencia/air-pollution-offline-skewed-00.json",
+            "https://github.com/behaviosec/explore-flink/blob/master/docker/ops-playground-image/java/explore-flink/src/test/resources/valencia/traffic-jam-state-online.json",
+            "https://github.com/behaviosec/explore-flink/blob/master/docker/ops-playground-image/java/explore-flink/src/test/resources/valencia/traffic-jam-state-offline-skewed.json",
+            "https://github.com/behaviosec/explore-flink/blob/master/docker/ops-playground-image/java/explore-flink/src/test/resources/valencia/air-pollution-offline-skewed.json",
+            "https://github.com/behaviosec/explore-flink/blob/master/docker/ops-playground-image/java/explore-flink/src/test/resources/valencia/air-pollution-online.json",
+            "https://github.com/behaviosec/explore-flink/blob/master/docker/ops-playground-image/java/explore-flink/src/test/resources/valencia/traffic-jam-state-offline.json",
+            "https://github.com/behaviosec/explore-flink/blob/master/docker/ops-playground-image/java/explore-flink/src/main/resources/valencia/traffic-jam-state-offline-skewed-01.json",
+            "https://github.com/behaviosec/explore-flink/blob/master/docker/ops-playground-image/java/explore-flink/src/main/resources/valencia/air-pollution-offline.json",
+            "https://github.com/behaviosec/explore-flink/blob/master/docker/ops-playground-image/java/explore-flink/src/main/resources/valencia/traffic-jam-state-offline-skewed-00.json",
+            "https://github.com/behaviosec/explore-flink/blob/master/docker/ops-playground-image/java/explore-flink/src/main/resources/valencia/air-pollution-offline-skewed-01.json",
+            "https://github.com/behaviosec/explore-flink/blob/master/docker/ops-playground-image/java/explore-flink/src/main/resources/valencia/air-pollution-offline-skewed-00.json",
+            "https://github.com/behaviosec/explore-flink/blob/master/docker/ops-playground-image/java/explore-flink/src/main/resources/valencia/traffic-jam-state-online.json",
+            "https://github.com/behaviosec/explore-flink/blob/master/docker/ops-playground-image/java/explore-flink/src/main/resources/valencia/traffic-jam-state-offline-skewed.json",
+            "https://github.com/behaviosec/explore-flink/blob/master/docker/ops-playground-image/java/explore-flink/src/main/resources/valencia/air-pollution-offline-skewed.json",
+            "https://github.com/behaviosec/explore-flink/blob/master/docker/ops-playground-image/java/explore-flink/src/main/resources/valencia/air-pollution-online.json",
+            "https://github.com/behaviosec/explore-flink/blob/master/docker/ops-playground-image/java/explore-flink/src/main/resources/valencia/traffic-jam-state-offline.json",
+            "https://github.com/behaviosec/explore-flink/blob/master/docker/grafana-spend-report-init/dashboard.json",
+            "https://github.com/behaviosec/explore-flink/blob/master/conf/Flink-Grafana-metrics.json",
+            "https://github.com/behaviosec/explore-flink/blob/master/conf/Flink-Grafana-metrics-end2end-latency.json",
+            "https://github.com/behaviosec/explore-flink/blob/master/conf/Flink-Grafana-metrics-simple.json",
+            "https://github.com/behaviosec/explore-flink/blob/master/conf/Flink-Grafana-metrics-sweden.json"
+        ]
+    }
+}

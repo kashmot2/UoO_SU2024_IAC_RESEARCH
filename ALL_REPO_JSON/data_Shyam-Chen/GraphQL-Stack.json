@@ -1,0 +1,71 @@
+{
+    "id": "Shyam-Chen/GraphQL-Stack",
+    "repo_link": "https://github.com/Shyam-Chen/GraphQL-Stack",
+    "file_extensions": [
+        ".json",
+        ".yml",
+        ".yaml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/Shyam-Chen/GraphQL-Stack/blob/master/mbe/mod-express/docker-compose.yml",
+            "https://github.com/Shyam-Chen/GraphQL-Stack/blob/master/mbe/mod-fastify/docker-compose.yml",
+            "https://github.com/Shyam-Chen/GraphQL-Stack/blob/master/mbe/mod-koa/docker-compose.yml",
+            "https://github.com/Shyam-Chen/GraphQL-Stack/blob/master/mfe/list.yml",
+            "https://github.com/Shyam-Chen/GraphQL-Stack/blob/master/mfe/docker-compose.yml",
+            "https://github.com/Shyam-Chen/GraphQL-Stack/blob/master/mfe/mod-vue/docker-compose.yml",
+            "https://github.com/Shyam-Chen/GraphQL-Stack/blob/master/mfe/app-shell/docker-compose.yml",
+            "https://github.com/Shyam-Chen/GraphQL-Stack/blob/master/mfe/app-components/docker-compose.yml"
+        ],
+        "yaml": [
+            "https://github.com/Shyam-Chen/GraphQL-Stack/blob/master/iac/pnpm-lock.yaml",
+            "https://github.com/Shyam-Chen/GraphQL-Stack/blob/master/iac/Pulumi.yaml",
+            "https://github.com/Shyam-Chen/GraphQL-Stack/blob/master/e2e/pnpm-lock.yaml"
+        ],
+        "json": [
+            "https://github.com/Shyam-Chen/GraphQL-Stack/blob/master/mbe/package.json",
+            "https://github.com/Shyam-Chen/GraphQL-Stack/blob/master/mbe/lerna.json",
+            "https://github.com/Shyam-Chen/GraphQL-Stack/blob/master/mbe/app-assemblies/package.json",
+            "https://github.com/Shyam-Chen/GraphQL-Stack/blob/master/mbe/app-assemblies/tsconfig.json",
+            "https://github.com/Shyam-Chen/GraphQL-Stack/blob/master/mbe/mod-express/package.json",
+            "https://github.com/Shyam-Chen/GraphQL-Stack/blob/master/mbe/mod-nest/nest-cli.json",
+            "https://github.com/Shyam-Chen/GraphQL-Stack/blob/master/mbe/mod-nest/package.json",
+            "https://github.com/Shyam-Chen/GraphQL-Stack/blob/master/mbe/mod-nest/tsconfig.build.json",
+            "https://github.com/Shyam-Chen/GraphQL-Stack/blob/master/mbe/mod-nest/tsconfig.json",
+            "https://github.com/Shyam-Chen/GraphQL-Stack/blob/master/mbe/mod-nest/test/jest-e2e.json",
+            "https://github.com/Shyam-Chen/GraphQL-Stack/blob/master/mbe/mod-fastify/package.json",
+            "https://github.com/Shyam-Chen/GraphQL-Stack/blob/master/mbe/app-gateway/package.json",
+            "https://github.com/Shyam-Chen/GraphQL-Stack/blob/master/mbe/mod-koa/package.json",
+            "https://github.com/Shyam-Chen/GraphQL-Stack/blob/master/iac/package.json",
+            "https://github.com/Shyam-Chen/GraphQL-Stack/blob/master/iac/tsconfig.json",
+            "https://github.com/Shyam-Chen/GraphQL-Stack/blob/master/e2e/package.json",
+            "https://github.com/Shyam-Chen/GraphQL-Stack/blob/master/mfe/package.json",
+            "https://github.com/Shyam-Chen/GraphQL-Stack/blob/master/mfe/lerna.json",
+            "https://github.com/Shyam-Chen/GraphQL-Stack/blob/master/mfe/mod-angular/tsconfig.app.json",
+            "https://github.com/Shyam-Chen/GraphQL-Stack/blob/master/mfe/mod-angular/tsconfig.base.json",
+            "https://github.com/Shyam-Chen/GraphQL-Stack/blob/master/mfe/mod-angular/angular.json",
+            "https://github.com/Shyam-Chen/GraphQL-Stack/blob/master/mfe/mod-angular/package.json",
+            "https://github.com/Shyam-Chen/GraphQL-Stack/blob/master/mfe/mod-angular/tslint.json",
+            "https://github.com/Shyam-Chen/GraphQL-Stack/blob/master/mfe/mod-angular/tsconfig.json",
+            "https://github.com/Shyam-Chen/GraphQL-Stack/blob/master/mfe/mod-angular/tsconfig.spec.json",
+            "https://github.com/Shyam-Chen/GraphQL-Stack/blob/master/mfe/mod-angular/e2e/tsconfig.json",
+            "https://github.com/Shyam-Chen/GraphQL-Stack/blob/master/mfe/mod-vue/package.json",
+            "https://github.com/Shyam-Chen/GraphQL-Stack/blob/master/mfe/app-shell/package.json",
+            "https://github.com/Shyam-Chen/GraphQL-Stack/blob/master/mfe/mod-react/package.json",
+            "https://github.com/Shyam-Chen/GraphQL-Stack/blob/master/mfe/mod-react/public/manifest.json",
+            "https://github.com/Shyam-Chen/GraphQL-Stack/blob/master/mfe/mod-svelte/package.json",
+            "https://github.com/Shyam-Chen/GraphQL-Stack/blob/master/mfe/app-components/package.json"
+        ]
+    }
+}

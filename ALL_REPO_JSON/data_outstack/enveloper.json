@@ -1,0 +1,87 @@
+{
+    "id": "outstack/enveloper",
+    "repo_link": "https://github.com/outstack/enveloper",
+    "file_extensions": [
+        ".yml",
+        ".json",
+        ".conf",
+        ".yaml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/outstack/enveloper/blob/master/docker-compose.travis.yml",
+            "https://github.com/outstack/enveloper/blob/master/docker-compose.dev.yml",
+            "https://github.com/outstack/enveloper/blob/master/docker-compose.yml",
+            "https://github.com/outstack/enveloper/blob/master/.travis.yml",
+            "https://github.com/outstack/enveloper/blob/master/docker-compose.tests.yml",
+            "https://github.com/outstack/enveloper/blob/master/app/config/security.yml",
+            "https://github.com/outstack/enveloper/blob/master/app/config/config_dev.yml",
+            "https://github.com/outstack/enveloper/blob/master/app/config/config_test.yml",
+            "https://github.com/outstack/enveloper/blob/master/app/config/config_prod.yml",
+            "https://github.com/outstack/enveloper/blob/master/app/config/routing.yml",
+            "https://github.com/outstack/enveloper/blob/master/app/config/services.yml",
+            "https://github.com/outstack/enveloper/blob/master/app/config/routing_dev.yml",
+            "https://github.com/outstack/enveloper/blob/master/app/config/config.yml",
+            "https://github.com/outstack/enveloper/blob/master/app/config/doctrine/orm/Email.Email.orm.yml",
+            "https://github.com/outstack/enveloper/blob/master/app/config/doctrine/orm/Delivery.AttemptedDelivery.orm.yml",
+            "https://github.com/outstack/enveloper/blob/master/app/config/doctrine/orm/Email.EmailRequest.orm.yml",
+            "https://github.com/outstack/enveloper/blob/master/tests/integration/pipeprint/docker-compose.yml",
+            "https://github.com/outstack/enveloper/blob/master/tests/data/templates/mjml-example/mjml-example.meta.yml",
+            "https://github.com/outstack/enveloper/blob/master/tests/data/templates/without-text-version/without-text-version.meta.yml",
+            "https://github.com/outstack/enveloper/blob/master/tests/data/templates/message-with-attachments/message-with-attachments.meta.yml",
+            "https://github.com/outstack/enveloper/blob/master/tests/data/templates/template-with-include/template-with-include.meta.yml",
+            "https://github.com/outstack/enveloper/blob/master/tests/data/templates/simplest-test-message/simplest-test-message.meta.yml",
+            "https://github.com/outstack/enveloper/blob/master/tests/data/templates/new-user-welcome/new-user-welcome.meta.yml",
+            "https://github.com/outstack/enveloper/blob/master/tests/data/templates/message-with-static-attachments/message-with-static-attachments.meta.yml",
+            "https://github.com/outstack/enveloper/blob/master/docs/examples/hello-world/hello-world.meta.yml"
+        ],
+        "yaml": [
+            "https://github.com/outstack/enveloper/blob/master/docs/api/openapi.yaml"
+        ],
+        "json": [
+            "https://github.com/outstack/enveloper/blob/master/composer.json",
+            "https://github.com/outstack/enveloper/blob/master/tests/data/templates/message-with-attachments/message-with-attachments.schema.json",
+            "https://github.com/outstack/enveloper/blob/master/tests/data/templates/message-with-static-attachments/message-with-static-attachments.schema.json",
+            "https://github.com/outstack/enveloper/blob/master/docs/examples/hello-world/hello-world.schema.json",
+            "https://github.com/outstack/enveloper/blob/master/docs/api/package.json",
+            "https://github.com/outstack/enveloper/blob/master/schemata/endpoints/outbox/get.responseBody.schema.json",
+            "https://github.com/outstack/enveloper/blob/master/schemata/endpoints/outbox/post.requestBody.schema.json",
+            "https://github.com/outstack/enveloper/blob/master/schemata/endpoints/outbox/getSentMessageById.responseBody.schema.json",
+            "https://github.com/outstack/enveloper/blob/master/schemata/endpoints/outbox/deliveryAttempts/get.responseBody.schema.json",
+            "https://github.com/outstack/enveloper/blob/master/schemata/endpoints/outbox/preview/post.responseBody.schema.json",
+            "https://github.com/outstack/enveloper/blob/master/schemata/endpoints/outbox/preview/post.requestBody.schema.json",
+            "https://github.com/outstack/enveloper/blob/master/schemata/resources/email-request.schema.json",
+            "https://github.com/outstack/enveloper/blob/master/schemata/resources/delivery-attempt.schema.json",
+            "https://github.com/outstack/enveloper/blob/master/schemata/resources/resolved-message.schema.json",
+            "https://github.com/outstack/enveloper/blob/master/schemata/resources/errors/base-error.schema.json",
+            "https://github.com/outstack/enveloper/blob/master/schemata/resources/errors/failed-json-schema-validation.schema.json",
+            "https://github.com/outstack/enveloper/blob/master/schemata/resources/errors/syntax-error.schema.json",
+            "https://github.com/outstack/enveloper/blob/master/schemata/resources/errors/bad-request.schema.json",
+            "https://github.com/outstack/enveloper/blob/master/schemata/resources/errors/not-acceptable.schema.json",
+            "https://github.com/outstack/enveloper/blob/master/schemata/resources/errors/server-error.schema.json",
+            "https://github.com/outstack/enveloper/blob/master/schemata/model/template-parameters.schema.json",
+            "https://github.com/outstack/enveloper/blob/master/schemata/model/message-request.schema.json",
+            "https://github.com/outstack/enveloper/blob/master/schemata/model/participant.schema.json",
+            "https://github.com/outstack/enveloper/blob/master/schemata/model/template-identifier.schema.json"
+        ],
+        "conf": [
+            "https://github.com/outstack/enveloper/blob/master/docs/nginx-vhost.conf",
+            "https://github.com/outstack/enveloper/blob/master/infrastructure/php-fpm/www.conf",
+            "https://github.com/outstack/enveloper/blob/master/infrastructure/php-fpm/php-fpm.conf",
+            "https://github.com/outstack/enveloper/blob/master/infrastructure/nginx/vhost.conf",
+            "https://github.com/outstack/enveloper/blob/master/infrastructure/nginx/nginx.conf"
+        ]
+    }
+}

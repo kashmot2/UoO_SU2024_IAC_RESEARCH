@@ -1,0 +1,20 @@
+{
+    "id": "FIWARE/tutorials.Time-Series-Data",
+    "repo_link": "https://github.com/FIWARE/tutorials.Time-Series-Data",
+    "file_extensions": [
+        ".yml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "ANS",
+        "DOC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/FIWARE/tutorials.Time-Series-Data/blob/master/.github/workflows/ci.yml"
+        ]
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "id": "dpukhkaiev/BRISE2",
+    "repo_link": "https://github.com/dpukhkaiev/BRISE2",
+    "file_extensions": [
+        ".yml",
+        ".json",
+        ".yaml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/dpukhkaiev/BRISE2/blob/master/remote_db.yml",
+            "https://github.com/dpukhkaiev/BRISE2/blob/master/docker-compose.yml",
+            "https://github.com/dpukhkaiev/BRISE2/blob/master/.github/workflows/brise_ci.yml"
+        ],
+        "yaml": [
+            "https://github.com/dpukhkaiev/BRISE2/blob/master/K8s/worker_service-deployment.yaml",
+            "https://github.com/dpukhkaiev/BRISE2/blob/master/K8s/front-end-deployment.yaml",
+            "https://github.com/dpukhkaiev/BRISE2/blob/master/K8s/mongo-db-service-NodePort.yaml",
+            "https://github.com/dpukhkaiev/BRISE2/blob/master/K8s/front-end-service-NodePort.yaml",
+            "https://github.com/dpukhkaiev/BRISE2/blob/master/K8s/worker-deployment.yaml",
+            "https://github.com/dpukhkaiev/BRISE2/blob/master/K8s/event_service-deployment.yaml",
+            "https://github.com/dpukhkaiev/BRISE2/blob/master/K8s/mongo-db-deployment.yaml",
+            "https://github.com/dpukhkaiev/BRISE2/blob/master/K8s/event_service-service-NodePort.yaml",
+            "https://github.com/dpukhkaiev/BRISE2/blob/master/K8s/main-node-deployment.yaml",
+            "https://github.com/dpukhkaiev/BRISE2/blob/master/main_node/logger/logging_config.yaml"
+        ],
+        "json": [
+            "https://github.com/dpukhkaiev/BRISE2/blob/master/deployment_settings/LocalDeployment.json",
+            "https://github.com/dpukhkaiev/BRISE2/blob/master/deployment_settings/RemoteDeployment.json",
+            "https://github.com/dpukhkaiev/BRISE2/blob/master/main_node/stop_condition/schema/stop_condition.schema.json",
+            "https://github.com/dpukhkaiev/BRISE2/blob/master/main_node/Resources/SettingsBRISE.json",
+            "https://github.com/dpukhkaiev/BRISE2/blob/master/main_node/Resources/HyperHeuristic/MHjMetalPySAData.json",
+            "https://github.com/dpukhkaiev/BRISE2/blob/master/main_node/Resources/HyperHeuristic/MHjMetalPySAExperiment.json",
+            "https://github.com/dpukhkaiev/BRISE2/blob/master/main_node/Resources/HyperHeuristic/MHjMetalESData.json",
+            "https://github.com/dpukhkaiev/BRISE2/blob/master/main_node/Resources/HyperHeuristic/MHjMetalPyGAData.json",
+            "https://github.com/dpukhkaiev/BRISE2/blob/master/main_node/Resources/HyperHeuristic/MHjMetalPyESExperiment.json",
+            "https://github.com/dpukhkaiev/BRISE2/blob/master/main_node/Resources/HyperHeuristic/MHjMetalESExperiment.json",
+            "https://github.com/dpukhkaiev/BRISE2/blob/master/main_node/Resources/HyperHeuristic/MHjMetalPyGAExperiment.json",
+            "https://github.com/dpukhkaiev/BRISE2/blob/master/main_node/Resources/HyperHeuristic/MHjMetalPyESData.json",
+            "https://github.com/dpukhkaiev/BRISE2/blob/master/main_node/Resources/HyperHeuristic/HHExperiment.json",
+            "https://github.com/dpukhkaiev/BRISE2/blob/master/main_node/Resources/HyperHeuristic/HHData.json",
+            "https://github.com/dpukhkaiev/BRISE2/blob/master/main_node/Resources/GA/GAExperiment.json",
+            "https://github.com/dpukhkaiev/BRISE2/blob/master/main_node/Resources/GA/GAExperimentData.json",
+            "https://github.com/dpukhkaiev/BRISE2/blob/master/main_node/Resources/EnergyExperiment/EnergyExperimentData(512points).json",
+            "https://github.com/dpukhkaiev/BRISE2/blob/master/main_node/Resources/EnergyExperiment/EnergyExperiment(512points).json",
+            "https://github.com/dpukhkaiev/BRISE2/blob/master/main_node/Resources/EnergyExperiment/EnergyExperiment.json",
+            "https://github.com/dpukhkaiev/BRISE2/blob/master/main_node/Resources/EnergyExperiment/EnergyExperimentData.json",
+            "https://github.com/dpukhkaiev/BRISE2/blob/master/main_node/Resources/schema/experiment_data.schema.json",
+            "https://github.com/dpukhkaiev/BRISE2/blob/master/main_node/Resources/schema/experiment.schema.json",
+            "https://github.com/dpukhkaiev/BRISE2/blob/master/main_node/Resources/SA/SAExperimentData.json",
+            "https://github.com/dpukhkaiev/BRISE2/blob/master/main_node/Resources/SA/SAExperiment.json",
+            "https://github.com/dpukhkaiev/BRISE2/blob/master/main_node/Resources/synthetic_problems/AckleyHimmelblauData.json",
+            "https://github.com/dpukhkaiev/BRISE2/blob/master/main_node/Resources/synthetic_problems/AckleyHimmelblauExperiment.json",
+            "https://github.com/dpukhkaiev/BRISE2/blob/master/main_node/model/schema/model.schema.json",
+            "https://github.com/dpukhkaiev/BRISE2/blob/master/main_node/repeater/results_check/outliers_detection/schema/outlier_detector.schema.json",
+            "https://github.com/dpukhkaiev/BRISE2/blob/master/main_node/repeater/schema/repeater.schema.json",
+            "https://github.com/dpukhkaiev/BRISE2/blob/master/event_service/bin/definitions.json",
+            "https://github.com/dpukhkaiev/BRISE2/blob/master/front_end/angular.json",
+            "https://github.com/dpukhkaiev/BRISE2/blob/master/front_end/package-lock.json",
+            "https://github.com/dpukhkaiev/BRISE2/blob/master/front_end/package.json",
+            "https://github.com/dpukhkaiev/BRISE2/blob/master/front_end/tslint.json",
+            "https://github.com/dpukhkaiev/BRISE2/blob/master/front_end/tsconfig.json",
+            "https://github.com/dpukhkaiev/BRISE2/blob/master/front_end/e2e/tsconfig.e2e.json",
+            "https://github.com/dpukhkaiev/BRISE2/blob/master/front_end/src/tsconfig.app.json",
+            "https://github.com/dpukhkaiev/BRISE2/blob/master/front_end/src/tsconfig.spec.json"
+        ]
+    }
+}

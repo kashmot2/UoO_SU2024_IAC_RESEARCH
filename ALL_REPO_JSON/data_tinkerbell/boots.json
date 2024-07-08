@@ -1,0 +1,46 @@
+{
+    "id": "tinkerbell/boots",
+    "repo_link": "https://github.com/tinkerbell/boots",
+    "file_extensions": [
+        ".yml",
+        ".yaml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "GOOG",
+        "ANS",
+        "DOC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/tinkerbell/boots/blob/master/.golangci.yml",
+            "https://github.com/tinkerbell/boots/blob/master/docker-compose.yml",
+            "https://github.com/tinkerbell/boots/blob/master/.github/codecov.yml",
+            "https://github.com/tinkerbell/boots/blob/master/.github/mergify.yml",
+            "https://github.com/tinkerbell/boots/blob/master/.github/settings.yml",
+            "https://github.com/tinkerbell/boots/blob/master/.github/dependabot.yml"
+        ],
+        "yaml": [
+            "https://github.com/tinkerbell/boots/blob/master/test/hardware.yaml",
+            "https://github.com/tinkerbell/boots/blob/master/test/otel-collector.yaml",
+            "https://github.com/tinkerbell/boots/blob/master/internal/backend/file/testdata/example.yaml",
+            "https://github.com/tinkerbell/boots/blob/master/.github/workflows/ci.yaml",
+            "https://github.com/tinkerbell/boots/blob/master/.github/workflows/tags.yaml",
+            "https://github.com/tinkerbell/boots/blob/master/manifests/kind/config.yaml",
+            "https://github.com/tinkerbell/boots/blob/master/manifests/kustomize/overlays/k3d/kustomization.yaml",
+            "https://github.com/tinkerbell/boots/blob/master/manifests/kustomize/overlays/k3d/deployment_patch.yaml",
+            "https://github.com/tinkerbell/boots/blob/master/manifests/kustomize/overlays/kind/kustomization.yaml",
+            "https://github.com/tinkerbell/boots/blob/master/manifests/kustomize/overlays/kind/deployment_patch.yaml",
+            "https://github.com/tinkerbell/boots/blob/master/manifests/kustomize/overlays/dev/ingress.yaml",
+            "https://github.com/tinkerbell/boots/blob/master/manifests/kustomize/overlays/dev/kustomization.yaml",
+            "https://github.com/tinkerbell/boots/blob/master/manifests/kustomize/overlays/dev/service.yaml",
+            "https://github.com/tinkerbell/boots/blob/master/manifests/kustomize/base/deployment.yaml",
+            "https://github.com/tinkerbell/boots/blob/master/manifests/kustomize/base/kustomization.yaml",
+            "https://github.com/tinkerbell/boots/blob/master/manifests/kustomize/base/rbac.yaml",
+            "https://github.com/tinkerbell/boots/blob/master/manifests/kustomize/base/namespace.yaml"
+        ]
+    }
+}

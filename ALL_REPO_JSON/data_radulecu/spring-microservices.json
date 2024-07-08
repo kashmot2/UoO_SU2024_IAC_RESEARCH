@@ -1,0 +1,53 @@
+{
+    "id": "radulecu/spring-microservices",
+    "repo_link": "https://github.com/radulecu/spring-microservices",
+    "file_extensions": [
+        ".yml",
+        ".json",
+        ".conf",
+        ".yaml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/radulecu/spring-microservices/blob/master/docker-compose.yml",
+            "https://github.com/radulecu/spring-microservices/blob/master/.travis.yml"
+        ],
+        "yaml": [
+            "https://github.com/radulecu/spring-microservices/blob/master/kubernetes/maria-db/maria-db.yaml",
+            "https://github.com/radulecu/spring-microservices/blob/master/kubernetes/ingress/ingress.yaml",
+            "https://github.com/radulecu/spring-microservices/blob/master/kubernetes/applications/echo-service.yaml",
+            "https://github.com/radulecu/spring-microservices/blob/master/kubernetes/applications/sso-auth-service.yaml",
+            "https://github.com/radulecu/spring-microservices/blob/master/kubernetes/applications/bookmark-service.yaml",
+            "https://github.com/radulecu/spring-microservices/blob/master/kubernetes/applications/eureka-service.yaml",
+            "https://github.com/radulecu/spring-microservices/blob/master/kubernetes/applications/app-logs-db-pcv.yaml",
+            "https://github.com/radulecu/spring-microservices/blob/master/kubernetes/applications/resource-gateway-service.yaml",
+            "https://github.com/radulecu/spring-microservices/blob/master/kubernetes/applications/passport-service.yaml",
+            "https://github.com/radulecu/spring-microservices/blob/master/kubernetes/applications/contact-service.yaml",
+            "https://github.com/radulecu/spring-microservices/blob/master/kubernetes/persistence-volumes/nfs-persistence-volumes.yaml",
+            "https://github.com/radulecu/spring-microservices/blob/master/kubernetes/persistence-volumes/nfs-persistence-volumes-cleanup.yaml"
+        ],
+        "json": [
+            "https://github.com/radulecu/spring-microservices/blob/master/postman-collections/springMicroservicesHttpLocalhost.postman_environment.json",
+            "https://github.com/radulecu/spring-microservices/blob/master/postman-collections/package.json",
+            "https://github.com/radulecu/spring-microservices/blob/master/postman-collections/SpringMicroservices.postman_collection.json",
+            "https://github.com/radulecu/spring-microservices/blob/master/postman-collections/springMicroservicesHttpsLocalhost.postman_environment.json",
+            "https://github.com/radulecu/spring-microservices/blob/master/applications/passport-service/swagger/contact-service-swagger.json",
+            "https://github.com/radulecu/spring-microservices/blob/master/applications/passport-service/swagger/bookmark-service-swagger.json"
+        ],
+        "conf": [
+            "https://github.com/radulecu/spring-microservices/blob/master/nginx/nginx.conf"
+        ]
+    }
+}

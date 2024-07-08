@@ -1,0 +1,40 @@
+{
+    "id": "OpenLiberty/liberty-bikes",
+    "repo_link": "https://github.com/OpenLiberty/liberty-bikes",
+    "file_extensions": [
+        ".yml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/OpenLiberty/liberty-bikes/blob/master/manifest.yml",
+            "https://github.com/OpenLiberty/liberty-bikes/blob/master/docker-compose.yml",
+            "https://github.com/OpenLiberty/liberty-bikes/blob/master/.travis.yml",
+            "https://github.com/OpenLiberty/liberty-bikes/blob/master/monitoring/datasource/datasource.yml",
+            "https://github.com/OpenLiberty/liberty-bikes/blob/master/monitoring/datasource-local/datasource.yml",
+            "https://github.com/OpenLiberty/liberty-bikes/blob/master/monitoring/prometheus/prometheus.yml",
+            "https://github.com/OpenLiberty/liberty-bikes/blob/master/monitoring/dashboardList/dashboardList.yml"
+        ],
+        "json": [
+            "https://github.com/OpenLiberty/liberty-bikes/blob/master/frontend/prebuild/angular.json",
+            "https://github.com/OpenLiberty/liberty-bikes/blob/master/frontend/prebuild/package-lock.json",
+            "https://github.com/OpenLiberty/liberty-bikes/blob/master/frontend/prebuild/package.json",
+            "https://github.com/OpenLiberty/liberty-bikes/blob/master/frontend/prebuild/tslint.json",
+            "https://github.com/OpenLiberty/liberty-bikes/blob/master/frontend/prebuild/tsconfig.json",
+            "https://github.com/OpenLiberty/liberty-bikes/blob/master/frontend/prebuild/e2e/tsconfig.e2e.json",
+            "https://github.com/OpenLiberty/liberty-bikes/blob/master/frontend/prebuild/src/tsconfig.app.json",
+            "https://github.com/OpenLiberty/liberty-bikes/blob/master/frontend/prebuild/src/tsconfig.spec.json",
+            "https://github.com/OpenLiberty/liberty-bikes/blob/master/monitoring/grafanaDashboardConfig/grafanaDashboardConfig.json"
+        ]
+    }
+}

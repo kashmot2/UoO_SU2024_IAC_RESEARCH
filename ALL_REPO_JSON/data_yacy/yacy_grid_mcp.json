@@ -1,0 +1,50 @@
+{
+    "id": "yacy/yacy_grid_mcp",
+    "repo_link": "https://github.com/yacy/yacy_grid_mcp",
+    "file_extensions": [
+        ".yaml",
+        ".yml",
+        ".json",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/yacy/yacy_grid_mcp/blob/master/docker-compose.yml",
+            "https://github.com/yacy/yacy_grid_mcp/blob/master/.travis.yml",
+            "https://github.com/yacy/yacy_grid_mcp/blob/master/docker/all-in-one/docker-compose.yml",
+            "https://github.com/yacy/yacy_grid_mcp/blob/master/.github/FUNDING.yml",
+            "https://github.com/yacy/yacy_grid_mcp/blob/master/conf/elasticsearch.yml"
+        ],
+        "yaml": [
+            "https://github.com/yacy/yacy_grid_mcp/blob/master/cloud.yaml",
+            "https://github.com/yacy/yacy_grid_mcp/blob/master/docker/all-in-one/elasticsearch/es-svc.yaml",
+            "https://github.com/yacy/yacy_grid_mcp/blob/master/docker/all-in-one/elasticsearch/es-master-rc.yaml",
+            "https://github.com/yacy/yacy_grid_mcp/blob/master/docker/all-in-one/elasticsearch/es-data-rc.yaml",
+            "https://github.com/yacy/yacy_grid_mcp/blob/master/docker/all-in-one/elasticsearch/service-account.yaml",
+            "https://github.com/yacy/yacy_grid_mcp/blob/master/docker/all-in-one/elasticsearch/es-client-rc.yaml",
+            "https://github.com/yacy/yacy_grid_mcp/blob/master/docker/all-in-one/elasticsearch/es-discovery-svc.yaml"
+        ],
+        "json": [
+            "https://github.com/yacy/yacy_grid_mcp/blob/master/docs/kibana-dashboard.json",
+            "https://github.com/yacy/yacy_grid_mcp/blob/master/conf/mappings/crawler.json",
+            "https://github.com/yacy/yacy_grid_mcp/blob/master/conf/mappings/query.json",
+            "https://github.com/yacy/yacy_grid_mcp/blob/master/conf/mappings/crawlstart.json",
+            "https://github.com/yacy/yacy_grid_mcp/blob/master/conf/mappings/web.json"
+        ],
+        "conf": [
+            "https://github.com/yacy/yacy_grid_mcp/blob/master/conf/rabbitmq.conf"
+        ]
+    }
+}

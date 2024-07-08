@@ -1,0 +1,47 @@
+{
+    "id": "danionescu0/docker-flask-mongodb-example",
+    "repo_link": "https://github.com/danionescu0/docker-flask-mongodb-example",
+    "file_extensions": [
+        ".yaml",
+        ".yml",
+        ".json",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/danionescu0/docker-flask-mongodb-example/blob/master/docker-compose.test-github.yml",
+            "https://github.com/danionescu0/docker-flask-mongodb-example/blob/master/docker-compose.yml",
+            "https://github.com/danionescu0/docker-flask-mongodb-example/blob/master/.github/workflows/unit_tests.yml",
+            "https://github.com/danionescu0/docker-flask-mongodb-example/blob/master/.github/workflows/test_build.yml",
+            "https://github.com/danionescu0/docker-flask-mongodb-example/blob/master/.github/workflows/black.yml"
+        ],
+        "yaml": [
+            "https://github.com/danionescu0/docker-flask-mongodb-example/blob/master/.pre-commit-config.yaml",
+            "https://github.com/danionescu0/docker-flask-mongodb-example/blob/master/kubernetes/mongodb-service.yaml",
+            "https://github.com/danionescu0/docker-flask-mongodb-example/blob/master/kubernetes/fulltext-search-deplyment.yaml",
+            "https://github.com/danionescu0/docker-flask-mongodb-example/blob/master/kubernetes/random-demo-service.yaml",
+            "https://github.com/danionescu0/docker-flask-mongodb-example/blob/master/kubernetes/mongodb-deplyment.yaml",
+            "https://github.com/danionescu0/docker-flask-mongodb-example/blob/master/kubernetes/fulltext-serarch-service.yaml",
+            "https://github.com/danionescu0/docker-flask-mongodb-example/blob/master/kubernetes/random-demo-deplyment.yaml"
+        ],
+        "json": [
+            "https://github.com/danionescu0/docker-flask-mongodb-example/blob/master/krakend.json",
+            "https://github.com/danionescu0/docker-flask-mongodb-example/blob/master/docker-grafana/datasources/influx.json"
+        ],
+        "conf": [
+            "https://github.com/danionescu0/docker-flask-mongodb-example/blob/master/docker-redis/redis.conf"
+        ]
+    }
+}

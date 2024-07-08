@@ -1,0 +1,35 @@
+{
+    "id": "mimo-labs/core-server",
+    "repo_link": "https://github.com/mimo-labs/core-server",
+    "file_extensions": [
+        ".yml",
+        ".json",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/mimo-labs/core-server/blob/master/docker-compose.yml",
+            "https://github.com/mimo-labs/core-server/blob/master/.travis.yml",
+            "https://github.com/mimo-labs/core-server/blob/master/.github/workflows/main.yml"
+        ],
+        "json": [
+            "https://github.com/mimo-labs/core-server/blob/master/mockserver/initial.json",
+            "https://github.com/mimo-labs/core-server/blob/master/mockserver/.vscode/settings.json",
+            "https://github.com/mimo-labs/core-server/blob/master/mockserver/.vscode/launch.json"
+        ],
+        "conf": [
+            "https://github.com/mimo-labs/core-server/blob/master/conf/nginx.conf"
+        ]
+    }
+}

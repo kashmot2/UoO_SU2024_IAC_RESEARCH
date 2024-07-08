@@ -1,0 +1,74 @@
+{
+    "id": "collinbarrett/FilterLists",
+    "repo_link": "https://github.com/collinbarrett/FilterLists",
+    "file_extensions": [
+        ".yaml",
+        ".json",
+        ".conf",
+        ".yml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/collinbarrett/FilterLists/blob/master/.github/FUNDING.yml",
+            "https://github.com/collinbarrett/FilterLists/blob/master/.github/dependabot.yml",
+            "https://github.com/collinbarrett/FilterLists/blob/master/.github/workflows/codeql.yml",
+            "https://github.com/collinbarrett/FilterLists/blob/master/docker-compose/docker-compose.override.yml",
+            "https://github.com/collinbarrett/FilterLists/blob/master/docker-compose/docker-compose.directory.migrations.tests.yml",
+            "https://github.com/collinbarrett/FilterLists/blob/master/docker-compose/docker-compose.yml",
+            "https://github.com/collinbarrett/FilterLists/blob/master/docker-compose/docker-compose.prod.yml",
+            "https://github.com/collinbarrett/FilterLists/blob/master/docker-compose/docker-compose.prod.build.yml"
+        ],
+        "yaml": [
+            "https://github.com/collinbarrett/FilterLists/blob/master/web/azure-pipelines.yaml",
+            "https://github.com/collinbarrett/FilterLists/blob/master/services/azure-pipelines.api-docs.yaml",
+            "https://github.com/collinbarrett/FilterLists/blob/master/services/Directory/azure-pipelines.api.yaml",
+            "https://github.com/collinbarrett/FilterLists/blob/master/services/Directory/azure-pipelines.migrate.yaml",
+            "https://github.com/collinbarrett/FilterLists/blob/master/reverse-proxy/azure-pipelines.yaml"
+        ],
+        "json": [
+            "https://github.com/collinbarrett/FilterLists/blob/master/web/package-lock.json",
+            "https://github.com/collinbarrett/FilterLists/blob/master/web/package.json",
+            "https://github.com/collinbarrett/FilterLists/blob/master/web/tsconfig.json",
+            "https://github.com/collinbarrett/FilterLists/blob/master/web/public/manifest.json",
+            "https://github.com/collinbarrett/FilterLists/blob/master/services/global.json",
+            "https://github.com/collinbarrett/FilterLists/blob/master/services/Directory/FilterLists.Directory.Api/appsettings.Development.json",
+            "https://github.com/collinbarrett/FilterLists/blob/master/services/Directory/FilterLists.Directory.Api/Properties/launchSettings.json",
+            "https://github.com/collinbarrett/FilterLists/blob/master/services/Directory/data/FilterListViewUrl.json",
+            "https://github.com/collinbarrett/FilterLists/blob/master/services/Directory/data/Language.json",
+            "https://github.com/collinbarrett/FilterLists/blob/master/services/Directory/data/Dependent.json",
+            "https://github.com/collinbarrett/FilterLists/blob/master/services/Directory/data/FilterListLanguage.json",
+            "https://github.com/collinbarrett/FilterLists/blob/master/services/Directory/data/FilterList.json",
+            "https://github.com/collinbarrett/FilterLists/blob/master/services/Directory/data/SoftwareSyntax.json",
+            "https://github.com/collinbarrett/FilterLists/blob/master/services/Directory/data/FilterListTag.json",
+            "https://github.com/collinbarrett/FilterLists/blob/master/services/Directory/data/Fork.json",
+            "https://github.com/collinbarrett/FilterLists/blob/master/services/Directory/data/License.json",
+            "https://github.com/collinbarrett/FilterLists/blob/master/services/Directory/data/Tag.json",
+            "https://github.com/collinbarrett/FilterLists/blob/master/services/Directory/data/Merge.json",
+            "https://github.com/collinbarrett/FilterLists/blob/master/services/Directory/data/Syntax.json",
+            "https://github.com/collinbarrett/FilterLists/blob/master/services/Directory/data/Software.json",
+            "https://github.com/collinbarrett/FilterLists/blob/master/services/Directory/data/Maintainer.json",
+            "https://github.com/collinbarrett/FilterLists/blob/master/services/Directory/data/FilterListMaintainer.json",
+            "https://github.com/collinbarrett/FilterLists/blob/master/services/Directory/data/FilterListSyntax.json"
+        ],
+        "conf": [
+            "https://github.com/collinbarrett/FilterLists/blob/master/web/server/conf.d/default.conf",
+            "https://github.com/collinbarrett/FilterLists/blob/master/reverse-proxy/conf.d.dev/default.conf",
+            "https://github.com/collinbarrett/FilterLists/blob/master/reverse-proxy/location-includes/proxy.conf",
+            "https://github.com/collinbarrett/FilterLists/blob/master/reverse-proxy/location-includes/headers.conf",
+            "https://github.com/collinbarrett/FilterLists/blob/master/reverse-proxy/conf.d/default.conf",
+            "https://github.com/collinbarrett/FilterLists/blob/master/reverse-proxy/server-includes/security.conf"
+        ]
+    }
+}

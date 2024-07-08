@@ -1,0 +1,32 @@
+{
+    "id": "lblod/app-toezicht-abb",
+    "repo_link": "https://github.com/lblod/app-toezicht-abb",
+    "file_extensions": [
+        ".yml",
+        ".conf",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/lblod/app-toezicht-abb/blob/master/docker-compose.dev.yml",
+            "https://github.com/lblod/app-toezicht-abb/blob/master/docker-compose.yml"
+        ],
+        "json": [
+            "https://github.com/lblod/app-toezicht-abb/blob/master/config/search/config.json"
+        ],
+        "conf": [
+            "https://github.com/lblod/app-toezicht-abb/blob/master/config/frontend/nginx.conf"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "id": "shopgate/connect-integration-sdk",
+    "repo_link": "https://github.com/shopgate/connect-integration-sdk",
+    "file_extensions": [
+        ".yml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/shopgate/connect-integration-sdk/blob/master/docker-compose.yml",
+            "https://github.com/shopgate/connect-integration-sdk/blob/master/.github/workflows/check_and_deploy.yml"
+        ],
+        "json": [
+            "https://github.com/shopgate/connect-integration-sdk/blob/master/composer.json"
+        ]
+    }
+}

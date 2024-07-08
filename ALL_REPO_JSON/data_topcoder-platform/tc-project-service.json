@@ -1,0 +1,59 @@
+{
+    "id": "topcoder-platform/tc-project-service",
+    "repo_link": "https://github.com/topcoder-platform/tc-project-service",
+    "file_extensions": [
+        ".json",
+        ".yaml",
+        ".yml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/topcoder-platform/tc-project-service/blob/master/.elasticbeanstalk/config.yml",
+            "https://github.com/topcoder-platform/tc-project-service/blob/master/local/full/docker-compose.yml",
+            "https://github.com/topcoder-platform/tc-project-service/blob/master/local/full/docker-compose.base.yml",
+            "https://github.com/topcoder-platform/tc-project-service/blob/master/local/kafka/docker-compose.yml",
+            "https://github.com/topcoder-platform/tc-project-service/blob/master/local/light/docker-compose.yml",
+            "https://github.com/topcoder-platform/tc-project-service/blob/master/.circleci/config.yml"
+        ],
+        "yaml": [
+            "https://github.com/topcoder-platform/tc-project-service/blob/master/docs/swagger.yaml"
+        ],
+        "json": [
+            "https://github.com/topcoder-platform/tc-project-service/blob/master/Dockerrun.aws.json",
+            "https://github.com/topcoder-platform/tc-project-service/blob/master/package-lock.json",
+            "https://github.com/topcoder-platform/tc-project-service/blob/master/package.json",
+            "https://github.com/topcoder-platform/tc-project-service/blob/master/migrations/bookmarks/Project.db.dump.json",
+            "https://github.com/topcoder-platform/tc-project-service/blob/master/config/custom-environment-variables.json",
+            "https://github.com/topcoder-platform/tc-project-service/blob/master/config/production.json",
+            "https://github.com/topcoder-platform/tc-project-service/blob/master/config/development.json",
+            "https://github.com/topcoder-platform/tc-project-service/blob/master/config/test.json",
+            "https://github.com/topcoder-platform/tc-project-service/blob/master/config/default.json",
+            "https://github.com/topcoder-platform/tc-project-service/blob/master/docs/Project API.postman_environment.json",
+            "https://github.com/topcoder-platform/tc-project-service/blob/master/docs/Project API.postman_collection.json",
+            "https://github.com/topcoder-platform/tc-project-service/blob/master/docs/guides/customer-payments/react-stripe-js/package.json",
+            "https://github.com/topcoder-platform/tc-project-service/blob/master/local/mock-services/services.json",
+            "https://github.com/topcoder-platform/tc-project-service/blob/master/local/mock-services/package.json",
+            "https://github.com/topcoder-platform/tc-project-service/blob/master/scripts/import-from-api/projects.json",
+            "https://github.com/topcoder-platform/tc-project-service/blob/master/scripts/es-db-compare/verification/Metadata.db.dump.json",
+            "https://github.com/topcoder-platform/tc-project-service/blob/master/scripts/es-db-compare/verification/Metadata.es.dump.json",
+            "https://github.com/topcoder-platform/tc-project-service/blob/master/scripts/es-db-compare/verification/Project.es.dump.json",
+            "https://github.com/topcoder-platform/tc-project-service/blob/master/scripts/es-db-compare/verification/Project.db.dump.json",
+            "https://github.com/topcoder-platform/tc-project-service/blob/master/scripts/es-db-compare/verification/Timeline.es.dump.json",
+            "https://github.com/topcoder-platform/tc-project-service/blob/master/scripts/es-db-compare/verification/Timeline.db.dump.json",
+            "https://github.com/topcoder-platform/tc-project-service/blob/master/data/demo-data.json",
+            "https://github.com/topcoder-platform/tc-project-service/blob/master/src/routes/projectReports/mockFiles/summary.json",
+            "https://github.com/topcoder-platform/tc-project-service/blob/master/src/routes/projectReports/mockFiles/projectBudget.json"
+        ]
+    }
+}

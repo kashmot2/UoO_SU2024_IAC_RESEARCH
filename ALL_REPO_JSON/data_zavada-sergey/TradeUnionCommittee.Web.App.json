@@ -1,0 +1,45 @@
+{
+    "id": "zavada-sergey/TradeUnionCommittee.Web.App",
+    "repo_link": "https://github.com/zavada-sergey/TradeUnionCommittee.Web.App",
+    "file_extensions": [
+        ".json",
+        ".yml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/zavada-sergey/TradeUnionCommittee.Web.App/blob/master/src/docker-compose.yml"
+        ],
+        "json": [
+            "https://github.com/zavada-sergey/TradeUnionCommittee.Web.App/blob/master/src/appsettings.api.json",
+            "https://github.com/zavada-sergey/TradeUnionCommittee.Web.App/blob/master/src/appsettings.razor.web.gui.json",
+            "https://github.com/zavada-sergey/TradeUnionCommittee.Web.App/blob/master/src/TradeUnionCommittee.React.Web.GUI/.yo-rc.json",
+            "https://github.com/zavada-sergey/TradeUnionCommittee.Web.App/blob/master/src/TradeUnionCommittee.React.Web.GUI/package-lock.json",
+            "https://github.com/zavada-sergey/TradeUnionCommittee.Web.App/blob/master/src/TradeUnionCommittee.React.Web.GUI/package.json",
+            "https://github.com/zavada-sergey/TradeUnionCommittee.Web.App/blob/master/src/TradeUnionCommittee.React.Web.GUI/.eslintrc.json",
+            "https://github.com/zavada-sergey/TradeUnionCommittee.Web.App/blob/master/src/TradeUnionCommittee.React.Web.GUI/public/manifest.json",
+            "https://github.com/zavada-sergey/TradeUnionCommittee.Web.App/blob/master/src/TradeUnionCommittee.Api/src/TradeUnionCommittee.Api/appsettings.json",
+            "https://github.com/zavada-sergey/TradeUnionCommittee.Web.App/blob/master/src/TradeUnionCommittee.Api/src/TradeUnionCommittee.Api/appsettings.Development.json",
+            "https://github.com/zavada-sergey/TradeUnionCommittee.Web.App/blob/master/src/TradeUnionCommittee.Api/src/TradeUnionCommittee.Api/appsettings.Production.json",
+            "https://github.com/zavada-sergey/TradeUnionCommittee.Web.App/blob/master/src/TradeUnionCommittee.Api/src/TradeUnionCommittee.Api/Properties/launchSettings.json",
+            "https://github.com/zavada-sergey/TradeUnionCommittee.Web.App/blob/master/src/TradeUnionCommittee.Razor.Web.GUI/src/TradeUnionCommittee.Razor.Web.GUI/appsettings.json",
+            "https://github.com/zavada-sergey/TradeUnionCommittee.Web.App/blob/master/src/TradeUnionCommittee.Razor.Web.GUI/src/TradeUnionCommittee.Razor.Web.GUI/bundleconfig.json",
+            "https://github.com/zavada-sergey/TradeUnionCommittee.Web.App/blob/master/src/TradeUnionCommittee.Razor.Web.GUI/src/TradeUnionCommittee.Razor.Web.GUI/appsettings.Development.json",
+            "https://github.com/zavada-sergey/TradeUnionCommittee.Web.App/blob/master/src/TradeUnionCommittee.Razor.Web.GUI/src/TradeUnionCommittee.Razor.Web.GUI/appsettings.Production.json",
+            "https://github.com/zavada-sergey/TradeUnionCommittee.Web.App/blob/master/src/TradeUnionCommittee.Razor.Web.GUI/src/TradeUnionCommittee.Razor.Web.GUI/wwwroot/lib/bootstrap/.bower.json",
+            "https://github.com/zavada-sergey/TradeUnionCommittee.Web.App/blob/master/src/TradeUnionCommittee.Razor.Web.GUI/src/TradeUnionCommittee.Razor.Web.GUI/wwwroot/lib/jquery/.bower.json",
+            "https://github.com/zavada-sergey/TradeUnionCommittee.Web.App/blob/master/src/TradeUnionCommittee.Razor.Web.GUI/src/TradeUnionCommittee.Razor.Web.GUI/wwwroot/lib/jquery-validation-unobtrusive/.bower.json",
+            "https://github.com/zavada-sergey/TradeUnionCommittee.Web.App/blob/master/src/TradeUnionCommittee.Razor.Web.GUI/src/TradeUnionCommittee.Razor.Web.GUI/wwwroot/lib/jquery-validation/.bower.json",
+            "https://github.com/zavada-sergey/TradeUnionCommittee.Web.App/blob/master/src/TradeUnionCommittee.Razor.Web.GUI/src/TradeUnionCommittee.Razor.Web.GUI/Properties/launchSettings.json"
+        ]
+    }
+}

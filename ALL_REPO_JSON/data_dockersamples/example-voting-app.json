@@ -1,0 +1,48 @@
+{
+    "id": "dockersamples/example-voting-app",
+    "repo_link": "https://github.com/dockersamples/example-voting-app",
+    "file_extensions": [
+        ".yml",
+        ".json",
+        ".yaml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/dockersamples/example-voting-app/blob/master/docker-compose.images.yml",
+            "https://github.com/dockersamples/example-voting-app/blob/master/docker-stack.yml",
+            "https://github.com/dockersamples/example-voting-app/blob/master/docker-compose.yml",
+            "https://github.com/dockersamples/example-voting-app/blob/master/result/docker-compose.test.yml",
+            "https://github.com/dockersamples/example-voting-app/blob/master/.github/dependabot.yml"
+        ],
+        "yaml": [
+            "https://github.com/dockersamples/example-voting-app/blob/master/k8s-specifications/result-deployment.yaml",
+            "https://github.com/dockersamples/example-voting-app/blob/master/k8s-specifications/vote-service.yaml",
+            "https://github.com/dockersamples/example-voting-app/blob/master/k8s-specifications/result-service.yaml",
+            "https://github.com/dockersamples/example-voting-app/blob/master/k8s-specifications/db-service.yaml",
+            "https://github.com/dockersamples/example-voting-app/blob/master/k8s-specifications/db-deployment.yaml",
+            "https://github.com/dockersamples/example-voting-app/blob/master/k8s-specifications/redis-service.yaml",
+            "https://github.com/dockersamples/example-voting-app/blob/master/k8s-specifications/vote-deployment.yaml",
+            "https://github.com/dockersamples/example-voting-app/blob/master/k8s-specifications/worker-deployment.yaml",
+            "https://github.com/dockersamples/example-voting-app/blob/master/k8s-specifications/redis-deployment.yaml",
+            "https://github.com/dockersamples/example-voting-app/blob/master/.github/workflows/call-docker-build-worker.yaml",
+            "https://github.com/dockersamples/example-voting-app/blob/master/.github/workflows/call-docker-build-result.yaml",
+            "https://github.com/dockersamples/example-voting-app/blob/master/.github/workflows/call-docker-build-vote.yaml"
+        ],
+        "json": [
+            "https://github.com/dockersamples/example-voting-app/blob/master/result/package-lock.json",
+            "https://github.com/dockersamples/example-voting-app/blob/master/result/package.json",
+            "https://github.com/dockersamples/example-voting-app/blob/master/.vscode/launch.json"
+        ]
+    }
+}

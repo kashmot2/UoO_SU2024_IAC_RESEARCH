@@ -1,0 +1,45 @@
+{
+    "id": "cloudlibz/clocal-azure",
+    "repo_link": "https://github.com/cloudlibz/clocal-azure",
+    "file_extensions": [
+        ".json",
+        ".yml",
+        ".hcl"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/cloudlibz/clocal-azure/blob/master/_config.yml",
+            "https://github.com/cloudlibz/clocal-azure/blob/master/docker-compose.yml"
+        ],
+        "json": [
+            "https://github.com/cloudlibz/clocal-azure/blob/master/package-lock.json",
+            "https://github.com/cloudlibz/clocal-azure/blob/master/package.json",
+            "https://github.com/cloudlibz/clocal-azure/blob/master/example/azure-api-app-service/api.json",
+            "https://github.com/cloudlibz/clocal-azure/blob/master/example/azure-api-app-service/lib/contacts.json",
+            "https://github.com/cloudlibz/clocal-azure/blob/master/example/azure-keyvault/package-lock.json",
+            "https://github.com/cloudlibz/clocal-azure/blob/master/example/azure-keyvault/package.json",
+            "https://github.com/cloudlibz/clocal-azure/blob/master/example/azure-functions/function-sample/host.json",
+            "https://github.com/cloudlibz/clocal-azure/blob/master/example/azure-functions/function-sample/HttpTriggerJS/function.json",
+            "https://github.com/cloudlibz/clocal-azure/blob/master/example/azure-functions/function-sample/.vscode/extensions.json",
+            "https://github.com/cloudlibz/clocal-azure/blob/master/example/azure-storage/package-lock.json",
+            "https://github.com/cloudlibz/clocal-azure/blob/master/example/azure-storage/package.json",
+            "https://github.com/cloudlibz/clocal-azure/blob/master/example/azure-cosmosdb/package-lock.json",
+            "https://github.com/cloudlibz/clocal-azure/blob/master/example/azure-cosmosdb/package.json",
+            "https://github.com/cloudlibz/clocal-azure/blob/master/src/.temp/function.json",
+            "https://github.com/cloudlibz/clocal-azure/blob/master/src/services/azure-api-app-service/Image/ContactList/package-lock.json",
+            "https://github.com/cloudlibz/clocal-azure/blob/master/src/services/azure-api-app-service/Image/ContactList/package.json",
+            "https://github.com/cloudlibz/clocal-azure/blob/master/src/services/azure-api-app-service/Image/ContactList/config/api.json",
+            "https://github.com/cloudlibz/clocal-azure/blob/master/src/services/azure-api-app-service/Image/ContactList/lib/contacts.json"
+        ]
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "id": "pravega/pravega",
+    "repo_link": "https://github.com/pravega/pravega",
+    "file_extensions": [
+        ".yml",
+        ".json",
+        ".tf",
+        ".yaml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "TF",
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "OT",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/pravega/pravega/blob/master/.codecov.yml",
+            "https://github.com/pravega/pravega/blob/master/.travis.yml",
+            "https://github.com/pravega/pravega/blob/master/documentation/src/mkdocs.yml",
+            "https://github.com/pravega/pravega/blob/master/docker/compose/docker-compose-extendeds3.yml",
+            "https://github.com/pravega/pravega/blob/master/docker/compose/docker-compose-nfs-mount.yml",
+            "https://github.com/pravega/pravega/blob/master/docker/compose/docker-compose.yml",
+            "https://github.com/pravega/pravega/blob/master/docker/compose/docker-compose-nfs.yml",
+            "https://github.com/pravega/pravega/blob/master/docker/compose/swarm/pravega.yml",
+            "https://github.com/pravega/pravega/blob/master/docker/compose/swarm/zookeeper.yml",
+            "https://github.com/pravega/pravega/blob/master/docker/compose/swarm/hdfs.yml",
+            "https://github.com/pravega/pravega/blob/master/deployment/aws/installer/entry_point_template.yml",
+            "https://github.com/pravega/pravega/blob/master/deployment/aws/installer/roles/install-prereqs/tasks/main.yml",
+            "https://github.com/pravega/pravega/blob/master/deployment/aws/installer/roles/install-controller/tasks/main.yml",
+            "https://github.com/pravega/pravega/blob/master/deployment/aws/installer/roles/install-zk/tasks/main.yml",
+            "https://github.com/pravega/pravega/blob/master/deployment/aws/installer/roles/install-zk/defaults/main.yml",
+            "https://github.com/pravega/pravega/blob/master/deployment/aws/installer/roles/install-bk/tasks/main.yml",
+            "https://github.com/pravega/pravega/blob/master/deployment/aws/installer/roles/install-hosts/tasks/main.yml",
+            "https://github.com/pravega/pravega/blob/master/deployment/aws/installer/data/variable_template.yml",
+            "https://github.com/pravega/pravega/blob/master/.github/workflows/gradle.yml"
+        ],
+        "yaml": [
+            "https://github.com/pravega/pravega/blob/master/test/system/src/test/resources/secret.yaml",
+            "https://github.com/pravega/pravega/blob/master/shared/controller-api/src/main/swagger/Controller.yaml",
+            "https://github.com/pravega/pravega/blob/master/deployment/aws-eks/pravega-cert.yaml",
+            "https://github.com/pravega/pravega/blob/master/deployment/aws-eks/influxdb.yaml",
+            "https://github.com/pravega/pravega/blob/master/deployment/aws-eks/bookkeeper.yaml",
+            "https://github.com/pravega/pravega/blob/master/deployment/aws-eks/bk-cert.yaml",
+            "https://github.com/pravega/pravega/blob/master/deployment/aws-eks/storage-classes.yaml",
+            "https://github.com/pravega/pravega/blob/master/deployment/aws-eks/pravega.yaml"
+        ],
+        "json": [
+            "https://github.com/pravega/pravega/blob/master/PravegaGroup.json",
+            "https://github.com/pravega/pravega/blob/master/shared/controller-api/src/main/swagger/server.config.json"
+        ],
+        "tf": [
+            "https://github.com/pravega/pravega/blob/master/test/system/aws/output.tf",
+            "https://github.com/pravega/pravega/blob/master/test/system/aws/variable.tf",
+            "https://github.com/pravega/pravega/blob/master/test/system/aws/pravega.tf",
+            "https://github.com/pravega/pravega/blob/master/deployment/aws/variable.tf",
+            "https://github.com/pravega/pravega/blob/master/deployment/aws/aws.tf"
+        ]
+    }
+}

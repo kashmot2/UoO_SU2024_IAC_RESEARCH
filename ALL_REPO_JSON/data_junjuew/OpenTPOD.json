@@ -1,0 +1,40 @@
+{
+    "id": "junjuew/OpenTPOD",
+    "repo_link": "https://github.com/junjuew/OpenTPOD",
+    "file_extensions": [
+        ".yml",
+        ".json",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/junjuew/OpenTPOD/blob/master/docker-compose.override.yml",
+            "https://github.com/junjuew/OpenTPOD/blob/master/docker-compose.admin.yml",
+            "https://github.com/junjuew/OpenTPOD/blob/master/docker-compose.yml",
+            "https://github.com/junjuew/OpenTPOD/blob/master/docker-compose.prod.yml",
+            "https://github.com/junjuew/OpenTPOD/blob/master/requirements/environment-dev.yml",
+            "https://github.com/junjuew/OpenTPOD/blob/master/requirements/environment.yml"
+        ],
+        "json": [
+            "https://github.com/junjuew/OpenTPOD/blob/master/frontend/package.json",
+            "https://github.com/junjuew/OpenTPOD/blob/master/frontend/public/manifest.json",
+            "https://github.com/junjuew/OpenTPOD/blob/master/frontend/src/data/icons/fe.json",
+            "https://github.com/junjuew/OpenTPOD/blob/master/frontend/src/data/icons/fa.json",
+            "https://github.com/junjuew/OpenTPOD/blob/master/frontend/src/data/icons/flag.json"
+        ],
+        "conf": [
+            "https://github.com/junjuew/OpenTPOD/blob/master/nginx/opentpod.conf"
+        ]
+    }
+}

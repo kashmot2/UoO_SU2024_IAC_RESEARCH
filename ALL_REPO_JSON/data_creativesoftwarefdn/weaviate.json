@@ -1,0 +1,92 @@
+{
+    "id": "creativesoftwarefdn/weaviate",
+    "repo_link": "https://github.com/creativesoftwarefdn/weaviate",
+    "file_extensions": [
+        ".yml",
+        ".yaml",
+        ".json",
+        ".tf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "TF",
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "OT",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/codecov.yml",
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/docker-compose-debug.yml",
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/.golangci.yml",
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/docker-compose-test.yml",
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/docker-compose.yml",
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/.codeclimate.yml",
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/tools/dev/prometheus_config/prometheus.yml",
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/tools/dev/grafana/datasource.yml",
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/tools/dev/grafana/dashboard_provider.yml",
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/test/benchmark_bm25/datasets_default.yml",
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/.github/stale.yml",
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/.github/dependabot.yml",
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/.github/workflows/linter.yml",
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/.github/ISSUE_TEMPLATE/feature_request.yml",
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/.github/ISSUE_TEMPLATE/create_issue.yml",
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/.github/ISSUE_TEMPLATE/config.yml",
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/deprecations/deprecations.yml"
+        ],
+        "yaml": [
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/.protolint.yaml",
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/.goreleaser.yaml",
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/.pre-commit-config.yaml",
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/cluster/proto/buf.yaml",
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/cluster/proto/buf.gen.yaml",
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/tools/dev/config.local-oidc.yaml",
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/tools/dev/config.wcsauth-dev.yaml",
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/tools/dev/config.readonly.yaml",
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/tools/dev/config.local-development.yaml",
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/tools/dev/config.docker.yaml",
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/tools/dev/config.local-esvector-only.yaml",
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/tools/dev/config.local-customdb.yaml",
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/adapters/repos/db/vector/hnsw/datasets/neurips23/clustered_runbook.yaml",
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/adapters/repos/db/vector/hnsw/datasets/neurips23/simple_runbook.yaml",
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/.github/workflows/branch.yaml",
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/.github/workflows/pull_requests.yaml",
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/.github/workflows/release.yaml",
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/.github/workflows/cleanup.yaml"
+        ],
+        "json": [
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/tools/dev/grafana/dashboards/tombstones.json",
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/tools/dev/grafana/dashboards/usage.json",
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/tools/dev/grafana/dashboards/vectorindex.json",
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/tools/dev/grafana/dashboards/startup.json",
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/tools/dev/grafana/dashboards/backup.json",
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/tools/dev/grafana/dashboards/querying.json",
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/tools/dev/grafana/dashboards/host_metrics_mac.json",
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/tools/dev/grafana/dashboards/lsm.json",
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/tools/dev/grafana/dashboards/schema.json",
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/tools/dev/grafana/dashboards/importing.json",
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/tools/dev/grafana/dashboards/objects.json",
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/tools/dev/keycloak/weaviate-realm.json",
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/test/acceptance/fixtures/things.json",
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/test/acceptance/fixtures/actions.json",
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/test/acceptance/graphql_resolvers/fixtures/data.json",
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/test/acceptance/graphql_resolvers/fixtures/actions_schema.json",
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/test/acceptance/graphql_resolvers/fixtures/things_schema.json",
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/test/acceptance_with_go_client/object_property_tests/example.json",
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/test/acceptance_with_go_client/object_property_tests/batch.json",
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/openapi-specs/schema.json",
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/usecases/backup/test_data/node1/files.json"
+        ],
+        "tf": [
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/test/benchmark/remote/terraform/main.tf",
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/test/benchmark/remote/terraform/variables.tf",
+            "https://github.com/creativesoftwarefdn/weaviate/blob/master/test/benchmark/remote/terraform/vm.tf"
+        ]
+    }
+}

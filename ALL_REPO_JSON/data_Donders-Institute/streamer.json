@@ -1,0 +1,41 @@
+{
+    "id": "Donders-Institute/streamer",
+    "repo_link": "https://github.com/Donders-Institute/streamer",
+    "file_extensions": [
+        ".yml",
+        ".json",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/Donders-Institute/streamer/blob/master/docker-compose.override.yml",
+            "https://github.com/Donders-Institute/streamer/blob/master/docker-compose.swarm.yml",
+            "https://github.com/Donders-Institute/streamer/blob/master/docker-compose.yml",
+            "https://github.com/Donders-Institute/streamer/blob/master/.github/workflows/codespell.yml"
+        ],
+        "json": [
+            "https://github.com/Donders-Institute/streamer/blob/master/streamer-ui/packages/server/package.json",
+            "https://github.com/Donders-Institute/streamer/blob/master/streamer-ui/packages/server/.eslintrc.json",
+            "https://github.com/Donders-Institute/streamer/blob/master/streamer-ui/packages/client/package.json",
+            "https://github.com/Donders-Institute/streamer/blob/master/streamer-ui/packages/client/tsconfig.json",
+            "https://github.com/Donders-Institute/streamer/blob/master/streamer-ui/packages/client/.eslintrc.json",
+            "https://github.com/Donders-Institute/streamer/blob/master/streamer-ui/packages/client/public/manifest.json",
+            "https://github.com/Donders-Institute/streamer/blob/master/streamer/package.json"
+        ],
+        "conf": [
+            "https://github.com/Donders-Institute/streamer/blob/master/streamer-ui/packages/server/supervisord.conf",
+            "https://github.com/Donders-Institute/streamer/blob/master/streamer/supervisord.conf"
+        ]
+    }
+}

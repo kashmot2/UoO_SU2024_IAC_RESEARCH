@@ -1,0 +1,24 @@
+{
+    "id": "mayan-edms/Mayan-EDMS",
+    "repo_link": "https://github.com/mayan-edms/Mayan-EDMS",
+    "file_extensions": [
+        ".yml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "ANS",
+        "DOC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/mayan-edms/Mayan-EDMS/blob/master/.gitlab-ci.yml",
+            "https://github.com/mayan-edms/Mayan-EDMS/blob/master/docker/stack.yml",
+            "https://github.com/mayan-edms/Mayan-EDMS/blob/master/docker/docker-compose.yml",
+            "https://github.com/mayan-edms/Mayan-EDMS/blob/master/portainer/portainer-compose.yml",
+            "https://github.com/mayan-edms/Mayan-EDMS/blob/master/.github/FUNDING.yml"
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "id": "mozilla-conduit/lando-ui",
+    "repo_link": "https://github.com/mozilla-conduit/lando-ui",
+    "file_extensions": [
+        ".yml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "ANS",
+        "DOC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/mozilla-conduit/lando-ui/blob/master/docker-compose.yml",
+            "https://github.com/mozilla-conduit/lando-ui/blob/master/docker/docker-compose.ci.yml",
+            "https://github.com/mozilla-conduit/lando-ui/blob/master/landoui/assets_src/assets.yml",
+            "https://github.com/mozilla-conduit/lando-ui/blob/master/.github/dependabot.yml",
+            "https://github.com/mozilla-conduit/lando-ui/blob/master/.circleci/config.yml"
+        ]
+    }
+}

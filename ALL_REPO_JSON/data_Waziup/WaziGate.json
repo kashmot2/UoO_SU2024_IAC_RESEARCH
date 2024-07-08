@@ -1,0 +1,30 @@
+{
+    "id": "Waziup/WaziGate",
+    "repo_link": "https://github.com/Waziup/WaziGate",
+    "file_extensions": [
+        ".yml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/Waziup/WaziGate/blob/master/docker-compose.yml",
+            "https://github.com/Waziup/WaziGate/blob/master/wazigate-mongo/docker-compose.yml"
+        ],
+        "json": [
+            "https://github.com/Waziup/WaziGate/blob/master/wazigate-mongo/package.json",
+            "https://github.com/Waziup/WaziGate/blob/master/apps/waziup.wazigate-lora/config.json",
+            "https://github.com/Waziup/WaziGate/blob/master/apps/waziup.wazigate-lora/forwarders/single_chan_pkt_fwd/global_conf.json",
+            "https://github.com/Waziup/WaziGate/blob/master/apps/waziup.wazigate-lora/forwarders/multi_chan_pkt_fwd/global_conf.json"
+        ]
+    }
+}

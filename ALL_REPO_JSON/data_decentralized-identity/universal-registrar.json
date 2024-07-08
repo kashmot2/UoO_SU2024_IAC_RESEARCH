@@ -1,0 +1,31 @@
+{
+    "id": "decentralized-identity/universal-registrar",
+    "repo_link": "https://github.com/decentralized-identity/universal-registrar",
+    "file_extensions": [
+        ".yml",
+        ".yaml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "GOOG",
+        "ANS",
+        "DOC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/decentralized-identity/universal-registrar/blob/master/docker-compose.yml",
+            "https://github.com/decentralized-identity/universal-registrar/blob/master/uni-registrar-web/src/main/resources/application-dev.yml",
+            "https://github.com/decentralized-identity/universal-registrar/blob/master/uni-registrar-web/src/main/resources/application.yml",
+            "https://github.com/decentralized-identity/universal-registrar/blob/master/.github/workflows/docker-release.yml",
+            "https://github.com/decentralized-identity/universal-registrar/blob/master/.github/workflows/docker-latest.yml",
+            "https://github.com/decentralized-identity/universal-registrar/blob/master/.github/workflows/maven-snapshot.yml",
+            "https://github.com/decentralized-identity/universal-registrar/blob/master/.github/workflows/maven-release.yml"
+        ],
+        "yaml": [
+            "https://github.com/decentralized-identity/universal-registrar/blob/master/openapi/openapi.yaml"
+        ]
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "id": "kubemq-io/kubemq-targets",
+    "repo_link": "https://github.com/kubemq-io/kubemq-targets",
+    "file_extensions": [
+        ".json",
+        ".yaml",
+        ".yml",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/kubemq-io/kubemq-targets/blob/master/.goreleaser.yml",
+            "https://github.com/kubemq-io/kubemq-targets/blob/master/Taskfile.yml",
+            "https://github.com/kubemq-io/kubemq-targets/blob/master/targets/storage/hdfs/docker-compose.yml"
+        ],
+        "yaml": [
+            "https://github.com/kubemq-io/kubemq-targets/blob/master/.kubemqctl.yaml",
+            "https://github.com/kubemq-io/kubemq-targets/blob/master/default_config.yaml",
+            "https://github.com/kubemq-io/kubemq-targets/blob/master/redis-example.yaml",
+            "https://github.com/kubemq-io/kubemq-targets/blob/master/exmpale-hidden.yaml",
+            "https://github.com/kubemq-io/kubemq-targets/blob/master/config-target.yaml",
+            "https://github.com/kubemq-io/kubemq-targets/blob/master/deploy-example.yaml",
+            "https://github.com/kubemq-io/kubemq-targets/blob/master/types/testdata/yaml-file.yaml",
+            "https://github.com/kubemq-io/kubemq-targets/blob/master/targets/stores/elastic/deploy.yaml",
+            "https://github.com/kubemq-io/kubemq-targets/blob/master/targets/stores/percona/deploy.yaml",
+            "https://github.com/kubemq-io/kubemq-targets/blob/master/targets/stores/postgres/deploy.yaml",
+            "https://github.com/kubemq-io/kubemq-targets/blob/master/targets/stores/crate/deploy.yaml",
+            "https://github.com/kubemq-io/kubemq-targets/blob/master/targets/stores/mysql/deploy.yaml",
+            "https://github.com/kubemq-io/kubemq-targets/blob/master/targets/stores/mssql/deploy.yaml",
+            "https://github.com/kubemq-io/kubemq-targets/blob/master/targets/stores/singlestore/deploy.yaml",
+            "https://github.com/kubemq-io/kubemq-targets/blob/master/targets/stores/couchbase/deploy.yaml",
+            "https://github.com/kubemq-io/kubemq-targets/blob/master/targets/storage/minio/docker-compose.yaml",
+            "https://github.com/kubemq-io/kubemq-targets/blob/master/targets/messaging/rabbitmq/values.yaml"
+        ],
+        "json": [
+            "https://github.com/kubemq-io/kubemq-targets/blob/master/targets-manifest.json"
+        ],
+        "conf": [
+            "https://github.com/kubemq-io/kubemq-targets/blob/master/targets/storage/minio/nginx.conf"
+        ]
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "id": "HubSpot/Baragon",
+    "repo_link": "https://github.com/HubSpot/Baragon",
+    "file_extensions": [
+        ".yml",
+        ".json",
+        ".yaml",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/HubSpot/Baragon/blob/master/compose-dev.yml",
+            "https://github.com/HubSpot/Baragon/blob/master/docker-compose.yml",
+            "https://github.com/HubSpot/Baragon/blob/master/.travis.yml"
+        ],
+        "yaml": [
+            "https://github.com/HubSpot/Baragon/blob/master/.blazar.yaml",
+            "https://github.com/HubSpot/Baragon/blob/master/BaragonData/.blazar.yaml",
+            "https://github.com/HubSpot/Baragon/blob/master/BaragonWatcher/.blazar.yaml",
+            "https://github.com/HubSpot/Baragon/blob/master/BaragonClient/.blazar.yaml",
+            "https://github.com/HubSpot/Baragon/blob/master/BaragonServiceIntegrationTests/.blazar.yaml",
+            "https://github.com/HubSpot/Baragon/blob/master/BaragonUI/.blazar.yaml",
+            "https://github.com/HubSpot/Baragon/blob/master/BaragonCore/.blazar.yaml",
+            "https://github.com/HubSpot/Baragon/blob/master/BaragonAgentService/.blazar.yaml",
+            "https://github.com/HubSpot/Baragon/blob/master/BaragonAgentService/src/main/docker/baragon.yaml",
+            "https://github.com/HubSpot/Baragon/blob/master/BaragonService/.blazar.yaml",
+            "https://github.com/HubSpot/Baragon/blob/master/BaragonService/src/test/resources/configs/purgeCache-alternate.yaml",
+            "https://github.com/HubSpot/Baragon/blob/master/BaragonService/src/test/resources/configs/override.yaml",
+            "https://github.com/HubSpot/Baragon/blob/master/BaragonService/src/test/resources/configs/just_a_string.yaml",
+            "https://github.com/HubSpot/Baragon/blob/master/BaragonService/src/test/resources/configs/default.yaml",
+            "https://github.com/HubSpot/Baragon/blob/master/BaragonService/src/test/resources/configs/purgeCache.yaml",
+            "https://github.com/HubSpot/Baragon/blob/master/BaragonService/src/main/docker/baragon.yaml"
+        ],
+        "json": [
+            "https://github.com/HubSpot/Baragon/blob/master/book.json",
+            "https://github.com/HubSpot/Baragon/blob/master/BaragonUI/package.json",
+            "https://github.com/HubSpot/Baragon/blob/master/BaragonUI/.eslintrc.json"
+        ],
+        "conf": [
+            "https://github.com/HubSpot/Baragon/blob/master/docker/nginx/nginx.conf",
+            "https://github.com/HubSpot/Baragon/blob/master/docker/nginx/conf.d/baragon.conf",
+            "https://github.com/HubSpot/Baragon/blob/master/docker/nginx/conf.d/vhost.conf",
+            "https://github.com/HubSpot/Baragon/blob/master/docker/supervisor/supervisord.conf",
+            "https://github.com/HubSpot/Baragon/blob/master/docker/supervisor/conf.d/baragon.conf",
+            "https://github.com/HubSpot/Baragon/blob/master/docker/supervisor/conf.d/nginx.conf"
+        ]
+    }
+}

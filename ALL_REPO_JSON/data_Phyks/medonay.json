@@ -1,0 +1,36 @@
+{
+    "id": "Phyks/medonay",
+    "repo_link": "https://github.com/Phyks/medonay",
+    "file_extensions": [
+        ".yml",
+        ".rb",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "CH",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/Phyks/medonay/blob/master/docker-compose.yml",
+            "https://github.com/Phyks/medonay/blob/master/parsers/package-tracking/docker-compose.yml",
+            "https://github.com/Phyks/medonay/blob/master/crawlers/imap-crawler/docker-compose.yml",
+            "https://github.com/Phyks/medonay/blob/master/viewers/package-tracking/docker-compose.yml",
+            "https://github.com/Phyks/medonay/blob/master/indexer/docker-compose.yml"
+        ],
+        "json": [
+            "https://github.com/Phyks/medonay/blob/master/viewers/main/package.json"
+        ],
+        "ruby": [
+            "https://github.com/Phyks/medonay/blob/master/parsers/package-tracking/main.rb",
+            "https://github.com/Phyks/medonay/blob/master/viewers/package-tracking/main.rb"
+        ]
+    }
+}

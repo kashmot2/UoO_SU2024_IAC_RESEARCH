@@ -1,0 +1,71 @@
+{
+    "id": "abixen/abixen-platform",
+    "repo_link": "https://github.com/abixen/abixen-platform",
+    "file_extensions": [
+        ".yml",
+        ".json",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/abixen/abixen-platform/blob/master/.travis.yml",
+            "https://github.com/abixen/abixen-platform/blob/master/docker/docker-compose.yml",
+            "https://github.com/abixen/abixen-platform/blob/master/docker/monitoring/docker-compose.yml",
+            "https://github.com/abixen/abixen-platform/blob/master/abixen-platform-web-client/src/main/resources/bootstrap.yml",
+            "https://github.com/abixen/abixen-platform/blob/master/abixen-platform-web-client/src/main/resources/application.yml",
+            "https://github.com/abixen/abixen-platform/blob/master/abixen-platform-web-content-service/src/test/resources/application-test.yml",
+            "https://github.com/abixen/abixen-platform/blob/master/abixen-platform-web-content-service/src/main/resources/bootstrap.yml",
+            "https://github.com/abixen/abixen-platform/blob/master/abixen-platform-web-content-service/src/main/resources/application.yml",
+            "https://github.com/abixen/abixen-platform/blob/master/abixen-platform-business-intelligence-service/src/test/resources/application-test.yml",
+            "https://github.com/abixen/abixen-platform/blob/master/abixen-platform-business-intelligence-service/src/main/resources/bootstrap.yml",
+            "https://github.com/abixen/abixen-platform/blob/master/abixen-platform-business-intelligence-service/src/main/resources/application.yml",
+            "https://github.com/abixen/abixen-platform/blob/master/abixen-platform-zipkin/src/main/resources/bootstrap.yml",
+            "https://github.com/abixen/abixen-platform/blob/master/abixen-platform-zipkin/src/main/resources/application.yml",
+            "https://github.com/abixen/abixen-platform/blob/master/zipkin-web/manifest.yml",
+            "https://github.com/abixen/abixen-platform/blob/master/abixen-platform-core/src/test/resources/application-test.yml",
+            "https://github.com/abixen/abixen-platform/blob/master/abixen-platform-core/src/main/resources/bootstrap.yml",
+            "https://github.com/abixen/abixen-platform/blob/master/abixen-platform-core/src/main/resources/application.yml",
+            "https://github.com/abixen/abixen-platform/blob/master/abixen-platform-configuration/src/main/resources/abixen-platform-hystrix-dashboard.yml",
+            "https://github.com/abixen/abixen-platform/blob/master/abixen-platform-configuration/src/main/resources/abixen-platform-web-client.yml",
+            "https://github.com/abixen/abixen-platform/blob/master/abixen-platform-configuration/src/main/resources/abixen-platform-gateway.yml",
+            "https://github.com/abixen/abixen-platform/blob/master/abixen-platform-configuration/src/main/resources/abixen-platform-core.yml",
+            "https://github.com/abixen/abixen-platform/blob/master/abixen-platform-configuration/src/main/resources/abixen-platform-web-content-service.yml",
+            "https://github.com/abixen/abixen-platform/blob/master/abixen-platform-configuration/src/main/resources/abixen-platform-zipkin.yml",
+            "https://github.com/abixen/abixen-platform/blob/master/abixen-platform-configuration/src/main/resources/bootstrap.yml",
+            "https://github.com/abixen/abixen-platform/blob/master/abixen-platform-configuration/src/main/resources/application.yml",
+            "https://github.com/abixen/abixen-platform/blob/master/abixen-platform-configuration/src/main/resources/abixen-platform-business-intelligence-service.yml",
+            "https://github.com/abixen/abixen-platform/blob/master/abixen-platform-gateway/src/main/resources/bootstrap.yml",
+            "https://github.com/abixen/abixen-platform/blob/master/abixen-platform-gateway/src/main/resources/application.yml",
+            "https://github.com/abixen/abixen-platform/blob/master/abixen-platform-hystrix-dashboard/src/main/resources/bootstrap.yml",
+            "https://github.com/abixen/abixen-platform/blob/master/abixen-platform-hystrix-dashboard/src/main/resources/application.yml",
+            "https://github.com/abixen/abixen-platform/blob/master/abixen-platform-eureka/src/main/resources/bootstrap.yml",
+            "https://github.com/abixen/abixen-platform/blob/master/abixen-platform-eureka/src/main/resources/application.yml"
+        ],
+        "json": [
+            "https://github.com/abixen/abixen-platform/blob/master/docker/monitoring/conf/datasource.json",
+            "https://github.com/abixen/abixen-platform/blob/master/docker/monitoring/conf/settings.json",
+            "https://github.com/abixen/abixen-platform/blob/master/docker/monitoring/conf/dash.json",
+            "https://github.com/abixen/abixen-platform/blob/master/abixen-platform-web-client/bower.json",
+            "https://github.com/abixen/abixen-platform/blob/master/abixen-platform-web-client/package.json",
+            "https://github.com/abixen/abixen-platform/blob/master/abixen-platform-web-content-service/bower.json",
+            "https://github.com/abixen/abixen-platform/blob/master/abixen-platform-web-content-service/package.json",
+            "https://github.com/abixen/abixen-platform/blob/master/abixen-platform-business-intelligence-service/bower.json",
+            "https://github.com/abixen/abixen-platform/blob/master/abixen-platform-business-intelligence-service/package.json"
+        ],
+        "conf": [
+            "https://github.com/abixen/abixen-platform/blob/master/docker/monitoring/conf/telegraf.conf",
+            "https://github.com/abixen/abixen-platform/blob/master/docker/logging/logstash.conf"
+        ]
+    }
+}

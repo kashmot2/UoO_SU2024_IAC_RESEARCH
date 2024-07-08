@@ -1,0 +1,34 @@
+{
+    "id": "comic/grand-challenge.org",
+    "repo_link": "https://github.com/comic/grand-challenge.org",
+    "file_extensions": [
+        ".yaml",
+        ".yml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/comic/grand-challenge.org/blob/master/docker-compose.yml",
+            "https://github.com/comic/grand-challenge.org/blob/master/.github/workflows/dependency-update.yml",
+            "https://github.com/comic/grand-challenge.org/blob/master/.github/workflows/ci.yml"
+        ],
+        "yaml": [
+            "https://github.com/comic/grand-challenge.org/blob/master/.pre-commit-config.yaml"
+        ],
+        "json": [
+            "https://github.com/comic/grand-challenge.org/blob/master/app/grandchallenge/core/static/js/world-atlas/countries-110m.json",
+            "https://github.com/comic/grand-challenge.org/blob/master/app/tests/algorithms_tests/resources/test.json"
+        ]
+    }
+}

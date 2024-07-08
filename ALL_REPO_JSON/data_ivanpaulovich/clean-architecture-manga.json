@@ -1,0 +1,48 @@
+{
+    "id": "ivanpaulovich/clean-architecture-manga",
+    "repo_link": "https://github.com/ivanpaulovich/clean-architecture-manga",
+    "file_extensions": [
+        ".yml",
+        ".json",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/ivanpaulovich/clean-architecture-manga/blob/master/FUNDING.yml",
+            "https://github.com/ivanpaulovich/clean-architecture-manga/blob/master/.github/dependabot.yml",
+            "https://github.com/ivanpaulovich/clean-architecture-manga/blob/master/.github/workflows/dotnet-core.yml",
+            "https://github.com/ivanpaulovich/clean-architecture-manga/blob/master/docker-compose/docker-compose.backend-only.yml",
+            "https://github.com/ivanpaulovich/clean-architecture-manga/blob/master/docker-compose/docker-compose.override.yml",
+            "https://github.com/ivanpaulovich/clean-architecture-manga/blob/master/docker-compose/docker-compose.production.yml",
+            "https://github.com/ivanpaulovich/clean-architecture-manga/blob/master/docker-compose/docker-compose.yml"
+        ],
+        "json": [
+            "https://github.com/ivanpaulovich/clean-architecture-manga/blob/master/wallet-spa/package-lock.json",
+            "https://github.com/ivanpaulovich/clean-architecture-manga/blob/master/wallet-spa/package.json",
+            "https://github.com/ivanpaulovich/clean-architecture-manga/blob/master/wallet-spa/public/manifest.json",
+            "https://github.com/ivanpaulovich/clean-architecture-manga/blob/master/accounts-api/.vscode/settings.json",
+            "https://github.com/ivanpaulovich/clean-architecture-manga/blob/master/accounts-api/.vscode/launch.json",
+            "https://github.com/ivanpaulovich/clean-architecture-manga/blob/master/accounts-api/.vscode/tasks.json",
+            "https://github.com/ivanpaulovich/clean-architecture-manga/blob/master/accounts-api/src/WebApi/appsettings.json",
+            "https://github.com/ivanpaulovich/clean-architecture-manga/blob/master/accounts-api/src/WebApi/appsettings.Development.json",
+            "https://github.com/ivanpaulovich/clean-architecture-manga/blob/master/accounts-api/src/WebApi/appsettings.Production.json",
+            "https://github.com/ivanpaulovich/clean-architecture-manga/blob/master/identity-server/appsettings.json",
+            "https://github.com/ivanpaulovich/clean-architecture-manga/blob/master/.vscode/launch.json",
+            "https://github.com/ivanpaulovich/clean-architecture-manga/blob/master/.vscode/tasks.json"
+        ],
+        "conf": [
+            "https://github.com/ivanpaulovich/clean-architecture-manga/blob/master/nginx/nginx.conf"
+        ]
+    }
+}

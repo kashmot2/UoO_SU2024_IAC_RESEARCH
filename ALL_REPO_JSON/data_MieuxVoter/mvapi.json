@@ -1,0 +1,26 @@
+{
+    "id": "MieuxVoter/mvapi",
+    "repo_link": "https://github.com/MieuxVoter/mvapi",
+    "file_extensions": [
+        ".yml",
+        ".yaml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "GOOG",
+        "ANS",
+        "DOC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/MieuxVoter/mvapi/blob/master/docker-compose.yml",
+            "https://github.com/MieuxVoter/mvapi/blob/master/.circleci/config.yml"
+        ],
+        "yaml": [
+            "https://github.com/MieuxVoter/mvapi/blob/master/.github/workflows/tdd.yaml"
+        ]
+    }
+}

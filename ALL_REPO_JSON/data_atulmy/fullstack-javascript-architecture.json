@@ -1,0 +1,53 @@
+{
+    "id": "atulmy/fullstack-javascript-architecture",
+    "repo_link": "https://github.com/atulmy/fullstack-javascript-architecture",
+    "file_extensions": [
+        ".json",
+        ".conf",
+        ".yml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/atulmy/fullstack-javascript-architecture/blob/master/deployment/docker-compose.yml"
+        ],
+        "json": [
+            "https://github.com/atulmy/fullstack-javascript-architecture/blob/master/frontend/landing/jsconfig.json",
+            "https://github.com/atulmy/fullstack-javascript-architecture/blob/master/frontend/landing/package-lock.json",
+            "https://github.com/atulmy/fullstack-javascript-architecture/blob/master/frontend/landing/package.json",
+            "https://github.com/atulmy/fullstack-javascript-architecture/blob/master/frontend/landing/src/setup/config/params.json",
+            "https://github.com/atulmy/fullstack-javascript-architecture/blob/master/frontend/app/web/package-lock.json",
+            "https://github.com/atulmy/fullstack-javascript-architecture/blob/master/frontend/app/web/package.json",
+            "https://github.com/atulmy/fullstack-javascript-architecture/blob/master/frontend/app/web/public/manifest.json",
+            "https://github.com/atulmy/fullstack-javascript-architecture/blob/master/frontend/app/web/src/setup/config/params.json",
+            "https://github.com/atulmy/fullstack-javascript-architecture/blob/master/frontend/app/mobile/app.json",
+            "https://github.com/atulmy/fullstack-javascript-architecture/blob/master/frontend/app/mobile/package-lock.json",
+            "https://github.com/atulmy/fullstack-javascript-architecture/blob/master/frontend/app/mobile/package.json",
+            "https://github.com/atulmy/fullstack-javascript-architecture/blob/master/frontend/app/mobile/ios/example/Images.xcassets/Contents.json",
+            "https://github.com/atulmy/fullstack-javascript-architecture/blob/master/frontend/app/mobile/ios/example/Images.xcassets/AppIcon.appiconset/Contents.json",
+            "https://github.com/atulmy/fullstack-javascript-architecture/blob/master/frontend/app/mobile/src/setup/config/params.json",
+            "https://github.com/atulmy/fullstack-javascript-architecture/blob/master/frontend/app/mobile/src/modules/note/translations/en.json",
+            "https://github.com/atulmy/fullstack-javascript-architecture/blob/master/frontend/app/mobile/src/modules/user/translations/en.json",
+            "https://github.com/atulmy/fullstack-javascript-architecture/blob/master/frontend/app/mobile/src/modules/common/translations/en.json",
+            "https://github.com/atulmy/fullstack-javascript-architecture/blob/master/frontend/app/mobile/src/modules/pages/translations/en.json",
+            "https://github.com/atulmy/fullstack-javascript-architecture/blob/master/backend/api/nodemon.json",
+            "https://github.com/atulmy/fullstack-javascript-architecture/blob/master/backend/api/package-lock.json",
+            "https://github.com/atulmy/fullstack-javascript-architecture/blob/master/backend/api/package.json",
+            "https://github.com/atulmy/fullstack-javascript-architecture/blob/master/backend/api/src/setup/config/params.json",
+            "https://github.com/atulmy/fullstack-javascript-architecture/blob/master/backend/api/src/setup/translate/en.json"
+        ],
+        "conf": [
+            "https://github.com/atulmy/fullstack-javascript-architecture/blob/master/backend/proxy/nginx.conf"
+        ]
+    }
+}

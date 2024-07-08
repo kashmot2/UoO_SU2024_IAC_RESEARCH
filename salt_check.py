@@ -129,29 +129,16 @@ def populate_found_elements(repo_dir):
             if dir in saltstack_dirs:
                 found_dirs.append(os.path.join(root, dir))
 
-def main():
-    write_csv_header()
-    open_csv_file()
-    while links_dict:
-        link, id = fetch_new_url()
-        copy_pair(link, id)
-        repo_dir = clone_repo()
-        if repo_dir:
-            flag = run_salt_lint(repo_dir)
-            populate_found_elements(repo_dir)
+def salt_main(repo_dir):
+    flag = run_salt_lint(repo_dir)
+    populate_found_elements(repo_dir)
 
-            if found_files or found_dirs:
-                print("Found SaltStack files or directories:")
-                for file in found_files:
-                    print(f"  - {file}")
-                for dir in found_dirs:
-                    print(f"  - {dir}")
-                # Run salt-lint on the repository
-                flag = run_salt_lint(repo_dir)
-            else:
-                print("No SaltStack files or directories found.")
-                flag = 0
-            delete_cloned_repo(repo_dir)
-            write_csv_file(working_id,working_link,flag)
+    if found_files or found_dirs:
+        print("Found SaltStack files or directories:")
+        flag = run_salt_lint(repo_dir)
+    else:
+        print("No SaltStack files or directories found.")
+        flag = 0
+    
+    return flag
 
-main()

@@ -1,0 +1,21 @@
+{
+    "id": "reportportal/reportportal",
+    "repo_link": "https://github.com/reportportal/reportportal",
+    "file_extensions": [
+        ".yml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "ANS",
+        "DOC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/reportportal/reportportal/blob/master/docker-compose.yml",
+            "https://github.com/reportportal/reportportal/blob/master/.github/FUNDING.yml"
+        ]
+    }
+}

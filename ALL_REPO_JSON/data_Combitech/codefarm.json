@@ -1,0 +1,70 @@
+{
+    "id": "Combitech/codefarm",
+    "repo_link": "https://github.com/Combitech/codefarm",
+    "file_extensions": [
+        ".json",
+        ".yml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/Combitech/codefarm/blob/master/src/scripts/codefarm.yml",
+            "https://github.com/Combitech/codefarm/blob/master/src/scripts/docker-compose.yml"
+        ],
+        "json": [
+            "https://github.com/Combitech/codefarm/blob/master/src/app/UI/package.json",
+            "https://github.com/Combitech/codefarm/blob/master/src/app/Mgmt/package.json",
+            "https://github.com/Combitech/codefarm/blob/master/src/app/BaselineGen/package.json",
+            "https://github.com/Combitech/codefarm/blob/master/src/app/ArtifactRepo/package.json",
+            "https://github.com/Combitech/codefarm/blob/master/src/app/LogRepo/package.json",
+            "https://github.com/Combitech/codefarm/blob/master/src/app/DataResolve/package.json",
+            "https://github.com/Combitech/codefarm/blob/master/src/app/Stat/package.json",
+            "https://github.com/Combitech/codefarm/blob/master/src/app/EventRepo/package.json",
+            "https://github.com/Combitech/codefarm/blob/master/src/app/CodeRepo/package.json",
+            "https://github.com/Combitech/codefarm/blob/master/src/app/Exec/package.json",
+            "https://github.com/Combitech/codefarm/blob/master/src/app/UserRepo/package.json",
+            "https://github.com/Combitech/codefarm/blob/master/src/app/MetaData/package.json",
+            "https://github.com/Combitech/codefarm/blob/master/src/app/FlowCtrl/package.json",
+            "https://github.com/Combitech/codefarm/blob/master/src/app/BaselineRepo/package.json",
+            "https://github.com/Combitech/codefarm/blob/master/src/bs/eslintrc.json",
+            "https://github.com/Combitech/codefarm/blob/master/src/bs/babelrc.json",
+            "https://github.com/Combitech/codefarm/blob/master/src/scripts/config.json",
+            "https://github.com/Combitech/codefarm/blob/master/src/scripts/package.json",
+            "https://github.com/Combitech/codefarm/blob/master/src/lib/misc/package.json",
+            "https://github.com/Combitech/codefarm/blob/master/src/lib/weakvaluemap/package.json",
+            "https://github.com/Combitech/codefarm/blob/master/src/lib/database/package.json",
+            "https://github.com/Combitech/codefarm/blob/master/src/lib/testsupport/package.json",
+            "https://github.com/Combitech/codefarm/blob/master/src/lib/emitter/package.json",
+            "https://github.com/Combitech/codefarm/blob/master/src/lib/auth/package.json",
+            "https://github.com/Combitech/codefarm/blob/master/src/lib/web/package.json",
+            "https://github.com/Combitech/codefarm/blob/master/src/lib/buslib/package.json",
+            "https://github.com/Combitech/codefarm/blob/master/src/lib/backend/package.json",
+            "https://github.com/Combitech/codefarm/blob/master/src/lib/servicecom/package.json",
+            "https://github.com/Combitech/codefarm/blob/master/src/lib/ssh/package.json",
+            "https://github.com/Combitech/codefarm/blob/master/src/lib/version/package.json",
+            "https://github.com/Combitech/codefarm/blob/master/src/lib/singleton/package.json",
+            "https://github.com/Combitech/codefarm/blob/master/src/lib/typelib/package.json",
+            "https://github.com/Combitech/codefarm/blob/master/src/lib/log/package.json",
+            "https://github.com/Combitech/codefarm/blob/master/src/lib/service/package.json",
+            "https://github.com/Combitech/codefarm/blob/master/src/lib/providerclient/package.json",
+            "https://github.com/Combitech/codefarm/blob/master/src/lib/msgbus/package.json",
+            "https://github.com/Combitech/codefarm/blob/master/src/lib/loglib/package.json",
+            "https://github.com/Combitech/codefarm/blob/master/src/containers/NodeBase/package.json",
+            "https://github.com/Combitech/codefarm/blob/master/src/containers/ExecSlave/package.json",
+            "https://github.com/Combitech/codefarm/blob/master/src/containers/rabbitmq/package.json",
+            "https://github.com/Combitech/codefarm/blob/master/src/containers/AppNodeBase/package.json",
+            "https://github.com/Combitech/codefarm/blob/master/src/containers/artifactory/package.json",
+            "https://github.com/Combitech/codefarm/blob/master/src/containers/mongo/package.json",
+            "https://github.com/Combitech/codefarm/blob/master/src/containers/gerrit/package.json"
+        ]
+    }
+}

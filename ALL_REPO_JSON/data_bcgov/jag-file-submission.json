@@ -1,0 +1,70 @@
+{
+    "id": "bcgov/jag-file-submission",
+    "repo_link": "https://github.com/bcgov/jag-file-submission",
+    "file_extensions": [
+        ".yml",
+        ".yaml",
+        ".conf",
+        ".rb",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "CH",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/bcgov/jag-file-submission/blob/master/docker-compose.override.yml",
+            "https://github.com/bcgov/jag-file-submission/blob/master/docker-compose.yml",
+            "https://github.com/bcgov/jag-file-submission/blob/master/.codeclimate.yml",
+            "https://github.com/bcgov/jag-file-submission/blob/master/tests/docker-compose-integration.yml",
+            "https://github.com/bcgov/jag-file-submission/blob/master/.github/dependabot.yml",
+            "https://github.com/bcgov/jag-file-submission/blob/master/.github/workflows/cucumber-tests.yml",
+            "https://github.com/bcgov/jag-file-submission/blob/master/.github/workflows/code-climate-coverage-aggregation.yml",
+            "https://github.com/bcgov/jag-file-submission/blob/master/.github/workflows/promote.yml",
+            "https://github.com/bcgov/jag-file-submission/blob/master/.github/workflows/dev-efiling-admin-build-4.yml",
+            "https://github.com/bcgov/jag-file-submission/blob/master/src/backend/efiling-api/src/main/resources/application.yml",
+            "https://github.com/bcgov/jag-file-submission/blob/master/src/backend/efiling-api/src/main/resources/application-splunk.yml"
+        ],
+        "yaml": [
+            "https://github.com/bcgov/jag-file-submission/blob/master/COMPLIANCE.yaml",
+            "https://github.com/bcgov/jag-file-submission/blob/master/.github/workflows/dev-efiling-api-build-4.yaml",
+            "https://github.com/bcgov/jag-file-submission/blob/master/.github/workflows/dev-efiling-api-dl-build-4.yaml",
+            "https://github.com/bcgov/jag-file-submission/blob/master/.github/workflows/zap-baseline.yaml",
+            "https://github.com/bcgov/jag-file-submission/blob/master/.github/workflows/dev-efiling-frontend-build-4.yaml",
+            "https://github.com/bcgov/jag-file-submission/blob/master/src/backend/libs/efiling-ceis-api-client/ceis-ords-swagger.yaml",
+            "https://github.com/bcgov/jag-file-submission/blob/master/src/backend/libs/efiling-bambora-api-client/payments-swagger.yaml",
+            "https://github.com/bcgov/jag-file-submission/blob/master/src/backend/efiling-api/jag-efiling-api.yaml"
+        ],
+        "json": [
+            "https://github.com/bcgov/jag-file-submission/blob/master/.vscode/settings.json",
+            "https://github.com/bcgov/jag-file-submission/blob/master/infrastructure/keycloak/realm-export.json",
+            "https://github.com/bcgov/jag-file-submission/blob/master/src/frontend/efiling-demo/package.json",
+            "https://github.com/bcgov/jag-file-submission/blob/master/src/frontend/efiling-demo/public/manifest.json",
+            "https://github.com/bcgov/jag-file-submission/blob/master/src/frontend/efiling-demo/src/typeList.json",
+            "https://github.com/bcgov/jag-file-submission/blob/master/src/frontend/efiling-demo/src/actionStatusList.json",
+            "https://github.com/bcgov/jag-file-submission/blob/master/src/frontend/efiling-frontend/package.json",
+            "https://github.com/bcgov/jag-file-submission/blob/master/src/frontend/efiling-frontend/public/manifest.json",
+            "https://github.com/bcgov/jag-file-submission/blob/master/src/backend/efiling-api/src/test/efilling-api.postman_environment.json",
+            "https://github.com/bcgov/jag-file-submission/blob/master/src/backend/efiling-api/src/test/jag-efiling-api.postman_collection.json"
+        ],
+        "ruby": [
+            "https://github.com/bcgov/jag-file-submission/blob/master/.settings/mdl/ruleset.rb"
+        ],
+        "conf": [
+            "https://github.com/bcgov/jag-file-submission/blob/master/openshift/zap/zap-scan.conf",
+            "https://github.com/bcgov/jag-file-submission/blob/master/.settings/nginx.conf",
+            "https://github.com/bcgov/jag-file-submission/blob/master/src/frontend/efiling-demo/nginx.conf",
+            "https://github.com/bcgov/jag-file-submission/blob/master/src/frontend/efiling-frontend/nginx.conf"
+        ]
+    }
+}

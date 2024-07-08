@@ -1,0 +1,47 @@
+{
+    "id": "tisboyo/Twitch_Bot",
+    "repo_link": "https://github.com/tisboyo/Twitch_Bot",
+    "file_extensions": [
+        ".yaml",
+        ".yml",
+        ".conf",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/tisboyo/Twitch_Bot/blob/master/.pyup.yml",
+            "https://github.com/tisboyo/Twitch_Bot/blob/master/docker-compose.yml",
+            "https://github.com/tisboyo/Twitch_Bot/blob/master/.devcontainer/docker-compose.yml"
+        ],
+        "yaml": [
+            "https://github.com/tisboyo/Twitch_Bot/blob/master/.pre-commit-config.yaml"
+        ],
+        "json": [
+            "https://github.com/tisboyo/Twitch_Bot/blob/master/web/web_user_db.json",
+            "https://github.com/tisboyo/Twitch_Bot/blob/master/web/.vscode/settings.json",
+            "https://github.com/tisboyo/Twitch_Bot/blob/master/web/.vscode/launch.json",
+            "https://github.com/tisboyo/Twitch_Bot/blob/master/.devcontainer/devcontainer.json",
+            "https://github.com/tisboyo/Twitch_Bot/blob/master/bot/.vscode/settings.json",
+            "https://github.com/tisboyo/Twitch_Bot/blob/master/bot/.vscode/launch.json",
+            "https://github.com/tisboyo/Twitch_Bot/blob/master/.vscode/settings.json",
+            "https://github.com/tisboyo/Twitch_Bot/blob/master/.vscode/launch.json"
+        ],
+        "conf": [
+            "https://github.com/tisboyo/Twitch_Bot/blob/master/mosquitto/config/mosquitto.conf",
+            "https://github.com/tisboyo/Twitch_Bot/blob/master/fail2ban/data/filter.d/traefik-auth.conf",
+            "https://github.com/tisboyo/Twitch_Bot/blob/master/fail2ban/data/jail.d/traefik.conf"
+        ]
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "id": "jaheikki/cucumber-selenide-allure",
+    "repo_link": "https://github.com/jaheikki/cucumber-selenide-allure",
+    "file_extensions": [
+        ".yml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/jaheikki/cucumber-selenide-allure/blob/master/cucumber.andon.yml",
+            "https://github.com/jaheikki/cucumber-selenide-allure/blob/master/test.andon.yml",
+            "https://github.com/jaheikki/cucumber-selenide-allure/blob/master/src/test/resources/docker-compose.yml"
+        ],
+        "json": [
+            "https://github.com/jaheikki/cucumber-selenide-allure/blob/master/src/main/resources/acceptance-tests/catalog_template.json",
+            "https://github.com/jaheikki/cucumber-selenide-allure/blob/master/src/main/resources/acceptance-tests/whole-catalog-template.json"
+        ]
+    }
+}

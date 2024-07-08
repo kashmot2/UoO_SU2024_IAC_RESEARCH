@@ -1,0 +1,70 @@
+{
+    "id": "Greenstand/treetracker-admin",
+    "repo_link": "https://github.com/Greenstand/treetracker-admin",
+    "file_extensions": [
+        ".json",
+        ".yaml",
+        ".yml",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/Greenstand/treetracker-admin/blob/master/.github/workflows/codeql-analysis.yml",
+            "https://github.com/Greenstand/treetracker-admin/blob/master/.github/workflows/treetracker-admin-api-build-deploy.yml",
+            "https://github.com/Greenstand/treetracker-admin/blob/master/.github/workflows/treetracker-admin-api-deploy-test.yml",
+            "https://github.com/Greenstand/treetracker-admin/blob/master/.github/workflows/treetracker-admin-api-deploy-prod.yml",
+            "https://github.com/Greenstand/treetracker-admin/blob/master/dev/compose/docker-compose.yml"
+        ],
+        "yaml": [
+            "https://github.com/Greenstand/treetracker-admin/blob/master/docs/api/spec/treetracker-admin.v1.yaml",
+            "https://github.com/Greenstand/treetracker-admin/blob/master/deployment/overlays/test/rabbitmq-sealedsecret.yaml",
+            "https://github.com/Greenstand/treetracker-admin/blob/master/deployment/overlays/test/treetracker-admin-api-mapping.yaml",
+            "https://github.com/Greenstand/treetracker-admin/blob/master/deployment/overlays/test/kustomization.yaml",
+            "https://github.com/Greenstand/treetracker-admin/blob/master/deployment/overlays/test/treetracker-admin-api-jwt-sealed-secret.yaml",
+            "https://github.com/Greenstand/treetracker-admin/blob/master/deployment/overlays/test/database-connection-sealed-secret.yaml",
+            "https://github.com/Greenstand/treetracker-admin/blob/master/deployment/overlays/development/treetracker-dev-rabbitmq-sealedsecret.yaml",
+            "https://github.com/Greenstand/treetracker-admin/blob/master/deployment/overlays/development/treetracker-admin-api-mapping.yaml",
+            "https://github.com/Greenstand/treetracker-admin/blob/master/deployment/overlays/development/kustomization.yaml",
+            "https://github.com/Greenstand/treetracker-admin/blob/master/deployment/overlays/development/treetracker-admin-api-jwt-sealed-secret.yaml",
+            "https://github.com/Greenstand/treetracker-admin/blob/master/deployment/overlays/development/patch-enable-verify-publishing.yaml",
+            "https://github.com/Greenstand/treetracker-admin/blob/master/deployment/overlays/development/database-connection-sealed-secret.yaml",
+            "https://github.com/Greenstand/treetracker-admin/blob/master/deployment/overlays/production/rabbitmq-sealedsecret.yaml",
+            "https://github.com/Greenstand/treetracker-admin/blob/master/deployment/overlays/production/treetracker-admin-api-mapping.yaml",
+            "https://github.com/Greenstand/treetracker-admin/blob/master/deployment/overlays/production/kustomization.yaml",
+            "https://github.com/Greenstand/treetracker-admin/blob/master/deployment/overlays/production/treetracker-admin-api-jwt-sealed-secret.yaml",
+            "https://github.com/Greenstand/treetracker-admin/blob/master/deployment/overlays/production/database-connection-sealed-secret.yaml",
+            "https://github.com/Greenstand/treetracker-admin/blob/master/deployment/base/rabbitmq-sealedsecret.yaml",
+            "https://github.com/Greenstand/treetracker-admin/blob/master/deployment/base/treetracker-admin-api-mapping.yaml",
+            "https://github.com/Greenstand/treetracker-admin/blob/master/deployment/base/kustomization.yaml",
+            "https://github.com/Greenstand/treetracker-admin/blob/master/deployment/base/treetracker-admin-api-jwt-sealed-secret.yaml",
+            "https://github.com/Greenstand/treetracker-admin/blob/master/deployment/base/treetracker-admin-api-deployment.yaml",
+            "https://github.com/Greenstand/treetracker-admin/blob/master/deployment/base/namespace.yaml",
+            "https://github.com/Greenstand/treetracker-admin/blob/master/deployment/base/database-connection-sealed-secret.yaml",
+            "https://github.com/Greenstand/treetracker-admin/blob/master/deployment/base/treetracker-admin-api-service.yaml"
+        ],
+        "json": [
+            "https://github.com/Greenstand/treetracker-admin/blob/master/.yo-rc.json",
+            "https://github.com/Greenstand/treetracker-admin/blob/master/package-lock.json",
+            "https://github.com/Greenstand/treetracker-admin/blob/master/package.json",
+            "https://github.com/Greenstand/treetracker-admin/blob/master/.mocharc.json",
+            "https://github.com/Greenstand/treetracker-admin/blob/master/tsconfig.json",
+            "https://github.com/Greenstand/treetracker-admin/blob/master/.eslintrc.json",
+            "https://github.com/Greenstand/treetracker-admin/blob/master/src/policy.json"
+        ],
+        "conf": [
+            "https://github.com/Greenstand/treetracker-admin/blob/master/dev/etc/nginx-reverse-proxy-admin.conf"
+        ]
+    }
+}

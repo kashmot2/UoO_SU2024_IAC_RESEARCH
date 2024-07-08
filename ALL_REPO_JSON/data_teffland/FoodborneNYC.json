@@ -1,0 +1,25 @@
+{
+    "id": "teffland/FoodborneNYC",
+    "repo_link": "https://github.com/teffland/FoodborneNYC",
+    "file_extensions": [
+        ".yml",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "ANS",
+        "PUP",
+        "DOC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/teffland/FoodborneNYC/blob/master/src/docker-compose.yml"
+        ],
+        "conf": [
+            "https://github.com/teffland/FoodborneNYC/blob/master/src/nginx/conf.d/app.conf"
+        ]
+    }
+}

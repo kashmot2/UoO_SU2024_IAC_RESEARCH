@@ -1,0 +1,33 @@
+{
+    "id": "mozilla-services/autograph-edge",
+    "repo_link": "https://github.com/mozilla-services/autograph-edge",
+    "file_extensions": [
+        ".json",
+        ".yml",
+        ".yaml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/mozilla-services/autograph-edge/blob/master/docker-compose.yml",
+            "https://github.com/mozilla-services/autograph-edge/blob/master/.github/dependabot.yml",
+            "https://github.com/mozilla-services/autograph-edge/blob/master/.circleci/config.yml"
+        ],
+        "yaml": [
+            "https://github.com/mozilla-services/autograph-edge/blob/master/autograph-edge.yaml"
+        ],
+        "json": [
+            "https://github.com/mozilla-services/autograph-edge/blob/master/version.json"
+        ]
+    }
+}

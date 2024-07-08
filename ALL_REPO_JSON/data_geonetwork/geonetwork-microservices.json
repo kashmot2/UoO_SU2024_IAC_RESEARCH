@@ -1,0 +1,52 @@
+{
+    "id": "geonetwork/geonetwork-microservices",
+    "repo_link": "https://github.com/geonetwork/geonetwork-microservices",
+    "file_extensions": [
+        ".yml",
+        ".yaml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/geonetwork/geonetwork-microservices/blob/master/docker-compose.yml",
+            "https://github.com/geonetwork/geonetwork-microservices/blob/master/config/indexing-service.yml",
+            "https://github.com/geonetwork/geonetwork-microservices/blob/master/config/ogc-records-service.yml",
+            "https://github.com/geonetwork/geonetwork-microservices/blob/master/config/search-service.yml",
+            "https://github.com/geonetwork/geonetwork-microservices/blob/master/config/gateway-service.yml",
+            "https://github.com/geonetwork/geonetwork-microservices/blob/master/config/config-service.yml",
+            "https://github.com/geonetwork/geonetwork-microservices/blob/master/config/auth-service.yml",
+            "https://github.com/geonetwork/geonetwork-microservices/blob/master/config/application.yml",
+            "https://github.com/geonetwork/geonetwork-microservices/blob/master/.github/dependabot.yml",
+            "https://github.com/geonetwork/geonetwork-microservices/blob/master/modules/support-services/discovery/src/main/resources/application.yml",
+            "https://github.com/geonetwork/geonetwork-microservices/blob/master/modules/support-services/configuring/src/main/resources/bootstrap.yml",
+            "https://github.com/geonetwork/geonetwork-microservices/blob/master/modules/library/common-search/src/main/resources/application.yml",
+            "https://github.com/geonetwork/geonetwork-microservices/blob/master/modules/services/ogc-api-records/src/test/resources/application.yml",
+            "https://github.com/geonetwork/geonetwork-microservices/blob/master/modules/services/ogc-api-records/src/main/resources/bootstrap.yml",
+            "https://github.com/geonetwork/geonetwork-microservices/blob/master/modules/services/searching/src/main/resources/bootstrap.yml",
+            "https://github.com/geonetwork/geonetwork-microservices/blob/master/modules/services/authorizing/src/main/resources/bootstrap.yml",
+            "https://github.com/geonetwork/geonetwork-microservices/blob/master/modules/services/indexing/src/main/resources/bootstrap.yml",
+            "https://github.com/geonetwork/geonetwork-microservices/blob/master/modules/services/gateway/src/main/resources/bootstrap.yml"
+        ],
+        "yaml": [
+            "https://github.com/geonetwork/geonetwork-microservices/blob/master/.github/workflows/ci.yaml"
+        ],
+        "json": [
+            "https://github.com/geonetwork/geonetwork-microservices/blob/master/modules/library/common-search/src/test/resources/org/fao/geonet/common/search/processor/impl/es_flow.json",
+            "https://github.com/geonetwork/geonetwork-microservices/blob/master/modules/library/common-search/src/test/resources/org/fao/geonet/common/search/processor/impl/es_flow_sxt.json",
+            "https://github.com/geonetwork/geonetwork-microservices/blob/master/modules/library/common-index-model/src/test/resources/index-document.json",
+            "https://github.com/geonetwork/geonetwork-microservices/blob/master/modules/library/common-index-model/src/test/resources/index-document-service.json",
+            "https://github.com/geonetwork/geonetwork-microservices/blob/master/modules/services/ogc-api-records/src/test/resources/org/fao/geonet/ogcapi/records/controller/es_flow.json"
+        ]
+    }
+}

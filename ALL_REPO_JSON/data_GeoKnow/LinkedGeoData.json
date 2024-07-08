@@ -1,0 +1,32 @@
+{
+    "id": "GeoKnow/LinkedGeoData",
+    "repo_link": "https://github.com/GeoKnow/LinkedGeoData",
+    "file_extensions": [
+        ".yml",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "ANS",
+        "PUP",
+        "DOC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/GeoKnow/LinkedGeoData/blob/master/_config.yml",
+            "https://github.com/GeoKnow/LinkedGeoData/blob/master/docker-compose.yml",
+            "https://github.com/GeoKnow/LinkedGeoData/blob/master/legacy/linkedgeodata-docker/docker-compose.yml"
+        ],
+        "conf": [
+            "https://github.com/GeoKnow/LinkedGeoData/blob/master/lgd-nominatim-web/nominatim.conf",
+            "https://github.com/GeoKnow/LinkedGeoData/blob/master/lgd-nominatim-web/backup/nominatim-ui.conf",
+            "https://github.com/GeoKnow/LinkedGeoData/blob/master/lgd-nominatim-web/backup/nominatim-no-ui.conf",
+            "https://github.com/GeoKnow/LinkedGeoData/blob/master/legacy/linkedgeodata-docker/lgd-nominatim-web/nominatim.conf",
+            "https://github.com/GeoKnow/LinkedGeoData/blob/master/legacy/linkedgeodata-debian/src/deb/resources/etc/sparqlify/profiles.d/lgd-example.conf",
+            "https://github.com/GeoKnow/LinkedGeoData/blob/master/components/lgd-tools-parent/unsorted/todo-verify/lgd-pkg-deb/src/deb/resources/etc/sparqlify/profiles.d/lgd-example.conf"
+        ]
+    }
+}

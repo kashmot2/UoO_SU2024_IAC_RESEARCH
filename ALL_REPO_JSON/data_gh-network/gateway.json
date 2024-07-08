@@ -1,0 +1,32 @@
+{
+    "id": "gh-network/gateway",
+    "repo_link": "https://github.com/gh-network/gateway",
+    "file_extensions": [
+        ".yml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/gh-network/gateway/blob/master/dev-compose.yml",
+            "https://github.com/gh-network/gateway/blob/master/docker-compose.yml",
+            "https://github.com/gh-network/gateway/blob/master/.github/workflows/merge_request.yml",
+            "https://github.com/gh-network/gateway/blob/master/.github/workflows/release_ghostnetwork_eventhub_azureservicebus_nuget.yml",
+            "https://github.com/gh-network/gateway/blob/master/.github/workflows/release_image.yml",
+            "https://github.com/gh-network/gateway/blob/master/.github/workflows/release_ghostnetwork_eventhub_nuget.yml",
+            "https://github.com/gh-network/gateway/blob/master/.github/workflows/release_ghostnetwork_eventhub_rabbitmq_nuget.yml"
+        ],
+        "json": [
+            "https://github.com/gh-network/gateway/blob/master/GhostNetwork.Gateway.Api/Properties/launchSettings.json"
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "id": "lidarr/LidarrAPI.Metadata",
+    "repo_link": "https://github.com/lidarr/LidarrAPI.Metadata",
+    "file_extensions": [
+        ".yml",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "ANS",
+        "PUP",
+        "DOC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/lidarr/LidarrAPI.Metadata/blob/master/docker-compose.dev.yml",
+            "https://github.com/lidarr/LidarrAPI.Metadata/blob/master/azure-pipelines.yml",
+            "https://github.com/lidarr/LidarrAPI.Metadata/blob/master/docker-compose.yml",
+            "https://github.com/lidarr/LidarrAPI.Metadata/blob/master/docker-compose.prod.yml",
+            "https://github.com/lidarr/LidarrAPI.Metadata/blob/master/docker-compose.crawler.yml",
+            "https://github.com/lidarr/LidarrAPI.Metadata/blob/master/.github/FUNDING.yml",
+            "https://github.com/lidarr/LidarrAPI.Metadata/blob/master/.github/dependabot.yml",
+            "https://github.com/lidarr/LidarrAPI.Metadata/blob/master/.github/workflows/azuresync.yml"
+        ],
+        "conf": [
+            "https://github.com/lidarr/LidarrAPI.Metadata/blob/master/redis.conf"
+        ]
+    }
+}

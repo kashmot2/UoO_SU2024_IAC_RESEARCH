@@ -1,0 +1,36 @@
+{
+    "id": "ome/omero-ms-zarr",
+    "repo_link": "https://github.com/ome/omero-ms-zarr",
+    "file_extensions": [
+        ".yaml",
+        ".yml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/ome/omero-ms-zarr/blob/master/docker-compose.yml",
+            "https://github.com/ome/omero-ms-zarr/blob/master/.github/workflows/dockerpublish.yml",
+            "https://github.com/ome/omero-ms-zarr/blob/master/.github/workflows/gradle.yml",
+            "https://github.com/ome/omero-ms-zarr/blob/master/.github/workflows/pre-commit.yml",
+            "https://github.com/ome/omero-ms-zarr/blob/master/.github/workflows/dispatch.yml"
+        ],
+        "yaml": [
+            "https://github.com/ome/omero-ms-zarr/blob/master/.pre-commit-config.yaml",
+            "https://github.com/ome/omero-ms-zarr/blob/master/swagger.yaml"
+        ],
+        "json": [
+            "https://github.com/ome/omero-ms-zarr/blob/master/ci/s3-policy-readall.json"
+        ]
+    }
+}

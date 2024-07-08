@@ -1,0 +1,26 @@
+{
+    "id": "big-data-europe/docker-hadoop",
+    "repo_link": "https://github.com/big-data-europe/docker-hadoop",
+    "file_extensions": [
+        ".yml",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "ANS",
+        "PUP",
+        "DOC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/big-data-europe/docker-hadoop/blob/master/docker-compose-v3.yml",
+            "https://github.com/big-data-europe/docker-hadoop/blob/master/docker-compose.yml"
+        ],
+        "conf": [
+            "https://github.com/big-data-europe/docker-hadoop/blob/master/nginx/default.conf"
+        ]
+    }
+}

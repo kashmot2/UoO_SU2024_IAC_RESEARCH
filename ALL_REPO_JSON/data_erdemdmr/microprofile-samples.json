@@ -1,0 +1,30 @@
+{
+    "id": "erdemdmr/microprofile-samples",
+    "repo_link": "https://github.com/erdemdmr/microprofile-samples",
+    "file_extensions": [
+        ".yml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/erdemdmr/microprofile-samples/blob/master/docker-compose.yml",
+            "https://github.com/erdemdmr/microprofile-samples/blob/master/prometheus.yml",
+            "https://github.com/erdemdmr/microprofile-samples/blob/master/.kubernetes/database.yml",
+            "https://github.com/erdemdmr/microprofile-samples/blob/master/.kubernetes/kakfa.yml",
+            "https://github.com/erdemdmr/microprofile-samples/blob/master/.github/workflows/build.yml"
+        ],
+        "json": [
+            "https://github.com/erdemdmr/microprofile-samples/blob/master/services/book-api/src/main/resources/resources-config.json"
+        ]
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "id": "MuizMahdi/EHR-Route",
+    "repo_link": "https://github.com/MuizMahdi/EHR-Route",
+    "file_extensions": [
+        ".yml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/MuizMahdi/EHR-Route/blob/master/docker-compose.dev.yml",
+            "https://github.com/MuizMahdi/EHR-Route/blob/master/docker-compose.yml",
+            "https://github.com/MuizMahdi/EHR-Route/blob/master/patient-service/src/main/resources/bootstrap.yml",
+            "https://github.com/MuizMahdi/EHR-Route/blob/master/patient-service/src/main/resources/application.yml",
+            "https://github.com/MuizMahdi/EHR-Route/blob/master/gateway-service/src/main/resources/bootstrap.yml",
+            "https://github.com/MuizMahdi/EHR-Route/blob/master/gateway-service/src/main/resources/application.yml",
+            "https://github.com/MuizMahdi/EHR-Route/blob/master/discovery-service/src/main/resources/bootstrap.yml",
+            "https://github.com/MuizMahdi/EHR-Route/blob/master/discovery-service/src/main/resources/application.yml",
+            "https://github.com/MuizMahdi/EHR-Route/blob/master/identity-service/src/main/resources/liquibase.yml",
+            "https://github.com/MuizMahdi/EHR-Route/blob/master/identity-service/src/main/resources/bootstrap.yml",
+            "https://github.com/MuizMahdi/EHR-Route/blob/master/identity-service/src/main/resources/application.yml",
+            "https://github.com/MuizMahdi/EHR-Route/blob/master/identity-service/src/main/resources/db/db.changelog-master.yml",
+            "https://github.com/MuizMahdi/EHR-Route/blob/master/identity-service/src/main/resources/db/changelog/db.changelog.yml",
+            "https://github.com/MuizMahdi/EHR-Route/blob/master/config-server/src/main/resources/application.yml",
+            "https://github.com/MuizMahdi/EHR-Route/blob/master/provider-service/src/main/resources/bootstrap.yml",
+            "https://github.com/MuizMahdi/EHR-Route/blob/master/provider-service/src/main/resources/application.yml",
+            "https://github.com/MuizMahdi/EHR-Route/blob/master/.circleci/config.yml"
+        ],
+        "json": [
+            "https://github.com/MuizMahdi/EHR-Route/blob/master/.circleci/monorepo.json"
+        ]
+    }
+}

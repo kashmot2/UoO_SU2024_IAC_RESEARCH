@@ -1,0 +1,35 @@
+{
+    "id": "nevali/acropolis",
+    "repo_link": "https://github.com/nevali/acropolis",
+    "file_extensions": [
+        ".yml",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "ANS",
+        "PUP",
+        "DOC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/nevali/acropolis/blob/master/behave.yml",
+            "https://github.com/nevali/acropolis/blob/master/quilt-static.yml",
+            "https://github.com/nevali/acropolis/blob/master/docker-compose.yml",
+            "https://github.com/nevali/acropolis/blob/master/.travis.yml"
+        ],
+        "conf": [
+            "https://github.com/nevali/acropolis/blob/master/docker/twine.conf",
+            "https://github.com/nevali/acropolis/blob/master/docker/quilt-static.conf",
+            "https://github.com/nevali/acropolis/blob/master/docker/supervisord.conf",
+            "https://github.com/nevali/acropolis/blob/master/docker/twine-anansi.conf",
+            "https://github.com/nevali/acropolis/blob/master/config/twine-correlate.conf",
+            "https://github.com/nevali/acropolis/blob/master/config/quilt.conf",
+            "https://github.com/nevali/acropolis/blob/master/config/twine-generate.conf",
+            "https://github.com/nevali/acropolis/blob/master/config/crawl.conf"
+        ]
+    }
+}

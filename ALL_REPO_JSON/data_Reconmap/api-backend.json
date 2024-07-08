@@ -1,0 +1,46 @@
+{
+    "id": "Reconmap/api-backend",
+    "repo_link": "https://github.com/Reconmap/api-backend",
+    "file_extensions": [
+        ".yml",
+        ".json",
+        ".yaml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/Reconmap/api-backend/blob/master/codecov.yml",
+            "https://github.com/Reconmap/api-backend/blob/master/docker-compose.yml",
+            "https://github.com/Reconmap/api-backend/blob/master/.github/dependabot.yml",
+            "https://github.com/Reconmap/api-backend/blob/master/.github/workflows/build-deployment.yml"
+        ],
+        "yaml": [
+            "https://github.com/Reconmap/api-backend/blob/master/docs/openapi.yaml",
+            "https://github.com/Reconmap/api-backend/blob/master/docs/schemas/Vulnerability.yaml",
+            "https://github.com/Reconmap/api-backend/blob/master/docs/schemas/Project.yaml",
+            "https://github.com/Reconmap/api-backend/blob/master/docs/schemas/Task.yaml",
+            "https://github.com/Reconmap/api-backend/blob/master/docs/schemas/VulnerabilityCategory.yaml",
+            "https://github.com/Reconmap/api-backend/blob/master/docs/schemas/Client.yaml",
+            "https://github.com/Reconmap/api-backend/blob/master/public/docs/openapi.yaml"
+        ],
+        "json": [
+            "https://github.com/Reconmap/api-backend/blob/master/composer.json",
+            "https://github.com/Reconmap/api-backend/blob/master/config-template.json",
+            "https://github.com/Reconmap/api-backend/blob/master/tests/Controllers/System/empty.json",
+            "https://github.com/Reconmap/api-backend/blob/master/tests/Controllers/System/invalid-entities.json",
+            "https://github.com/Reconmap/api-backend/blob/master/tests/Controllers/System/vulnerabilities.json",
+            "https://github.com/Reconmap/api-backend/blob/master/tests/Controllers/System/vulnerability-templates.json",
+            "https://github.com/Reconmap/api-backend/blob/master/tests/Controllers/System/invalid-json.json"
+        ]
+    }
+}

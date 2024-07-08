@@ -1,0 +1,33 @@
+{
+    "id": "mcci-catena/docker-iot-dashboard",
+    "repo_link": "https://github.com/mcci-catena/docker-iot-dashboard",
+    "file_extensions": [
+        ".yml",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "ANS",
+        "PUP",
+        "DOC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/mcci-catena/docker-iot-dashboard/blob/master/docker-compose.yml",
+            "https://github.com/mcci-catena/docker-iot-dashboard/blob/master/.github/workflows/ci_build.yml"
+        ],
+        "conf": [
+            "https://github.com/mcci-catena/docker-iot-dashboard/blob/master/mqtts/mosquitto.conf",
+            "https://github.com/mcci-catena/docker-iot-dashboard/blob/master/influxdb/influxdb.conf",
+            "https://github.com/mcci-catena/docker-iot-dashboard/blob/master/nginx/proxy-mqtts.conf",
+            "https://github.com/mcci-catena/docker-iot-dashboard/blob/master/nginx/proxy-grafana.conf",
+            "https://github.com/mcci-catena/docker-iot-dashboard/blob/master/nginx/proxy-apiserver.conf",
+            "https://github.com/mcci-catena/docker-iot-dashboard/blob/master/nginx/proxy-nodered.conf",
+            "https://github.com/mcci-catena/docker-iot-dashboard/blob/master/nginx/proxy-influxdb.conf",
+            "https://github.com/mcci-catena/docker-iot-dashboard/blob/master/nginx/proxy-expo.conf"
+        ]
+    }
+}

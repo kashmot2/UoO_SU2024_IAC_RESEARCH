@@ -1,0 +1,46 @@
+{
+    "id": "Netflix/mantis",
+    "repo_link": "https://github.com/Netflix/mantis",
+    "file_extensions": [
+        ".json",
+        ".conf",
+        ".yml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/Netflix/mantis/blob/master/docs/mkdocs.yml",
+            "https://github.com/Netflix/mantis/blob/master/.github/release-drafter.yml",
+            "https://github.com/Netflix/mantis/blob/master/.github/workflows/nebula-snapshot.yml",
+            "https://github.com/Netflix/mantis/blob/master/.github/workflows/nebula-ci.yml",
+            "https://github.com/Netflix/mantis/blob/master/.github/workflows/test-results.yml",
+            "https://github.com/Netflix/mantis/blob/master/.github/workflows/nebula-publish.yml",
+            "https://github.com/Netflix/mantis/blob/master/.github/workflows/release-drafter.yml",
+            "https://github.com/Netflix/mantis/blob/master/.github/workflows/push-docker-image.yml"
+        ],
+        "json": [
+            "https://github.com/Netflix/mantis/blob/master/mantis-control-plane/mantis-control-plane-server/src/test/resources/testpayloads/ResourceClusterScaleRulesResult.json",
+            "https://github.com/Netflix/mantis/blob/master/mantis-control-plane/mantis-control-plane-server/src/test/resources/testpayloads/ResourceClusterScaleRuleCreate.json",
+            "https://github.com/Netflix/mantis/blob/master/mantis-control-plane/mantis-control-plane-server/src/test/resources/testpayloads/ResourceClusterScaleRulesCreate.json",
+            "https://github.com/Netflix/mantis/blob/master/mantis-control-plane/mantis-control-plane-server/src/test/resources/testpayloads/ResourceClusterScaleResult.json",
+            "https://github.com/Netflix/mantis/blob/master/mantis-control-plane/mantis-control-plane-server/src/test/resources/testpayloads/ResourceClusterCreate.json",
+            "https://github.com/Netflix/mantis/blob/master/mantis-control-plane/mantis-control-plane-server/src/test/resources/persistence/job_metadata_view.json",
+            "https://github.com/Netflix/mantis/blob/master/mantis-control-plane/mantis-control-plane-store/mantis-control-plane-store-dynamodb/dynamodb-local-metadata.json",
+            "https://github.com/Netflix/mantis/blob/master/mantis-publish/mantis-publish-core/src/test/resources/mantisapi/jobclusters_discoveryinfo_stub.json",
+            "https://github.com/Netflix/mantis/blob/master/mantis-publish/mantis-publish-core/src/test/resources/mantisapi/jobclustermap_stub.json"
+        ],
+        "conf": [
+            "https://github.com/Netflix/mantis/blob/master/mantis-control-plane/mantis-control-plane-server/src/main/resources/application.conf"
+        ]
+    }
+}

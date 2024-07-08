@@ -1,0 +1,38 @@
+{
+    "id": "snatch-dev/Convey",
+    "repo_link": "https://github.com/snatch-dev/Convey",
+    "file_extensions": [
+        ".yml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/snatch-dev/Convey/blob/master/.travis.yml",
+            "https://github.com/snatch-dev/Convey/blob/master/samples/compose/lin/docker-compose.yml",
+            "https://github.com/snatch-dev/Convey/blob/master/samples/compose/lin/prometheus/prometheus.yml",
+            "https://github.com/snatch-dev/Convey/blob/master/samples/compose/osx/docker-compose.yml",
+            "https://github.com/snatch-dev/Convey/blob/master/samples/compose/osx/prometheus/prometheus.yml",
+            "https://github.com/snatch-dev/Convey/blob/master/samples/compose/win/docker-compose.yml",
+            "https://github.com/snatch-dev/Convey/blob/master/samples/compose/win/prometheus/prometheus.yml",
+            "https://github.com/snatch-dev/Convey/blob/master/.github/workflows/main.yml"
+        ],
+        "json": [
+            "https://github.com/snatch-dev/Convey/blob/master/samples/Conveyor.Services.Deliveries/appsettings.json",
+            "https://github.com/snatch-dev/Convey/blob/master/samples/Conveyor.Services.Deliveries/Properties/launchSettings.json",
+            "https://github.com/snatch-dev/Convey/blob/master/samples/Conveyor.Services.Pricing/appsettings.json",
+            "https://github.com/snatch-dev/Convey/blob/master/samples/Conveyor.Services.Pricing/Properties/launchSettings.json",
+            "https://github.com/snatch-dev/Convey/blob/master/samples/Conveyor.Services.Orders/appsettings.json",
+            "https://github.com/snatch-dev/Convey/blob/master/samples/Conveyor.Services.Orders/Properties/launchSettings.json"
+        ]
+    }
+}

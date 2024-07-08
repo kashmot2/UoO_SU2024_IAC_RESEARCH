@@ -92,11 +92,13 @@ def delete_cloned_repo(repo_path):
         print(f"Repository at {repo_path} does not exist.")
 
 
-
+"""
 def write_csv_header():
         with open(output_results, mode='w', newline='') as file:
             writer = csv.writer(file)
             writer.writerow(['link', 'id', 'Pulumi'])  # Write header
+
+"""
 
 def fetch_new_url():
     if links_dict:
@@ -136,28 +138,17 @@ def find_pulumi_files(repo_path):
 
 
 
-def main():
-    write_csv_header()
-    open_csv_file()
-    while links_dict:
-        link, id = fetch_new_url()
-        copy_pair(link, id)
-        repo_dir = clone_repo()
-        if repo_dir:
-            pulumi_dirs = find_pulumi_files(repo_dir)
-            if pulumi_dirs:
-                flag = 0
-                for dir in pulumi_dirs:
-                    if check_pulumi_init(dir) == 1:
-                        print("Pulumi stack initialized successfully.")
-                        flag = 1
-                        break
-                write_csv_file(working_id, working_link, flag)
-            else:
-                print("No Pulumi configuration files found.")
-                write_csv_file(working_id, working_link, 0)
-            delete_cloned_repo(repo_dir)
-        else:
-            print(f"Failed to clone repository: {link}")
+def pulumi_main(repo_dir):
+    pulumi_dirs = find_pulumi_files(repo_dir)
+    if pulumi_dirs:
+        flag = 0
+        for dir in pulumi_dirs:
+            if check_pulumi_init(dir) == 1:
+                print("Pulumi stack initialized successfully.")
+                flag = 1
+    else:
+        print("No Pulumi configuration files found.")
+    return flag
+        
+    
 
-main()

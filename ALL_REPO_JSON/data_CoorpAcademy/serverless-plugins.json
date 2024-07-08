@@ -1,0 +1,46 @@
+{
+    "id": "CoorpAcademy/serverless-plugins",
+    "repo_link": "https://github.com/CoorpAcademy/serverless-plugins",
+    "file_extensions": [
+        ".json",
+        ".yml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/CoorpAcademy/serverless-plugins/blob/master/docker-compose.yml",
+            "https://github.com/CoorpAcademy/serverless-plugins/blob/master/docker-compose.test.yml",
+            "https://github.com/CoorpAcademy/serverless-plugins/blob/master/.travis.yml",
+            "https://github.com/CoorpAcademy/serverless-plugins/blob/master/tests/serverless-plugins-integration/serverless.sqs.yml",
+            "https://github.com/CoorpAcademy/serverless-plugins/blob/master/tests/serverless-plugins-integration/serverless.kinesis.yml",
+            "https://github.com/CoorpAcademy/serverless-plugins/blob/master/tests/serverless-plugins-integration/serverless.dynamodb-streams.yml",
+            "https://github.com/CoorpAcademy/serverless-plugins/blob/master/tests/serverless-plugins-integration/serverless.s3.yml",
+            "https://github.com/CoorpAcademy/serverless-plugins/blob/master/tests/serverless-plugins-integration/docker-compose.yml",
+            "https://github.com/CoorpAcademy/serverless-plugins/blob/master/tests/serverless-plugins-integration/serverless.sqs.autocreate.yml",
+            "https://github.com/CoorpAcademy/serverless-plugins/blob/master/tests/serverless-plugins-integration/custom.yml",
+            "https://github.com/CoorpAcademy/serverless-plugins/blob/master/packages/dynamodb-streams-readable/docker-compose.yml"
+        ],
+        "json": [
+            "https://github.com/CoorpAcademy/serverless-plugins/blob/master/package-lock.json",
+            "https://github.com/CoorpAcademy/serverless-plugins/blob/master/package.json",
+            "https://github.com/CoorpAcademy/serverless-plugins/blob/master/lerna.json",
+            "https://github.com/CoorpAcademy/serverless-plugins/blob/master/tests/serverless-plugins-integration/package.json",
+            "https://github.com/CoorpAcademy/serverless-plugins/blob/master/packages/serverless-offline-kinesis/package.json",
+            "https://github.com/CoorpAcademy/serverless-plugins/blob/master/packages/serverless-offline-s3/package.json",
+            "https://github.com/CoorpAcademy/serverless-plugins/blob/master/packages/serverless-offline-sqs/package.json",
+            "https://github.com/CoorpAcademy/serverless-plugins/blob/master/packages/dynamodb-streams-readable/package.json",
+            "https://github.com/CoorpAcademy/serverless-plugins/blob/master/packages/serverless-apigateway-access-logs/package.json",
+            "https://github.com/CoorpAcademy/serverless-plugins/blob/master/packages/serverless-offline-dynamodb-streams/package.json",
+            "https://github.com/CoorpAcademy/serverless-plugins/blob/master/.vscode/launch.json"
+        ]
+    }
+}

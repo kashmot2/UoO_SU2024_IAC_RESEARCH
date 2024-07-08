@@ -1,0 +1,57 @@
+{
+    "id": "keep-network/local-setup",
+    "repo_link": "https://github.com/keep-network/local-setup",
+    "file_extensions": [
+        ".yaml",
+        ".json",
+        ".yml",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/keep-network/local-setup/blob/master/bitcoin/docker-compose.yml",
+            "https://github.com/keep-network/local-setup/blob/master/.github/workflows/bitcoin-bitcoind.yml",
+            "https://github.com/keep-network/local-setup/blob/master/.github/workflows/format.yml",
+            "https://github.com/keep-network/local-setup/blob/master/.github/workflows/bitcoin-electrumx.yml",
+            "https://github.com/keep-network/local-setup/blob/master/.github/workflows/e2e-local.yml",
+            "https://github.com/keep-network/local-setup/blob/master/.github/workflows/bitcoin-esplora.yml",
+            "https://github.com/keep-network/local-setup/blob/master/.github/workflows/common-js.yml",
+            "https://github.com/keep-network/local-setup/blob/master/.github/workflows/e2e-testnet.yml",
+            "https://github.com/keep-network/local-setup/blob/master/.github/workflows/bitcoin-electrs.yml"
+        ],
+        "yaml": [
+            "https://github.com/keep-network/local-setup/blob/master/.pre-commit-config.yaml"
+        ],
+        "json": [
+            "https://github.com/keep-network/local-setup/blob/master/package.json",
+            "https://github.com/keep-network/local-setup/blob/master/inspector/package-lock.json",
+            "https://github.com/keep-network/local-setup/blob/master/inspector/package.json",
+            "https://github.com/keep-network/local-setup/blob/master/bitcoind-wallet/package-lock.json",
+            "https://github.com/keep-network/local-setup/blob/master/bitcoind-wallet/package.json",
+            "https://github.com/keep-network/local-setup/blob/master/relay-genesis/package-lock.json",
+            "https://github.com/keep-network/local-setup/blob/master/relay-genesis/package.json",
+            "https://github.com/keep-network/local-setup/blob/master/configs/bitcoin/config.json",
+            "https://github.com/keep-network/local-setup/blob/master/common.js/package.json",
+            "https://github.com/keep-network/local-setup/blob/master/common.js/test/data/TestContract.json",
+            "https://github.com/keep-network/local-setup/blob/master/e2e/package-lock.json",
+            "https://github.com/keep-network/local-setup/blob/master/e2e/package.json",
+            "https://github.com/keep-network/local-setup/blob/master/ethereum/genesis/genesis.json",
+            "https://github.com/keep-network/local-setup/blob/master/deployments/local-setup-environment/packerfile.json"
+        ],
+        "conf": [
+            "https://github.com/keep-network/local-setup/blob/master/bitcoin/esplora/nginx.conf"
+        ]
+    }
+}

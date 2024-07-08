@@ -1,0 +1,39 @@
+{
+    "id": "Bauer-Xcel-Media/node-healthchecks-api",
+    "repo_link": "https://github.com/Bauer-Xcel-Media/node-healthchecks-api",
+    "file_extensions": [
+        ".json",
+        ".yml",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/Bauer-Xcel-Media/node-healthchecks-api/blob/master/.travis.yml",
+            "https://github.com/Bauer-Xcel-Media/node-healthchecks-api/blob/master/test/integration/docker-compose.yml",
+            "https://github.com/Bauer-Xcel-Media/node-healthchecks-api/blob/master/test/integration/conf/service-2.yml",
+            "https://github.com/Bauer-Xcel-Media/node-healthchecks-api/blob/master/test/integration/conf/service-3.yml",
+            "https://github.com/Bauer-Xcel-Media/node-healthchecks-api/blob/master/test/integration/conf/service-1.yml",
+            "https://github.com/Bauer-Xcel-Media/node-healthchecks-api/blob/master/test/integration/conf/demo-app.yml"
+        ],
+        "json": [
+            "https://github.com/Bauer-Xcel-Media/node-healthchecks-api/blob/master/package-lock.json",
+            "https://github.com/Bauer-Xcel-Media/node-healthchecks-api/blob/master/package.json",
+            "https://github.com/Bauer-Xcel-Media/node-healthchecks-api/blob/master/test/integration/package-lock.json",
+            "https://github.com/Bauer-Xcel-Media/node-healthchecks-api/blob/master/test/integration/package.json"
+        ],
+        "conf": [
+            "https://github.com/Bauer-Xcel-Media/node-healthchecks-api/blob/master/test/integration/conf/explorer.conf"
+        ]
+    }
+}

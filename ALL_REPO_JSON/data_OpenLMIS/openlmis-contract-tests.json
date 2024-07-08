@@ -1,0 +1,29 @@
+{
+    "id": "OpenLMIS/openlmis-contract-tests",
+    "repo_link": "https://github.com/OpenLMIS/openlmis-contract-tests",
+    "file_extensions": [
+        ".yml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "ANS",
+        "DOC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/OpenLMIS/openlmis-contract-tests/blob/master/docker-compose.hapifhir.yml",
+            "https://github.com/OpenLMIS/openlmis-contract-tests/blob/master/docker-compose.referencedata.yml",
+            "https://github.com/OpenLMIS/openlmis-contract-tests/blob/master/docker-compose.stockmanagement.yml",
+            "https://github.com/OpenLMIS/openlmis-contract-tests/blob/master/docker-compose.requisition.yml",
+            "https://github.com/OpenLMIS/openlmis-contract-tests/blob/master/docker-compose.diagnostics.yml",
+            "https://github.com/OpenLMIS/openlmis-contract-tests/blob/master/docker-compose.cce.yml",
+            "https://github.com/OpenLMIS/openlmis-contract-tests/blob/master/docker-compose.stockmanagementextension.yml",
+            "https://github.com/OpenLMIS/openlmis-contract-tests/blob/master/docker-compose.fulfillment.yml",
+            "https://github.com/OpenLMIS/openlmis-contract-tests/blob/master/docker-compose.notification.yml",
+            "https://github.com/OpenLMIS/openlmis-contract-tests/blob/master/docker-compose.yml"
+        ]
+    }
+}

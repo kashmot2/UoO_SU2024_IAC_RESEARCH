@@ -1,0 +1,58 @@
+{
+    "id": "mwinteringham/restful-booker-platform",
+    "repo_link": "https://github.com/mwinteringham/restful-booker-platform",
+    "file_extensions": [
+        ".yml",
+        ".yaml",
+        ".conf",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/mwinteringham/restful-booker-platform/blob/master/docker-compose.yml",
+            "https://github.com/mwinteringham/restful-booker-platform/blob/master/.kubes/prod-deploy.yml",
+            "https://github.com/mwinteringham/restful-booker-platform/blob/master/.kubes/class/team3-deploy.yml",
+            "https://github.com/mwinteringham/restful-booker-platform/blob/master/.kubes/class/team6-deploy.yml",
+            "https://github.com/mwinteringham/restful-booker-platform/blob/master/.kubes/class/team1-deploy.yml",
+            "https://github.com/mwinteringham/restful-booker-platform/blob/master/.kubes/class/team4-deploy.yml",
+            "https://github.com/mwinteringham/restful-booker-platform/blob/master/.kubes/class/team7-deploy.yml",
+            "https://github.com/mwinteringham/restful-booker-platform/blob/master/.kubes/class/team2-deploy.yml",
+            "https://github.com/mwinteringham/restful-booker-platform/blob/master/.kubes/class/team5-deploy.yml",
+            "https://github.com/mwinteringham/restful-booker-platform/blob/master/.circleci/config.yml"
+        ],
+        "yaml": [
+            "https://github.com/mwinteringham/restful-booker-platform/blob/master/branding/src/main/resources/db/changelog/db.changelog-master.yaml"
+        ],
+        "json": [
+            "https://github.com/mwinteringham/restful-booker-platform/blob/master/booking/src/test/resources/contract.json",
+            "https://github.com/mwinteringham/restful-booker-platform/blob/master/.utilities/mocking/mappings/branding.json",
+            "https://github.com/mwinteringham/restful-booker-platform/blob/master/.utilities/mocking/mappings/report.json",
+            "https://github.com/mwinteringham/restful-booker-platform/blob/master/.utilities/mocking/mappings/validate.json",
+            "https://github.com/mwinteringham/restful-booker-platform/blob/master/.utilities/mocking/mappings/messages.json",
+            "https://github.com/mwinteringham/restful-booker-platform/blob/master/.utilities/mocking/mappings/count.json",
+            "https://github.com/mwinteringham/restful-booker-platform/blob/master/.utilities/mocking/mappings/message.json",
+            "https://github.com/mwinteringham/restful-booker-platform/blob/master/.utilities/wirebridge/mappings/add_room.json",
+            "https://github.com/mwinteringham/restful-booker-platform/blob/master/.utilities/wirebridge/mappings/add_booking.json",
+            "https://github.com/mwinteringham/restful-booker-platform/blob/master/.utilities/wirebridge/mappings/config.json",
+            "https://github.com/mwinteringham/restful-booker-platform/blob/master/.utilities/wirebridge/mappings/query_booking.json",
+            "https://github.com/mwinteringham/restful-booker-platform/blob/master/assets/js/babel.config.json",
+            "https://github.com/mwinteringham/restful-booker-platform/blob/master/assets/js/package-lock.json",
+            "https://github.com/mwinteringham/restful-booker-platform/blob/master/assets/js/package.json"
+        ],
+        "conf": [
+            "https://github.com/mwinteringham/restful-booker-platform/blob/master/proxy/nginx.conf"
+        ]
+    }
+}

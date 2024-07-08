@@ -1,0 +1,44 @@
+{
+    "id": "bcgov/aries-vcr-issuer-controller",
+    "repo_link": "https://github.com/bcgov/aries-vcr-issuer-controller",
+    "file_extensions": [
+        ".yaml",
+        ".yml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/bcgov/aries-vcr-issuer-controller/blob/master/docker/docker-compose.yml",
+            "https://github.com/bcgov/aries-vcr-issuer-controller/blob/master/issuer_controller/config/schemas.yml",
+            "https://github.com/bcgov/aries-vcr-issuer-controller/blob/master/issuer_controller/config/routes.yml",
+            "https://github.com/bcgov/aries-vcr-issuer-controller/blob/master/issuer_controller/config/services.yml",
+            "https://github.com/bcgov/aries-vcr-issuer-controller/blob/master/issuer_controller/config/settings.yml",
+            "https://github.com/bcgov/aries-vcr-issuer-controller/blob/master/issuer_controller/config/schema-template.yml",
+            "https://github.com/bcgov/aries-vcr-issuer-controller/blob/master/.github/dependabot.yml",
+            "https://github.com/bcgov/aries-vcr-issuer-controller/blob/master/.github/workflows/test-aries-vcr-issuer.yml",
+            "https://github.com/bcgov/aries-vcr-issuer-controller/blob/master/actions/run-von-network/action.yml",
+            "https://github.com/bcgov/aries-vcr-issuer-controller/blob/master/actions/run-issuer-tests/action.yml",
+            "https://github.com/bcgov/aries-vcr-issuer-controller/blob/master/actions/install-s2i/action.yml",
+            "https://github.com/bcgov/aries-vcr-issuer-controller/blob/master/actions/run-aries-vcr/action.yml"
+        ],
+        "yaml": [
+            "https://github.com/bcgov/aries-vcr-issuer-controller/blob/master/COMPLIANCE.yaml"
+        ],
+        "json": [
+            "https://github.com/bcgov/aries-vcr-issuer-controller/blob/master/issuer_controller/config/gen-data.json",
+            "https://github.com/bcgov/aries-vcr-issuer-controller/blob/master/issuer_pipeline/von_pipeline/epic-projects.json",
+            "https://github.com/bcgov/aries-vcr-issuer-controller/blob/master/issuer_pipeline/von_pipeline/tests/local-corp-test-sample-corps.json"
+        ]
+    }
+}

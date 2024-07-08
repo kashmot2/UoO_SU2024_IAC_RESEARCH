@@ -1,0 +1,21 @@
+{
+    "id": "polytechnice-si/4A_ISA_TheCookieFactory",
+    "repo_link": "https://github.com/polytechnice-si/4A_ISA_TheCookieFactory",
+    "file_extensions": [
+        ".yml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "ANS",
+        "DOC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/polytechnice-si/4A_ISA_TheCookieFactory/blob/master/.travis.yml",
+            "https://github.com/polytechnice-si/4A_ISA_TheCookieFactory/blob/master/docker/docker-compose.yml"
+        ]
+    }
+}

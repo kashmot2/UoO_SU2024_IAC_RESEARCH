@@ -1,0 +1,57 @@
+{
+    "id": "hobbit-project/platform",
+    "repo_link": "https://github.com/hobbit-project/platform",
+    "file_extensions": [
+        ".yml",
+        ".conf",
+        ".json",
+        ".yaml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/hobbit-project/platform/blob/master/docker-compose.override.localhost.yml",
+            "https://github.com/hobbit-project/platform/blob/master/docker-compose.yml",
+            "https://github.com/hobbit-project/platform/blob/master/docker-compose-dev.yml",
+            "https://github.com/hobbit-project/platform/blob/master/docker-compose-elk.yml",
+            "https://github.com/hobbit-project/platform/blob/master/rabbitmq-cluster/docker-compose.yml",
+            "https://github.com/hobbit-project/platform/blob/master/config/elk/logstash.yml",
+            "https://github.com/hobbit-project/platform/blob/master/config/elk/elasticsearch.yml",
+            "https://github.com/hobbit-project/platform/blob/master/.github/workflows/make.yml"
+        ],
+        "yaml": [
+            "https://github.com/hobbit-project/platform/blob/master/platform-controller/src/main/resources/config.yaml"
+        ],
+        "json": [
+            "https://github.com/hobbit-project/platform/blob/master/hobbit-gui/gui-client/.angular-cli.json",
+            "https://github.com/hobbit-project/platform/blob/master/hobbit-gui/gui-client/package-lock.json",
+            "https://github.com/hobbit-project/platform/blob/master/hobbit-gui/gui-client/package.json",
+            "https://github.com/hobbit-project/platform/blob/master/hobbit-gui/gui-client/tslint.json",
+            "https://github.com/hobbit-project/platform/blob/master/hobbit-gui/gui-client/tsconfig.json",
+            "https://github.com/hobbit-project/platform/blob/master/hobbit-gui/gui-client/src/tsconfig.app.json",
+            "https://github.com/hobbit-project/platform/blob/master/hobbit-gui/gui-serverbackend/src/main/resources/sample/benchmarks.json",
+            "https://github.com/hobbit-project/platform/blob/master/hobbit-gui/gui-serverbackend/src/main/resources/sample/benchmark1.json",
+            "https://github.com/hobbit-project/platform/blob/master/hobbit-gui/gui-serverbackend/src/main/resources/sample/challenges.json",
+            "https://github.com/hobbit-project/platform/blob/master/hobbit-gui/gui-serverbackend/src/main/resources/sample/experiments.json",
+            "https://github.com/hobbit-project/platform/blob/master/hobbit-gui/gui-serverbackend/src/main/resources/sample/benchmark_DevDB.json"
+        ],
+        "conf": [
+            "https://github.com/hobbit-project/platform/blob/master/config/redis-db/redis.conf",
+            "https://github.com/hobbit-project/platform/blob/master/config/elk/logstash.conf",
+            "https://github.com/hobbit-project/platform/blob/master/config/prometheus/prometheus.conf",
+            "https://github.com/hobbit-project/platform/blob/master/platform-controller/config/prometheus/prometheus.conf",
+            "https://github.com/hobbit-project/platform/blob/master/platform-controller/logstash/logstash.conf"
+        ]
+    }
+}

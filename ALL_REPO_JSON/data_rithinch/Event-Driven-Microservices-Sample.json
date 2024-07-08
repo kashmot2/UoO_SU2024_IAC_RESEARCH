@@ -1,0 +1,36 @@
+{
+    "id": "rithinch/Event-Driven-Microservices-Sample",
+    "repo_link": "https://github.com/rithinch/Event-Driven-Microservices-Sample",
+    "file_extensions": [
+        ".yml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/rithinch/Event-Driven-Microservices-Sample/blob/master/docker-compose.yml",
+            "https://github.com/rithinch/Event-Driven-Microservices-Sample/blob/master/services/notification/.eslintrc.yml",
+            "https://github.com/rithinch/Event-Driven-Microservices-Sample/blob/master/services/articles-management/.eslintrc.yml",
+            "https://github.com/rithinch/Event-Driven-Microservices-Sample/blob/master/services/user-management/.eslintrc.yml",
+            "https://github.com/rithinch/Event-Driven-Microservices-Sample/blob/master/services/events-management/.eslintrc.yml",
+            "https://github.com/rithinch/Event-Driven-Microservices-Sample/blob/master/services/authentication/.eslintrc.yml"
+        ],
+        "json": [
+            "https://github.com/rithinch/Event-Driven-Microservices-Sample/blob/master/services/notification/package.json",
+            "https://github.com/rithinch/Event-Driven-Microservices-Sample/blob/master/services/articles-management/package.json",
+            "https://github.com/rithinch/Event-Driven-Microservices-Sample/blob/master/services/user-management/package.json",
+            "https://github.com/rithinch/Event-Driven-Microservices-Sample/blob/master/services/events-management/package.json",
+            "https://github.com/rithinch/Event-Driven-Microservices-Sample/blob/master/services/authentication/package-lock.json",
+            "https://github.com/rithinch/Event-Driven-Microservices-Sample/blob/master/services/authentication/package.json"
+        ]
+    }
+}

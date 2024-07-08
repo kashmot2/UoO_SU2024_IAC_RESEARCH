@@ -1,0 +1,40 @@
+{
+    "id": "zmhassan/streaming-online-analytics-demo",
+    "repo_link": "https://github.com/zmhassan/streaming-online-analytics-demo",
+    "file_extensions": [
+        ".yml",
+        ".yaml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/zmhassan/streaming-online-analytics-demo/blob/master/docker-compose-spark.yml",
+            "https://github.com/zmhassan/streaming-online-analytics-demo/blob/master/docker-compose.yml"
+        ],
+        "yaml": [
+            "https://github.com/zmhassan/streaming-online-analytics-demo/blob/master/openshift-integration/spark-template.yaml",
+            "https://github.com/zmhassan/streaming-online-analytics-demo/blob/master/openshift-integration/sparkstreaming-job.yaml"
+        ],
+        "json": [
+            "https://github.com/zmhassan/streaming-online-analytics-demo/blob/master/openshift-integration/kafka.template.json",
+            "https://github.com/zmhassan/streaming-online-analytics-demo/blob/master/openshift-integration/java-s2i-template.json",
+            "https://github.com/zmhassan/streaming-online-analytics-demo/blob/master/openshift-integration/OrderDataPipeline.json",
+            "https://github.com/zmhassan/streaming-online-analytics-demo/blob/master/web/package.json",
+            "https://github.com/zmhassan/streaming-online-analytics-demo/blob/master/web/openshift/templates/nodejs-mongodb.json",
+            "https://github.com/zmhassan/streaming-online-analytics-demo/blob/master/web/openshift/templates/nodejs.json",
+            "https://github.com/zmhassan/streaming-online-analytics-demo/blob/master/web/openshift/templates/nodejs-mongodb-persistent.json",
+            "https://github.com/zmhassan/streaming-online-analytics-demo/blob/master/datasets/fruits_vegetables.json"
+        ]
+    }
+}

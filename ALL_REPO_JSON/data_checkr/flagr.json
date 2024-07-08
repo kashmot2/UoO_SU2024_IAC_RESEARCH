@@ -1,0 +1,66 @@
+{
+    "id": "checkr/flagr",
+    "repo_link": "https://github.com/checkr/flagr",
+    "file_extensions": [
+        ".yml",
+        ".json",
+        ".yaml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/checkr/flagr/blob/master/codecov.yml",
+            "https://github.com/checkr/flagr/blob/master/docker-compose.kafka.yml",
+            "https://github.com/checkr/flagr/blob/master/integration_tests/docker-compose.yml",
+            "https://github.com/checkr/flagr/blob/master/.github/mergify.yml",
+            "https://github.com/checkr/flagr/blob/master/.github/workflows/cd_docker.yml",
+            "https://github.com/checkr/flagr/blob/master/.github/workflows/stale.yml",
+            "https://github.com/checkr/flagr/blob/master/.github/workflows/codesee-arch-diagram.yml",
+            "https://github.com/checkr/flagr/blob/master/.github/workflows/ci_codeql.yml",
+            "https://github.com/checkr/flagr/blob/master/.github/workflows/ci.yml"
+        ],
+        "yaml": [
+            "https://github.com/checkr/flagr/blob/master/swagger/flag_tag.yaml",
+            "https://github.com/checkr/flagr/blob/master/swagger/flag_enabled.yaml",
+            "https://github.com/checkr/flagr/blob/master/swagger/flag_variant.yaml",
+            "https://github.com/checkr/flagr/blob/master/swagger/flag_segment.yaml",
+            "https://github.com/checkr/flagr/blob/master/swagger/flag_segment_constraint.yaml",
+            "https://github.com/checkr/flagr/blob/master/swagger/export_eval_cache_json.yaml",
+            "https://github.com/checkr/flagr/blob/master/swagger/health.yaml",
+            "https://github.com/checkr/flagr/blob/master/swagger/evaluation_batch.yaml",
+            "https://github.com/checkr/flagr/blob/master/swagger/flag_segments_reorder.yaml",
+            "https://github.com/checkr/flagr/blob/master/swagger/flag_segments.yaml",
+            "https://github.com/checkr/flagr/blob/master/swagger/flag_tags.yaml",
+            "https://github.com/checkr/flagr/blob/master/swagger/flag_snapshots.yaml",
+            "https://github.com/checkr/flagr/blob/master/swagger/flag_segment_constraints.yaml",
+            "https://github.com/checkr/flagr/blob/master/swagger/evaluation.yaml",
+            "https://github.com/checkr/flagr/blob/master/swagger/flags.yaml",
+            "https://github.com/checkr/flagr/blob/master/swagger/flag_variants.yaml",
+            "https://github.com/checkr/flagr/blob/master/swagger/flag_entity_types.yaml",
+            "https://github.com/checkr/flagr/blob/master/swagger/flag.yaml",
+            "https://github.com/checkr/flagr/blob/master/swagger/flag_restore.yaml",
+            "https://github.com/checkr/flagr/blob/master/swagger/export_sqlite.yaml",
+            "https://github.com/checkr/flagr/blob/master/swagger/index.yaml",
+            "https://github.com/checkr/flagr/blob/master/swagger/tags.yaml",
+            "https://github.com/checkr/flagr/blob/master/swagger/flag_segment_distributions.yaml",
+            "https://github.com/checkr/flagr/blob/master/docs/api_docs/bundle.yaml"
+        ],
+        "json": [
+            "https://github.com/checkr/flagr/blob/master/benchmark/postEvaluation.json",
+            "https://github.com/checkr/flagr/blob/master/browser/flagr-ui/package-lock.json",
+            "https://github.com/checkr/flagr/blob/master/browser/flagr-ui/package.json",
+            "https://github.com/checkr/flagr/blob/master/browser/flagr-ui/src/operators.json",
+            "https://github.com/checkr/flagr/blob/master/pkg/handler/testdata/sample_eval_cache.json"
+        ]
+    }
+}

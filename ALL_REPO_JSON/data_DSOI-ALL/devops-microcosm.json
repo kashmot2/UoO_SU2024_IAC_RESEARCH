@@ -1,0 +1,67 @@
+{
+    "id": "DSOI-ALL/devops-microcosm",
+    "repo_link": "https://github.com/DSOI-ALL/devops-microcosm",
+    "file_extensions": [
+        ".yml",
+        ".json",
+        ".yaml",
+        ".rb"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "CH",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/DSOI-ALL/devops-microcosm/blob/master/deployment.yml",
+            "https://github.com/DSOI-ALL/devops-microcosm/blob/master/docker-compose.yml",
+            "https://github.com/DSOI-ALL/devops-microcosm/blob/master/AWS/resources/appspec.yml"
+        ],
+        "yaml": [
+            "https://github.com/DSOI-ALL/devops-microcosm/blob/master/AWS/resources/MicrocosmComponents_StandAlone_AWS.template.yaml",
+            "https://github.com/DSOI-ALL/devops-microcosm/blob/master/AWS/resources/appspec.yaml",
+            "https://github.com/DSOI-ALL/devops-microcosm/blob/master/AWS/resources/LAYER3_Petclnic_Demployment.template.yaml",
+            "https://github.com/DSOI-ALL/devops-microcosm/blob/master/AWS/resources/MicrocosmDeployment_StandAlone_AWS.template.yaml",
+            "https://github.com/DSOI-ALL/devops-microcosm/blob/master/AWS/resources/LAYER2_ECS_Containers.yaml"
+        ],
+        "json": [
+            "https://github.com/DSOI-ALL/devops-microcosm/blob/master/metadata.json",
+            "https://github.com/DSOI-ALL/devops-microcosm/blob/master/roles/gitlab.json",
+            "https://github.com/DSOI-ALL/devops-microcosm/blob/master/roles/bugzilla.json",
+            "https://github.com/DSOI-ALL/devops-microcosm/blob/master/roles/mediawiki.json",
+            "https://github.com/DSOI-ALL/devops-microcosm/blob/master/roles/selenium.json",
+            "https://github.com/DSOI-ALL/devops-microcosm/blob/master/roles/owaspZap.json",
+            "https://github.com/DSOI-ALL/devops-microcosm/blob/master/roles/hubot.json",
+            "https://github.com/DSOI-ALL/devops-microcosm/blob/master/roles/jenkins.json",
+            "https://github.com/DSOI-ALL/devops-microcosm/blob/master/roles/ansible.json",
+            "https://github.com/DSOI-ALL/devops-microcosm/blob/master/cookbooks/yum/metadata.json"
+        ],
+        "ruby": [
+            "https://github.com/DSOI-ALL/devops-microcosm/blob/master/cookbooks/selenium/recipes/selenium-server.rb",
+            "https://github.com/DSOI-ALL/devops-microcosm/blob/master/cookbooks/lamp/recipes/lampstack.rb",
+            "https://github.com/DSOI-ALL/devops-microcosm/blob/master/cookbooks/gitlab/recipes/gitlab-server.rb",
+            "https://github.com/DSOI-ALL/devops-microcosm/blob/master/cookbooks/owaspzap/recipes/owaspZap-server.rb",
+            "https://github.com/DSOI-ALL/devops-microcosm/blob/master/cookbooks/network/recipes/firewall-allow-http.rb",
+            "https://github.com/DSOI-ALL/devops-microcosm/blob/master/cookbooks/network/recipes/net-tools.rb",
+            "https://github.com/DSOI-ALL/devops-microcosm/blob/master/cookbooks/centosGUI/recipes/centosGUI.rb",
+            "https://github.com/DSOI-ALL/devops-microcosm/blob/master/cookbooks/ansible/recipes/ansible.rb",
+            "https://github.com/DSOI-ALL/devops-microcosm/blob/master/cookbooks/yum/resources/globalconfig.rb",
+            "https://github.com/DSOI-ALL/devops-microcosm/blob/master/cookbooks/yum/libraries/matchers.rb",
+            "https://github.com/DSOI-ALL/devops-microcosm/blob/master/cookbooks/yum/attributes/main.rb",
+            "https://github.com/DSOI-ALL/devops-microcosm/blob/master/cookbooks/yum/recipes/default.rb",
+            "https://github.com/DSOI-ALL/devops-microcosm/blob/master/cookbooks/yum/recipes/dnf_yum_compat.rb",
+            "https://github.com/DSOI-ALL/devops-microcosm/blob/master/cookbooks/bugzilla/recipes/bugzilla.rb",
+            "https://github.com/DSOI-ALL/devops-microcosm/blob/master/cookbooks/jenkins/recipes/jenkins-server.rb",
+            "https://github.com/DSOI-ALL/devops-microcosm/blob/master/cookbooks/hubots/recipes/hubot.rb",
+            "https://github.com/DSOI-ALL/devops-microcosm/blob/master/cookbooks/mediawiki/recipes/mediawiki.rb"
+        ]
+    }
+}

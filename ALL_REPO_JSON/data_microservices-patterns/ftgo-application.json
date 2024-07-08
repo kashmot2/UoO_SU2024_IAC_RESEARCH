@@ -1,0 +1,62 @@
+{
+    "id": "microservices-patterns/ftgo-application",
+    "repo_link": "https://github.com/microservices-patterns/ftgo-application",
+    "file_extensions": [
+        ".yml",
+        ".yaml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/microservices-patterns/ftgo-application/blob/master/docker-compose-api-gateway-graphql.yml",
+            "https://github.com/microservices-patterns/ftgo-application/blob/master/docker-compose.yml",
+            "https://github.com/microservices-patterns/ftgo-application/blob/master/ftgo-order-history-service/src/deployment/kubernetes/ftgo-order-history-service.yml",
+            "https://github.com/microservices-patterns/ftgo-application/blob/master/ftgo-restaurant-service-aws-lambda/serverless.yml",
+            "https://github.com/microservices-patterns/ftgo-application/blob/master/ftgo-kitchen-service/src/deployment/kubernetes/ftgo-kitchen-service.yml",
+            "https://github.com/microservices-patterns/ftgo-application/blob/master/ftgo-restaurant-service/src/deployment/kubernetes/ftgo-restaurant-service.yml",
+            "https://github.com/microservices-patterns/ftgo-application/blob/master/ftgo-api-gateway/src/deployment/kubernetes-node-port/ftgo-api-gateway-NodePort.yml",
+            "https://github.com/microservices-patterns/ftgo-application/blob/master/ftgo-api-gateway/src/deployment/kubernetes/ftgo-api-gateway.yml",
+            "https://github.com/microservices-patterns/ftgo-application/blob/master/deployment/kubernetes/stateful-services/ftgo-dynamodb-local.yml",
+            "https://github.com/microservices-patterns/ftgo-application/blob/master/deployment/kubernetes/stateful-services/ftgo-zookeeper-deployment.yml",
+            "https://github.com/microservices-patterns/ftgo-application/blob/master/deployment/kubernetes/stateful-services/ftgo-db-secret.yml",
+            "https://github.com/microservices-patterns/ftgo-application/blob/master/deployment/kubernetes/stateful-services/ftgo-mysql-deployment.yml",
+            "https://github.com/microservices-patterns/ftgo-application/blob/master/deployment/kubernetes/stateful-services/ftgo-kafka-deployment.yml",
+            "https://github.com/microservices-patterns/ftgo-application/blob/master/deployment/kubernetes/cdc-service/ftgo-cdc-service.yml",
+            "https://github.com/microservices-patterns/ftgo-application/blob/master/ftgo-accounting-service/src/deployment/kubernetes/ftgo-accounting-service.yml",
+            "https://github.com/microservices-patterns/ftgo-application/blob/master/ftgo-order-service/src/deployment/kubernetes/ftgo-order-service.yml",
+            "https://github.com/microservices-patterns/ftgo-application/blob/master/ftgo-order-service/src/deployment/kubernetes-prometheus/rbac.yml",
+            "https://github.com/microservices-patterns/ftgo-application/blob/master/ftgo-order-service/src/deployment/kubernetes-prometheus/prometheus.yml",
+            "https://github.com/microservices-patterns/ftgo-application/blob/master/.circleci/config.yml",
+            "https://github.com/microservices-patterns/ftgo-application/blob/master/ftgo-consumer-service/src/deployment/kubernetes/ftgo-consumer-service.yml"
+        ],
+        "yaml": [
+            "https://github.com/microservices-patterns/ftgo-application/blob/master/skaffold.yaml"
+        ],
+        "json": [
+            "https://github.com/microservices-patterns/ftgo-application/blob/master/dynamodblocal-init/ftgo-order-history.json",
+            "https://github.com/microservices-patterns/ftgo-application/blob/master/ftgo-end-to-end-tests/swagger-codegen-config/restaurant-service.json",
+            "https://github.com/microservices-patterns/ftgo-application/blob/master/ftgo-end-to-end-tests/swagger-codegen-config/consumer-service.json",
+            "https://github.com/microservices-patterns/ftgo-application/blob/master/ftgo-accounting-service-api-spec/src/main/resources/messages/AuthorizeCommand.json",
+            "https://github.com/microservices-patterns/ftgo-application/blob/master/ftgo-consumer-service-api-spec/src/main/resources/ValidateOrderByConsumer.json",
+            "https://github.com/microservices-patterns/ftgo-application/blob/master/ftgo-consumer-service-api-spec/src/main/resources/ftgo-consumer-service-swagger.json",
+            "https://github.com/microservices-patterns/ftgo-application/blob/master/ftgo-api-gateway-graphql/package-lock.json",
+            "https://github.com/microservices-patterns/ftgo-application/blob/master/ftgo-api-gateway-graphql/package.json",
+            "https://github.com/microservices-patterns/ftgo-application/blob/master/ftgo-api-gateway-graphql/tsconfig.json",
+            "https://github.com/microservices-patterns/ftgo-application/blob/master/ftgo-restaurant-service-api-spec/src/main/resources/ftgo-restaurant-service-api-spec/messages/RestaurantMenuRevised.json",
+            "https://github.com/microservices-patterns/ftgo-application/blob/master/ftgo-restaurant-service-api-spec/src/main/resources/ftgo-restaurant-service-api-spec/messages/RestaurantCreated.json",
+            "https://github.com/microservices-patterns/ftgo-application/blob/master/ftgo-restaurant-service-api-spec/src/main/resources/ftgo-restaurant-service-api-spec/messages/MenuItem.json",
+            "https://github.com/microservices-patterns/ftgo-application/blob/master/ftgo-restaurant-service-api-spec/src/main/resources/ftgo-restaurant-service-api-spec/web/ftgo-restaurant-service-swagger.json"
+        ]
+    }
+}

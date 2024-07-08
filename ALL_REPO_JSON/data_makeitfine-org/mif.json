@@ -1,0 +1,71 @@
+{
+    "id": "makeitfine-org/mif",
+    "repo_link": "https://github.com/makeitfine-org/mif",
+    "file_extensions": [
+        ".yml",
+        ".conf",
+        ".yaml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "GOOG",
+        "ANS",
+        "PUP",
+        "DOC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/makeitfine-org/mif/blob/master/docker-compose-debug.yml",
+            "https://github.com/makeitfine-org/mif/blob/master/docker-compose.yml",
+            "https://github.com/makeitfine-org/mif/blob/master/.travis.yml",
+            "https://github.com/makeitfine-org/mif/blob/master/mainside/src/test/resources/values-test.yml",
+            "https://github.com/makeitfine-org/mif/blob/master/mainside/src/main/resources/profiles/application-integration_test.yml",
+            "https://github.com/makeitfine-org/mif/blob/master/mainside/src/main/resources/profiles/application-docker.yml",
+            "https://github.com/makeitfine-org/mif/blob/master/mainside/src/main/resources/profiles/application-config_h2.yml",
+            "https://github.com/makeitfine-org/mif/blob/master/mainside/src/main/resources/profiles/application-config_mvc.yml",
+            "https://github.com/makeitfine-org/mif/blob/master/mainside/src/main/resources/profiles/application-dev.yml",
+            "https://github.com/makeitfine-org/mif/blob/master/mainside/src/main/resources/profiles/application-config_mysql.yml",
+            "https://github.com/makeitfine-org/mif/blob/master/mainside/src/main/resources/profiles/bootstrap.yml",
+            "https://github.com/makeitfine-org/mif/blob/master/mainside/src/main/resources/profiles/application.yml",
+            "https://github.com/makeitfine-org/mif/blob/master/mainside/src/main/resources/profiles/application-security_on_integration_test.yml",
+            "https://github.com/makeitfine-org/mif/blob/master/mainside/src/main/resources/profiles/application-unit_test.yml",
+            "https://github.com/makeitfine-org/mif/blob/master/yaypay/src/main/resources/profiles/application-test.yml",
+            "https://github.com/makeitfine-org/mif/blob/master/yaypay/src/main/resources/profiles/application.yml",
+            "https://github.com/makeitfine-org/mif/blob/master/kafka/src/main/resources/profiles/application-docker.yml",
+            "https://github.com/makeitfine-org/mif/blob/master/kafka/src/main/resources/profiles/application-test.yml",
+            "https://github.com/makeitfine-org/mif/blob/master/kafka/src/main/resources/profiles/application-dev.yml",
+            "https://github.com/makeitfine-org/mif/blob/master/kafka/src/main/resources/profiles/bootstrap.yml",
+            "https://github.com/makeitfine-org/mif/blob/master/kafka/src/main/resources/profiles/application.yml",
+            "https://github.com/makeitfine-org/mif/blob/master/cache-service/src/main/resources/profiles/application-docker.yml",
+            "https://github.com/makeitfine-org/mif/blob/master/cache-service/src/main/resources/profiles/application-dev.yml",
+            "https://github.com/makeitfine-org/mif/blob/master/cache-service/src/main/resources/profiles/bootstrap.yml",
+            "https://github.com/makeitfine-org/mif/blob/master/cache-service/src/main/resources/profiles/application.yml",
+            "https://github.com/makeitfine-org/mif/blob/master/cache-service/src/main/resources/profiles/application-redis.yml",
+            "https://github.com/makeitfine-org/mif/blob/master/mq-consume/src/main/resources/profiles/application-docker.yml",
+            "https://github.com/makeitfine-org/mif/blob/master/mq-consume/src/main/resources/profiles/application-dev.yml",
+            "https://github.com/makeitfine-org/mif/blob/master/mq-consume/src/main/resources/profiles/bootstrap.yml",
+            "https://github.com/makeitfine-org/mif/blob/master/mq-consume/src/main/resources/profiles/application.yml",
+            "https://github.com/makeitfine-org/mif/blob/master/intro-service/src/main/resources/profiles/application-integration_test.yml",
+            "https://github.com/makeitfine-org/mif/blob/master/intro-service/src/main/resources/profiles/application-docker.yml",
+            "https://github.com/makeitfine-org/mif/blob/master/intro-service/src/main/resources/profiles/application-dev.yml",
+            "https://github.com/makeitfine-org/mif/blob/master/intro-service/src/main/resources/profiles/bootstrap.yml",
+            "https://github.com/makeitfine-org/mif/blob/master/intro-service/src/main/resources/profiles/application.yml",
+            "https://github.com/makeitfine-org/mif/blob/master/run/elastic/resources/filebeat.docker.template.yml",
+            "https://github.com/makeitfine-org/mif/blob/master/mq-publish/src/main/resources/profiles/application-docker.yml",
+            "https://github.com/makeitfine-org/mif/blob/master/mq-publish/src/main/resources/profiles/application-dev.yml",
+            "https://github.com/makeitfine-org/mif/blob/master/mq-publish/src/main/resources/profiles/bootstrap.yml",
+            "https://github.com/makeitfine-org/mif/blob/master/mq-publish/src/main/resources/profiles/application.yml"
+        ],
+        "yaml": [
+            "https://github.com/makeitfine-org/mif/blob/master/run/kubernetes/config/all-deployment.yaml",
+            "https://github.com/makeitfine-org/mif/blob/master/run/kubernetes/config/mysql-deployment.yaml",
+            "https://github.com/makeitfine-org/mif/blob/master/run/kubernetes/config/app-deployment.yaml"
+        ],
+        "conf": [
+            "https://github.com/makeitfine-org/mif/blob/master/run/elastic/resources/logstash.template.conf"
+        ]
+    }
+}

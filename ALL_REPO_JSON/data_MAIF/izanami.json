@@ -1,0 +1,70 @@
+{
+    "id": "MAIF/izanami",
+    "repo_link": "https://github.com/MAIF/izanami",
+    "file_extensions": [
+        ".json",
+        ".conf",
+        ".yml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/MAIF/izanami/blob/master/docker-compose.yml",
+            "https://github.com/MAIF/izanami/blob/master/.github/workflows/release.yml",
+            "https://github.com/MAIF/izanami/blob/master/.github/workflows/create-tag.yml",
+            "https://github.com/MAIF/izanami/blob/master/.github/workflows/main.yml",
+            "https://github.com/MAIF/izanami/blob/master/.github/workflows/doc.yml",
+            "https://github.com/MAIF/izanami/blob/master/.github/workflows/scala.yml",
+            "https://github.com/MAIF/izanami/blob/master/izanami-frontend/.github/workflows/playwright.yml"
+        ],
+        "json": [
+            "https://github.com/MAIF/izanami/blob/master/swagger.json",
+            "https://github.com/MAIF/izanami/blob/master/default-oidc-users.json",
+            "https://github.com/MAIF/izanami/blob/master/docs/search-index.json",
+            "https://github.com/MAIF/izanami/blob/master/docs/v1/swagger.json",
+            "https://github.com/MAIF/izanami/blob/master/docs/swagger/swagger.json",
+            "https://github.com/MAIF/izanami/blob/master/manual/package-lock.json",
+            "https://github.com/MAIF/izanami/blob/master/manual/package.json",
+            "https://github.com/MAIF/izanami/blob/master/manual/.docusaurus/i18n.json",
+            "https://github.com/MAIF/izanami/blob/master/manual/.docusaurus/routesChunkNames.json",
+            "https://github.com/MAIF/izanami/blob/master/manual/.docusaurus/globalData.json",
+            "https://github.com/MAIF/izanami/blob/master/manual/.docusaurus/site-metadata.json",
+            "https://github.com/MAIF/izanami/blob/master/manual/.docusaurus/codeTranslations.json",
+            "https://github.com/MAIF/izanami/blob/master/manual/.docusaurus/@easyops-cn/docusaurus-search-local/default/plugin-route-context-module-100.json",
+            "https://github.com/MAIF/izanami/blob/master/manual/.docusaurus/docusaurus-plugin-debug/default/docusaurus-debug-all-content-673.json",
+            "https://github.com/MAIF/izanami/blob/master/manual/.docusaurus/docusaurus-plugin-debug/default/plugin-route-context-module-100.json",
+            "https://github.com/MAIF/izanami/blob/master/manual/.docusaurus/docusaurus-plugin-content-pages/default/plugin-route-context-module-100.json",
+            "https://github.com/MAIF/izanami/blob/master/manual/.docusaurus/docusaurus-plugin-content-docs/default/version-current-metadata-prop-751.json",
+            "https://github.com/MAIF/izanami/blob/master/manual/.docusaurus/docusaurus-plugin-content-docs/default/site-docs-02-usages-index-mdx-282.json",
+            "https://github.com/MAIF/izanami/blob/master/manual/.docusaurus/docusaurus-plugin-content-docs/default/site-docs-01-getstarted-index-mdx-559.json",
+            "https://github.com/MAIF/izanami/blob/master/manual/.docusaurus/docusaurus-plugin-content-docs/default/plugin-route-context-module-100.json",
+            "https://github.com/MAIF/izanami/blob/master/manual/.docusaurus/docusaurus-plugin-content-docs/default/site-docs-03-guides-index-mdx-c5a.json",
+            "https://github.com/MAIF/izanami/blob/master/manual/.docusaurus/docusaurus-plugin-content-blog/default/blog-post-list-prop-default.json",
+            "https://github.com/MAIF/izanami/blob/master/manual/.docusaurus/docusaurus-plugin-content-blog/default/plugin-route-context-module-100.json",
+            "https://github.com/MAIF/izanami/blob/master/manual/docs/content.json",
+            "https://github.com/MAIF/izanami/blob/master/manual/docs/content-pretty.json",
+            "https://github.com/MAIF/izanami/blob/master/manual/static/v1/swagger.json",
+            "https://github.com/MAIF/izanami/blob/master/manual/static/swagger/swagger.json",
+            "https://github.com/MAIF/izanami/blob/master/public/swagger.json",
+            "https://github.com/MAIF/izanami/blob/master/izanami-frontend/tsconfig.node.json",
+            "https://github.com/MAIF/izanami/blob/master/izanami-frontend/package-lock.json",
+            "https://github.com/MAIF/izanami/blob/master/izanami-frontend/package.json",
+            "https://github.com/MAIF/izanami/blob/master/izanami-frontend/tsconfig.json"
+        ],
+        "conf": [
+            "https://github.com/MAIF/izanami/blob/master/.scalafmt.conf",
+            "https://github.com/MAIF/izanami/blob/master/conf/dev.conf",
+            "https://github.com/MAIF/izanami/blob/master/conf/application.conf"
+        ]
+    }
+}

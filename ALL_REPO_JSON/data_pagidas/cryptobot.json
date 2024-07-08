@@ -1,0 +1,37 @@
+{
+    "id": "pagidas/cryptobot",
+    "repo_link": "https://github.com/pagidas/cryptobot",
+    "file_extensions": [
+        ".yml",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "ANS",
+        "PUP",
+        "DOC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/pagidas/cryptobot/blob/master/docker-compose.yml",
+            "https://github.com/pagidas/cryptobot/blob/master/crypto-analyzer/src/resources/env.yml",
+            "https://github.com/pagidas/cryptobot/blob/master/graphql/micronaut-cli.yml",
+            "https://github.com/pagidas/cryptobot/blob/master/graphql/src/main/resources/application.yml",
+            "https://github.com/pagidas/cryptobot/blob/master/.github/workflows/crypto-analyzer-ci.yml",
+            "https://github.com/pagidas/cryptobot/blob/master/.github/workflows/graphql-publish.yml",
+            "https://github.com/pagidas/cryptobot/blob/master/.github/workflows/crypto-analyzer-publish.yml",
+            "https://github.com/pagidas/cryptobot/blob/master/.github/workflows/graphql-ci.yml",
+            "https://github.com/pagidas/cryptobot/blob/master/.github/workflows/coinbase-integration-ci.yml",
+            "https://github.com/pagidas/cryptobot/blob/master/.github/workflows/coinbase-integration-publish.yml"
+        ],
+        "conf": [
+            "https://github.com/pagidas/cryptobot/blob/master/coinbase-integration/adapter/src/main/resources/application.conf",
+            "https://github.com/pagidas/cryptobot/blob/master/coinbase-integration/subscriber/src/test/resources/application-test.conf",
+            "https://github.com/pagidas/cryptobot/blob/master/coinbase-integration/subscriber/src/main/resources/application.conf",
+            "https://github.com/pagidas/cryptobot/blob/master/nginx/nginx.conf"
+        ]
+    }
+}

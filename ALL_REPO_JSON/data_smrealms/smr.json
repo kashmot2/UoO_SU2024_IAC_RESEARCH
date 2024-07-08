@@ -1,0 +1,38 @@
+{
+    "id": "smrealms/smr",
+    "repo_link": "https://github.com/smrealms/smr",
+    "file_extensions": [
+        ".yml",
+        ".json",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/smrealms/smr/blob/master/docker-compose.yml",
+            "https://github.com/smrealms/smr/blob/master/.github/codecov.yml",
+            "https://github.com/smrealms/smr/blob/master/.github/dependabot.yml",
+            "https://github.com/smrealms/smr/blob/master/.github/workflows/codeql.yml",
+            "https://github.com/smrealms/smr/blob/master/.github/workflows/run-tests.yml",
+            "https://github.com/smrealms/smr/blob/master/.github/workflows/build-live.yml",
+            "https://github.com/smrealms/smr/blob/master/.github/workflows/api-docs.yml",
+            "https://github.com/smrealms/smr/blob/master/.github/actions/api-docs/action.yml"
+        ],
+        "json": [
+            "https://github.com/smrealms/smr/blob/master/composer.json"
+        ],
+        "conf": [
+            "https://github.com/smrealms/smr/blob/master/apache/cache-static.conf"
+        ]
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "id": "czcorpus/kontext",
+    "repo_link": "https://github.com/czcorpus/kontext",
+    "file_extensions": [
+        ".yml",
+        ".yaml",
+        ".json",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/czcorpus/kontext/blob/master/docker-compose.masm-dev.yml",
+            "https://github.com/czcorpus/kontext/blob/master/docker-compose.mysql.yml",
+            "https://github.com/czcorpus/kontext/blob/master/docker-compose.dev.yml",
+            "https://github.com/czcorpus/kontext/blob/master/docker-compose.cypress.yml",
+            "https://github.com/czcorpus/kontext/blob/master/docker-compose.yml",
+            "https://github.com/czcorpus/kontext/blob/master/docker-compose.test.yml",
+            "https://github.com/czcorpus/kontext/blob/master/.travis.yml",
+            "https://github.com/czcorpus/kontext/blob/master/.github/workflows/python-typecheck.yml",
+            "https://github.com/czcorpus/kontext/blob/master/build-scripts/docker-compose.yml"
+        ],
+        "yaml": [
+            "https://github.com/czcorpus/kontext/blob/master/.pre-commit-config.yaml"
+        ],
+        "json": [
+            "https://github.com/czcorpus/kontext/blob/master/launcher-menu.json",
+            "https://github.com/czcorpus/kontext/blob/master/package-lock.json",
+            "https://github.com/czcorpus/kontext/blob/master/package.json",
+            "https://github.com/czcorpus/kontext/blob/master/tslint.json",
+            "https://github.com/czcorpus/kontext/blob/master/tsconfig.json",
+            "https://github.com/czcorpus/kontext/blob/master/launcher-config.json",
+            "https://github.com/czcorpus/kontext/blob/master/public/files/js/kb-layouts.json",
+            "https://github.com/czcorpus/kontext/blob/master/public/files/js/plugins/corparch/messages.json",
+            "https://github.com/czcorpus/kontext/blob/master/public/files/js/plugins/treeCorparch/messages.json",
+            "https://github.com/czcorpus/kontext/blob/master/public/files/js/plugins/ucnkAppBar3/messages.json",
+            "https://github.com/czcorpus/kontext/blob/master/public/files/js/plugins/ucnkAppBar3/build.json",
+            "https://github.com/czcorpus/kontext/blob/master/public/files/js/plugins/lindatCorparch/messages.json",
+            "https://github.com/czcorpus/kontext/blob/master/public/files/js/plugins/syntaxViewer2/messages.json",
+            "https://github.com/czcorpus/kontext/blob/master/public/files/js/plugins/syntaxViewer2/package.json",
+            "https://github.com/czcorpus/kontext/blob/master/public/files/js/plugins/auth/messages.json",
+            "https://github.com/czcorpus/kontext/blob/master/public/files/js/plugins/tokensLinking/messages.json",
+            "https://github.com/czcorpus/kontext/blob/master/public/files/js/plugins/taghelper/messages.json",
+            "https://github.com/czcorpus/kontext/blob/master/public/files/js/plugins/liveAttributes/messages.json",
+            "https://github.com/czcorpus/kontext/blob/master/public/files/js/plugins/syntaxViewer/messages.json",
+            "https://github.com/czcorpus/kontext/blob/master/public/files/js/plugins/syntaxViewer/build.json",
+            "https://github.com/czcorpus/kontext/blob/master/public/files/js/plugins/lindatCorparch2/messages.json",
+            "https://github.com/czcorpus/kontext/blob/master/public/files/js/plugins/kwicConnect/messages.json",
+            "https://github.com/czcorpus/kontext/blob/master/public/files/js/plugins/tokenConnect/messages.json",
+            "https://github.com/czcorpus/kontext/blob/master/public/files/js/plugins/ucnkCorparch/messages.json",
+            "https://github.com/czcorpus/kontext/blob/master/public/files/js/plugins/issueReporting/messages.json",
+            "https://github.com/czcorpus/kontext/blob/master/public/files/js/plugins/lindatAuth/build.json",
+            "https://github.com/czcorpus/kontext/blob/master/public/files/js/plugins/subcmixer/messages.json",
+            "https://github.com/czcorpus/kontext/blob/master/public/files/js/plugins/querySuggest/messages.json",
+            "https://github.com/czcorpus/kontext/blob/master/public/files/js/translations/messages.cs.json",
+            "https://github.com/czcorpus/kontext/blob/master/public/files/js/translations/messages.szl.json",
+            "https://github.com/czcorpus/kontext/blob/master/public/files/js/translations/messages.sl.json",
+            "https://github.com/czcorpus/kontext/blob/master/public/files/js/translations/messages.en.json",
+            "https://github.com/czcorpus/kontext/blob/master/scripts/install/conf/docker/masm-conf.json",
+            "https://github.com/czcorpus/kontext/blob/master/scripts/deploy/kontext-deploy.sample.json",
+            "https://github.com/czcorpus/kontext/blob/master/lib/plugins/default_token_connect/token-detail-providers.sample.json",
+            "https://github.com/czcorpus/kontext/blob/master/lib/plugins/default_auth/test_users.json",
+            "https://github.com/czcorpus/kontext/blob/master/lib/plugins/default_auth/scripts/users.sample.json",
+            "https://github.com/czcorpus/kontext/blob/master/lib/plugins/default_auth/scripts/users.tomas.json",
+            "https://github.com/czcorpus/kontext/blob/master/lib/plugins/static_auth/static_auth.sample.json",
+            "https://github.com/czcorpus/kontext/blob/master/lib/plugins/mysql_auth/scripts/users.sample.json",
+            "https://github.com/czcorpus/kontext/blob/master/conf/rq-schedule-conf.sample.json",
+            "https://github.com/czcorpus/kontext/blob/master/conf/help_links.sample.json",
+            "https://github.com/czcorpus/kontext/blob/master/conf/main-menu.sample.json",
+            "https://github.com/czcorpus/kontext/blob/master/build-scripts/configs/syntax-viewer.json"
+        ],
+        "conf": [
+            "https://github.com/czcorpus/kontext/blob/master/scripts/install/conf/docker/nginx.dev.conf",
+            "https://github.com/czcorpus/kontext/blob/master/scripts/install/conf/docker/nginx.conf",
+            "https://github.com/czcorpus/kontext/blob/master/build-scripts/configs/redis.conf"
+        ]
+    }
+}

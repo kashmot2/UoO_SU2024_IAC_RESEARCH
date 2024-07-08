@@ -1,0 +1,74 @@
+{
+    "id": "jongio/memealyzer",
+    "repo_link": "https://github.com/jongio/memealyzer",
+    "file_extensions": [
+        ".json",
+        ".yml",
+        ".yaml",
+        ".bicep",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "PUP",
+        "BIC",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/jongio/memealyzer/blob/master/config/ngrok/azurite.yml",
+            "https://github.com/jongio/memealyzer/blob/master/.github/workflows/tye-staging-deploy.yml",
+            "https://github.com/jongio/memealyzer/blob/master/src/python/docker-compose.yml"
+        ],
+        "yaml": [
+            "https://github.com/jongio/memealyzer/blob/master/pac/tye.yaml",
+            "https://github.com/jongio/memealyzer/blob/master/pac/memealyzer-generate-production.yaml",
+            "https://github.com/jongio/memealyzer/blob/master/pac/tye.template.yaml"
+        ],
+        "json": [
+            "https://github.com/jongio/memealyzer/blob/master/package-lock.json",
+            "https://github.com/jongio/memealyzer/blob/master/.devcontainer/devcontainer.json",
+            "https://github.com/jongio/memealyzer/blob/master/src/net/WebApp/wwwroot/appsettings.json",
+            "https://github.com/jongio/memealyzer/blob/master/src/net/WebApp/wwwroot/appsettings.template.json",
+            "https://github.com/jongio/memealyzer/blob/master/src/net/WebApp/wwwroot/manifest.json",
+            "https://github.com/jongio/memealyzer/blob/master/src/net/WebApp/wwwroot/appsettings.Development.json",
+            "https://github.com/jongio/memealyzer/blob/master/src/net/WebApp/Properties/launchSettings.json",
+            "https://github.com/jongio/memealyzer/blob/master/src/net/WebApp/.vscode/launch.json",
+            "https://github.com/jongio/memealyzer/blob/master/src/net/WebApp/.vscode/tasks.json",
+            "https://github.com/jongio/memealyzer/blob/master/src/net/Libs/Lib/.vscode/tasks.json",
+            "https://github.com/jongio/memealyzer/blob/master/src/net/Api/appsettings.json",
+            "https://github.com/jongio/memealyzer/blob/master/src/net/Api/appsettings.Development.json",
+            "https://github.com/jongio/memealyzer/blob/master/src/net/Api/Properties/launchSettings.json",
+            "https://github.com/jongio/memealyzer/blob/master/src/net/Api/.vscode/launch.json",
+            "https://github.com/jongio/memealyzer/blob/master/src/net/Api/.vscode/tasks.json",
+            "https://github.com/jongio/memealyzer/blob/master/src/net/Services/Functions/host.json",
+            "https://github.com/jongio/memealyzer/blob/master/src/net/Services/Functions/local.settings.json",
+            "https://github.com/jongio/memealyzer/blob/master/src/net/Services/Functions/.vscode/extensions.json",
+            "https://github.com/jongio/memealyzer/blob/master/src/net/Services/Functions/.vscode/launch.json",
+            "https://github.com/jongio/memealyzer/blob/master/src/net/Services/Functions/.vscode/tasks.json",
+            "https://github.com/jongio/memealyzer/blob/master/src/net/Services/QueueService/.vscode/launch.json",
+            "https://github.com/jongio/memealyzer/blob/master/src/net/Services/QueueService/.vscode/tasks.json",
+            "https://github.com/jongio/memealyzer/blob/master/src/python/services/queue-service/.vscode/launch.json",
+            "https://github.com/jongio/memealyzer/blob/master/src/python/services/queue-service/.vscode/tasks.json"
+        ],
+        "conf": [
+            "https://github.com/jongio/memealyzer/blob/master/src/net/WebApp/nginx.conf"
+        ],
+        "bicep": [
+            "https://github.com/jongio/memealyzer/blob/master/iac/policy.bicep",
+            "https://github.com/jongio/memealyzer/blob/master/iac/roles.bicep",
+            "https://github.com/jongio/memealyzer/blob/master/iac/rolesapp.bicep",
+            "https://github.com/jongio/memealyzer/blob/master/iac/role.bicep",
+            "https://github.com/jongio/memealyzer/blob/master/iac/rolesacr.bicep",
+            "https://github.com/jongio/memealyzer/blob/master/iac/main.bicep",
+            "https://github.com/jongio/memealyzer/blob/master/iac/resources.bicep"
+        ]
+    }
+}

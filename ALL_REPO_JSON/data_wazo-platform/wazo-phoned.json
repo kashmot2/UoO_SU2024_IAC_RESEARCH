@@ -1,0 +1,60 @@
+{
+    "id": "wazo-platform/wazo-phoned",
+    "repo_link": "https://github.com/wazo-platform/wazo-phoned",
+    "file_extensions": [
+        ".yaml",
+        ".yml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "GOOG",
+        "ANS",
+        "DOC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/wazo-platform/wazo-phoned/blob/master/wazo_phoned/plugins/thomson/api.yml",
+            "https://github.com/wazo-platform/wazo-phoned/blob/master/wazo_phoned/plugins/aastra/api.yml",
+            "https://github.com/wazo-platform/wazo-phoned/blob/master/wazo_phoned/plugins/config/api.yml",
+            "https://github.com/wazo-platform/wazo-phoned/blob/master/wazo_phoned/plugins/fanvil/api.yml",
+            "https://github.com/wazo-platform/wazo-phoned/blob/master/wazo_phoned/plugins/cisco/api.yml",
+            "https://github.com/wazo-platform/wazo-phoned/blob/master/wazo_phoned/plugins/status/api.yml",
+            "https://github.com/wazo-platform/wazo-phoned/blob/master/wazo_phoned/plugins/htek/api.yml",
+            "https://github.com/wazo-platform/wazo-phoned/blob/master/wazo_phoned/plugins/yealink/api.yml",
+            "https://github.com/wazo-platform/wazo-phoned/blob/master/wazo_phoned/plugins/endpoint/api.yml",
+            "https://github.com/wazo-platform/wazo-phoned/blob/master/wazo_phoned/plugins/gigaset/api.yml",
+            "https://github.com/wazo-platform/wazo-phoned/blob/master/wazo_phoned/plugins/api/api.yml",
+            "https://github.com/wazo-platform/wazo-phoned/blob/master/wazo_phoned/plugins/snom/api.yml",
+            "https://github.com/wazo-platform/wazo-phoned/blob/master/wazo_phoned/plugins/polycom/api.yml",
+            "https://github.com/wazo-platform/wazo-phoned/blob/master/integration_tests/assets/docker-compose.no_rabbitmq.override.yml",
+            "https://github.com/wazo-platform/wazo-phoned/blob/master/integration_tests/assets/docker-compose.no_auth_server.override.yml",
+            "https://github.com/wazo-platform/wazo-phoned/blob/master/integration_tests/assets/docker-compose.no_dird_server.override.yml",
+            "https://github.com/wazo-platform/wazo-phoned/blob/master/integration_tests/assets/docker-compose.no_service_key.override.yml",
+            "https://github.com/wazo-platform/wazo-phoned/blob/master/integration_tests/assets/docker-compose.https_enable_false.override.yml",
+            "https://github.com/wazo-platform/wazo-phoned/blob/master/integration_tests/assets/docker-compose.default_config.override.yml",
+            "https://github.com/wazo-platform/wazo-phoned/blob/master/integration_tests/assets/docker-compose.http_and_https_enable_false.override.yml",
+            "https://github.com/wazo-platform/wazo-phoned/blob/master/integration_tests/assets/docker-compose.authorized_subnets.override.yml",
+            "https://github.com/wazo-platform/wazo-phoned/blob/master/integration_tests/assets/docker-compose.http_enable_false.override.yml",
+            "https://github.com/wazo-platform/wazo-phoned/blob/master/integration_tests/assets/docker-compose.no_ssl_certificate.override.yml",
+            "https://github.com/wazo-platform/wazo-phoned/blob/master/integration_tests/assets/docker-compose.no_ssl_private_key.override.yml",
+            "https://github.com/wazo-platform/wazo-phoned/blob/master/integration_tests/assets/docker-compose.yml",
+            "https://github.com/wazo-platform/wazo-phoned/blob/master/integration_tests/assets/etc/wazo-phoned/conf.d/20-http-disabled.yml",
+            "https://github.com/wazo-platform/wazo-phoned/blob/master/integration_tests/assets/etc/wazo-phoned/conf.d/20-no-ssl-private-key.yml",
+            "https://github.com/wazo-platform/wazo-phoned/blob/master/integration_tests/assets/etc/wazo-phoned/conf.d/20-no-ssl-certificate.yml",
+            "https://github.com/wazo-platform/wazo-phoned/blob/master/integration_tests/assets/etc/wazo-phoned/conf.d/20-no-auth-key.yml",
+            "https://github.com/wazo-platform/wazo-phoned/blob/master/integration_tests/assets/etc/wazo-phoned/conf.d/20-authorized-subnets.yml",
+            "https://github.com/wazo-platform/wazo-phoned/blob/master/integration_tests/assets/etc/wazo-phoned/conf.d/50-default.yml",
+            "https://github.com/wazo-platform/wazo-phoned/blob/master/integration_tests/assets/etc/wazo-phoned/conf.d/20-https-disabled.yml",
+            "https://github.com/wazo-platform/wazo-phoned/blob/master/integration_tests/assets/auth_keys/wazo-phoned-key.yml",
+            "https://github.com/wazo-platform/wazo-phoned/blob/master/etc/wazo-phoned/config.yml",
+            "https://github.com/wazo-platform/wazo-phoned/blob/master/etc/wazo-phoned/conf.d/050-xivo-config.yml"
+        ],
+        "yaml": [
+            "https://github.com/wazo-platform/wazo-phoned/blob/master/.pre-commit-config.yaml",
+            "https://github.com/wazo-platform/wazo-phoned/blob/master/zuul.yaml"
+        ]
+    }
+}

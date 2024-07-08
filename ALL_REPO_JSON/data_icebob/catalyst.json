@@ -1,0 +1,78 @@
+{
+    "id": "icebob/catalyst",
+    "repo_link": "https://github.com/icebob/catalyst",
+    "file_extensions": [
+        ".json",
+        ".yml",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/icebob/catalyst/blob/master/docker-compose.yml",
+            "https://github.com/icebob/catalyst/blob/master/alertmanager/config.yml",
+            "https://github.com/icebob/catalyst/blob/master/admin/.travis.yml",
+            "https://github.com/icebob/catalyst/blob/master/admin/.codeclimate.yml",
+            "https://github.com/icebob/catalyst/blob/master/grafana/provisioning/datasources/datasource.yml",
+            "https://github.com/icebob/catalyst/blob/master/grafana/provisioning/dashboards/dashboard.yml",
+            "https://github.com/icebob/catalyst/blob/master/.github/workflows/dockerimage.yml",
+            "https://github.com/icebob/catalyst/blob/master/prometheus/prometheus.yml"
+        ],
+        "json": [
+            "https://github.com/icebob/catalyst/blob/master/package-lock.json",
+            "https://github.com/icebob/catalyst/blob/master/package.json",
+            "https://github.com/icebob/catalyst/blob/master/verification_code/nodemon.json",
+            "https://github.com/icebob/catalyst/blob/master/verification_code/package-lock.json",
+            "https://github.com/icebob/catalyst/blob/master/verification_code/package.json",
+            "https://github.com/icebob/catalyst/blob/master/verification_code/tslint.json",
+            "https://github.com/icebob/catalyst/blob/master/verification_code/tsconfig.json",
+            "https://github.com/icebob/catalyst/blob/master/admin/lighthouse_config.json",
+            "https://github.com/icebob/catalyst/blob/master/admin/package-lock.json",
+            "https://github.com/icebob/catalyst/blob/master/admin/package.json",
+            "https://github.com/icebob/catalyst/blob/master/admin/static/icons/manifest.json",
+            "https://github.com/icebob/catalyst/blob/master/user/nodemon.json",
+            "https://github.com/icebob/catalyst/blob/master/user/package-lock.json",
+            "https://github.com/icebob/catalyst/blob/master/user/package.json",
+            "https://github.com/icebob/catalyst/blob/master/user/tslint.json",
+            "https://github.com/icebob/catalyst/blob/master/user/tsconfig.json",
+            "https://github.com/icebob/catalyst/blob/master/api/nodemon.json",
+            "https://github.com/icebob/catalyst/blob/master/api/package-lock.json",
+            "https://github.com/icebob/catalyst/blob/master/api/package.json",
+            "https://github.com/icebob/catalyst/blob/master/api/tslint.json",
+            "https://github.com/icebob/catalyst/blob/master/api/tsconfig.json",
+            "https://github.com/icebob/catalyst/blob/master/api/public/asset-manifest.json",
+            "https://github.com/icebob/catalyst/blob/master/api/public/manifest.json",
+            "https://github.com/icebob/catalyst/blob/master/configurator/config/oathkeeper_omit/rules/resource-server.json",
+            "https://github.com/icebob/catalyst/blob/master/configurator/config/keto/roles/user.json",
+            "https://github.com/icebob/catalyst/blob/master/configurator/config/keto/roles/admin.json",
+            "https://github.com/icebob/catalyst/blob/master/configurator/config/keto/policies/policy-by-role-admin.json",
+            "https://github.com/icebob/catalyst/blob/master/configurator/config/keto/policies/policy-by-role-user.json",
+            "https://github.com/icebob/catalyst/blob/master/configurator/config/hydra/clients/oathkeeper.json",
+            "https://github.com/icebob/catalyst/blob/master/configurator/config/hydra/clients/admin-app.json",
+            "https://github.com/icebob/catalyst/blob/master/configurator/config/hydra/clients/consumer-app.json",
+            "https://github.com/icebob/catalyst/blob/master/.vscode/settings.json",
+            "https://github.com/icebob/catalyst/blob/master/.vscode/launch.json",
+            "https://github.com/icebob/catalyst/blob/master/email/nodemon.json",
+            "https://github.com/icebob/catalyst/blob/master/email/package-lock.json",
+            "https://github.com/icebob/catalyst/blob/master/email/package.json",
+            "https://github.com/icebob/catalyst/blob/master/email/tslint.json",
+            "https://github.com/icebob/catalyst/blob/master/email/tsconfig.json",
+            "https://github.com/icebob/catalyst/blob/master/traefik/acme.json"
+        ],
+        "conf": [
+            "https://github.com/icebob/catalyst/blob/master/admin/helper_scripts/http.nginx.conf",
+            "https://github.com/icebob/catalyst/blob/master/admin/helper_scripts/https.nginx.conf",
+            "https://github.com/icebob/catalyst/blob/master/configurator/supervisord.conf"
+        ]
+    }
+}

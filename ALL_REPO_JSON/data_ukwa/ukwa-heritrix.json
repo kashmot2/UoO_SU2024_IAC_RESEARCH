@@ -1,0 +1,38 @@
+{
+    "id": "ukwa/ukwa-heritrix",
+    "repo_link": "https://github.com/ukwa/ukwa-heritrix",
+    "file_extensions": [
+        ".yml",
+        ".json",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/ukwa/ukwa-heritrix/blob/master/docker-compose.yml",
+            "https://github.com/ukwa/ukwa-heritrix/blob/master/.travis.yml",
+            "https://github.com/ukwa/ukwa-heritrix/blob/master/docker/heritrix-jmx-config.yml",
+            "https://github.com/ukwa/ukwa-heritrix/blob/master/docker/filebeat.yml",
+            "https://github.com/ukwa/ukwa-heritrix/blob/master/docker/mock-cdxserver/docker-compose.yml",
+            "https://github.com/ukwa/ukwa-heritrix/blob/master/.github/workflows/ci-and-push.yml"
+        ],
+        "json": [
+            "https://github.com/ukwa/ukwa-heritrix/blob/master/testdata/seed.json",
+            "https://github.com/ukwa/ukwa-heritrix/blob/master/src/test/resources/wrender-svg-hrefs-example.json",
+            "https://github.com/ukwa/ukwa-heritrix/blob/master/src/test/resources/wrender-example.json"
+        ],
+        "conf": [
+            "https://github.com/ukwa/ukwa-heritrix/blob/master/docker/mock-cdxserver/conf.d/default.conf"
+        ]
+    }
+}

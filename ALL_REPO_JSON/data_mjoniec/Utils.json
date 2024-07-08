@@ -1,0 +1,43 @@
+{
+    "id": "mjoniec/Utils",
+    "repo_link": "https://github.com/mjoniec/Utils",
+    "file_extensions": [
+        ".yml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/mjoniec/Utils/blob/master/docker-compose.yml",
+            "https://github.com/mjoniec/Utils/blob/master/DockerCompose/docker-compose_docker_hub.yml",
+            "https://github.com/mjoniec/Utils/blob/master/DockerCompose/docker-compose_localhost.yml"
+        ],
+        "json": [
+            "https://github.com/mjoniec/Utils/blob/master/HostedServices/PlaneService/appsettings.Docker.json",
+            "https://github.com/mjoniec/Utils/blob/master/HostedServices/PlaneService/appsettings.json",
+            "https://github.com/mjoniec/Utils/blob/master/HostedServices/PlaneService/appsettings.Development.json",
+            "https://github.com/mjoniec/Utils/blob/master/HostedServices/PlaneService/Properties/launchSettings.json",
+            "https://github.com/mjoniec/Utils/blob/master/HostedServices/AirportService/appsettings.Docker.json",
+            "https://github.com/mjoniec/Utils/blob/master/HostedServices/AirportService/appsettings.json",
+            "https://github.com/mjoniec/Utils/blob/master/HostedServices/AirportService/appsettings.Development.json",
+            "https://github.com/mjoniec/Utils/blob/master/HostedServices/AirportService/Properties/launchSettings.json",
+            "https://github.com/mjoniec/Utils/blob/master/HostedServices/TrafficInfoApi/appsettings.Docker.json",
+            "https://github.com/mjoniec/Utils/blob/master/HostedServices/TrafficInfoApi/worldMap.json",
+            "https://github.com/mjoniec/Utils/blob/master/HostedServices/TrafficInfoApi/appsettings.json",
+            "https://github.com/mjoniec/Utils/blob/master/HostedServices/TrafficInfoApi/appsettings.Development.json",
+            "https://github.com/mjoniec/Utils/blob/master/HostedServices/TrafficInfoApi/Properties/launchSettings.json",
+            "https://github.com/mjoniec/Utils/blob/master/HostedServices/TrafficSimulatorService/appsettings.json",
+            "https://github.com/mjoniec/Utils/blob/master/HostedServices/TrafficSimulatorService/appsettings.Development.json",
+            "https://github.com/mjoniec/Utils/blob/master/HostedServices/TrafficSimulatorService/Properties/launchSettings.json"
+        ]
+    }
+}

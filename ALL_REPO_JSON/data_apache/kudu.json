@@ -1,0 +1,64 @@
+{
+    "id": "apache/kudu",
+    "repo_link": "https://github.com/apache/kudu",
+    "file_extensions": [
+        ".yml",
+        ".conf",
+        ".json",
+        ".yaml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/apache/kudu/blob/master/docker/quickstart.yml",
+            "https://github.com/apache/kudu/blob/master/docker/docker-compose.yml"
+        ],
+        "yaml": [
+            "https://github.com/apache/kudu/blob/master/kubernetes/kudu-services.yaml",
+            "https://github.com/apache/kudu/blob/master/kubernetes/namespace.yaml",
+            "https://github.com/apache/kudu/blob/master/kubernetes/kudu-statefulset.yaml",
+            "https://github.com/apache/kudu/blob/master/kubernetes/helm/kudu-expose-all.yaml",
+            "https://github.com/apache/kudu/blob/master/kubernetes/helm/kudu-rolebinding.yaml",
+            "https://github.com/apache/kudu/blob/master/kubernetes/helm/kudu/Chart.yaml",
+            "https://github.com/apache/kudu/blob/master/kubernetes/helm/kudu/values.yaml",
+            "https://github.com/apache/kudu/blob/master/kubernetes/helm/kudu/templates/kudu-service.yaml",
+            "https://github.com/apache/kudu/blob/master/kubernetes/helm/kudu/templates/tests/health-test.yaml"
+        ],
+        "json": [
+            "https://github.com/apache/kudu/blob/master/docs/whitepaper/ycsb-data/zipfian-hbase/a.json",
+            "https://github.com/apache/kudu/blob/master/docs/whitepaper/ycsb-data/zipfian-hbase/d.json",
+            "https://github.com/apache/kudu/blob/master/docs/whitepaper/ycsb-data/zipfian-hbase/c.json",
+            "https://github.com/apache/kudu/blob/master/docs/whitepaper/ycsb-data/zipfian-hbase/load.json",
+            "https://github.com/apache/kudu/blob/master/docs/whitepaper/ycsb-data/zipfian-hbase/b.json",
+            "https://github.com/apache/kudu/blob/master/docs/whitepaper/ycsb-data/uniform-kudu/a.json",
+            "https://github.com/apache/kudu/blob/master/docs/whitepaper/ycsb-data/uniform-kudu/d.json",
+            "https://github.com/apache/kudu/blob/master/docs/whitepaper/ycsb-data/uniform-kudu/c.json",
+            "https://github.com/apache/kudu/blob/master/docs/whitepaper/ycsb-data/uniform-kudu/load.json",
+            "https://github.com/apache/kudu/blob/master/docs/whitepaper/ycsb-data/uniform-kudu/b.json",
+            "https://github.com/apache/kudu/blob/master/docs/whitepaper/ycsb-data/uniform-hbase/a.json",
+            "https://github.com/apache/kudu/blob/master/docs/whitepaper/ycsb-data/uniform-hbase/d.json",
+            "https://github.com/apache/kudu/blob/master/docs/whitepaper/ycsb-data/uniform-hbase/c.json",
+            "https://github.com/apache/kudu/blob/master/docs/whitepaper/ycsb-data/uniform-hbase/load.json",
+            "https://github.com/apache/kudu/blob/master/docs/whitepaper/ycsb-data/uniform-hbase/b.json",
+            "https://github.com/apache/kudu/blob/master/docs/whitepaper/ycsb-data/zipfian-kudu/a.json",
+            "https://github.com/apache/kudu/blob/master/docs/whitepaper/ycsb-data/zipfian-kudu/d.json",
+            "https://github.com/apache/kudu/blob/master/docs/whitepaper/ycsb-data/zipfian-kudu/c.json",
+            "https://github.com/apache/kudu/blob/master/docs/whitepaper/ycsb-data/zipfian-kudu/load.json",
+            "https://github.com/apache/kudu/blob/master/docs/whitepaper/ycsb-data/zipfian-kudu/b.json"
+        ],
+        "conf": [
+            "https://github.com/apache/kudu/blob/master/java/.scalafmt.conf"
+        ]
+    }
+}

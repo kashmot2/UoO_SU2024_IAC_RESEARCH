@@ -1,0 +1,32 @@
+{
+    "id": "HotMaps/Hotmaps-toolbox-service",
+    "repo_link": "https://github.com/HotMaps/Hotmaps-toolbox-service",
+    "file_extensions": [
+        ".yml",
+        ".conf"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "ANS",
+        "PUP",
+        "DOC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/HotMaps/Hotmaps-toolbox-service/blob/master/docker-compose.local.yml",
+            "https://github.com/HotMaps/Hotmaps-toolbox-service/blob/master/docker-compose-local-last.yml",
+            "https://github.com/HotMaps/Hotmaps-toolbox-service/blob/master/docker-compose-production.yml",
+            "https://github.com/HotMaps/Hotmaps-toolbox-service/blob/master/docker-compose.yml",
+            "https://github.com/HotMaps/Hotmaps-toolbox-service/blob/master/docker-compose-dev.yml",
+            "https://github.com/HotMaps/Hotmaps-toolbox-service/blob/master/docker-compose-run-api-only.yml"
+        ],
+        "conf": [
+            "https://github.com/HotMaps/Hotmaps-toolbox-service/blob/master/logging.conf",
+            "https://github.com/HotMaps/Hotmaps-toolbox-service/blob/master/api/supervisord.conf",
+            "https://github.com/HotMaps/Hotmaps-toolbox-service/blob/master/api/app/logging.conf"
+        ]
+    }
+}

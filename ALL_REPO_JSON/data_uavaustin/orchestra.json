@@ -1,0 +1,48 @@
+{
+    "id": "uavaustin/orchestra",
+    "repo_link": "https://github.com/uavaustin/orchestra",
+    "file_extensions": [
+        ".yml",
+        ".json",
+        ".yaml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/uavaustin/orchestra/blob/master/.travis.yml",
+            "https://github.com/uavaustin/orchestra/blob/master/test/docker-compose.yml",
+            "https://github.com/uavaustin/orchestra/blob/master/config/ground/docker-compose.yml",
+            "https://github.com/uavaustin/orchestra/blob/master/config/plane/docker-compose.yml",
+            "https://github.com/uavaustin/orchestra/blob/master/services/imagery/.eslintrc.yml",
+            "https://github.com/uavaustin/orchestra/blob/master/services/pong/.eslintrc.yml",
+            "https://github.com/uavaustin/orchestra/blob/master/services/telemetry/.eslintrc.yml",
+            "https://github.com/uavaustin/orchestra/blob/master/services/forward-interop/.eslintrc.yml"
+        ],
+        "yaml": [
+            "https://github.com/uavaustin/orchestra/blob/master/services/grafana/provisioning/datasources/datasource.yaml",
+            "https://github.com/uavaustin/orchestra/blob/master/services/grafana/provisioning/dashboards/providers.yaml"
+        ],
+        "json": [
+            "https://github.com/uavaustin/orchestra/blob/master/services/imagery/package.json",
+            "https://github.com/uavaustin/orchestra/blob/master/services/grafana/provisioning/dashboards/communications.json",
+            "https://github.com/uavaustin/orchestra/blob/master/services/dashboard/package.json",
+            "https://github.com/uavaustin/orchestra/blob/master/services/pong/package.json",
+            "https://github.com/uavaustin/orchestra/blob/master/services/common/nodejs/package.json",
+            "https://github.com/uavaustin/orchestra/blob/master/services/telemetry/package.json",
+            "https://github.com/uavaustin/orchestra/blob/master/services/telemetry/test/fixtures/raw-mission-1.json",
+            "https://github.com/uavaustin/orchestra/blob/master/services/telemetry/test/fixtures/raw-mission-3.json",
+            "https://github.com/uavaustin/orchestra/blob/master/services/telemetry/test/fixtures/raw-mission-2.json",
+            "https://github.com/uavaustin/orchestra/blob/master/services/forward-interop/package.json"
+        ]
+    }
+}

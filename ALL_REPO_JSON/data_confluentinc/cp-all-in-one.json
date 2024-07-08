@@ -1,0 +1,27 @@
+{
+    "id": "confluentinc/cp-all-in-one",
+    "repo_link": "https://github.com/confluentinc/cp-all-in-one",
+    "file_extensions": [
+        ".yml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "ANS",
+        "DOC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/confluentinc/cp-all-in-one/blob/master/action.yml",
+            "https://github.com/confluentinc/cp-all-in-one/blob/master/cp-all-in-one-kraft/docker-compose.yml",
+            "https://github.com/confluentinc/cp-all-in-one/blob/master/github-actions-example/workflows/kafka-app.yml",
+            "https://github.com/confluentinc/cp-all-in-one/blob/master/cp-all-in-one-cloud/docker-compose.connect.yml",
+            "https://github.com/confluentinc/cp-all-in-one/blob/master/cp-all-in-one-cloud/docker-compose.yml",
+            "https://github.com/confluentinc/cp-all-in-one/blob/master/cp-all-in-one-community/docker-compose.yml",
+            "https://github.com/confluentinc/cp-all-in-one/blob/master/cp-all-in-one/docker-compose.yml",
+            "https://github.com/confluentinc/cp-all-in-one/blob/master/cp-all-in-one-flink/docker-compose.yml"
+        ]
+    }
+}

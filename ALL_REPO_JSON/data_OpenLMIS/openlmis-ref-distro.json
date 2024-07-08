@@ -1,0 +1,55 @@
+{
+    "id": "OpenLMIS/openlmis-ref-distro",
+    "repo_link": "https://github.com/OpenLMIS/openlmis-ref-distro",
+    "file_extensions": [
+        ".yml",
+        ".yaml",
+        ".conf",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/OpenLMIS/openlmis-ref-distro/blob/master/docker-compose.demo-data.yml",
+            "https://github.com/OpenLMIS/openlmis-ref-distro/blob/master/docker-compose.one-network-stockmanagement-extension.yml",
+            "https://github.com/OpenLMIS/openlmis-ref-distro/blob/master/docker-compose.erd-generation.yml",
+            "https://github.com/OpenLMIS/openlmis-ref-distro/blob/master/docker-compose.override.yml",
+            "https://github.com/OpenLMIS/openlmis-ref-distro/blob/master/docker-compose.openlmis-stockmanagement-validator-extension.yml",
+            "https://github.com/OpenLMIS/openlmis-ref-distro/blob/master/docker-compose.one-network-referencedata-extension.yml",
+            "https://github.com/OpenLMIS/openlmis-ref-distro/blob/master/docker-compose.yml",
+            "https://github.com/OpenLMIS/openlmis-ref-distro/blob/master/reporting/docker-compose.local.yml",
+            "https://github.com/OpenLMIS/openlmis-ref-distro/blob/master/reporting/docker-compose.yml",
+            "https://github.com/OpenLMIS/openlmis-ref-distro/blob/master/reporting/superset/docker-compose.yml",
+            "https://github.com/OpenLMIS/openlmis-ref-distro/blob/master/utils/browsermob-proxy/docker-compose.yml"
+        ],
+        "yaml": [
+            "https://github.com/OpenLMIS/openlmis-ref-distro/blob/master/.readthedocs.yaml",
+            "https://github.com/OpenLMIS/openlmis-ref-distro/blob/master/reporting/config/services/superset/datasources/database.yaml"
+        ],
+        "json": [
+            "https://github.com/OpenLMIS/openlmis-ref-distro/blob/master/reporting/config/services/scalyr/agent.json",
+            "https://github.com/OpenLMIS/openlmis-ref-distro/blob/master/reporting/config/services/connect/source-referencedata.json",
+            "https://github.com/OpenLMIS/openlmis-ref-distro/blob/master/reporting/config/services/connect/sink-supported-programs.json",
+            "https://github.com/OpenLMIS/openlmis-ref-distro/blob/master/reporting/config/services/connect/sink-orderables.json",
+            "https://github.com/OpenLMIS/openlmis-ref-distro/blob/master/reporting/config/services/connect/sink-orderable-identifiers.json",
+            "https://github.com/OpenLMIS/openlmis-ref-distro/blob/master/reporting/config/services/connect/source-requisition.json",
+            "https://github.com/OpenLMIS/openlmis-ref-distro/blob/master/reporting/config/services/connect/sink-referencedata.json",
+            "https://github.com/OpenLMIS/openlmis-ref-distro/blob/master/reporting/config/services/connect/sink-requisition-group-members.json",
+            "https://github.com/OpenLMIS/openlmis-ref-distro/blob/master/reporting/config/services/connect/sink-requisition.json"
+        ],
+        "conf": [
+            "https://github.com/OpenLMIS/openlmis-ref-distro/blob/master/reporting/config/services/nginx/consul-template/openlmis.conf"
+        ]
+    }
+}

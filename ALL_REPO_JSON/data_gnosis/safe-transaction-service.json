@@ -1,0 +1,42 @@
+{
+    "id": "gnosis/safe-transaction-service",
+    "repo_link": "https://github.com/gnosis/safe-transaction-service",
+    "file_extensions": [
+        ".yaml",
+        ".yml",
+        ".conf",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/gnosis/safe-transaction-service/blob/master/docker-compose.dev.yml",
+            "https://github.com/gnosis/safe-transaction-service/blob/master/docker-compose.yml",
+            "https://github.com/gnosis/safe-transaction-service/blob/master/.github/release.yml",
+            "https://github.com/gnosis/safe-transaction-service/blob/master/.github/dependabot.yml",
+            "https://github.com/gnosis/safe-transaction-service/blob/master/.github/workflows/cla.yml",
+            "https://github.com/gnosis/safe-transaction-service/blob/master/.github/workflows/python.yml"
+        ],
+        "yaml": [
+            "https://github.com/gnosis/safe-transaction-service/blob/master/.pre-commit-config.yaml"
+        ],
+        "json": [
+            "https://github.com/gnosis/safe-transaction-service/blob/master/.vscode/settings.json",
+            "https://github.com/gnosis/safe-transaction-service/blob/master/.vscode/launch.json"
+        ],
+        "conf": [
+            "https://github.com/gnosis/safe-transaction-service/blob/master/docker/nginx/nginx.conf"
+        ]
+    }
+}

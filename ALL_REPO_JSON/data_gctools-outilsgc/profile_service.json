@@ -1,0 +1,45 @@
+{
+    "id": "gctools-outilsgc/profile_service",
+    "repo_link": "https://github.com/gctools-outilsgc/profile_service",
+    "file_extensions": [
+        ".yml",
+        ".json",
+        ".conf",
+        ".yaml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/gctools-outilsgc/profile_service/blob/master/docker-compose-testing.yml",
+            "https://github.com/gctools-outilsgc/profile_service/blob/master/.graphqlconfig.yml",
+            "https://github.com/gctools-outilsgc/profile_service/blob/master/docker-compose.yml",
+            "https://github.com/gctools-outilsgc/profile_service/blob/master/docker-compose-dev.yml",
+            "https://github.com/gctools-outilsgc/profile_service/blob/master/prisma/prisma.yml"
+        ],
+        "yaml": [
+            "https://github.com/gctools-outilsgc/profile_service/blob/master/kubernetes/services.yaml",
+            "https://github.com/gctools-outilsgc/profile_service/blob/master/kubernetes/deployments.yaml",
+            "https://github.com/gctools-outilsgc/profile_service/blob/master/kubernetes/secrets.yaml"
+        ],
+        "json": [
+            "https://github.com/gctools-outilsgc/profile_service/blob/master/package-lock.json",
+            "https://github.com/gctools-outilsgc/profile_service/blob/master/package.json",
+            "https://github.com/gctools-outilsgc/profile_service/blob/master/.eslintrc.json"
+        ],
+        "conf": [
+            "https://github.com/gctools-outilsgc/profile_service/blob/master/image-server/rootfs/etc/php7/php-fpm.conf",
+            "https://github.com/gctools-outilsgc/profile_service/blob/master/image-server/rootfs/etc/nginx/conf.d/default.conf"
+        ]
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "id": "cmgl/product-model-toolkit",
+    "repo_link": "https://github.com/cmgl/product-model-toolkit",
+    "file_extensions": [
+        ".yml",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/cmgl/product-model-toolkit/blob/master/plugins.yml",
+            "https://github.com/cmgl/product-model-toolkit/blob/master/docker/graphile/docker-compose.yml",
+            "https://github.com/cmgl/product-model-toolkit/blob/master/docker/scanner/docker-compose.yml",
+            "https://github.com/cmgl/product-model-toolkit/blob/master/.github/workflows/reuse.yml",
+            "https://github.com/cmgl/product-model-toolkit/blob/master/.github/workflows/go.yml",
+            "https://github.com/cmgl/product-model-toolkit/blob/master/pkg/client/plugin/sys_tests/plugins.yml"
+        ],
+        "json": [
+            "https://github.com/cmgl/product-model-toolkit/blob/master/plugins.json",
+            "https://github.com/cmgl/product-model-toolkit/blob/master/docker/scanner/composer/example.json",
+            "https://github.com/cmgl/product-model-toolkit/blob/master/.vscode/launch.json",
+            "https://github.com/cmgl/product-model-toolkit/blob/master/pkg/client/plugin/config/core_engine_config.json",
+            "https://github.com/cmgl/product-model-toolkit/blob/master/pkg/importing/convert/hasher/test/example.json",
+            "https://github.com/cmgl/product-model-toolkit/blob/master/pkg/importing/convert/composer/test/example.json"
+        ]
+    }
+}

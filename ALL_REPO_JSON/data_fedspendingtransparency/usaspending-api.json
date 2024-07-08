@@ -1,0 +1,69 @@
+{
+    "id": "fedspendingtransparency/usaspending-api",
+    "repo_link": "https://github.com/fedspendingtransparency/usaspending-api",
+    "file_extensions": [
+        ".yaml",
+        ".yml",
+        ".conf",
+        ".json"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "GOOG",
+        "ANS",
+        "PUP",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/fedspendingtransparency/usaspending-api/blob/master/.pyup.yml",
+            "https://github.com/fedspendingtransparency/usaspending-api/blob/master/docker-compose.yml",
+            "https://github.com/fedspendingtransparency/usaspending-api/blob/master/dredd.yml",
+            "https://github.com/fedspendingtransparency/usaspending-api/blob/master/.travis.yml",
+            "https://github.com/fedspendingtransparency/usaspending-api/blob/master/.codeclimate.yml"
+        ],
+        "yaml": [
+            "https://github.com/fedspendingtransparency/usaspending-api/blob/master/.pre-commit-config.yaml"
+        ],
+        "json": [
+            "https://github.com/fedspendingtransparency/usaspending-api/blob/master/usaspending_api/recipient/tests/data/broker_sam_recipient.json",
+            "https://github.com/fedspendingtransparency/usaspending-api/blob/master/usaspending_api/static_doc_files/docs/usaspending_searchpage_postmancollection.json",
+            "https://github.com/fedspendingtransparency/usaspending-api/blob/master/usaspending_api/references/tests/data/broker_offices.json",
+            "https://github.com/fedspendingtransparency/usaspending-api/blob/master/usaspending_api/references/tests/data/broker_gtas.json",
+            "https://github.com/fedspendingtransparency/usaspending-api/blob/master/usaspending_api/references/fixtures/reference_fixture.json",
+            "https://github.com/fedspendingtransparency/usaspending-api/blob/master/usaspending_api/etl/es_location_template.json",
+            "https://github.com/fedspendingtransparency/usaspending-api/blob/master/usaspending_api/etl/es_covid19_faba_template.json",
+            "https://github.com/fedspendingtransparency/usaspending-api/blob/master/usaspending_api/etl/es_transaction_template.json",
+            "https://github.com/fedspendingtransparency/usaspending-api/blob/master/usaspending_api/etl/es_award_template.json",
+            "https://github.com/fedspendingtransparency/usaspending-api/blob/master/usaspending_api/etl/es_config_objects.json",
+            "https://github.com/fedspendingtransparency/usaspending-api/blob/master/usaspending_api/etl/es_recipient_profile_template.json",
+            "https://github.com/fedspendingtransparency/usaspending-api/blob/master/usaspending_api/etl/es_subaward_template.json",
+            "https://github.com/fedspendingtransparency/usaspending-api/blob/master/usaspending_api/etl/tests/etl_test_data.json",
+            "https://github.com/fedspendingtransparency/usaspending-api/blob/master/usaspending_api/etl/tests/data/submission_data.json",
+            "https://github.com/fedspendingtransparency/usaspending-api/blob/master/usaspending_api/database_scripts/matview_generator/mv_agency_office_autocomplete.json",
+            "https://github.com/fedspendingtransparency/usaspending-api/blob/master/usaspending_api/database_scripts/matview_generator/transaction_search.json",
+            "https://github.com/fedspendingtransparency/usaspending-api/blob/master/usaspending_api/database_scripts/matview_generator/award_search.json",
+            "https://github.com/fedspendingtransparency/usaspending-api/blob/master/usaspending_api/database_scripts/matview_generator/summary_state_view.json",
+            "https://github.com/fedspendingtransparency/usaspending-api/blob/master/usaspending_api/database_scripts/matview_generator/mv_agency_autocomplete.json",
+            "https://github.com/fedspendingtransparency/usaspending-api/blob/master/usaspending_api/database_scripts/matview_generator/tas_autocomplete_matview.json",
+            "https://github.com/fedspendingtransparency/usaspending-api/blob/master/usaspending_api/transactions/tests/data/cd_zips_grouped.json",
+            "https://github.com/fedspendingtransparency/usaspending-api/blob/master/usaspending_api/transactions/tests/data/cd_county_grouped.json",
+            "https://github.com/fedspendingtransparency/usaspending-api/blob/master/usaspending_api/transactions/tests/data/cd_state_grouped.json",
+            "https://github.com/fedspendingtransparency/usaspending-api/blob/master/usaspending_api/transactions/tests/data/zips.json",
+            "https://github.com/fedspendingtransparency/usaspending-api/blob/master/usaspending_api/transactions/tests/data/cd_city_grouped.json",
+            "https://github.com/fedspendingtransparency/usaspending-api/blob/master/usaspending_api/awards/tests/data/subaward.json",
+            "https://github.com/fedspendingtransparency/usaspending-api/blob/master/usaspending_api/api_contracts/package.json",
+            "https://github.com/fedspendingtransparency/usaspending-api/blob/master/usaspending_api/data/multiprocessing_worker_names.json",
+            "https://github.com/fedspendingtransparency/usaspending-api/blob/master/usaspending_api/data/testing_data/endpoint_testing_data.json"
+        ],
+        "conf": [
+            "https://github.com/fedspendingtransparency/usaspending-api/blob/master/config/supervisord.conf",
+            "https://github.com/fedspendingtransparency/usaspending-api/blob/master/usaspending_api/bulk_download/config/supervisord.conf"
+        ]
+    }
+}

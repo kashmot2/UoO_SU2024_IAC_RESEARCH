@@ -1,0 +1,32 @@
+{
+    "id": "andreybavt/Hobo-Sapiens",
+    "repo_link": "https://github.com/andreybavt/Hobo-Sapiens",
+    "file_extensions": [
+        ".json",
+        ".yml"
+    ],
+    "iac?": 1,
+    "list_of_used_iac_tools": [
+        "PUL",
+        "CP",
+        "AWS",
+        "AZ",
+        "ANS",
+        "DOC",
+        "PAC"
+    ],
+    "files": {
+        "yml": [
+            "https://github.com/andreybavt/Hobo-Sapiens/blob/master/docker-compose.yml",
+            "https://github.com/andreybavt/Hobo-Sapiens/blob/master/monitoring/prometheus.yml",
+            "https://github.com/andreybavt/Hobo-Sapiens/blob/master/monitoring/grafana/provisioning/datasources/datasource.yml",
+            "https://github.com/andreybavt/Hobo-Sapiens/blob/master/monitoring/grafana/provisioning/dashboards/dashboard.yml"
+        ],
+        "json": [
+            "https://github.com/andreybavt/Hobo-Sapiens/blob/master/filter.json",
+            "https://github.com/andreybavt/Hobo-Sapiens/blob/master/monitoring/grafana/dashboards/dashboard.json",
+            "https://github.com/andreybavt/Hobo-Sapiens/blob/master/src/main/javascript/moteurimmo/package-lock.json",
+            "https://github.com/andreybavt/Hobo-Sapiens/blob/master/src/main/javascript/moteurimmo/package.json"
+        ]
+    }
+}
