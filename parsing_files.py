@@ -443,7 +443,7 @@ def ansible_validation(file_paths): #only works only mac and must download pygit
         if is_meaningful_file(file_path):
             print(f"Running ansible checker:{file_path}")
             try:
-                result = subprocess.run(['ansible-content-parser', file_path,'ansible.txt'],capture_output=True,text=True)
+                result = subprocess.run(['venv/bin/ansible-content-parser', file_path,'ansible.txt'],capture_output=True,text=True)
                 if result.returncode == 0:
                     validated_files.append(file_path)
                     return True, validated_files
