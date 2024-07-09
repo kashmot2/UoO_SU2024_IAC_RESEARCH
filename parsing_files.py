@@ -6,8 +6,7 @@ import shutil
 import stat
 from tqdm import tqdm
 import json
-
-
+import yaml
 
 
 #lets define the file extensions
@@ -26,7 +25,8 @@ IAC_TOOLS = {
     'OT': ['.tf', '.tf.json'],#OpenTofu
     'VAG': ['.vm', '.ssh', '.winrm', '.winssh', '.vagrant'],#VAG
     'DOCC':['.yaml','.yml'],#docker-compose.yaml
-    'PAC':['.hcl', '.json'] #pkr.hcl or pkr.json
+    'PAC':['.hcl', '.json'],#pkr.hcl or pkr.json
+    'SaltStack':['.sls']
 }
 
 UNIQUE_KEYS = {
@@ -44,7 +44,8 @@ UNIQUE_KEYS = {
     'OpenTofu': ['resource', 'module', 'provider'],
     'Vagrant': ['Vagrant.configure', 'config.vm.box', 'config.vm.network'],
     'Docker Compose': ['version','services','volumes'],
-    'Packer': ['source','variable','locals','build','data','builders']
+    'Packer': ['source','variable','locals','build','data','builders'],
+    'Kubernetes': ['apiVersion', 'kind', 'metadata', 'spec',]
 }
 
 with open('iac_dataset.json') as f:
@@ -144,13 +145,35 @@ def validate_repo(row):
     tool_parsers = []
     validated_files = []
 
+    """present,path = vagrant_validation(target_dir)
+    if present:
+        tool_parsers.append("VAG")
+        validated_files.append(path)
+    
+    present,path = bicep_validation(target_dir)
+    if present:
+        tool_parsers.append("BIC")
+        validated_files.append(path)
+    
+    present,path = GOOG_validation(target_dir)
+    if present:
+        tool_parsers.append("GOOG")
+        validated_files.append(path)"""
+    
+    present,path = kubernetes_validation(target_dir)
+    if present:
+        tool_parsers.append("KUB")
+        validated_files.append(path)
 
-    tf_files = [f for f in relevant_files if f.endswith(('.tf', '.tf.json'))]
+    """tf_files = [f for f in relevant_files if f.endswith(('.tf', '.tf.json'))]
     aws_files = [f for f in relevant_files if f.endswith(('.yaml', '.yml', '.json'))]
     az_files = [f for f in relevant_files if f.endswith('.json')]
     pup_files = [f for f in relevant_files if f.endswith('.pp')]
+    pulumi_files = [f for f in relevant_files if f.endswith(('yaml','.yml'))]
+    salt_files = [f for f in relevant_files if f.endswith('.sls')]"""
+    ansible_files = [f for f in relevant_files if f.endswitt(('.yaml','.yml','.cfg'))]
 
-    if 'AWS' in tools_found:
+    """if 'AWS' in tools_found:
         appear, files = AWS_validation(aws_files)
         if appear:
             tool_parsers.append("AWS")
@@ -169,11 +192,84 @@ def validate_repo(row):
         appear, files = init_validate_terraform_files(tf_files)
         if appear:
             tool_parsers.append("TF")
+            validated_files.extend(files)"""
+    """if 'PUL' in tools_found:
+        appear, files = Pulumi_validation(target_dir)
+        if appear:
+            tool_parsers.append("PUL")
             validated_files.extend(files)
-
+    if 'SLS' in tools_found:
+        appear, files = salt_validation(salt_files)
+        if appear:
+            tool_parsers.append("SALT")
+            validated_files.extend(files)"""
+    if 'ANS' in tools_found:
+        appear, files = salt_validation(ansible_files)
+        if appear:
+            tool_parsers.append("ANS")
+            validated_files.append(files)
+ 
     shutil.rmtree(target_dir, onerror=onerror)
     return tool_parsers, validated_files
 
+
+#VAGRANT
+def vagrant_validation(target_dir):
+    for root, dirs, files in os.walk(target_dir):
+        if "Vagrantfile" in files:
+            return True, os.path.join(root, "Vagrantfile")
+    return False, None
+
+#BICEP
+def bicep_validation(repo_dir):
+    for subdir, _, files in os.walk(repo_dir):
+        for file in files:
+            if file.endswith(".bicep"):
+                return True,os.path.join(subdir, file)
+    return False,None
+
+#GOOGLE
+def GOOG_validation(repo_dir):
+    for subdir, _, files in os.walk(repo_dir):
+        for file in files:
+            if file.endswith(('.yaml', '.yml')):
+                file_path = os.path.join(subdir, file)
+                try:
+                    with open(file_path,'r',encoding ='utf-8') as f:
+                        text = yaml.safe_load(f)
+                        #print(f"Successfully parsed YAML file: {file_path}")
+                        if isinstance(text,dict) and 'resources' in text:
+                            resources = text['resources']
+                            if isinstance(resources,list):
+                                for content in resources:
+                                    if isinstance(content, dict) and ('name' in content) and ('type' in content):
+                                        return True, file_path
+                except yaml.YAMLError as e:
+                    print(e)
+                    continue 
+    return False, None
+
+#KUBERNETES     
+def kubernetes_validation(target_dir):
+    kubernetes_keys = UNIQUE_KEYS.get('Kubernetes')
+    for root, dirs, files in os.walk(target_dir):
+        for file in files:
+            if file.endswith(('.yaml', '.yml')):
+                file_path = os.path.join(root, file)
+                try:
+                    with open(file_path,'r',encoding='utf-8') as f:
+                        content = yaml.safe_load(f)
+                        if isinstance(content,dict):
+                            for key in kubernetes_keys:
+                                if key in content:
+                                    return True,file_path
+                except yaml.YAMLError as e:
+                    print(e)
+                    continue
+    return False,None
+
+
+#TERRAFORM
 def init_validate_terraform_files(file_paths):
     validated_files=[]
     for file_path in file_paths:
@@ -184,14 +280,10 @@ def init_validate_terraform_files(file_paths):
                 os.makedirs(temp_dir, exist_ok=True)
                 shutil.copy(file_path, temp_dir)
                 init_result = subprocess.run(['terraform', 'init'], cwd=temp_dir, capture_output=True, text=True)
-                """print(init_result.stdout)
-                print(init_result.stderr)"""
                 if init_result.returncode != 0:
                     shutil.rmtree(temp_dir, onerror=onerror)
                     continue
                 validate_result = subprocess.run(['terraform', 'validate'], cwd=temp_dir, capture_output=True, text=True)
-                """print(validate_result.stdout)
-                print(validate_result.stderr)"""
                 shutil.rmtree(temp_dir, onerror=onerror)
                 if validate_result.returncode == 0:
                     validated_files.append(file_path)
@@ -202,7 +294,7 @@ def init_validate_terraform_files(file_paths):
                 print(e)
     return False,validated_files
         
-
+#AWS
 def AWS_validation(file_paths):
     validated_files = []
     for file_path in file_paths:
@@ -219,6 +311,7 @@ def AWS_validation(file_paths):
                 print(e)
     return False,validated_files
 
+#AZURE
 def AZ_validation(file_paths):
     validated_files = []
     for file_path in file_paths:
@@ -235,6 +328,7 @@ def AZ_validation(file_paths):
                 print(e)
     return False,validated_files
 
+#PUPPET
 def PP_validation(file_paths):
     validated_files = []
     for file_path in file_paths:
@@ -254,6 +348,131 @@ def PP_validation(file_paths):
                 print(e)
     return False,validated_files
 
+PULUMI_ACCESS_TOKEN = 'pul-a31d7c8d3f43b8cce5a6e3f4ee015879f7ae3fce'
+
+#PULUMI
+def Pulumi_validation(file_paths):
+    pulumi_files = find_pulumi_files(file_paths)
+    validated_files = []
+    if pulumi_files:
+        for dir in pulumi_files:
+            if check_pulumi_init(dir) == 1:
+                validated_files.append(dir)
+            return True, validated_files
+    return False, validated_files
+
+def find_pulumi_files(repo_path):
+    pulumi_files = []
+    for root, dirs, files in os.walk(repo_path):
+        for dir in dirs:
+            dir_path = os.path.join(root, dir)
+            dir_files = os.listdir(dir_path)
+            if 'Pulumi.yaml' in dir_files or 'Pulumi.lock.yaml' in dir_files:
+                pulumi_files.append(dir_path)
+    print(f"Found Pulumi files in directories: {pulumi_files}")
+    return pulumi_files
+
+def check_pulumi_init(repo_path):
+    try:
+        env = os.environ.copy()
+        env['PULUMI_ACCESS_TOKEN'] = PULUMI_ACCESS_TOKEN
+        
+        # Attempt to initialize the stack
+        result = subprocess.run(
+            ['pulumi', 'stack', 'init', '--stack', 'test-stack'],
+            cwd=repo_path,
+            env=env,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            text=True,
+            check=True
+        )
+        print(f"Pulumi init successful in {repo_path}")
+        return 1
+    
+    except subprocess.CalledProcessError as e:
+        error_message = e.stderr
+        if "already exists" in error_message:
+            print(f"Stack already exists, attempting to delete the existing stack: {error_message}")
+            # Attempt to select and delete the existing stack
+            try:
+                select_result = subprocess.run(
+                    ['pulumi', 'stack', 'select', '--stack', 'test-stack'],
+                    cwd=repo_path,
+                    env=env,
+                    stdout=subprocess.PIPE,
+                    stderr=subprocess.PIPE,
+                    text=True,
+                    check=True
+                )
+                delete_result = subprocess.run(
+                    ['pulumi', 'stack', 'rm', '--stack', 'test-stack', '--yes'],
+                    cwd=repo_path,
+                    env=env,
+                    stdout=subprocess.PIPE,
+                    stderr=subprocess.PIPE,
+                    text=True,
+                    check=True
+                )
+                print(f"Pulumi stack deleted successfully. Re-initializing the stack.")
+                # Re-attempt to initialize the stack
+                init_result = subprocess.run(
+                    ['pulumi', 'stack', 'init', '--stack', 'test-stack'],
+                    cwd=repo_path,
+                    env=env,
+                    stdout=subprocess.PIPE,
+                    stderr=subprocess.PIPE,
+                    text=True,
+                    check=True
+                )
+                print(f"Pulumi init successful in {repo_path}")
+                return 1
+            except subprocess.CalledProcessError as delete_error:
+                print(f"Failed to delete existing Pulumi stack in {repo_path}\n{delete_error.stderr}")
+                return 0
+        else:
+            print(f"Pulumi init failed in {repo_path}\n{error_message}")
+            return 0
+
+        
+    
+#Ansible
+def ansible_validation(file_paths): #only works only mac and must download pygit2?
+    validated_files =[]
+    for file_path in file_paths:
+        if is_meaningful_file(file_path):
+            print(f"Running ansible checker:{file_path}")
+            try:
+                result = subprocess.run(['ansible-content-parser', file_path,'ansible.txt'],capture_output=True,text=True)
+                if result.returncode == 0:
+                    validated_files.append(file_path)
+                    return True, validated_files
+            except Exception as e:
+                print(e)
+    return False, validated_files
+
+
+
+#Salt
+def salt_validation(file_paths):
+    validated_files = []
+    for file_path in file_paths:
+        if is_meaningful_file(file_path):
+            print(f"Linting SaltStack file: {file_path}")
+            try:
+                result = subprocess.run(['salt-lint', file_path], capture_output=True, text=True)
+                if result.returncode == 0:
+                    validated_files.append(file_path)
+                    return True, validated_files
+            except Exception as e:
+                print(f"An error occurred: {e}")
+    return False, validated_files
+
+#Chef
+
+
+
+#Docker
 
 def main():
     csv = "first_screening.csv"
@@ -261,7 +480,7 @@ def main():
 
     df = read_csv(csv)
    
-    for i in tqdm(range(0,len(df))):
+    for i in tqdm(range(35,36)):
         row = df.iloc[i]
         repo_id = row["ID"]
         tool_parsers,validated_files= validate_repo(row)
